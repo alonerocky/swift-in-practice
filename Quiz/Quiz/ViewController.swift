@@ -10,16 +10,40 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var answerLabe: UILabel!
+    
+    let questions: [String] = ["From what is cognac made?",
+                                "What is 7 + 7?",
+                                "What is the capital of Vermont?"
+                              ]
+    
+    let answers: [String] = [
+                                "Grapes",
+                                "14",
+                                "Montpelier"
+                            ]
+    
+    var currentQuestionIndex = 0
+    
+    @IBAction func showQuestion(sender: AnyObject) {
+        ++currentQuestionIndex
+        if currentQuestionIndex == questions.count {
+            currentQuestionIndex = 0
+        }
+        
+        let question = questions[currentQuestionIndex]
+        questionLabel.text = question
+        answerLabe.text = "???"
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func showAnswer(send: AnyObject) {
+        let answer = answers[currentQuestionIndex]
+        
+        answerLabe.text = answer
     }
-
 
 }
 
