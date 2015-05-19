@@ -16,6 +16,8 @@ class HypnosisterView: UIView {
         }
     }
     var timer: NSTimer?
+    
+    let logo: UIImage? = UIImage(named: "Colorful-Shiny-Star-With-Transparent-Background.png")
 
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -38,7 +40,7 @@ class HypnosisterView: UIView {
         let h = bounds.height
         
         let maxRadius = sqrt(w * w + h * h)
-        
+        logo?.drawInRect(bounds)
         for var r:CGFloat = 0.0; r <= maxRadius; r += 20 {
             
             let path = UIBezierPath()
