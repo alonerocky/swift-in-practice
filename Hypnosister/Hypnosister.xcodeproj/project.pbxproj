@@ -13,6 +13,7 @@
 		1551DD2F1B01D631008BDAFE /* HypnosisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551DD2E1B01D631008BDAFE /* HypnosisterTests.swift */; };
 		1551DD391B01D7DF008BDAFE /* HypnosisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551DD381B01D7DF008BDAFE /* HypnosisterView.swift */; };
 		1551DD3D1B0B5EE1008BDAFE /* Colorful-Shiny-Star-With-Transparent-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1551DD3C1B0B5EE1008BDAFE /* Colorful-Shiny-Star-With-Transparent-Background.png */; };
+		1551DD3F1B0B63F3008BDAFE /* MiniMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551DD3E1B0B63F3008BDAFE /* MiniMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1551DD2E1B01D631008BDAFE /* HypnosisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypnosisterTests.swift; sourceTree = "<group>"; };
 		1551DD381B01D7DF008BDAFE /* HypnosisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypnosisterView.swift; sourceTree = "<group>"; };
 		1551DD3C1B0B5EE1008BDAFE /* Colorful-Shiny-Star-With-Transparent-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Colorful-Shiny-Star-With-Transparent-Background.png"; sourceTree = "<group>"; };
+		1551DD3E1B0B63F3008BDAFE /* MiniMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				1551DD3C1B0B5EE1008BDAFE /* Colorful-Shiny-Star-With-Transparent-Background.png */,
 				1551DD181B01D631008BDAFE /* AppDelegate.swift */,
 				1551DD1F1B01D631008BDAFE /* Images.xcassets */,
+				1551DD3E1B0B63F3008BDAFE /* MiniMapView.swift */,
 				1551DD211B01D631008BDAFE /* LaunchScreen.xib */,
 				1551DD161B01D631008BDAFE /* Supporting Files */,
 			);
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1551DD3F1B0B63F3008BDAFE /* MiniMapView.swift in Sources */,
 				1551DD191B01D631008BDAFE /* AppDelegate.swift in Sources */,
 				1551DD391B01D7DF008BDAFE /* HypnosisterView.swift in Sources */,
 			);

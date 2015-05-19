@@ -66,7 +66,7 @@ class HypnosisterView: UIView {
     }
     
     func timerFired(timer: NSTimer) {
-        println("timerFired")
+        //println("timerFired")
         
         radiusOffset += 1.0
         if radiusOffset > 20 {

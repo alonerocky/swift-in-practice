@@ -9,27 +9,38 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UIScrollViewDelegate {
 
     var window: UIWindow?
+    var miniMap: MiniMapView?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
+        
+
         var screenRect = window!.bounds
         var bigRect = screenRect
         bigRect.size.width *= 2
         bigRect.size.height *= 2
         
         let scrollWindow:UIScrollView = UIScrollView(frame: screenRect)
+        scrollWindow.delegate = self
         window!.addSubview(scrollWindow)
+        
+        
         
         let firstView:HypnosisterView = HypnosisterView(frame:bigRect)
         scrollWindow.addSubview(firstView)
         
         scrollWindow.contentSize = bigRect.size
+        
+        let miniMap = MiniMapView(frame: CGRect(x: 10, y: 30, width: 75, height: 135))
+        window!.addSubview(miniMap)
+        miniMap.updateWithScrollView(scrollWindow)
+        self.miniMap = miniMap
         
         window!.backgroundColor = UIColor.whiteColor()
         window!.makeKeyAndVisible()
@@ -56,6 +67,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        //println("scroll view content: \(scrollView.contentOffset)")
+        miniMap?.updateWithScrollView(scrollView)
     }
 
 
