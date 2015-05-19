@@ -9,6 +9,13 @@
 import UIKit
 
 class HypnosisterView: UIView {
+    
+    var radiusOffset: CGFloat = 0 {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
+    var timer: NSTimer?
 
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -35,15 +42,33 @@ class HypnosisterView: UIView {
         for var r:CGFloat = 0.0; r <= maxRadius; r += 20 {
             
             let path = UIBezierPath()
-            path.addArcWithCenter(center, radius: r, startAngle: 0, endAngle: CGFloat(M_PI * 2.0), clockwise: true)
+            path.addArcWithCenter(center, radius: r + radiusOffset, startAngle: 0, endAngle: CGFloat(M_PI * 2.0), clockwise: true)
             
             path.lineWidth = 10
-            
-            UIColor.purpleColor().setStroke()
-            
+            let alpha = (r + radiusOffset - 10)/maxRadius
+            UIColor.purpleColor().colorWithAlphaComponent(alpha).setStroke()
             path.stroke()
         }
     }
 
-
+    override func didMoveToSuperview() {
+        if superview != nil {
+            timer = NSTimer.scheduledTimerWithTimeInterval(1.0/30.0, target: self, selector: "timerFired:", userInfo: nil, repeats: true)
+        }
+    }
+    
+    override func removeFromSuperview() {
+        timer?.invalidate()
+        timer = nil
+        super.removeFromSuperview()
+    }
+    
+    func timerFired(timer: NSTimer) {
+        println("timerFired")
+        
+        radiusOffset += 1.0
+        if radiusOffset > 20 {
+            radiusOffset = 0
+        }
+    }
 }
