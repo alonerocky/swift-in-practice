@@ -18,9 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
-        let firstFrame:CGRect = window!.bounds
-        let firstView:HypnosisterView = HypnosisterView(frame:firstFrame)
-        window!.addSubview(firstView)
+        var screenRect = window!.bounds
+        var bigRect = screenRect
+        bigRect.size.width *= 2
+        bigRect.size.height *= 2
+        
+        let scrollWindow:UIScrollView = UIScrollView(frame: screenRect)
+        window!.addSubview(scrollWindow)
+        
+        let firstView:HypnosisterView = HypnosisterView(frame:bigRect)
+        scrollWindow.addSubview(firstView)
+        
+        scrollWindow.contentSize = bigRect.size
         
         window!.backgroundColor = UIColor.whiteColor()
         window!.makeKeyAndVisible()

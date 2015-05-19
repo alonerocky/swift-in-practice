@@ -40,7 +40,7 @@ class HypnosisterView: UIView {
         let h = bounds.height
         
         let maxRadius = sqrt(w * w + h * h)
-        logo?.drawInRect(bounds)
+        //logo?.drawInRect(bounds)
         for var r:CGFloat = 0.0; r <= maxRadius; r += 20 {
             
             let path = UIBezierPath()
