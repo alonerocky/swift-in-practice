@@ -122,3 +122,21 @@ class DoubleLinkedListEntry<K: Hashable, V> {
         next = nil
     }
 }
+
+
+/* 
+Example
+let cache = LRUCache<String, Float>(capacity: 7)
+
+//Add Key, Value pairs
+cache["AAPL"] = 114.63
+cache["GOOG"] = 533.75
+cache["YHOO"] = 50.67
+cache["TWTR"] = 38.91
+cache["BABA"] = 109.89
+cache["YELP"] = 55.17
+cache["BABA"] = 109.80
+
+var v = cache["BABA"]
+
+*/
