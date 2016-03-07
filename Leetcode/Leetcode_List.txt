@@ -1,4 +1,4 @@
-Done	67 / 335
+Done	68 / 335
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -71,7 +71,7 @@ day 4 (15)
 108	Convert Sorted Array to Binary Search Tree	36.5%	Medium
 
 
-day 5  8
+day 5  9
 98	Validate Binary Search Tree	20.8%	Medium
 99	Recover Binary Search Tree	25.9%	Hard
 258	Add Digits	48.1%	Easy
@@ -80,7 +80,10 @@ day 5  8
 27	Remove Element	33.0%	Easy
 205	Isomorphic Strings	28.8%	Easy
 284	Peeking Iterator	33.0%	Medium
+217	Contains Duplicate	40.5%	Easy
 
+
+day 6
 
 In progress
 49	Group Anagrams	26.7%	Medium
@@ -90,8 +93,9 @@ In progress
 15	3Sum	18.4%	Medium
 16	3Sum Closest	28.5%	Medium
 160	Intersection of Two Linked Lists	30.1%	Easy
-
-
+116	Populating Next Right Pointers in Each Node	36.4%	Medium
+117	Populating Next Right Pointers in Each Node II	32.7%	Hard
+86	Partition List	29.0%	Medium
 
 N/A
 125	Valid Palindrome	23.4%	Easy
@@ -108,6 +112,8 @@ LCA issue
 77	Combinations	33.5%	Medium
 39	Combination Sum	30.2%	Medium
 40	Combination Sum II	27.0%	Medium
+78	Subsets	30.7%	Medium
+90	Subsets II	29.9%	Medium
 54	Spiral Matrix	22.1%	Medium
 61	Rotate List	22.6%	Medium
 143	Reorder List	22.4%	Medium
@@ -116,8 +122,6 @@ LCA issue
 92	Reverse Linked List II	27.4%	Medium
 51	N-Queens	26.2%	Hard
 52	N-Queens II	38.6%	Hard
-116	Populating Next Right Pointers in Each Node	36.4%	Medium
-117	Populating Next Right Pointers in Each Node II	32.7%	Hard
 
 
 
@@ -129,7 +133,6 @@ Open	(323 / 335)
 293	Flip Game 	49.0%	Easy
 243	Shortest Word Distance 	45.7%	Easy
 252	Meeting Rooms 	41.2%	Easy
-217	Contains Duplicate	40.5%	Easy
 171	Excel Sheet Column Number	40.5%	Easy
 325	Maximum Size Subarray Sum Equals k 	39.2%	Easy
 328	Odd Even Linked List	37.6%	Easy
@@ -226,14 +229,11 @@ Open	(323 / 335)
 279	Perfect Squares	31.6%	Medium
 261	Graph Valid Tree 	31.5%	Medium
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
-78	Subsets	30.7%	Medium
-90	Subsets II	29.9%	Medium
 329	Longest Increasing Path in a Matrix	29.8%	Medium
 213	House Robber II	29.8%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
 120	Triangle	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
-86	Partition List	29.0%	Medium
 63	Unique Paths II	29.0%	Medium
 274	H-Index	28.8%	Medium
 236	Lowest Common Ancestor of a Binary Tree	28.6%	Medium
