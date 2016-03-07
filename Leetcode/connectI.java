@@ -26,3 +26,35 @@ public void connect(TreeLinkNode root) {
 
         }
     }
+
+
+
+//recursive
+public void connect(TreeLinkNode root) {
+        if (root == null) {
+            return;
+        }
+        if (root.left != null) {
+            root.left.next = root.right;
+            root.right.next = root.next == null ? null : root.next.left;
+        }
+        connect(root.left);
+        connect(root.right);
+    }
+
+//recursive second
+public void connect(TreeLinkNode root) {
+        if (root == null) {
+            return;
+        }
+         TreeLinkNode p = root;
+         while (p != null) {
+             if (p.left != null) {
+                 p.left.next = p.right;
+                 p.right.next = p.next == null ? null : p.next.left;
+             }
+             p = p.next;
+         }
+         connect(root.left);
+    }
+
