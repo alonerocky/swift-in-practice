@@ -78,7 +78,7 @@ day 5  9
 169	Majority Element	40.2%	Easy					count > size / 2
 203	Remove Linked List Elements	28.0%	Easy
 27	Remove Element	33.0%	Easy
-205	Isomorphic Strings	28.8%	Easy					
+205	Isomorphic Strings	28.8%	Easy					2
 284	Peeking Iterator	33.0%	Medium
 217	Contains Duplicate	40.5%	Easy
 
@@ -86,13 +86,14 @@ day 5  9
 day 6  5
 116	Populating Next Right Pointers in Each Node	36.4%	Medium
 117	Populating Next Right Pointers in Each Node II	32.7%	Hard
-55	Jump Game	28.0%	Medium
-290	Word Pattern	28.3%	Easy
+55	Jump Game	28.0%	Medium											
+290	Word Pattern	28.3%	Easy										2
 165	Compare Version Numbers	17.0%	Easy
 
 
-day 7
-
+day 7  2
+240	Search a 2D Matrix II	33.7%	Medium
+7	Reverse Integer	23.6%	Easy
 
 
 In progress
@@ -103,7 +104,8 @@ In progress
 16	3Sum Closest	28.5%	Medium
 160	Intersection of Two Linked Lists	30.1%	Easy
 86	Partition List	29.0%	Medium
-240	Search a 2D Matrix II	33.7%	Medium
+8	String to Integer (atoi)	13.4%	Easy
+
 
 
 N/A
@@ -172,13 +174,14 @@ Open	(323 / 335)
 303	Range Sum Query - Immutable	24.5%	Easy
 28	Implement strStr()	24.3%	Easy
 170	Two Sum III - Data structure design 	24.2%	Easy
-7	Reverse Integer	23.6%	Easy
 204	Count Primes	23.5%	Easy
 6	ZigZag Conversion	23.4%	Easy
 168	Excel Sheet Column Title	21.0%	Easy
 189	Rotate Array	20.6%	Easy
 288	Unique Word Abbreviation 	15.5%	Easy
-8	String to Integer (atoi)	13.4%	Easy
+
+
+
 280	Wiggle Sort 	49.5%	Medium
 136	Single Number	48.8%	Medium
 167	Two Sum II - Input array is sorted 	47.3%	Medium
