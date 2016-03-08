@@ -1,0 +1,20 @@
+algorithms
+1, backtrack
+http://www.geeksforgeeks.org/tag/backtracking/
+
+
+
+2, iterator
+BST preorder / inorder / postorder
+peeking iterator
+
+
+
+3, 
+sqrt
+pow
+divide
+parseInt
+parseDouble
+atoi
+
