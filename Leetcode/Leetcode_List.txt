@@ -1,4 +1,4 @@
-Done	68 / 335
+Done	73 / 335
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -27,7 +27,7 @@ day 1 (10)
 102	Binary Tree Level Order Traversal
 107	Binary Tree Level Order Traversal II
 114	Flatten Binary Tree to Linked Lists 	2 	root.left != null
-145	Binary Tree Postorder Traversal			2
+145	Binary Tree Postorder Traversal			3
 155	Min Stacks 								2 	pop up one min from minStack
 206	Reverse Linked Lists 					2 	link to head , not tail
 242	Valid Anagrams 							
@@ -78,24 +78,33 @@ day 5  9
 169	Majority Element	40.2%	Easy					count > size / 2
 203	Remove Linked List Elements	28.0%	Easy
 27	Remove Element	33.0%	Easy
-205	Isomorphic Strings	28.8%	Easy
+205	Isomorphic Strings	28.8%	Easy					
 284	Peeking Iterator	33.0%	Medium
 217	Contains Duplicate	40.5%	Easy
 
 
-day 6
+day 6  5
+116	Populating Next Right Pointers in Each Node	36.4%	Medium
+117	Populating Next Right Pointers in Each Node II	32.7%	Hard
+55	Jump Game	28.0%	Medium
+290	Word Pattern	28.3%	Easy
+165	Compare Version Numbers	17.0%	Easy
+
+
+day 7
+
+
 
 In progress
 49	Group Anagrams	26.7%	Medium
 45	Jump Game II	25.0%	Hard
-55	Jump Game	28.0%	Medium
 91	Decode Ways	17.2%	Medium
 15	3Sum	18.4%	Medium
 16	3Sum Closest	28.5%	Medium
 160	Intersection of Two Linked Lists	30.1%	Easy
-116	Populating Next Right Pointers in Each Node	36.4%	Medium
-117	Populating Next Right Pointers in Each Node II	32.7%	Hard
 86	Partition List	29.0%	Medium
+240	Search a 2D Matrix II	33.7%	Medium
+
 
 N/A
 125	Valid Palindrome	23.4%	Easy
@@ -107,13 +116,13 @@ LCA issue
  
 
 95	Unique Binary Search Trees II	28.8%	Medium
-165	Compare Version Numbers	17.0%	Easy
 47	Permutations II	27.5%	Medium
 77	Combinations	33.5%	Medium
 39	Combination Sum	30.2%	Medium
 40	Combination Sum II	27.0%	Medium
 78	Subsets	30.7%	Medium
 90	Subsets II	29.9%	Medium
+
 54	Spiral Matrix	22.1%	Medium
 61	Rotate List	22.6%	Medium
 143	Reorder List	22.4%	Medium
@@ -157,7 +166,6 @@ Open	(323 / 335)
 190	Reverse Bits	29.1%	Easy
 19	Remove Nth Node From End of List	28.8%	Easy
 299	Bulls and Cows	28.7%	Easy
-290	Word Pattern	28.3%	Easy
 14	Longest Common Prefix	27.5%	Easy
 257	Binary Tree Paths	27.3%	Easy
 234	Palindrome Linked List	27.1%	Easy
@@ -211,7 +219,6 @@ Open	(323 / 335)
 253	Meeting Rooms II 	34.0%	Medium
 11	Container With Most Water	34.0%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
-240	Search a 2D Matrix II	33.7%	Medium
 289	Game of Life	33.6%	Medium
 247	Strobogrammatic Number II 	33.4%	Medium
 241	Different Ways to Add Parentheses	33.2%	Medium
