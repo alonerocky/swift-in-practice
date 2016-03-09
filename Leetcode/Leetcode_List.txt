@@ -73,12 +73,12 @@ day 4 (15)
 
 day 5  9
 98	Validate Binary Search Tree	20.8%	Medium
-99	Recover Binary Search Tree	25.9%	Hard
+99	Recover Binary Search Tree	25.9%	Hard							2
 258	Add Digits	48.1%	Easy
-169	Majority Element	40.2%	Easy					count > size / 2
+169	Majority Element	40.2%	Easy										count > size / 2
 203	Remove Linked List Elements	28.0%	Easy
 27	Remove Element	33.0%	Easy
-205	Isomorphic Strings	28.8%	Easy					2
+205	Isomorphic Strings	28.8%	Easy									2
 284	Peeking Iterator	33.0%	Medium
 217	Contains Duplicate	40.5%	Easy
 
@@ -88,7 +88,7 @@ day 6  5
 117	Populating Next Right Pointers in Each Node II	32.7%	Hard
 55	Jump Game	28.0%	Medium											
 290	Word Pattern	28.3%	Easy										2
-165	Compare Version Numbers	17.0%	Easy
+165	Compare Version Numbers	17.0%	Easy								2
 
 
 day 7  7
@@ -121,8 +121,6 @@ N/A
 125	Valid Palindrome	23.4%	Easy
 191	Number of 1 Bits	37.6%	Easy
 
-Open
-LCA issue
 
  
 
