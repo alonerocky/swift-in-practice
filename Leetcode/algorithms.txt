@@ -18,3 +18,7 @@ parseInt
 parseDouble
 atoi
 
+4
+LCA issue
+
+5, memmove
