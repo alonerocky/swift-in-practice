@@ -1,4 +1,4 @@
-Done	73 / 335
+Done	82 / 318
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -44,13 +44,13 @@ day 2  (7)
 
 
 day 3  (7)
-88	Merge Sorted Array	29.9%	Easy
+88	Merge Sorted Array	29.9%	Easy					2
 46	Permutations	34.8%	Medium
 75	Sort Colors	34.3%	Medium
-66	Plus One	32.8%	Easy							i == digits.count - 1 ? 1 : 0
-2	Add Two Numbers	22.3%	Medium						if carry > 0
-228	Summary Ranges	23.3%	Easy						if end - start == 1
-109	Convert Sorted List to Binary Search Tree	29.9%	singleStep point to the start of second half
+66	Plus One	32.8%	Easy								i == digits.count - 1 ? 1 : 0
+2	Add Two Numbers	22.3%	Medium							if carry > 0
+228	Summary Ranges	23.3%	Easy							if end - start == 1
+109	Convert Sorted List to Binary Search Tree	29.9%		singleStep point to the start of second half
 
 
 day 4 (15)
@@ -72,7 +72,7 @@ day 4 (15)
 
 
 day 5  9
-98	Validate Binary Search Tree	20.8%	Medium
+98	Validate Binary Search Tree	20.8%	Medium							2  
 99	Recover Binary Search Tree	25.9%	Hard							2
 258	Add Digits	48.1%	Easy
 169	Majority Element	40.2%	Easy										count > size / 2
@@ -101,6 +101,13 @@ day 7  7
 147	Insertion Sort List	28.8%	Medium
 
 
+day 8  2
+54	Spiral Matrix	22.1%	Medium
+59	Spiral Matrix II	34.2%	Medium
+
+
+day 9 1
+8	String to Integer (atoi)	13.4%	Easy
 
 In progress
 49	Group Anagrams	26.7%	Medium
@@ -109,13 +116,18 @@ In progress
 15	3Sum	18.4%	Medium
 16	3Sum Closest	28.5%	Medium
 160	Intersection of Two Linked Lists	30.1%	Easy
-8	String to Integer (atoi)	13.4%	Easy
-
-
  
+
+
+10	Regular Expression Matching	21.7%	Hard
+44	Wildcard Matching	17.0%	Hard
+
  
 118	Pascal's Triangle	32.6%	Easy
 119	Pascal's Triangle II	31.6%	Easy
+48	Rotate Image	34.1%	Medium
+
+
 
 N/A
 125	Valid Palindrome	23.4%	Easy
@@ -132,15 +144,16 @@ N/A
 78	Subsets	30.7%	Medium
 90	Subsets II	29.9%	Medium
 
-54	Spiral Matrix	22.1%	Medium
+ 
+
+
 61	Rotate List	22.6%	Medium
 143	Reorder List	22.4%	Medium
 92	Reverse Linked List II	27.4%	Medium
 51	N-Queens	26.2%	Hard
 52	N-Queens II	38.6%	Hard
-
-
-
+122	Best Time to Buy and Sell Stock II	41.5%	Medium
+123	Best Time to Buy and Sell Stock III	25.8%	Hard
 
 
 Open	(323 / 335)
@@ -191,7 +204,6 @@ Open	(323 / 335)
 260	Single Number III	42.7%	Medium
 323	Number of Connected Components in an Undirected Graph 	42.2%	Medium
 256	Paint House 	41.8%	Medium
-122	Best Time to Buy and Sell Stock II	41.5%	Medium
 281	Zigzag Iterator 	41.5%	Medium
 294	Flip Game II 	40.6%	Medium
 320	Generalized Abbreviation 	39.7%	Medium
@@ -217,9 +229,7 @@ Open	(323 / 335)
 277	Find the Celebrity 	34.8%	Medium
 24	Swap Nodes in Pairs	34.6%	Medium
 64	Minimum Path Sum	34.3%	Medium
-59	Spiral Matrix II	34.2%	Medium
 254	Factor Combinations 	34.2%	Medium
-48	Rotate Image	34.1%	Medium
 253	Meeting Rooms II 	34.0%	Medium
 11	Container With Most Water	34.0%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
@@ -327,7 +337,7 @@ Open	(323 / 335)
 164	Maximum Gap	26.2%	Hard
 87	Scramble String	26.1%	Hard
 138	Copy List with Random Pointer	25.9%	Hard
-123	Best Time to Buy and Sell Stock III	25.8%	Hard
+
 248	Strobogrammatic Number III 	25.5%	Hard
 56	Merge Intervals	24.7%	Hard
 327	Count of Range Sum	24.3%	Hard
@@ -344,7 +354,6 @@ Open	(323 / 335)
 97	Interleaving String	22.1%	Hard
 135	Candy	22.0%	Hard
 269	Alien Dictionary 	22.0%	Hard
-10	Regular Expression Matching	21.7%	Hard
 188	Best Time to Buy and Sell Stock IV	21.6%	Hard
 295	Find Median from Data Stream	21.5%	Hard
 308	Range Sum Query 2D - Mutable 	21.3%	Hard
@@ -358,7 +367,6 @@ Open	(323 / 335)
 214	Shortest Palindrome	19.0%	Hard
 212	Word Search II	18.5%	Hard
 4	Median of Two Sorted Arrays	18.2%	Hard
-44	Wildcard Matching	17.0%	Hard
 68	Text Justification	15.8%	Hard
 146	LRU Cache	15.7%	Hard
 149	Max Points on a Line	14.0%	Hard
