@@ -106,11 +106,12 @@ day 8  2
 59	Spiral Matrix II	34.2%	Medium
 
 
-day 9 3
+day 9 5
 8	String to Integer (atoi)	13.4%	Easy
 10	Regular Expression Matching	21.7%	Hard
 44	Wildcard Matching	17.0%	Hard
-
+118	Pascal's Triangle	32.6%	Easy
+119	Pascal's Triangle II	31.6%	Easy
 
 In progress
 49	Group Anagrams	26.7%	Medium
@@ -125,8 +126,7 @@ In progress
  
 
  
-118	Pascal's Triangle	32.6%	Easy
-119	Pascal's Triangle II	31.6%	Easy
+
 48	Rotate Image	34.1%	Medium
 
 
