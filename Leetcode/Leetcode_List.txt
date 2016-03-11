@@ -154,6 +154,12 @@ N/A
 52	N-Queens II	38.6%	Hard
 122	Best Time to Buy and Sell Stock II	41.5%	Medium
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
+41	First Missing Positive	23.6%	Hard
+138	Copy List with Random Pointer	25.9%	Hard
+56	Merge Intervals	24.7%	Hard
+84	Largest Rectangle in Histogram	23.8%	Hard
+57	Insert Interval	23.3%	Hard
+85	Maximal Rectangle	23.1%	Hard
 
 
 Open	(323 / 335)
@@ -336,17 +342,10 @@ Open	(323 / 335)
 239	Sliding Window Maximum	26.4%	Hard
 164	Maximum Gap	26.2%	Hard
 87	Scramble String	26.1%	Hard
-138	Copy List with Random Pointer	25.9%	Hard
-
 248	Strobogrammatic Number III 	25.5%	Hard
-56	Merge Intervals	24.7%	Hard
 327	Count of Range Sum	24.3%	Hard
 37	Sudoku Solver	24.3%	Hard
-84	Largest Rectangle in Histogram	23.8%	Hard
 282	Expression Add Operators	23.7%	Hard
-41	First Missing Positive	23.6%	Hard
-57	Insert Interval	23.3%	Hard
-85	Maximal Rectangle	23.1%	Hard
 158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard
 124	Binary Tree Maximum Path Sum	22.9%	Hard
 23	Merge k Sorted Lists	22.9%	Hard
