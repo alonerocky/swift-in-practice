@@ -129,6 +129,14 @@ day 10  12
 23	Merge k Sorted Lists	22.9%	Hard
 
 
+day 11 5
+328	Odd Even Linked List	37.6%	Easy
+295	Find Median from Data Stream	21.5%	Hard
+292	Nim Game	51.6%	Easy
+125	Valid Palindrome	23.4%	Easy
+191	Number of 1 Bits	37.6%	Easy
+
+
 In progress
 49	Group Anagrams	26.7%	Medium
 45	Jump Game II	25.0%	Hard
@@ -136,12 +144,7 @@ In progress
 15	3Sum	18.4%	Medium
 16	3Sum Closest	28.5%	Medium
 160	Intersection of Two Linked Lists	30.1%	Easy
-295	Find Median from Data Stream	21.5%	Hard
-
-
-N/A
-125	Valid Palindrome	23.4%	Easy
-191	Number of 1 Bits	37.6%	Easy
+ 
 
 
 95	Unique Binary Search Trees II	28.8%	Medium
@@ -174,14 +177,12 @@ N/A
 
 
 Open	(323 / 335)
-292	Nim Game	51.6%	Easy
 266	Palindrome Permutation 	50.0%	Easy
 293	Flip Game 	49.0%	Easy
 243	Shortest Word Distance 	45.7%	Easy
 252	Meeting Rooms 	41.2%	Easy
 171	Excel Sheet Column Number	40.5%	Easy
 325	Maximum Size Subarray Sum Equals k 	39.2%	Easy
-328	Odd Even Linked List	37.6%	Easy
 263	Ugly Number	35.9%	Easy
 202	Happy Number	35.8%	Easy
 246	Strobogrammatic Number 	35.7%	Easy
