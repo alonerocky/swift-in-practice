@@ -1,4 +1,4 @@
-Done	87 / 318
+Done	99 / 318
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -114,19 +114,19 @@ day 9  5
 119	Pascal's Triangle II	31.6%	Easy
 
 
-day 10  11
+day 10  12
 14	Longest Common Prefix	27.5%	Easy
 47	Permutations II	27.5%	Medium
-48	Rotate Image	34.1%	Medium				for (int i = 0; i < n /2 ; i++) and for (j = i; j < n-1-i; j++)
+48	Rotate Image	34.1%	Medium									for (int i = 0; i < n /2 ; i++) and for (j = i; j < n-1-i; j++)
 78	Subsets	30.7%	Medium
 90	Subsets II	29.9%	Medium
 77	Combinations	33.5%	Medium
 40	Combination Sum II	27.0%	Medium
 *39	Combination Sum	30.2%	Medium
-57	Insert Interval	23.3%	Hard
-56	Merge Intervals	24.7%	Hard
+57	Insert Interval	23.3%	Hard								2
+56	Merge Intervals	24.7%	Hard								2
 138	Copy List with Random Pointer	25.9%	Hard
-
+23	Merge k Sorted Lists	22.9%	Hard
 
 
 In progress
@@ -136,6 +136,7 @@ In progress
 15	3Sum	18.4%	Medium
 16	3Sum Closest	28.5%	Medium
 160	Intersection of Two Linked Lists	30.1%	Easy
+295	Find Median from Data Stream	21.5%	Hard
 
 
 N/A
@@ -162,11 +163,9 @@ N/A
 146	LRU Cache	15.7%	Hard
 65	Valid Number	11.9%	Hard
 124	Binary Tree Maximum Path Sum	22.9%	Hard
-23	Merge k Sorted Lists	22.9%	Hard
 32	Longest Valid Parentheses	22.2%	Hard
 97	Interleaving String	22.1%	Hard
 135	Candy	22.0%	Hard
-295	Find Median from Data Stream	21.5%	Hard
 332	Reconstruct Itinerary	23.0%	Medium
 43	Multiply Strings	22.9%	Medium
 93	Restore IP Addresses	22.9%	Medium
