@@ -5,11 +5,11 @@ private int i =0;
         // findKthSmallest(root, k);
         // return result;
         int result = -1;
-        if (i < k) {
-            if (root.left != null) {
-                result = kthSmallest(root.left, k);
-            }
+        
+        if (root.left != null) {
+       	    result = kthSmallest(root.left, k);
         }
+        
         if (i == k) {
             return result;
         }
