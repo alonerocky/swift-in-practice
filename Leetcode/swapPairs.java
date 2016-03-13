@@ -25,3 +25,17 @@ public ListNode swapPairs(ListNode head) {
         }
         return result;
     }
+
+
+//recursive
+public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode one = head;
+        ListNode two = head.next;
+        ListNode rest = swapPairs(two.next);
+        two.next = one;
+        one.next = rest;
+        return two;
+    }
