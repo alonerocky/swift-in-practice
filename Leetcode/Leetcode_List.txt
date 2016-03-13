@@ -71,7 +71,7 @@ day 4 (15)
 108	Convert Sorted Array to Binary Search Tree	36.5%	Medium
 
 
-day 5  9
+day 5  (9)
 98	Validate Binary Search Tree	20.8%	Medium							2  
 99	Recover Binary Search Tree	25.9%	Hard							2
 258	Add Digits	48.1%	Easy
@@ -83,7 +83,7 @@ day 5  9
 217	Contains Duplicate	40.5%	Easy
 
 
-day 6  5
+day 6  (5)
 116	Populating Next Right Pointers in Each Node	36.4%	Medium
 117	Populating Next Right Pointers in Each Node II	32.7%	Hard
 55	Jump Game	28.0%	Medium											
@@ -91,7 +91,7 @@ day 6  5
 165	Compare Version Numbers	17.0%	Easy								2
 
 
-day 7  7
+day 7  (7)
 240	Search a 2D Matrix II	33.7%	Medium
 7	Reverse Integer	23.6%	Easy
 26	Remove Duplicates from Sorted Array	32.9%	Easy
@@ -101,12 +101,12 @@ day 7  7
 147	Insertion Sort List	28.8%	Medium
 
 
-day 8  2
+day 8  (2)
 54	Spiral Matrix	22.1%	Medium
 59	Spiral Matrix II	34.2%	Medium
 
 
-day 9  5
+day 9  (5)
 8	String to Integer (atoi)	13.4%	Easy					2
 10	Regular Expression Matching	21.7%	Hard					2   dp ?
 44	Wildcard Matching	17.0%	Hard							2	dp ?
@@ -114,7 +114,7 @@ day 9  5
 119	Pascal's Triangle II	31.6%	Easy
 
 
-day 10  12
+day 10  (12)
 14	Longest Common Prefix	27.5%	Easy
 47	Permutations II	27.5%	Medium
 48	Rotate Image	34.1%	Medium									for (int i = 0; i < n /2 ; i++) and for (j = i; j < n-1-i; j++)
@@ -129,7 +129,7 @@ day 10  12
 23	Merge k Sorted Lists	22.9%	Hard
 
 
-day 11 11
+day 11 (11)
 328	Odd Even Linked List	37.6%	Easy
 295	Find Median from Data Stream	21.5%	Hard
 292	Nim Game	51.6%	Easy
@@ -141,6 +141,11 @@ day 11 11
 42	Trapping Rain Water	31.7%	Hard
 24	Swap Nodes in Pairs	34.6%	Medium						while (p != null && p.next != null) and handle odd nodes case
 215	Kth Largest Element in an Array	32.1%	Medium			quick sort
+
+
+day 12  (1)
+230	Kth Smallest Element in a BST	36.3%	Medium
+
 
 
 In progress
@@ -179,7 +184,7 @@ In progress
 43	Multiply Strings	22.9%	Medium
 93	Restore IP Addresses	22.9%	Medium
 5	Longest Palindromic Substring	22.6%	Medium
-230	Kth Smallest Element in a BST	36.3%	Medium
+
 
 
 
