@@ -129,12 +129,18 @@ day 10  12
 23	Merge k Sorted Lists	22.9%	Hard
 
 
-day 11 5
+day 11 11
 328	Odd Even Linked List	37.6%	Easy
 295	Find Median from Data Stream	21.5%	Hard
 292	Nim Game	51.6%	Easy
 125	Valid Palindrome	23.4%	Easy
 191	Number of 1 Bits	37.6%	Easy
+11	Container With Most Water	34.0%	Medium
+199	Binary Tree Right Side View	33.2%	Medium
+162	Find Peak Element	32.8%	Medium
+42	Trapping Rain Water	31.7%	Hard
+24	Swap Nodes in Pairs	34.6%	Medium						while (p != null && p.next != null) and handle odd nodes case
+215	Kth Largest Element in an Array	32.1%	Medium			quick sort
 
 
 In progress
@@ -173,6 +179,7 @@ In progress
 43	Multiply Strings	22.9%	Medium
 93	Restore IP Addresses	22.9%	Medium
 5	Longest Palindromic Substring	22.6%	Medium
+230	Kth Smallest Element in a BST	36.3%	Medium
 
 
 
@@ -230,7 +237,6 @@ Open	(323 / 335)
 156	Binary Tree Upside Down 	37.4%	Medium
 137	Single Number II	37.0%	Medium
 255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
-230	Kth Smallest Element in a BST	36.3%	Medium
 286	Walls and Gates 	36.2%	Medium
 22	Generate Parentheses	35.9%	Medium
 309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
@@ -243,24 +249,19 @@ Open	(323 / 335)
 244	Shortest Word Distance II 	34.9%	Medium
 216	Combination Sum III	34.5%	Medium
 277	Find the Celebrity 	34.8%	Medium
-24	Swap Nodes in Pairs	34.6%	Medium
 64	Minimum Path Sum	34.3%	Medium
 254	Factor Combinations 	34.2%	Medium
 253	Meeting Rooms II 	34.0%	Medium
-11	Container With Most Water	34.0%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
 289	Game of Life	33.6%	Medium
 247	Strobogrammatic Number II 	33.4%	Medium
 241	Different Ways to Add Parentheses	33.2%	Medium
-199	Binary Tree Right Side View	33.2%	Medium
 251	Flatten 2D Vector 	33.0%	Medium
 334	Increasing Triplet Subsequence	32.9%	Medium
-162	Find Peak Element	32.8%	Medium
 275	H-Index II	32.3%	Medium
 313	Super Ugly Number	32.3%	Medium
 80	Remove Duplicates from Sorted Array II	32.2%	Medium
 129	Sum Root to Leaf Numbers	32.1%	Medium
-215	Kth Largest Element in an Array	32.1%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
 279	Perfect Squares	31.6%	Medium
@@ -336,7 +337,6 @@ Open	(323 / 335)
 291	Word Pattern II 	33.7%	Hard
 305	Number of Islands II 	33.2%	Hard
 272	Closest Binary Search Tree Value II 	32.0%	Hard
-42	Trapping Rain Water	31.7%	Hard
 128	Longest Consecutive Sequence	31.5%	Hard
 301	Remove Invalid Parentheses	31.0%	Hard
 317	Shortest Distance from All Buildings 	30.2%	Hard
