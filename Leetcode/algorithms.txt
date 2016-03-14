@@ -17,8 +17,11 @@ divide
 parseInt
 parseDouble
 atoi
+strStr
 
 4
 LCA issue
 
 5, memmove
+
+6, heap minHeap, maxHeap, PriorityQueue
