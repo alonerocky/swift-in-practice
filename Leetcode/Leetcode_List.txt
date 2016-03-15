@@ -1,4 +1,4 @@
-Done	117/ 320
+Done	118/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -147,13 +147,15 @@ day 12  (1)
 230	Kth Smallest Element in a BST	36.3%	Medium
 
 
-day 13  (6)
+day 13  (7)
 189	Rotate Array	20.6%	Easy
 160	Intersection of Two Linked Lists	30.1%	Easy
 95	Unique Binary Search Trees II	28.8%	Medium
 49	Group Anagrams	26.7%	Medium
 61	Rotate List	22.6%	Medium
 234	Palindrome Linked List	27.1%	Easy
+143	Reorder List	22.4%	Medium
+
 
 day 14
 
@@ -176,7 +178,7 @@ In progress
 60	Permutation Sequence	24.6%	Medium
 
 
-143	Reorder List	22.4%	Medium
+
 92	Reverse Linked List II	27.4%	Medium
 51	N-Queens	26.2%	Hard
 52	N-Queens II	38.6%	Hard
