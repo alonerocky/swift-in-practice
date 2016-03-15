@@ -147,7 +147,8 @@ day 12  (1)
 230	Kth Smallest Element in a BST	36.3%	Medium
 
 
-day 13 
+day 13  (1)
+189	Rotate Array	20.6%	Easy
 
 
 In progress
@@ -167,7 +168,8 @@ In progress
 41	First Missing Positive	23.6%	Hard
 84	Largest Rectangle in Histogram	23.8%	Hard
 4	Median of Two Sorted Arrays	18.2%	Hard
-
+31	Next Permutation	26.1%	Medium
+60	Permutation Sequence	24.6%	Medium
 
 
 61	Rotate List	22.6%	Medium
@@ -222,7 +224,6 @@ Open	(323 / 335)
 204	Count Primes	23.5%	Easy
 6	ZigZag Conversion	23.4%	Easy
 168	Excel Sheet Column Title	21.0%	Easy
-189	Rotate Array	20.6%	Easy
 288	Unique Word Abbreviation 	15.5%	Easy
 
 
@@ -299,13 +300,11 @@ Open	(323 / 335)
 209	Minimum Size Subarray Sum	26.2%	Medium
 333	Largest BST Subtree 	26.1%	Medium
 207	Course Schedule	26.1%	Medium
-31	Next Permutation	26.1%	Medium
 208	Implement Trie (Prefix Tree)	25.2%	Medium
 229	Majority Element II	25.2%	Medium
 306	Additive Number	25.0%	Medium
 133	Clone Graph	24.7%	Medium
 139	Word Break	24.7%	Medium
-60	Permutation Sequence	24.6%	Medium
 322	Coin Change	24.5%	Medium
 222	Count Complete Tree Nodes	24.3%	Medium
 187	Repeated DNA Sequences	24.3%	Medium
