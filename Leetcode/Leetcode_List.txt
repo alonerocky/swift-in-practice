@@ -1,4 +1,4 @@
-Done	125/ 320
+Done	129/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -166,26 +166,34 @@ day 14 (8)
 15	3Sum	18.4%	Medium
 16	3Sum Closest	28.5%	Medium
 
-day 15
+day 15 (4)
+136	Single Number	48.8%	Medium
+92	Reverse Linked List II	27.4%	Medium
+31	Next Permutation	26.1%	Medium				2
+137	Single Number II	37.0%	Medium
 
 
 
 In progress
+270	Closest Binary Search Tree Value 	33.5%	Easy
+243	Shortest Word Distance 	45.7%	Easy
+170	Two Sum III - Data structure design 	24.2%	Easy
+
 45	Jump Game II	25.0%	Hard
 91	Decode Ways	17.2%	Medium
 236	Lowest Common Ancestor of a Binary Tree	28.6%	Medium
-92	Reverse Linked List II	27.4%	Medium
-
-
-
 122	Best Time to Buy and Sell Stock II	41.5%	Medium
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
+309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
+60	Permutation Sequence	24.6%	Medium
+266	Palindrome Permutation 	50.0%	Easy
+
+
+268	Missing Number	39.3%	Medium
 41	First Missing Positive	23.6%	Hard
 84	Largest Rectangle in Histogram	23.8%	Hard
 4	Median of Two Sorted Arrays	18.2%	Hard
-31	Next Permutation	26.1%	Medium
-60	Permutation Sequence	24.6%	Medium
-266	Palindrome Permutation 	50.0%	Easy
+260	Single Number III	42.7%	Medium
 
 
 
@@ -205,11 +213,14 @@ In progress
 149	Max Points on a Line	14.0%	Hard
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
 3	Longest Substring Without Repeating Characters	21.6%	Medium
+153	Find Minimum in Rotated Sorted Array	35.6%	Medium
+216	Combination Sum III	34.5%	Medium
+
+
 
 
 Open	(323 / 335)
 293	Flip Game 	49.0%	Easy
-243	Shortest Word Distance 	45.7%	Easy
 252	Meeting Rooms 	41.2%	Easy
 171	Excel Sheet Column Number	40.5%	Easy
 325	Maximum Size Subarray Sum Equals k 	39.2%	Easy
@@ -217,7 +228,6 @@ Open	(323 / 335)
 202	Happy Number	35.8%	Easy
 246	Strobogrammatic Number 	35.7%	Easy
 326	Power of Three	35.7%	Easy
-270	Closest Binary Search Tree Value 	33.5%	Easy
 198	House Robber	33.4%	Easy
 172	Factorial Trailing Zeroes	31.9%	Easy
 249	Group Shifted Strings 	31.1%	Easy
@@ -231,7 +241,6 @@ Open	(323 / 335)
 299	Bulls and Cows	28.7%	Easy
 303	Range Sum Query - Immutable	24.5%	Easy
 28	Implement strStr()	24.3%	Easy
-170	Two Sum III - Data structure design 	24.2%	Easy
 204	Count Primes	23.5%	Easy
 6	ZigZag Conversion	23.4%	Easy
 168	Excel Sheet Column Title	21.0%	Easy
@@ -240,33 +249,26 @@ Open	(323 / 335)
 
 
 280	Wiggle Sort 	49.5%	Medium
-136	Single Number	48.8%	Medium
 167	Two Sum II - Input array is sorted 	47.3%	Medium
 311	Sparse Matrix Multiplication 	47.0%	Medium
 245	Shortest Word Distance III 	45.7%	Medium
-260	Single Number III	42.7%	Medium
 323	Number of Connected Components in an Undirected Graph 	42.2%	Medium
 256	Paint House 	41.8%	Medium
 281	Zigzag Iterator 	41.5%	Medium
 294	Flip Game II 	40.6%	Medium
 320	Generalized Abbreviation 	39.7%	Medium
 319	Bulb Switcher	39.6%	Medium
-268	Missing Number	39.3%	Medium
 318	Maximum Product of Word Lengths	38.9%	Medium
 259	3Sum Smaller 	37.9%	Medium
-137	Single Number II	37.0%	Medium
 255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
 286	Walls and Gates 	36.2%	Medium
 22	Generate Parentheses	35.9%	Medium
-309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
-153	Find Minimum in Rotated Sorted Array	35.6%	Medium
 298	Binary Tree Longest Consecutive Sequence 	35.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
 62	Unique Paths	35.6%	Medium
 89	Gray Code	35.5%	Medium
 285	Inorder Successor in BST 	35.1%	Medium
 244	Shortest Word Distance II 	34.9%	Medium
-216	Combination Sum III	34.5%	Medium
 277	Find the Celebrity 	34.8%	Medium
 64	Minimum Path Sum	34.3%	Medium
 254	Factor Combinations 	34.2%	Medium
@@ -296,7 +298,6 @@ Open	(323 / 335)
 113	Path Sum II	27.8%	Medium
 161	One Edit Distance 	27.8%	Medium
 131	Palindrome Partitioning	27.5%	Medium
-267	Palindrome Permutation II 	27.0%	Medium
 271	Encode and Decode Strings 	26.9%	Medium
 200	Number of Islands	26.9%	Medium
 134	Gas Station	26.9%	Medium
@@ -336,9 +337,10 @@ Open	(323 / 335)
 151	Reverse Words in a String	15.6%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
 337	House Robber III	36.5%	Medium
+
 156	Binary Tree Upside Down 	37.4%	Medium
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
-
+267	Palindrome Permutation II 	27.0%	Medium
 
 336	Palindrome Pairs	17.7%	Hard
 296	Best Meeting Point 	45.6%	Hard
