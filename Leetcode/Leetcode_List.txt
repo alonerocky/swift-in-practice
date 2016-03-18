@@ -1,4 +1,4 @@
-Done	129/ 320
+Done	132/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -32,7 +32,6 @@ day 1 (10)
 206	Reverse Linked Lists 					2 	link to head , not tail
 242	Valid Anagrams 							
 
-
 day 2  (7)
 35	Search Insert Position								while i <= j
 103	Binary Tree Zigzag Level Order Traversal
@@ -42,7 +41,6 @@ day 2  (7)
 238	Product of Array Except Self	41.7%	Medium
 278	First Bad Version	21.9%	Easy					while i <= j
 
-
 day 3  (7)
 88	Merge Sorted Array	29.9%	Easy					2
 46	Permutations	34.8%	Medium
@@ -51,7 +49,6 @@ day 3  (7)
 2	Add Two Numbers	22.3%	Medium							if carry > 0
 228	Summary Ranges	23.3%	Easy							if end - start == 1
 109	Convert Sorted List to Binary Search Tree	29.9%		singleStep point to the start of second half
-
 
 day 4 (15)
 232	Implement Queue using Stacks	33.9%	Easy
@@ -70,7 +67,6 @@ day 4 (15)
 173	Binary Search Tree Iterator	33.6%	Medium
 108	Convert Sorted Array to Binary Search Tree	36.5%	Medium
 
-
 day 5  (9)
 98	Validate Binary Search Tree	20.8%	Medium							2  
 99	Recover Binary Search Tree	25.9%	Hard							2
@@ -82,14 +78,12 @@ day 5  (9)
 284	Peeking Iterator	33.0%	Medium
 217	Contains Duplicate	40.5%	Easy
 
-
 day 6  (5)
 116	Populating Next Right Pointers in Each Node	36.4%	Medium
 117	Populating Next Right Pointers in Each Node II	32.7%	Hard
 55	Jump Game	28.0%	Medium											
 290	Word Pattern	28.3%	Easy										2
 165	Compare Version Numbers	17.0%	Easy								2
-
 
 day 7  (7)
 240	Search a 2D Matrix II	33.7%	Medium
@@ -100,11 +94,9 @@ day 7  (7)
 86	Partition List	29.0%	Medium
 147	Insertion Sort List	28.8%	Medium
 
-
 day 8  (2)
 54	Spiral Matrix	22.1%	Medium
 59	Spiral Matrix II	34.2%	Medium
-
 
 day 9  (5)
 8	String to Integer (atoi)	13.4%	Easy					2
@@ -112,7 +104,6 @@ day 9  (5)
 44	Wildcard Matching	17.0%	Hard							2	dp ?
 118	Pascal's Triangle	32.6%	Easy
 119	Pascal's Triangle II	31.6%	Easy
-
 
 day 10  (12)
 14	Longest Common Prefix	27.5%	Easy
@@ -128,7 +119,6 @@ day 10  (12)
 138	Copy List with Random Pointer	25.9%	Hard
 23	Merge k Sorted Lists	22.9%	Hard
 
-
 day 11 (11)
 328	Odd Even Linked List	37.6%	Easy
 295	Find Median from Data Stream	21.5%	Hard
@@ -142,10 +132,8 @@ day 11 (11)
 24	Swap Nodes in Pairs	34.6%	Medium						while (p != null && p.next != null) and handle odd nodes case
 215	Kth Largest Element in an Array	32.1%	Medium			quick sort, pivot = nums[start]
 
-
 day 12  (1)
 230	Kth Smallest Element in a BST	36.3%	Medium
-
 
 day 13  (6)
 189	Rotate Array	20.6%	Easy
@@ -154,7 +142,6 @@ day 13  (6)
 49	Group Anagrams	26.7%	Medium
 234	Palindrome Linked List	27.1%	Easy				fast & slow pointer
 143	Reorder List	22.4%	Medium						fast & slow pointer
-
 
 day 14 (8)
 129	Sum Root to Leaf Numbers	32.1%	Medium
@@ -173,11 +160,19 @@ day 15 (4)
 137	Single Number II	37.0%	Medium
 
 
+day 16 (3)
+251	Flatten 2D Vector 	33.0%	Medium
+243	Shortest Word Distance 	45.7%	Easy
+170	Two Sum III - Data structure design 	24.2%	Easy
+
+
+day 17
 
 In progress
 270	Closest Binary Search Tree Value 	33.5%	Easy
-243	Shortest Word Distance 	45.7%	Easy
-170	Two Sum III - Data structure design 	24.2%	Easy
+
+
+
 
 45	Jump Game II	25.0%	Hard
 91	Decode Ways	17.2%	Medium
@@ -199,6 +194,7 @@ In progress
 
 51	N-Queens	26.2%	Hard
 52	N-Queens II	38.6%	Hard
+37	Sudoku Solver	24.3%	Hard
 85	Maximal Rectangle	23.1%	Hard
 68	Text Justification	15.8%	Hard
 146	LRU Cache	15.7%	Hard
@@ -277,7 +273,6 @@ Open	(323 / 335)
 289	Game of Life	33.6%	Medium
 247	Strobogrammatic Number II 	33.4%	Medium
 241	Different Ways to Add Parentheses	33.2%	Medium
-251	Flatten 2D Vector 	33.0%	Medium
 334	Increasing Triplet Subsequence	32.9%	Medium
 275	H-Index II	32.3%	Medium
 313	Super Ugly Number	32.3%	Medium
@@ -337,7 +332,6 @@ Open	(323 / 335)
 151	Reverse Words in a String	15.6%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
 337	House Robber III	36.5%	Medium
-
 156	Binary Tree Upside Down 	37.4%	Medium
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
 267	Palindrome Permutation II 	27.0%	Medium
@@ -366,7 +360,6 @@ Open	(323 / 335)
 87	Scramble String	26.1%	Hard
 248	Strobogrammatic Number III 	25.5%	Hard
 327	Count of Range Sum	24.3%	Hard
-37	Sudoku Solver	24.3%	Hard
 282	Expression Add Operators	23.7%	Hard
 158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard
 269	Alien Dictionary 	22.0%	Hard
