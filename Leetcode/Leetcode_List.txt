@@ -166,11 +166,21 @@ day 16 (3)
 170	Two Sum III - Data structure design 	24.2%	Easy
 
 
-day 17
+day 17 (9)
+19	Remove Nth Node From End of List	28.8%	Easy
+293	Flip Game 	49.0%	Easy
+252	Meeting Rooms 	41.2%	Easy
+219	Contains Duplicate II	29.3%	Easy
+168	Excel Sheet Column Title	21.0%	Easy
+171	Excel Sheet Column Number	40.5%	Easy
+270	Closest Binary Search Tree Value 	33.5%	Easy
+326	Power of Three	35.7%	Easy
+246	Strobogrammatic Number 	35.7%	Easy
+
 
 In progress
-270	Closest Binary Search Tree Value 	33.5%	Easy
-
+288	Unique Word Abbreviation 	15.5%	Easy
+320	Generalized Abbreviation 	39.7%	Medium
 
 
 
@@ -211,37 +221,28 @@ In progress
 3	Longest Substring Without Repeating Characters	21.6%	Medium
 153	Find Minimum in Rotated Sorted Array	35.6%	Medium
 216	Combination Sum III	34.5%	Medium
-
+157	Read N Characters Given Read4 	29.4%	Easy
+158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard
 
 
 
 Open	(323 / 335)
-293	Flip Game 	49.0%	Easy
-252	Meeting Rooms 	41.2%	Easy
-171	Excel Sheet Column Number	40.5%	Easy
 325	Maximum Size Subarray Sum Equals k 	39.2%	Easy
 263	Ugly Number	35.9%	Easy
 202	Happy Number	35.8%	Easy
-246	Strobogrammatic Number 	35.7%	Easy
-326	Power of Three	35.7%	Easy
 198	House Robber	33.4%	Easy
 172	Factorial Trailing Zeroes	31.9%	Easy
 249	Group Shifted Strings 	31.1%	Easy
 9	Palindrome Number	30.9%	Easy
 276	Paint Fence 	30.4%	Easy
-157	Read N Characters Given Read4 	29.4%	Easy
 223	Rectangle Area	29.3%	Easy
-219	Contains Duplicate II	29.3%	Easy
 190	Reverse Bits	29.1%	Easy
-19	Remove Nth Node From End of List	28.8%	Easy
 299	Bulls and Cows	28.7%	Easy
 303	Range Sum Query - Immutable	24.5%	Easy
 28	Implement strStr()	24.3%	Easy
 204	Count Primes	23.5%	Easy
 6	ZigZag Conversion	23.4%	Easy
-168	Excel Sheet Column Title	21.0%	Easy
-288	Unique Word Abbreviation 	15.5%	Easy
-
+ 
 
 
 280	Wiggle Sort 	49.5%	Medium
@@ -252,7 +253,6 @@ Open	(323 / 335)
 256	Paint House 	41.8%	Medium
 281	Zigzag Iterator 	41.5%	Medium
 294	Flip Game II 	40.6%	Medium
-320	Generalized Abbreviation 	39.7%	Medium
 319	Bulb Switcher	39.6%	Medium
 318	Maximum Product of Word Lengths	38.9%	Medium
 259	3Sum Smaller 	37.9%	Medium
@@ -336,6 +336,8 @@ Open	(323 / 335)
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
 267	Palindrome Permutation II 	27.0%	Medium
 
+
+
 336	Palindrome Pairs	17.7%	Hard
 296	Best Meeting Point 	45.6%	Hard
 302	Smallest Rectangle Enclosing Black Pixels 	38.2%	Hard
@@ -361,7 +363,6 @@ Open	(323 / 335)
 248	Strobogrammatic Number III 	25.5%	Hard
 327	Count of Range Sum	24.3%	Hard
 282	Expression Add Operators	23.7%	Hard
-158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard
 269	Alien Dictionary 	22.0%	Hard
 188	Best Time to Buy and Sell Stock IV	21.6%	Hard
 308	Range Sum Query 2D - Mutable 	21.3%	Hard
