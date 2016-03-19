@@ -180,12 +180,15 @@ day 17 (16)
 263	Ugly Number	35.9%	Easy
 202	Happy Number	35.8%	Easy
 325	Maximum Size Subarray Sum Equals k 	39.2%	Easy
-157	Read N Characters Given Read4 	29.4%	Easy
-158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard
+157	Read N Characters Given Read4 	29.4%	Easy								2
+158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard		2 (i += len, lastLen -= len, lastIndex += len)
 303	Range Sum Query - Immutable	24.5%	Easy
 
 
-day 18 
+day 18  (2) 
+304	Range Sum Query 2D - Immutable	21.9%	Medium
+167	Two Sum II - Input array is sorted 	47.3%	Medium
+
 
 
 In progress
@@ -202,9 +205,11 @@ In progress
 60	Permutation Sequence	24.6%	Medium
 266	Palindrome Permutation 	50.0%	Easy
 267	Palindrome Permutation II 	27.0%	Medium
-304	Range Sum Query 2D - Immutable	21.9%	Medium
 307	Range Sum Query - Mutable	16.9%	Medium
 308	Range Sum Query 2D - Mutable 	21.3%	Hard
+244	Shortest Word Distance II 	34.9%	Medium
+245	Shortest Word Distance III 	45.7%	Medium
+
 
 
 268	Missing Number	39.3%	Medium
@@ -238,6 +243,8 @@ In progress
 255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
 
 
+
+
 Open	(323 / 335)
 198	House Robber	33.4%	Easy
 172	Factorial Trailing Zeroes	31.9%	Easy
@@ -253,9 +260,7 @@ Open	(323 / 335)
 
 
 280	Wiggle Sort 	49.5%	Medium
-167	Two Sum II - Input array is sorted 	47.3%	Medium
 311	Sparse Matrix Multiplication 	47.0%	Medium
-245	Shortest Word Distance III 	45.7%	Medium
 323	Number of Connected Components in an Undirected Graph 	42.2%	Medium
 256	Paint House 	41.8%	Medium
 281	Zigzag Iterator 	41.5%	Medium
@@ -269,7 +274,6 @@ Open	(323 / 335)
 62	Unique Paths	35.6%	Medium
 89	Gray Code	35.5%	Medium
 285	Inorder Successor in BST 	35.1%	Medium
-244	Shortest Word Distance II 	34.9%	Medium
 277	Find the Celebrity 	34.8%	Medium
 64	Minimum Path Sum	34.3%	Medium
 254	Factor Combinations 	34.2%	Medium
