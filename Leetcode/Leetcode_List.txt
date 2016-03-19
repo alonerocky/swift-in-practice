@@ -1,4 +1,4 @@
-Done	132/ 320
+Done	148/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -183,6 +183,9 @@ day 17 (16)
 157	Read N Characters Given Read4 	29.4%	Easy
 158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard
 303	Range Sum Query - Immutable	24.5%	Easy
+
+
+day 18 
 
 
 In progress
