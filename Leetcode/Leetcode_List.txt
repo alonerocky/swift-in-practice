@@ -197,7 +197,7 @@ day 18  (8)
 
 
 day 19 (8)
-285	Inorder Successor in BST 	35.1%	Medium
+285	Inorder Successor in BST 	35.1%	Medium						2
 5	Longest Palindromic Substring	22.6%	Medium
 253	Meeting Rooms II 	34.0%	Medium								2
 236	Lowest Common Ancestor of a Binary Tree	28.6%	Medium
@@ -205,6 +205,12 @@ day 19 (8)
 133	Clone Graph	24.7%	Medium
 32	Longest Valid Parentheses	22.2%	Hard
 3	Longest Substring Without Repeating Characters	21.6%	Medium
+
+
+day 20 (2)
+64	Minimum Path Sum	34.3%	Medium
+156	Binary Tree Upside Down 	37.4%	Medium
+
 
 
 In progress
@@ -254,7 +260,8 @@ In progress
 89	Gray Code	35.5%	Medium
 277	Find the Celebrity 	34.8%	Medium
 297	Serialize and Deserialize Binary Tree	26.8%	Medium
-
+208	Implement Trie (Prefix Tree)	25.2%	Medium
+211	Add and Search Word - Data structure design	20.2%	Medium
 
 
 Open	(323 / 335)
@@ -280,7 +287,6 @@ Open	(323 / 335)
 22	Generate Parentheses	35.9%	Medium
 298	Binary Tree Longest Consecutive Sequence 	35.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
-64	Minimum Path Sum	34.3%	Medium
 254	Factor Combinations 	34.2%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
 289	Game of Life	33.6%	Medium
@@ -312,7 +318,6 @@ Open	(323 / 335)
 209	Minimum Size Subarray Sum	26.2%	Medium
 333	Largest BST Subtree 	26.1%	Medium
 207	Course Schedule	26.1%	Medium
-208	Implement Trie (Prefix Tree)	25.2%	Medium
 229	Majority Element II	25.2%	Medium
 306	Additive Number	25.0%	Medium
 139	Word Break	24.7%	Medium
@@ -329,7 +334,6 @@ Open	(323 / 335)
 324	Wiggle Sort II	21.4%	Medium
 224	Basic Calculator	21.2%	Medium
 210	Course Schedule II	20.8%	Medium
-211	Add and Search Word - Data structure design	20.2%	Medium
 127	Word Ladder	19.6%	Medium
 179	Largest Number	18.3%	Medium
 273	Integer to English Words	18.2%	Medium
@@ -339,7 +343,6 @@ Open	(323 / 335)
 151	Reverse Words in a String	15.6%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
 337	House Robber III	36.5%	Medium
-156	Binary Tree Upside Down 	37.4%	Medium
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
 
 
