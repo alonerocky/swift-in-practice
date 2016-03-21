@@ -25,3 +25,12 @@ LCA issue
 5, memmove
 
 6, heap minHeap, maxHeap, PriorityQueue
+
+
+7, tree
+Binary Indexed Tree / Fenwick Tree
+Segment Tree
+
+8, interval scheduling
+(1) maxmum subset  - earliest finish time
+(2) minimum rootms - earliest start time

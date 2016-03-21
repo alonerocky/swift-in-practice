@@ -196,7 +196,13 @@ day 18  (8)
 113	Path Sum II	27.8%	Medium
 
 
-day 19
+day 19 (5)
+285	Inorder Successor in BST 	35.1%	Medium
+5	Longest Palindromic Substring	22.6%	Medium
+253	Meeting Rooms II 	34.0%	Medium								2
+236	Lowest Common Ancestor of a Binary Tree	28.6%	Medium
+62	Unique Paths	35.6%	Medium
+
 
 In progress
 288	Unique Word Abbreviation 	15.5%	Easy
@@ -205,7 +211,6 @@ In progress
 
 45	Jump Game II	25.0%	Hard
 91	Decode Ways	17.2%	Medium
-236	Lowest Common Ancestor of a Binary Tree	28.6%	Medium
 122	Best Time to Buy and Sell Stock II	41.5%	Medium
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
 309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
@@ -237,7 +242,6 @@ In progress
 332	Reconstruct Itinerary	23.0%	Medium
 43	Multiply Strings	22.9%	Medium
 93	Restore IP Addresses	22.9%	Medium
-5	Longest Palindromic Substring	22.6%	Medium
 149	Max Points on a Line	14.0%	Hard
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
 3	Longest Substring Without Repeating Characters	21.6%	Medium
@@ -247,8 +251,8 @@ In progress
 255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
 17	Letter Combinations of a Phone Number	28.0%	Medium
 89	Gray Code	35.5%	Medium
-285	Inorder Successor in BST 	35.1%	Medium
 277	Find the Celebrity 	34.8%	Medium
+297	Serialize and Deserialize Binary Tree	26.8%	Medium
 
 
 Open	(323 / 335)
@@ -274,10 +278,8 @@ Open	(323 / 335)
 22	Generate Parentheses	35.9%	Medium
 298	Binary Tree Longest Consecutive Sequence 	35.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
-62	Unique Paths	35.6%	Medium
 64	Minimum Path Sum	34.3%	Medium
 254	Factor Combinations 	34.2%	Medium
-253	Meeting Rooms II 	34.0%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
 289	Game of Life	33.6%	Medium
 247	Strobogrammatic Number II 	33.4%	Medium
@@ -303,7 +305,6 @@ Open	(323 / 335)
 271	Encode and Decode Strings 	26.9%	Medium
 200	Number of Islands	26.9%	Medium
 134	Gas Station	26.9%	Medium
-297	Serialize and Deserialize Binary Tree	26.8%	Medium
 264	Ugly Number II	26.7%	Medium
 310	Minimum Height Trees	26.3%	Medium
 209	Minimum Size Subarray Sum	26.2%	Medium
