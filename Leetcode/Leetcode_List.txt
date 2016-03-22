@@ -1,4 +1,4 @@
-Done	164/ 320
+Done	170/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -207,15 +207,22 @@ day 19 (8)
 3	Longest Substring Without Repeating Characters	21.6%	Medium
 
 
-day 20 (2)
+day 20 (6)
 64	Minimum Path Sum	34.3%	Medium
 156	Binary Tree Upside Down 	37.4%	Medium
+80	Remove Duplicates from Sorted Array II	32.2%	Medium
+208	Implement Trie (Prefix Tree)	25.2%	Medium
+211	Add and Search Word - Data structure design	20.2%	Medium
+63	Unique Paths II	29.0%	Medium
 
+
+day 21
 
 
 In progress
 288	Unique Word Abbreviation 	15.5%	Easy
 320	Generalized Abbreviation 	39.7%	Medium
+
 
 
 45	Jump Game II	25.0%	Hard
@@ -260,8 +267,7 @@ In progress
 89	Gray Code	35.5%	Medium
 277	Find the Celebrity 	34.8%	Medium
 297	Serialize and Deserialize Binary Tree	26.8%	Medium
-208	Implement Trie (Prefix Tree)	25.2%	Medium
-211	Add and Search Word - Data structure design	20.2%	Medium
+
 
 
 Open	(323 / 335)
@@ -295,7 +301,6 @@ Open	(323 / 335)
 334	Increasing Triplet Subsequence	32.9%	Medium
 275	H-Index II	32.3%	Medium
 313	Super Ugly Number	32.3%	Medium
-80	Remove Duplicates from Sorted Array II	32.2%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
 279	Perfect Squares	31.6%	Medium
 261	Graph Valid Tree 	31.5%	Medium
@@ -304,7 +309,6 @@ Open	(323 / 335)
 201	Bitwise AND of Numbers Range	29.5%	Medium
 120	Triangle	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
-63	Unique Paths II	29.0%	Medium
 274	H-Index	28.8%	Medium
 163	Missing Ranges 	28.5%	Medium
 330	Patching Array	28.2%	Medium
