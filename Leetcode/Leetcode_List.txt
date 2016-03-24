@@ -1,4 +1,4 @@
-Done	172/ 320
+Done	175/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -221,15 +221,21 @@ day 21 (2)
 204	Count Primes	23.5%	Easy
 
 
-day 22
-17. Letter Combinations of a Phone Number
+day 22 (3)
+17 Letter Combinations of a Phone Number
 89	Gray Code	35.5%	Medium
+277	Find the Celebrity 	34.8%	Medium
+
+
+day 23 (1)
+311	Sparse Matrix Multiplication 	47.0%	Medium
+
 
 
 In progress
 288	Unique Word Abbreviation 	15.5%	Easy
 320	Generalized Abbreviation 	39.7%	Medium
-277	Find the Celebrity 	34.8%	Medium
+
 
 45	Jump Game II	25.0%	Hard
 91	Decode Ways	17.2%	Medium
@@ -290,7 +296,6 @@ Open	(323 / 335)
 213	House Robber II	29.8%	Medium
 337	House Robber III	36.5%	Medium
 280	Wiggle Sort 	49.5%	Medium
-311	Sparse Matrix Multiplication 	47.0%	Medium
 323	Number of Connected Components in an Undirected Graph 	42.2%	Medium
 256	Paint House 	41.8%	Medium
 319	Bulb Switcher	39.6%	Medium
