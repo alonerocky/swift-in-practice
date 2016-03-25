@@ -1,3 +1,24 @@
+//find repeated element  n/k times
+public int majorityElement(int[] nums) {
+       
+       int candidate = nums[0];
+       int count = 1;
+       for (int i =1;i < nums.length; i++) {
+           
+           if (count == 0) {
+               candidate = nums[i];
+               count++;
+           } else if (nums[i] == candidate) {
+               count++;
+           } else {
+               count--;
+           }
+       }
+       return candidate;
+    }
+
+
+
 public int majorityElement(int[] nums) {
         HashMap<Integer,Integer> hashMap = new HashMap<Integer,Integer>();
         int size = nums.length;
