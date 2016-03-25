@@ -218,7 +218,7 @@ day 20 (6)
 
 day 21 (2)
 71	Simplify Path	21.5%	Medium
-204	Count Primes	23.5%	Easy
+204	Count Primes	23.5%	Easy								2 for(int m = 2; m * i < n; m++)
 
 
 day 22 (3)
@@ -227,14 +227,16 @@ day 22 (3)
 277	Find the Celebrity 	34.8%	Medium
 
 
-day 23 (1)
-311	Sparse Matrix Multiplication 	47.0%	Medium
-
+day 23 (2)
+311	Sparse Matrix Multiplication 	47.0%	Medium				2
+229	Majority Element II	25.2%	Medium
 
 
 In progress
 288	Unique Word Abbreviation 	15.5%	Easy
 320	Generalized Abbreviation 	39.7%	Medium
+
+
 
 
 45	Jump Game II	25.0%	Hard
@@ -330,7 +332,6 @@ Open	(323 / 335)
 209	Minimum Size Subarray Sum	26.2%	Medium
 333	Largest BST Subtree 	26.1%	Medium
 207	Course Schedule	26.1%	Medium
-229	Majority Element II	25.2%	Medium
 306	Additive Number	25.0%	Medium
 139	Word Break	24.7%	Medium
 322	Coin Change	24.5%	Medium
