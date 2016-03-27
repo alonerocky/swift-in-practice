@@ -1,4 +1,4 @@
-Done	182/ 320
+Done	185/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -240,15 +240,20 @@ day 24 (4)
 122	Best Time to Buy and Sell Stock II	41.5%	Medium
 
 
-day 25
+day 25 (3)
+43	Multiply Strings	22.9%	Medium 
+51	N-Queens	26.2%	Hard
+52	N-Queens II	38.6%	Hard
 
 
+day 26
 
 In progress
 288	Unique Word Abbreviation 	15.5%	Easy
 320	Generalized Abbreviation 	39.7%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
+
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
 255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
 297	Serialize and Deserialize Binary Tree	26.8%	Medium
@@ -258,7 +263,6 @@ In progress
 76	Minimum Window Substring	20.7%	Hard
 
 
-43	Multiply Strings	22.9%	Medium
 149	Max Points on a Line	14.0%	Hard
 216	Combination Sum III	34.5%	Medium
 259	3Sum Smaller 	37.9%	Medium
@@ -288,8 +292,6 @@ In progress
 79	Word Search	22.4%	Medium
 22	Generate Parentheses	35.9%	Medium
 93	Restore IP Addresses	22.9%	Medium
-51	N-Queens	26.2%	Hard
-52	N-Queens II	38.6%	Hard
 37	Sudoku Solver	24.3%	Hard
 
 85	Maximal Rectangle	23.1%	Hard
