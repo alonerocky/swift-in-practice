@@ -1,4 +1,4 @@
-Done	187/ 320
+Done	191/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -29,7 +29,7 @@ day 1 (10)
 114	Flatten Binary Tree to Linked Lists 	2 	root.left != null
 145	Binary Tree Postorder Traversal			3
 155	Min Stacks 								2 	pop up one min from minStack
-206	Reverse Linked Lists 					2 	link to head , not tail
+206	Reverse Linked Lists 					3 	link to head , not tail
 242	Valid Anagrams 							
 
 day 2  (7)
@@ -123,7 +123,7 @@ day 11 (11)
 328	Odd Even Linked List	37.6%	Easy
 295	Find Median from Data Stream	21.5%	Hard
 292	Nim Game	51.6%	Easy
-125	Valid Palindrome	23.4%	Easy
+125	Valid Palindrome	23.4%	Easy							2
 191	Number of 1 Bits	37.6%	Easy
 11	Container With Most Water	34.0%	Medium
 199	Binary Tree Right Side View	33.2%	Medium
@@ -250,16 +250,19 @@ day 26 (2)
 239	Sliding Window Maximum	26.4%	Hard				2
 22	Generate Parentheses	35.9%	Medium
 
-day 27
+day 27 (4)
+288	Unique Word Abbreviation 	15.5%	Easy
+28	Implement strStr()	24.3%	Easy
+25	Reverse Nodes in k-Group	27.0%	Hard
+151	Reverse Words in a String	15.6%	Medium
 
-
+day 28
 
 In progress
-288	Unique Word Abbreviation 	15.5%	Easy
 320	Generalized Abbreviation 	39.7%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
-25	Reverse Nodes in k-Group	27.0%	Hard
+91	Decode Ways	17.2%	Medium
 
 
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
@@ -275,9 +278,10 @@ In progress
 259	3Sum Smaller 	37.9%	Medium
 305	Number of Islands II 	33.2%	Hard
 323	Number of Connected Components in an Undirected Graph 	42.2%	Medium
+273	Integer to English Words	18.2%	Medium
+
 
 45	Jump Game II	25.0%	Hard
-91	Decode Ways	17.2%	Medium
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
 188	Best Time to Buy and Sell Stock IV	21.6%	Hard
 309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
@@ -320,7 +324,6 @@ Open	(323 / 335)
 276	Paint Fence 	30.4%	Easy
 190	Reverse Bits	29.1%	Easy
 299	Bulls and Cows	28.7%	Easy
-28	Implement strStr()	24.3%	Easy
 6	ZigZag Conversion	23.4%	Easy
  
 
@@ -371,11 +374,9 @@ Open	(323 / 335)
 210	Course Schedule II	20.8%	Medium
 127	Word Ladder	19.6%	Medium
 179	Largest Number	18.3%	Medium
-273	Integer to English Words	18.2%	Medium
 220	Contains Duplicate III	18.2%	Medium
 335	Self Crossing	17.4%	Medium
 130	Surrounded Regions	15.8%	Medium
-151	Reverse Words in a String	15.6%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
 
