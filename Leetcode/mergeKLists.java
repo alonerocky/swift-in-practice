@@ -35,5 +35,68 @@ public ListNode mergeKLists(ListNode[] lists) {
 
 
 //recursive
-
+public ListNode mergeKLists(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+        if (lists.length == 1) {
+            return lists[0];
+        }
+        
+        ListNode first = lists[0];
+        ListNode[] rest = Arrays.copyOfRange(lists, 1, lists.length - 1);
+        return mergeTwoLists(first, mergeKLists(rest));
+        
+    }
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if (l1 == null) {
+            return l2;
+        } else if (l2 == null) {
+            return l1;
+        }
+        ListNode p1 = l1;
+        ListNode p2 = l2;
+        ListNode result = null;
+        ListNode tail = null;
+        while (p1 != null && p2 != null) {
+            if (p1.val < p2.val) {
+                ListNode one = p1;
+                p1 = p1.next;
+                one.next = null;
+                if (result == null) {
+                    result = tail = one;
+                } else {
+                    tail.next = one;
+                    tail = one;
+                }
+            } else {
+                ListNode one = p2;
+                p2 = p2.next;
+                one.next = null;
+                if (result == null) {
+                    result = tail = one;
+                } else {
+                    tail.next = one;
+                    tail = one;
+                }
+            }
+        }
+        
+        while (p1 != null) {
+            ListNode one = p1;
+            p1 = p1.next;
+            one.next = null;
+            tail.next = one;
+            tail = one;
+        }
+        
+        while (p2 != null) {
+            ListNode one = p2;
+            p2 = p2.next;
+            one.next = null;
+            tail.next = one;
+            tail = one;
+        }
+        return result;
+    }
 //iterate
