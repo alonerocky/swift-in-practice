@@ -1,4 +1,4 @@
-Done	191/ 320
+Done	195/ 320
 1	Two Sum
 12	Integer to Roman
 13	Roman to Integer
@@ -180,7 +180,7 @@ day 17 (16)
 263	Ugly Number	35.9%	Easy
 202	Happy Number	35.8%	Easy
 325	Maximum Size Subarray Sum Equals k 	39.2%	Easy
-157	Read N Characters Given Read4 	29.4%	Easy								2
+157	Read N Characters Given Read4 	29.4%	Easy								3
 158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard		2 (i += len, lastLen -= len, lastIndex += len)
 303	Range Sum Query - Immutable	24.5%	Easy
 
@@ -256,7 +256,13 @@ day 27 (4)
 25	Reverse Nodes in k-Group	27.0%	Hard
 151	Reverse Words in a String	15.6%	Medium
 
-day 28
+day 28 (4)
+271	Encode and Decode Strings 	26.9%	Medium
+190	Reverse Bits	29.1%	Easy
+249	Group Shifted Strings 	31.1%	Easy
+299	Bulls and Cows	28.7%	Easy
+
+day 29
 
 In progress
 320	Generalized Abbreviation 	39.7%	Medium
@@ -320,10 +326,7 @@ In progress
 Open	(323 / 335)
 198	House Robber	33.4%	Easy
 172	Factorial Trailing Zeroes	31.9%	Easy
-249	Group Shifted Strings 	31.1%	Easy
 276	Paint Fence 	30.4%	Easy
-190	Reverse Bits	29.1%	Easy
-299	Bulls and Cows	28.7%	Easy
 6	ZigZag Conversion	23.4%	Easy
  
 
@@ -354,7 +357,6 @@ Open	(323 / 335)
 330	Patching Array	28.2%	Medium
 161	One Edit Distance 	27.8%	Medium
 131	Palindrome Partitioning	27.5%	Medium
-271	Encode and Decode Strings 	26.9%	Medium
 134	Gas Station	26.9%	Medium
 264	Ugly Number II	26.7%	Medium
 310	Minimum Height Trees	26.3%	Medium
