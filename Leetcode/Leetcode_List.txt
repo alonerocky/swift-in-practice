@@ -1,4 +1,4 @@
-Done	196/ 322
+Done	198/ 322
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
@@ -266,7 +266,14 @@ day 29 (1)
 339	Nested List Weight Sum 	50.8%	Easy
 
 
-day 30
+day 30 (2)
+297	Serialize and Deserialize Binary Tree	26.8%	Medium
+60	Permutation Sequence	24.6%	Medium
+
+
+day 31
+
+
 
 In progress
 320	Generalized Abbreviation 	39.7%	Medium
@@ -274,10 +281,11 @@ In progress
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 91	Decode Ways	17.2%	Medium
 
-
+207	Course Schedule	26.1%	Medium
+210	Course Schedule II	20.8%	Medium
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
 255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
-297	Serialize and Deserialize Binary Tree	26.8%	Medium
+333	Largest BST Subtree 	26.1%	Medium
 
 209	Minimum Size Subarray Sum	26.2%	Medium
 76	Minimum Window Substring	20.7%	Hard
@@ -295,7 +303,6 @@ In progress
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
 188	Best Time to Buy and Sell Stock IV	21.6%	Hard
 309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
-60	Permutation Sequence	24.6%	Medium
 267	Palindrome Permutation II 	27.0%	Medium
 307	Range Sum Query - Mutable	16.9%	Medium
 308	Range Sum Query 2D - Mutable 	21.3%	Hard
@@ -364,8 +371,6 @@ Open	(323 / 335)
 134	Gas Station	26.9%	Medium
 264	Ugly Number II	26.7%	Medium
 310	Minimum Height Trees	26.3%	Medium
-333	Largest BST Subtree 	26.1%	Medium
-207	Course Schedule	26.1%	Medium
 306	Additive Number	25.0%	Medium
 139	Word Break	24.7%	Medium
 322	Coin Change	24.5%	Medium
@@ -377,7 +382,6 @@ Open	(323 / 335)
 152	Maximum Product Subarray	21.7%	Medium
 324	Wiggle Sort II	21.4%	Medium
 224	Basic Calculator	21.2%	Medium
-210	Course Schedule II	20.8%	Medium
 127	Word Ladder	19.6%	Medium
 179	Largest Number	18.3%	Medium
 220	Contains Duplicate III	18.2%	Medium
