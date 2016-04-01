@@ -1,5 +1,5 @@
-Done	195/ 320
-1	Two Sum
+Done	196/ 322
+1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
 20	Valid Parentheses
@@ -36,7 +36,7 @@ day 2  (7)
 35	Search Insert Position								while i <= j
 103	Binary Tree Zigzag Level Order Traversal
 141	Linked List Cycle	36.9%	Medium					2 while (doubleSteps != null && doubleSteps.next != null)
-231	Power of Two	35.4%	Easy
+231	Power of Two	35.4%	Easy						2
 235	Lowest Common Ancestor of a Binary Search Trees		2
 238	Product of Array Except Self	41.7%	Medium
 278	First Bad Version	21.9%	Easy					while i <= j
@@ -62,7 +62,7 @@ day 4 (15)
 50	Pow(x, n)	27.9%	Medium							2	(int)(m / 2)
 70	Climbing Stairs	36.2%	Easy
 101	Symmetric Tree	33.4%	Easy
-283	Move Zeroes	43.5%	Easy
+283	Move Zeroes	43.5%	Easy							2
 226	Invert Binary Tree	44.1%	Easy					2
 173	Binary Search Tree Iterator	33.6%	Medium
 108	Convert Sorted Array to Binary Search Tree	36.5%	Medium
@@ -252,7 +252,7 @@ day 26 (2)
 
 day 27 (4)
 288	Unique Word Abbreviation 	15.5%	Easy
-28	Implement strStr()	24.3%	Easy
+28	Implement strStr()	24.3%	Easy 					2
 25	Reverse Nodes in k-Group	27.0%	Hard
 151	Reverse Words in a String	15.6%	Medium
 
@@ -262,7 +262,11 @@ day 28 (4)
 249	Group Shifted Strings 	31.1%	Easy
 299	Bulls and Cows	28.7%	Easy
 
-day 29
+day 29 (1)
+339	Nested List Weight Sum 	50.8%	Easy
+
+
+day 30
 
 In progress
 320	Generalized Abbreviation 	39.7%	Medium
@@ -381,6 +385,7 @@ Open	(323 / 335)
 130	Surrounded Regions	15.8%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
+338	Counting Bits	55.6%	Medium
 
 
 
