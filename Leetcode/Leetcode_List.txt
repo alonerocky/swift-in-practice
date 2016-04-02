@@ -1,11 +1,11 @@
-Done	198/ 322
+Done	202/ 322
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
 20	Valid Parentheses
 21	Merge Two Sorted Lists
 36	Valid Sudoku
-38	Count and Say
+38	Count and Say 							2
 58	Length of Last Word
 67	Add Binary
 73	Set Matrix Zeroes
@@ -16,7 +16,7 @@ Done	198/ 322
 106	Construct Binary Tree from Inorder and Postorder Traversal
 110	Balanced Binary Tree
 111	Minimum Depth of Binary Tree
-121	Best Time to Buy and Sell Stock
+121	Best Time to Buy and Sell Stock			2
 144	Binary Tree Preorder Traversal
 150	Evaluate Reverse Polish Notation
 
@@ -267,12 +267,17 @@ day 29 (1)
 
 
 day 30 (2)
-297	Serialize and Deserialize Binary Tree	26.8%	Medium
+297	Serialize and Deserialize Binary Tree	26.8%	Medium 			2
 60	Permutation Sequence	24.6%	Medium
 
 
-day 31
+day 31 (4)
+207	Course Schedule	26.1%	Medium
+210	Course Schedule II	20.8%	Medium
+198	House Robber	33.4%	Easy
+276	Paint Fence 	30.4%	Easy
 
+day 32
 
 
 In progress
@@ -280,9 +285,9 @@ In progress
 81	Search in Rotated Sorted Array II	31.7%	Medium
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 91	Decode Ways	17.2%	Medium
+261	Graph Valid Tree 	31.5%	Medium
 
-207	Course Schedule	26.1%	Medium
-210	Course Schedule II	20.8%	Medium
+
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
 255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
 333	Largest BST Subtree 	26.1%	Medium
@@ -335,17 +340,14 @@ In progress
 
 
 Open	(323 / 335)
-198	House Robber	33.4%	Easy
 172	Factorial Trailing Zeroes	31.9%	Easy
-276	Paint Fence 	30.4%	Easy
 6	ZigZag Conversion	23.4%	Easy
- 
+256	Paint House 	41.8%	Medium
 
 
 213	House Robber II	29.8%	Medium
 337	House Robber III	36.5%	Medium
 280	Wiggle Sort 	49.5%	Medium
-256	Paint House 	41.8%	Medium
 319	Bulb Switcher	39.6%	Medium
 318	Maximum Product of Word Lengths	38.9%	Medium
 298	Binary Tree Longest Consecutive Sequence 	35.6%	Medium
@@ -359,7 +361,6 @@ Open	(323 / 335)
 275	H-Index II	32.3%	Medium
 313	Super Ugly Number	32.3%	Medium
 279	Perfect Squares	31.6%	Medium
-261	Graph Valid Tree 	31.5%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
 120	Triangle	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
