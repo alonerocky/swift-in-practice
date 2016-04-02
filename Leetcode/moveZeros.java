@@ -29,3 +29,36 @@ public void moveZeroes(int[] nums) {
             Arrays.fill(nums, end + 1, nums.length , 0);
         }
     }
+
+
+//
+public void moveZeroes(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return;
+        }
+        int i =0; 
+        int len = nums.length;
+        while (i < len) {
+            if (nums[i] != 0) {
+                i++;
+                continue;
+            } 
+            //nums[i] = 0;
+            int j = i + 1;
+            while (j < len && nums[j] == 0) {
+                j++;
+            }
+            if (j == len) {
+                break;
+            }
+            //j point to either the end or the one not zero
+            int zeros = j - i;
+            //move [j, len-1] to [i, ]
+            System.arraycopy(nums, j, nums, i, len - j);
+            len -= zeros;
+        }
+        if (len < nums.length) {
+            Arrays.fill(nums, len, nums.length, 0);
+        }
+        
+    }
