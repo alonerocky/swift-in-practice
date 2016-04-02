@@ -3,6 +3,39 @@ public int strStr(String haystack, String needle) {
             return -1;
         }
         
+        if (haystack.length() == 0) {
+            if (needle.length() == 0) {
+                return 0;
+            } else {
+                return -1;
+            }
+        }
+        if (needle.length() == 0) {
+            return 0;
+        }
+        int i =0;
+        int j = 0;
+        while (i + j < haystack.length()) {
+            if (haystack.charAt(i+j) == needle.charAt(j)) {
+                j++;
+                if (j == needle.length()) {
+                    return i;
+                }
+            } else {
+                j = 0;
+                i++;
+            }
+            
+        }
+        return -1;
+    }
+
+
+public int strStr(String haystack, String needle) {
+        if (haystack == null || needle == null) {
+            return -1;
+        }
+        
         if (needle.length() > haystack.length()) {
             return -1;
         }
