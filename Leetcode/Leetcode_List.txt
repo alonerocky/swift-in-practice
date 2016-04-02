@@ -275,7 +275,6 @@ day 31 (5)
 207	Course Schedule	26.1%	Medium
 210	Course Schedule II	20.8%	Medium
 198	House Robber	33.4%	Easy
-276	Paint Fence 	30.4%	Easy
 256	Paint House 	41.8%	Medium
 
 day 32
@@ -343,7 +342,7 @@ In progress
 Open	(323 / 335)
 172	Factorial Trailing Zeroes	31.9%	Easy
 6	ZigZag Conversion	23.4%	Easy
-
+276	Paint Fence 	30.4%	Easy
 
 
 213	House Robber II	29.8%	Medium
