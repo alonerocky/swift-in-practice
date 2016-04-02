@@ -4,12 +4,14 @@
         HashMap<Integer, ArrayList<Integer>> adjacent = new HashMap<Integer, ArrayList<Integer>>();
         for (int i = 0; i < prerequisites.length; i++) {
             int[] one = prerequisites[i];
-            if (adjacent.containsKey(one[0])) {
-                adjacent.get(one[0]).add(one[1]);
+	    //[a,b] To take course a you should have finished course b
+	    //b-->a  ,b happens before a (if in toplogical sort)
+            if (adjacent.containsKey(one[1])) {
+                adjacent.get(one[1]).add(one[0]);
             } else {
                 ArrayList<Integer> list = new ArrayList<Integer>();
-                list.add(one[1]);
-                adjacent.put(one[0], list);
+                list.add(one[0]);
+                adjacent.put(one[1], list);
             }
         }
         for (int i =0; i < numCourses; i++) {
