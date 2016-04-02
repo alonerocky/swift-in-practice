@@ -1,4 +1,4 @@
-Done	202/ 322
+Done	203/ 322
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
@@ -7,7 +7,7 @@ Done	202/ 322
 36	Valid Sudoku
 38	Count and Say 							2
 58	Length of Last Word
-67	Add Binary
+67	Add Binary 								2
 73	Set Matrix Zeroes
 74	Search a 2D Matrix
 100	Same Tree
@@ -230,7 +230,7 @@ day 22 (3)
 day 23 (3)
 311	Sparse Matrix Multiplication 	47.0%	Medium				2
 229	Majority Element II	25.2%	Medium
-33	Search in Rotated Sorted Array	29.9%	Hard
+33	Search in Rotated Sorted Array	29.9%	Hard 				2
 
 
 day 24 (4)
@@ -271,11 +271,12 @@ day 30 (2)
 60	Permutation Sequence	24.6%	Medium
 
 
-day 31 (4)
+day 31 (5)
 207	Course Schedule	26.1%	Medium
 210	Course Schedule II	20.8%	Medium
 198	House Robber	33.4%	Easy
 276	Paint Fence 	30.4%	Easy
+256	Paint House 	41.8%	Medium
 
 day 32
 
@@ -286,6 +287,10 @@ In progress
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 91	Decode Ways	17.2%	Medium
 261	Graph Valid Tree 	31.5%	Medium
+79	Word Search	22.4%	Medium
+93	Restore IP Addresses	22.9%	Medium
+37	Sudoku Solver	24.3%	Hard
+
 
 
 331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
@@ -318,12 +323,8 @@ In progress
 84	Largest Rectangle in Histogram	23.8%	Hard
 4	Median of Two Sorted Arrays	18.2%	Hard
 260	Single Number III	42.7%	Medium
-
-
 329	Longest Increasing Path in a Matrix	29.8%	Medium
-79	Word Search	22.4%	Medium
-93	Restore IP Addresses	22.9%	Medium
-37	Sudoku Solver	24.3%	Hard
+
 
 85	Maximal Rectangle	23.1%	Hard
 286	Walls and Gates 	36.2%	Medium
@@ -342,7 +343,7 @@ In progress
 Open	(323 / 335)
 172	Factorial Trailing Zeroes	31.9%	Easy
 6	ZigZag Conversion	23.4%	Easy
-256	Paint House 	41.8%	Medium
+
 
 
 213	House Robber II	29.8%	Medium
