@@ -1,4 +1,4 @@
-Done	203/ 322
+Done	205/ 322
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
@@ -271,13 +271,15 @@ day 30 (2)
 60	Permutation Sequence	24.6%	Medium
 
 
-day 31 (5)
+day 31 (4)
 207	Course Schedule	26.1%	Medium
 210	Course Schedule II	20.8%	Medium
 198	House Robber	33.4%	Easy
-256	Paint House 	41.8%	Medium
+256	Paint House 	41.8%	Medium 					2
 
-day 32
+day 32 (2)
+261	Graph Valid Tree 	31.5%	Medium
+172	Factorial Trailing Zeroes	31.9%	Easy
 
 
 In progress
@@ -285,7 +287,6 @@ In progress
 81	Search in Rotated Sorted Array II	31.7%	Medium
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 91	Decode Ways	17.2%	Medium
-261	Graph Valid Tree 	31.5%	Medium
 79	Word Search	22.4%	Medium
 93	Restore IP Addresses	22.9%	Medium
 37	Sudoku Solver	24.3%	Hard
@@ -340,7 +341,6 @@ In progress
 
 
 Open	(323 / 335)
-172	Factorial Trailing Zeroes	31.9%	Easy
 6	ZigZag Conversion	23.4%	Easy
 276	Paint Fence 	30.4%	Easy
 
