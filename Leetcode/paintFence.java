@@ -1,3 +1,5 @@
+
+https://segmentfault.com/a/1190000003790650
 /*
     The problem of asking how many ways to do something is usually very easy!
 And it could always be solved through dynamic programming. You just need to carefully design the transitional function acoording to characteristics or certain restrictions. 
