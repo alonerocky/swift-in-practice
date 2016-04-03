@@ -17,17 +17,17 @@ Done	205/ 322
 110	Balanced Binary Tree
 111	Minimum Depth of Binary Tree
 121	Best Time to Buy and Sell Stock			2
-144	Binary Tree Preorder Traversal
+144	Binary Tree Preorder Traversal			2
 150	Evaluate Reverse Polish Notation
 
 day 1 (10)
 53	Maximum Subarray						2
-94	Binary Tree Inorder Traversal			2
+94	Binary Tree Inorder Traversal			3  pushLeft(TreeNode, Stack)
 96	Unique Binary Search Trees				2  total = 0 out of for-loop
 102	Binary Tree Level Order Traversal
 107	Binary Tree Level Order Traversal II
 114	Flatten Binary Tree to Linked Lists 	2 	root.left != null
-145	Binary Tree Postorder Traversal			3
+145	Binary Tree Postorder Traversal			4   findNextLeaf(TreeNode, Stack)
 155	Min Stacks 								2 	pop up one min from minStack
 206	Reverse Linked Lists 					3 	link to head , not tail
 242	Valid Anagrams 							
@@ -281,6 +281,8 @@ day 32 (2)
 261	Graph Valid Tree 	31.5%	Medium
 172	Factorial Trailing Zeroes	31.9%	Easy
 
+
+day 33
 
 In progress
 320	Generalized Abbreviation 	39.7%	Medium
