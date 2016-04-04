@@ -1,10 +1,10 @@
-Done	210/ 323
+Done	211/ 323
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
 20	Valid Parentheses
 21	Merge Two Sorted Lists
-36	Valid Sudoku
+36	Valid Sudoku 							2
 38	Count and Say 							2
 58	Length of Last Word
 67	Add Binary 								2
@@ -299,7 +299,9 @@ day 33 (6)
 
 ----above 210
 
-day 34
+day 34 (1)
+37	Sudoku Solver	24.3%	Hard
+
 
 In progress
 320	Generalized Abbreviation 	39.7%	Medium
@@ -307,7 +309,7 @@ In progress
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 91	Decode Ways	17.2%	Medium
 93	Restore IP Addresses	22.9%	Medium
-37	Sudoku Solver	24.3%	Hard
+
 
 
 
