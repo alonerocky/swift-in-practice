@@ -1,4 +1,4 @@
-Done	211/ 323
+Done	213/ 323
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
@@ -111,7 +111,7 @@ day 10  (12)
 14	Longest Common Prefix	27.5%	Easy
 47	Permutations II	27.5%	Medium
 48	Rotate Image	34.1%	Medium									for (int i = 0; i < n /2 ; i++) and for (j = i; j < n-1-i; j++)
-78	Subsets	30.7%	Medium
+78	Subsets	30.7%	Medium										2
 90	Subsets II	29.9%	Medium
 77	Combinations	33.5%	Medium
 40	Combination Sum II	27.0%	Medium
@@ -299,8 +299,14 @@ day 33 (6)
 
 ----above 210
 
-day 34 (1)
+day 34 (3)
 37	Sudoku Solver	24.3%	Hard
+274	H-Index	28.8%	Medium
+275	H-Index II	32.3%	Medium
+
+
+day 35
+
 
 
 In progress
@@ -371,13 +377,11 @@ Open	(323 / 335)
 247	Strobogrammatic Number II 	33.4%	Medium
 241	Different Ways to Add Parentheses	33.2%	Medium
 334	Increasing Triplet Subsequence	32.9%	Medium
-275	H-Index II	32.3%	Medium
 313	Super Ugly Number	32.3%	Medium
 279	Perfect Squares	31.6%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
 120	Triangle	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
-274	H-Index	28.8%	Medium
 163	Missing Ranges 	28.5%	Medium
 330	Patching Array	28.2%	Medium
 161	One Edit Distance 	27.8%	Medium
