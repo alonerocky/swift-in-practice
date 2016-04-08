@@ -1,115 +1,59 @@
-private String[] WORD_TABLE = {"Billion", "Million", "Thousand", "Hundred"};
-    private int[]    NUM_TABLE  = {1000000000 , 1000000 , 1000 , 100 };
-    private String[] WORD_BELOW_HUNDRED = {"Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
-    private int[]    NUMBER_BELOW_HUNDRED = {20, 30, 40, 50, 60, 70, 80, 90};
-    private String[] NUMBER_BELOW_TWENTY = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
-    "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+private String[] NUM_WORDS = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+    "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty",
+    "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+
+    private int[] WORDS_NUM = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 30, 40, 50, 60, 70, 80, 90};
+
+    private String[] NUM_WORDS_II = {"Thousand", "Million", "Billion"};
+    private int[] WORDS_NUM_II = {1000, 1000000, 1000000000};
     public String numberToWords(int num) {
-        if (num == 0) {
-            return "Zero";
-        } else {
-            StringBuffer sb = new StringBuffer();
-
-            if (num >= 1000000000) {
-                int a = num / 1000000000;
-                num %= 1000000000;
-                sb.append(numberToWordsLessThanThousand(a));
-                sb.append(" Billion");
-                if (num > 0) {
+        StringBuffer sb = new StringBuffer();
+        int len = NUM_WORDS_II.length;
+        for (int i = len - 1; i >= 0; i--) {
+            if (num >= WORDS_NUM_II[i]) {
+                int thousand = num / WORDS_NUM_II[i];
+                num = num % WORDS_NUM_II[i];
+                sb.append(numberTowWordsLessThanThousand(thousand));
+                sb.append(" ");
+                sb.append(NUM_WORDS_II[i]);
+                if (num != 0) {
                     sb.append(" ");
-                    sb.append(numberToWordLessThanBillion(num));
                 }
-                return sb.toString();
-            } else {
-                return numberToWordLessThanBillion(num);
             }
         }
-    }
-
-    //[0,  999,999,999]
-    public String numberToWordLessThanBillion(int num) {
-        StringBuffer sb = new StringBuffer();
-        if (num >= 1000000) {
-            int a = num / 1000000;
-            num %= 1000000;
-            sb.append(numberToWordsLessThanThousand(a));
-            sb.append(" Million");
-            if (num > 0) {
-                sb.append(" ");
-                sb.append(numberToWordLessThanMillion(num));
-            }
-            return sb.toString();
-        } else {
-            return numberToWordLessThanMillion(num);
+        if (num != 0) {
+            sb.append(numberTowWordsLessThanThousand(num));
         }
-    }
-
-    //[0, 999,999
-    public String numberToWordLessThanMillion(int num) {
-        StringBuffer sb = new StringBuffer();
-        if (num >= 1000) {
-            int a = num / 1000;
-            num %= 1000;
-            sb.append(numberToWordsLessThanThousand(a));
-            sb.append(" Thousand");
-            if (num != 0) {
-                sb.append(" ");
-                sb.append(numberToWordsLessThanThousand(num));
-            }
-            return sb.toString();
-        } else {
-            return numberToWordsLessThanThousand(num);
-        }
-    }
-
-    //[0, 999]
-    public String numberToWordsLessThanThousand(int num) {
-        StringBuffer sb = new StringBuffer();
-        if (num >= 100) {
-            int a = num / 100;
-            num %= 100;
-            sb.append(numberToWordsLessThanHundred(a));
-            sb.append(" Hundred");
-            if (num != 0) {
-                sb.append(" ");
-                sb.append(numberToWordsLessThanHundred(num));
-            }
-            return sb.toString();
-        } else {
-            return numberToWordsLessThanHundred(num);
-        }
-    }
-
-    /*
-    num is number less than 100,  [0 - 99]
-     */
-    
-    public String numberToWordsLessThanHundred(int num) {
-        StringBuffer sb = new StringBuffer();
-        if (num < 20) {
-            return numberToWordsLessThanTwenty(num);
-        }
-        else if (num < 100) {
-            int i = NUMBER_BELOW_HUNDRED.length - 1;
-            while (i >= 0) {
-                if (num >= NUMBER_BELOW_HUNDRED[i]) {
-                    break;
-                }
-                i--;
-            }
-            sb.append(WORD_BELOW_HUNDRED[i]);
-            num -= NUMBER_BELOW_HUNDRED[i];
-            if (num > 0) {
-                sb.append(" ");
-                sb.append(numberToWordsLessThanTwenty(num));
-            }
+        if (sb.length() == 0) {
+            return "Zero";
         }
         return sb.toString();
     }
-    
-    public String numberToWordsLessThanTwenty(int num) {
-        if (num >= 0 && num < 20) {
-            return NUMBER_BELOW_TWENTY[num];
+    private String numberTowWordsLessThanThousand(int num) {
+        StringBuffer sb = new StringBuffer();
+        if (num >= 100) {
+            sb.append(numberTowWordsLessThanHundred(num/100));
+            sb.append(" Hundred");
+            num = num % 100;
+            if (num != 0) {
+                sb.append(" ");
+            }
         }
-        return "";
+        sb.append(numberTowWordsLessThanHundred(num));
+        return sb.toString();
+    }
+    private String numberTowWordsLessThanHundred(int num) {
+        StringBuffer sb = new StringBuffer();
+        int len = WORDS_NUM.length;
+        for (int i = len - 1; i >= 0; i-- ) {
+
+            if (num >= WORDS_NUM[i]) {
+                sb.append(NUM_WORDS[i]);
+                num -= WORDS_NUM[i];
+                if (num != 0) {
+                    sb.append(" ");
+                }
+            }
+        }
+        return sb.toString();
     }
