@@ -45,3 +45,48 @@ public int numIslands(char[][] grid) {
     private boolean isSafe(char[][] grid, int row, int column, boolean[][] visited) {
         return (row >= 0 && row < grid.length && column >= 0 && column < grid[0].length && grid[row][column] == '1' && !visited[row][column]);
     }
+
+
+public void bfs(char[][] grid, int row, int column, boolean[][] visited) {
+        if (grid[row][column] == '0' || visited[row][column]) {
+            return;
+        }
+        
+        //use a queue
+        Deque<Integer> queue = new ArrayDeque<Integer>();
+        queue.addLast(row);
+        queue.addLast(column);
+        visited[row][column] = true;
+        while (!queue.isEmpty()) {
+            int r = queue.pollFirst();
+            int c = queue.pollFirst();
+            //try to add left cell to queue
+            if (c - 1 >= 0 && grid[r][c-1] == '1' && !visited[r][c-1]) {
+                queue.addLast(r);
+                queue.addLast(c-1);
+                visited[r][c-1] = true;
+            }
+            //try to add right cell to queue
+            if (c + 1 < grid[0].length && grid[r][c+1] == '1' && !visited[r][c+1]) {
+                queue.addLast(r);
+                queue.addLast(c+1);
+                visited[r][c+1] = true;
+            }
+            
+            //try to add up cell to queue
+            if (r - 1 >= 0 && grid[r-1][c] == '1' && !visited[r-1][c]) {
+                queue.addLast(r-1);
+                queue.addLast(c);
+                visited[r-1][c] = true;
+            }
+            
+            //try to add down cell to queue
+            if (r+1 < grid.length && grid[r+1][c] == '1' && !visited[r+1][c]) {
+                queue.addLast(r+1);
+                queue.addLast(c);
+                visited[r+1][c] = true;
+            }
+            
+            
+        }
+    }
