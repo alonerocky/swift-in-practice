@@ -3,10 +3,13 @@ algorithms
 http://www.geeksforgeeks.org/tag/backtracking/
 
 
+http://www.chaozh.com/cracking-the-coding-interview-q19-20/
+
 
 2, iterator
 BST preorder / inorder / postorder
 peeking iterator
+nested list iterator
 
 
 
@@ -35,3 +38,223 @@ Trie
 8, interval scheduling
 (1) maxmum subset  - earliest finish time
 (2) minimum rootms - earliest start time
+
+9, find all elements that appear more than ⌊ n/k ⌋ times
+
+10, http://www.geeksforgeeks.org/serialize-deserialize-binary-tree/
+
+
+11 Topological Sort
+
+
+//2014
+
+1, print tree level by level
+2, divide two integers 
+3, sqrt
+4, multiply two strings
+5, anagrams, check if anagrams,  group all anagrams
+6, add binary
+7, print link list reversely
+8, print binary from root to leaf  (recursively and iterately)  
+   Print the sum of all the numbers at every vertical level in a binary tree
+9, path sum
+10, merge sorted array
+    two sorted lists and outputs a sorted list that is their union 
+11,two sorted lists and outputs a sorted list that is their union
+12,length of the longest path in the tree.
+13,Find the successor/predecessor of a binary search tree
+14,longest sequence of increasing numbers in an unsorted array
+   Find the maximum sum of a sub-sequence from an positive integer 
+   array where any two numbers of sub-sequence are not adjacent to each other in the original sequence
+	http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+   Maximum Sum Increasing Subsequence http://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/
+
+15,two sorted lists and outputs a sorted list that is their union
+16, 3sum
+17, sort colors
+18, Longest common substring
+19, iterating a nested container 
+20, regular expression match
+21, wildcard match
+22, anagrams
+23, strStr
+24, sorted array to bst
+25, largest sum array
+
+  Given an array A of positive integers. Convert it to a sorted array with
+minimum cost. The only valid operation are:
+1) Decrement with cost = 1
+2) Delete an element completely from the array with cost = value of element
+
+http://www.careercup.com/question?id=9333968
+  
+  
+  
+rnv
+3+4*5
+  
+    
+ 
+
+ 
+Program "atof", which means convert a string float (e.g. "345.44E-10") to an actual float without using any existing Parse Float functions
+
+factor
+
+Hamming Distance
+
+unsigned hamdist(unsigned x, unsigned y)
+{
+  unsigned dist = 0, val = x ^ y; // XOR
+ 
+  // Count the number of set bits
+  while(val)
+  {
+    ++dist; 
+    val &= val - 1;
+  }
+ 
+  return dist;
+}
+
+ 
+
+
+
+  Print out all the possible words that can be formed from a phone number 
+, Print out all the permutations of a string
+  
+
+, Given n intervals [si, fi], find the maximum number of overlapping intervals.
+, permutation of a given string
+  
+, comcatation of strings
+ 
+ 
+ 
+ 
+palindrome string
+merge n sets
+2n parenthesis generator
+Fibonacci
+lowest common ancestor
+print subsets
+combinations sum 
+Given an integer, return all sequences of numbers that sum to it. (Example: 3 -> (1, 2), (2, 1), (1, 1, 1))
+ 
+interleave 2 linked list
+Pascal's Triangle
+Fibonacci Numbers
+
+ 
+Topological sorting
+http://leetcode.com/2010/09/saving-binary-search-tree-to-file.html
+http://www.mitbbs.com/article_t/JobHunting/32617501.html
+ 
+
+ Graph
+ http://www.geeksforgeeks.org/applications-of-depth-first-search/
+ http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
+ http://www.geeksforgeeks.org/topological-sorting/
+ http://www.geeksforgeeks.org/applications-of-breadth-first-traversal/
+ http://www.geeksforgeeks.org/bipartite-graph/
+ (1) Cycle detection in undirected graph   BFS or DFS
+ (2) Detect Cycle in a direct graph using colors  DFS only
+
+ (3) Topological sorting  DAG   DFS or BFS
+http://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/   bfs
+http://www.geeksforgeeks.org/topological-sorting/    dfs
+
+ (4) Traversal   DFS
+ To test if a graph is Bipartite
+ 
+ 
+ 1, re-arrange array, move non-zero to the end
+  follow up - keep the non-zero elements order
+  
+ 2, make the string palindrome 
+ 3, implement cd(String cwd, String path)
+ 4, design Photos upload
+
+
+03-31
+1, find the difference from 2 arrays
+   5 1 2 3 4
+   1 3
+   print 5 2 4
+   
+2, combinations to total ,one number can be used multiple times
+3, design location based service, poi
+ 
+
+Here's a quick breakdown of your onsite interviews. The order in which they are scheduled can vary. You will have 4 or 5 interviews, at least one interview of each type described below (in no particular order). Keep in mind that your interview schedule will be tailored to your background and interests.
+ 
+- 60-minute PhD Research Interview. Your interviewer will likely have a PhD in a field related to your research area. He/she will want you to describe your research and what you've accomplished in your PhD in a clear, coherent way. We're interested in your cultural fit with us, your aptitude in working with others, and your ability to communicate effectively both in general terms and in your specific area of research. The last 15-20 minutes of this interview will be a whiteboard coding exercise. 
+ 
+- 45-minute whiteboard coding interviews, similar in format to your first interview. (Keep in mind that you should not solve the same problem twice in your Facebook interviews. If someone gives you a problem that you've already solved, please let him/her know.)
+ 
+- 45-minute Design interview. We will ask you a high-level system design question. This question gives us insight into how you approach a vague problem, identify tradeoffs, design a solution, and anticipate potential pitfalls. This interview generally does not involve any coding. 
+
+See below for more about interviewing at Facebook.
+This email is intended to put you in the right frame of mind so that you know what to expect in our interview process. 
+
+We are interested in your technical abilities and more broadly whether you would do well at Facebook. To that end, we have designed different interviews to elicit the qualities we value. We’ve found that how you answer programming questions is highly correlated with success at Facebook. For example, we don’t believe that traversing a binary tree is particularly difficult, but seeing you write the code to traverse a binary tree tells us a lot. Is your implementation correct, efficient, and well-structured? Are you proactive in finding bugs? Are you thorough in checking boundary conditions? We care about these qualities and evaluate them by asking you well-calibrated questions.
+
+We also may ask you a high-level system design question. This question gives us insight into how you approach a vague problem, identify tradeoffs, design a solution, and anticipate potential pitfalls. Finally, we’re also interested in your cultural fit with us, your aptitude in working with others, and your ability to communicate effectively both in general terms and in your specific area of research.
+ 
+Many of our engineers spent a day or two preparing for their interviews and found it to be useful. We recommend that you dust off any dormant coding skills by tackling some standard programming competition challenges. We wish you the best in your interviews and encourage you to ask any questions you may have.
+ 
+Here are some links that might help you prepare further.
+
+=======================================================================
+
+onsite1 
+behavior: 1)有什么跟同事意见冲突的案例，怎么解决 
+2) 以前做过的项目如果现在再做会有什么不同/改进
+3）divide and mod，但不能用/或者%，基本也是leetcode原题了
+
+onsite2
+system desgin: 因为我是kernel背景，让我用mutex,cv实现一个semephor，说先考虑
+单核，然后拓展到多核，但我只写了单核的就没时间了，不知道多核的会有什么不同，
+要求code compilable，MD三哥从一进来就没好脸色，此轮negative
+
+onsite3:
+1) 给你10g文件，1g内存，数总共有多少个不同的数，答案是用bit来记录数字，总共
+4b个interger,最多用0.5gb来记录，follow up是如果只有400m怎么办，答案是把数字
+hash一下或者说scan文件多次，每次取尾数bits不一样的数，不用code
+2) read file up to 4K, 也是老题了
+3) 求平方根，基本也是leetcode原题，但给的数是double，这样如果给的n是小于1的
+数，初始的right就得取1而不是n
+
+onsite4:
+也是kernel组的三哥，先上来问了btree跟bst的区别，btree里放多少个index怎么决定
+，答案是disk block size / 每个index的长度，如果是内存的话就用cache line size除
+还有vm的，我也不大懂，好像是说如何解决内存的fagement问题，如何把多个分开的小
+片段移到一起，用到了madvise这个syscall,还问为什么返回一个新的page之前要清零
+，答案是因为page上可能是别的process的内容
+code题是decode，比如说1 → 1, 2 -- > 01, 3 → 001, 4 → 0001,....，给你一个
+无限的stream，要求输出数字，应该没啥难度，follow up是如何优化，我给的答案是
+map，就是依次取char而不是bit，然后把char的值对应到string上，他说cpu还有一个
+instruction可以直接查询此个char有多少个leading zero
+
+
+
+F
+1, system design ,activity, event model
+2, maximum sum
+   longest common substring
+   
+   
+3, anagram and behavior
+4,  Regular Expression Matching
+    lowest common ancesor
+    
+    
+1, getTop10  recent  music played,  sync 
+2, parenthesis and binary tree
+    mathmatics
+3,  serialize and deserialize
+4,  best time to sell stock 
+   first unique character
+

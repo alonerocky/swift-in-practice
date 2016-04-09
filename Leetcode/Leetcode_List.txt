@@ -334,13 +334,19 @@ day 38 (6)
 301	Remove Invalid Parentheses	31.0%	Hard
 
 
-day 39
-
+day 39 (1)
+269	Alien Dictionary 	22.0%	Hard
 
 In progress
 146	LRU Cache	15.7%	Hard
 93	Restore IP Addresses	22.9%	Medium
 316	Remove Duplicate Letters	24.0%	Medium
+120	Triangle	29.5%	Medium
+233	Number of Digit One	23.9%	Medium
+338	Counting Bits	55.6%	Medium
+332	Reconstruct Itinerary	23.0%	Medium
+
+
 
 320	Generalized Abbreviation 	39.7%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
@@ -389,7 +395,7 @@ In progress
 65	Valid Number	11.9%	Hard
 97	Interleaving String	22.1%	Hard
 135	Candy	22.0%	Hard
-332	Reconstruct Itinerary	23.0%	Medium
+
 
 
 
@@ -406,7 +412,6 @@ Open	(323 / 335)
 313	Super Ugly Number	32.3%	Medium
 279	Perfect Squares	31.6%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
-120	Triangle	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
 330	Patching Array	28.2%	Medium
 131	Palindrome Partitioning	27.5%	Medium
@@ -416,7 +421,6 @@ Open	(323 / 335)
 322	Coin Change	24.5%	Medium
 222	Count Complete Tree Nodes	24.3%	Medium
 227	Basic Calculator II	24.0%	Medium
-233	Number of Digit One	23.9%	Medium
 324	Wiggle Sort II	21.4%	Medium
 224	Basic Calculator	21.2%	Medium
 127	Word Ladder	19.6%	Medium
@@ -424,7 +428,7 @@ Open	(323 / 335)
 220	Contains Duplicate III	18.2%	Medium
 335	Self Crossing	17.4%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
-338	Counting Bits	55.6%	Medium
+ 
 
 
 
@@ -446,7 +450,6 @@ Open	(323 / 335)
 248	Strobogrammatic Number III 	25.5%	Hard
 327	Count of Range Sum	24.3%	Hard
 282	Expression Add Operators	23.7%	Hard
-269	Alien Dictionary 	22.0%	Hard
 132	Palindrome Partitioning II	21.3%	Hard
 218	The Skyline Problem	21.2%	Hard
 30	Substring with Concatenation of All Words	20.5%	Hard

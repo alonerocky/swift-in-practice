@@ -319,3 +319,8 @@
 334	Increasing Triplet Subsequence	32.3%	Medium
 335	Self Crossing	17.0%	Medium
 336. Palindrome Pairs
+337	House Robber III	37.3%	Medium
+338	Counting Bits	55.6%	Medium
+339	Nested List Weight Sum 	50.8%	Easy
+340	Longest Substring with At Most K Distinct Characters 	23.3%	Hard
+341	Flatten Nested List Iterator 	15.6%	Medium
