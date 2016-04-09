@@ -1,3 +1,12 @@
+/*
+    Largest Rectangle in Histogram ====================
+http://blog.csdn.net/abcbc/article/details/8943485
+http://blog.csdn.net/arbuckle/article/details/710988
+http://www.informatik.uni-ulm.de/acm/Locals/2003/html/histogram.html
+http://www.informatik.uni-ulm.de/acm/Locals/2003/html/judge.html
+http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/
+http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+    */
 public int largestRectangleArea(int[] height) 
     {
         // Start typing your Java solution below
