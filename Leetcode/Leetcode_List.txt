@@ -1,4 +1,4 @@
-Done	225/ 324
+Done	231/ 324
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
@@ -44,7 +44,7 @@ day 2  (7)
 day 3  (7)
 88	Merge Sorted Array	29.9%	Easy					3
 46	Permutations	34.8%	Medium
-75	Sort Colors	34.3%	Medium
+75	Sort Colors	34.3%	Medium							2
 66	Plus One	32.8%	Easy								i == digits.count - 1 ? 1 : 0
 2	Add Two Numbers	22.3%	Medium							if carry > 0
 228	Summary Ranges	23.3%	Easy							if end - start == 1
@@ -215,7 +215,7 @@ day 19 (8)
 day 20 (6)
 64	Minimum Path Sum	34.3%	Medium
 156	Binary Tree Upside Down 	37.4%	Medium
-80	Remove Duplicates from Sorted Array II	32.2%	Medium
+80	Remove Duplicates from Sorted Array II	32.2%	Medium 			2
 208	Implement Trie (Prefix Tree)	25.2%	Medium
 211	Add and Search Word - Data structure design	20.2%	Medium
 63	Unique Paths II	29.0%	Medium
@@ -259,7 +259,7 @@ day 26 (2)
 day 27 (4)
 288	Unique Word Abbreviation 	15.5%	Easy
 28	Implement strStr()	24.3%	Easy 					2
-25	Reverse Nodes in k-Group	27.0%	Hard
+25	Reverse Nodes in k-Group	27.0%	Hard 			2
 151	Reverse Words in a String	15.6%	Medium
 
 day 28 (4)
@@ -311,30 +311,40 @@ day 35 (9)
 161	One Edit Distance 	27.8%	Medium
 314	Binary Tree Vertical Order Traversal 	30.7%	Medium
 187	Repeated DNA Sequences	24.3%	Medium
-334	Increasing Triplet Subsequence	32.9%	Medium
-221	Maximal Square	23.0%	Medium
+334	Increasing Triplet Subsequence	32.9%	Medium							2
+221	Maximal Square	23.0%	Medium 											2
 200	Number of Islands	26.9%	Medium
 323	Number of Connected Components in an Undirected Graph 	42.2%	Medium
 
 
 day 36 (3)
 84	Largest Rectangle in Histogram	23.8%	Hard
-85	Maximal Rectangle	23.1%	Hard
+85	Maximal Rectangle	23.1%	Hard 				
 273	Integer to English Words	18.2%	Hard
 
 
-day 37
+day 37 (0)
+
+day 38 (6)
+318	Maximum Product of Word Lengths	38.9%	Medium
+163	Missing Ranges 	28.5%	Medium
+91	Decode Ways	17.2%	Medium
+265	Paint House II 	35.1%	Hard
+286	Walls and Gates 	36.2%	Medium
+301	Remove Invalid Parentheses	31.0%	Hard
+
+
+day 39
 
 
 In progress
-
-
+146	LRU Cache	15.7%	Hard
+93	Restore IP Addresses	22.9%	Medium
+316	Remove Duplicate Letters	24.0%	Medium
 
 320	Generalized Abbreviation 	39.7%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
-91	Decode Ways	17.2%	Medium
-93	Restore IP Addresses	22.9%	Medium
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
 
@@ -362,22 +372,20 @@ In progress
 294	Flip Game II 	40.6%	Medium
 
 241	Different Ways to Add Parentheses	33.2%	Medium
-301	Remove Invalid Parentheses	31.0%	Hard
 
 
 
-84	Largest Rectangle in Histogram	23.8%	Hard
-85	Maximal Rectangle	23.1%	Hard
+
+
 4	Median of Two Sorted Arrays	18.2%	Hard
 260	Single Number III	42.7%	Medium
 329	Longest Increasing Path in a Matrix	29.8%	Medium
 152	Maximum Product Subarray	21.7%	Medium
 
-286	Walls and Gates 	36.2%	Medium
+
 130	Surrounded Regions	15.8%	Medium
 
 68	Text Justification	15.8%	Hard
-146	LRU Cache	15.7%	Hard
 65	Valid Number	11.9%	Hard
 97	Interleaving String	22.1%	Hard
 135	Candy	22.0%	Hard
@@ -390,7 +398,6 @@ Open	(323 / 335)
 337	House Robber III	36.5%	Medium
 280	Wiggle Sort 	49.5%	Medium
 319	Bulb Switcher	39.6%	Medium
-318	Maximum Product of Word Lengths	38.9%	Medium
 298	Binary Tree Longest Consecutive Sequence 	35.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
@@ -401,7 +408,6 @@ Open	(323 / 335)
 201	Bitwise AND of Numbers Range	29.5%	Medium
 120	Triangle	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
-163	Missing Ranges 	28.5%	Medium
 330	Patching Array	28.2%	Medium
 131	Palindrome Partitioning	27.5%	Medium
 264	Ugly Number II	26.7%	Medium
@@ -409,7 +415,6 @@ Open	(323 / 335)
 306	Additive Number	25.0%	Medium
 322	Coin Change	24.5%	Medium
 222	Count Complete Tree Nodes	24.3%	Medium
-316	Remove Duplicate Letters	24.0%	Medium
 227	Basic Calculator II	24.0%	Medium
 233	Number of Digit One	23.9%	Medium
 324	Wiggle Sort II	21.4%	Medium
@@ -428,7 +433,6 @@ Open	(323 / 335)
 296	Best Meeting Point 	45.6%	Hard
 302	Smallest Rectangle Enclosing Black Pixels 	38.2%	Hard
 287	Find the Duplicate Number	37.9%	Hard
-265	Paint House II 	35.1%	Hard
 312	Burst Balloons	34.5%	Hard
 159	Longest Substring with At Most Two Distinct Characters 	33.8%	Hard
 291	Word Pattern II 	33.7%	Hard
