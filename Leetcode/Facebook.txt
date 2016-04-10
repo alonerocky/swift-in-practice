@@ -1,4 +1,4 @@
-Done (49/58)
+Done (51/58)
 1	Two Sum	22.2%	Easy
 26	Remove Duplicates from Sorted Array	33.2%	Easy
 28	Implement strStr()	24.6%	Easy
@@ -23,6 +23,7 @@ Done (49/58)
 78	Subsets	31.0%	Medium
 79	Word Search	22.7%	Medium
 80	Remove Duplicates from Sorted Array II	32.4%	Medium
+91	Decode Ways	17.4%	Medium
 121	Best Time to Buy and Sell Stock	35.8%	Medium
 133	Clone Graph	24.8%	Medium
 161	One Edit Distance 	28.2%	Medium
@@ -46,6 +47,7 @@ Done (49/58)
 76	Minimum Window Substring	20.9%	Hard
 117	Populating Next Right Pointers in Each Node II	32.7%	Hard
 158	Read N Characters Given Read4 II - Call multiple times 	23.3%	Hard
+265	Paint House II 	35.3%	Hard
 273	Integer to English Words	18.5%	Hard
 297	Serialize and Deserialize Binary Tree	27.3%	Hard
 
@@ -53,11 +55,9 @@ Done (49/58)
 
 274	H-Index	29.1%	Medium
 275	H-Index II	32.4%	Medium
-91	Decode Ways	17.4%	Medium
-265	Paint House II 	35.3%	Hard
+269	Alien Dictionary 	22.4%	Hard
+168	Excel Sheet Column Title	21.3%	Easy
 
 208	Implement Trie (Prefix Tree)	25.3%	Medium
 211	Add and Search Word - Data structure design	20.3%	Medium
-168	Excel Sheet Column Title	21.3%	Easy
 301	Remove Invalid Parentheses	31.4%	Hard
-269	Alien Dictionary 	22.4%	Hard

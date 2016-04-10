@@ -160,7 +160,7 @@ http://www.mitbbs.com/article_t/JobHunting/32617501.html
  http://www.geeksforgeeks.org/applications-of-breadth-first-traversal/
  http://www.geeksforgeeks.org/bipartite-graph/
  (1) Cycle detection in undirected graph   BFS or DFS
- (2) Detect Cycle in a direct graph using colors  DFS only
+ (2) Detect Cycle in a direct graph using colors  DFS  or BFS (if there is one valid topological order)
 
  (3) Topological sorting  DAG   DFS or BFS
 http://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/   bfs
