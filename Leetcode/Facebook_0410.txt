@@ -1,0 +1,64 @@
+6/58
+23	Merge k Sorted Lists	23.2%	Hard
+265	Paint House II 	35.6%	Hard
+75	Sort Colors	34.6%	Medium
+173	Binary Search Tree Iterator	34.3%	Medium
+221	Maximal Square	23.4%	Medium
+278	First Bad Version	22.3%	Easy
+
+
+
+10	Regular Expression Matching	21.9%	Hard
+314	Binary Tree Vertical Order Traversal 	30.2%	Medium
+76	Minimum Window Substring	21.1%	Hard
+209	Minimum Size Subarray Sum	26.7%	Medium
+133	Clone Graph	24.8%	Medium
+252	Meeting Rooms 	41.7%	Easy
+253	Meeting Rooms II 	34.5%	Medium
+
+
+273	Integer to English Words	18.6%	Hard
+297	Serialize and Deserialize Binary Tree	27.6%	Hard
+33	Search in Rotated Sorted Array	30.2%	Hard
+25	Reverse Nodes in k-Group	27.4%	Hard
+301	Remove Invalid Parentheses	31.7%	Hard
+269	Alien Dictionary 	22.8%	Hard
+158	Read N Characters Given Read4 II - Call multiple times 	23.4%	Hard
+117	Populating Next Right Pointers in Each Node II	32.8%	Hard
+80	Remove Duplicates from Sorted Array II	32.6%	Medium
+211	Add and Search Word - Data structure design	20.3%	Medium
+238	Product of Array Except Self	42.4%	Medium
+50	Pow(x, n)	27.9%	Medium
+79	Word Search	22.8%	Medium
+78	Subsets	31.2%	Medium
+161	One Edit Distance 	28.3%	Medium
+200	Number of Islands	27.5%	Medium
+43	Multiply Strings	23.3%	Medium
+49	Group Anagrams	27.3%	Medium
+69	Sqrt(x)	25.2%	Medium
+210	Course Schedule II	20.9%	Medium
+286	Walls and Gates 	37.0%	Medium
+236	Lowest Common Ancestor of a Binary Tree	28.7%	Medium
+91	Decode Ways	17.4%	Medium
+17	Letter Combinations of a Phone Number	28.5%	Medium
+215	Kth Largest Element in an Array	32.9%	Medium
+334	Increasing Triplet Subsequence	33.1%	Medium
+208	Implement Trie (Prefix Tree)	25.4%	Medium
+261	Graph Valid Tree 	32.6%	Medium
+274	H-Index	29.2%	Medium
+275	H-Index II	32.5%	Medium
+15	3Sum	18.7%	Medium
+28	Implement strStr()	24.7%	Easy
+168	Excel Sheet Column Title	21.5%	Easy
+235	Lowest Common Ancestor of a Binary Search Tree	37.8%	Easy
+38	Count and Say	28.7%	Easy
+88	Merge Sorted Array	30.0%	Easy
+283	Move Zeroes	43.9%	Easy
+102	Binary Tree Level Order Traversal	32.5%	Easy
+26	Remove Duplicates from Sorted Array	33.3%	Easy
+121	Best Time to Buy and Sell Stock	35.9%	Easy
+206	Reverse Linked List	39.2%	Easy
+1	Two Sum	22.7%	Easy
+67	Add Binary	27.2%	Easy
+125	Valid Palindrome	23.7%	Easy
+257	Binary Tree Paths	28.2%	Easy
