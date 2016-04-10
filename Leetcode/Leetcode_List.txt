@@ -1,4 +1,4 @@
-Done	231/ 324
+Done	235/ 324
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
@@ -329,19 +329,23 @@ day 38 (6)
 318	Maximum Product of Word Lengths	38.9%	Medium
 163	Missing Ranges 	28.5%	Medium
 91	Decode Ways	17.2%	Medium
-265	Paint House II 	35.1%	Hard
+265	Paint House II 	35.1%	Hard 							2
 286	Walls and Gates 	36.2%	Medium
 301	Remove Invalid Parentheses	31.0%	Hard
 
 
-day 39 (1)
+day 39 (4)
 269	Alien Dictionary 	22.0%	Hard
+93	Restore IP Addresses	22.9%	Medium
+120	Triangle	29.5%	Medium
+146	LRU Cache	15.7%	Hard								map.remove() before   entry.remove()
+
+
+day 40
+
 
 In progress
-146	LRU Cache	15.7%	Hard
-93	Restore IP Addresses	22.9%	Medium
 316	Remove Duplicate Letters	24.0%	Medium
-120	Triangle	29.5%	Medium
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium
 332	Reconstruct Itinerary	23.0%	Medium
