@@ -33,6 +33,36 @@ public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         }
         return result;
     }
+
+
+   public UndirectedGraphNode bfs_II(UndirectedGraphNode node) {
+        if (node == null) {
+            return null;
+        }
+        Deque<UndirectedGraphNode> queue = new ArrayDeque<UndirectedGraphNode>();
+        HashMap<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
+        queue.addLast(node);
+        while(!queue.isEmpty()) {
+            UndirectedGraphNode one = queue.pollFirst();
+            if (!map.containsKey(one)) {
+                map.put(one, new UndirectedGraphNode(one.label));
+            }
+            //handle it's neighbors
+            for(int i =0; i < one.neighbors.size();i++) {
+                UndirectedGraphNode neighbor = one.neighbors.get(i);
+                if (!map.containsKey(neighbor)) {
+                    UndirectedGraphNode c = new UndirectedGraphNode(neighbor.label);
+                    map.put(neighbor, c);
+                    map.get(one).neighbors.add(c);
+                    queue.addLast(neighbor);
+                } else {
+                    map.get(one).neighbors.add(map.get(neighbor));
+                }
+            }
+        }
+        return map.get(node);
+    }
+
     
     public UndirectedGraphNode dfs(UndirectedGraphNode node, HashMap<UndirectedGraphNode, UndirectedGraphNode> map) {
         if (map.containsKey(node)) {
