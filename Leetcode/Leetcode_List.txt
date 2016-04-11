@@ -1,4 +1,4 @@
-Done	235/ 324
+Done	241/ 324
 1	Two Sum 								2
 12	Integer to Roman
 13	Roman to Integer
@@ -341,11 +341,16 @@ day 39 (4)
 146	LRU Cache	15.7%	Hard								map.remove() before   entry.remove()
 
 
-day 40 (1)
+day 40 (6)
 279	Perfect Squares	31.6%	Medium
+316	Remove Duplicate Letters	24.0%	Medium
+331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
+255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
+298	Binary Tree Longest Consecutive Sequence 	35.6%	Medium
+280	Wiggle Sort 	49.5%	Medium
+
 
 In progress
-316	Remove Duplicate Letters	24.0%	Medium
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium
 332	Reconstruct Itinerary	23.0%	Medium
@@ -353,6 +358,8 @@ In progress
 201	Bitwise AND of Numbers Range	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
 127	Word Ladder	19.6%	Medium
+324	Wiggle Sort II	21.4%	Medium
+
 
 320	Generalized Abbreviation 	39.7%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
@@ -361,8 +368,8 @@ In progress
 140	Word Break II	19.3%	Hard
 
 
-331	Verify Preorder Serialization of a Binary Tree	31.6%	Medium
-255	Verify Preorder Sequence in Binary Search Tree 	36.4%	Medium
+
+
 333	Largest BST Subtree 	26.1%	Medium
 
 
@@ -407,9 +414,7 @@ In progress
 Open	(323 / 335)
 213	House Robber II	29.8%	Medium
 337	House Robber III	36.5%	Medium
-280	Wiggle Sort 	49.5%	Medium
 319	Bulb Switcher	39.6%	Medium
-298	Binary Tree Longest Consecutive Sequence 	35.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
 289	Game of Life	33.6%	Medium
@@ -422,7 +427,6 @@ Open	(323 / 335)
 322	Coin Change	24.5%	Medium
 222	Count Complete Tree Nodes	24.3%	Medium
 227	Basic Calculator II	24.0%	Medium
-324	Wiggle Sort II	21.4%	Medium
 224	Basic Calculator	21.2%	Medium
 179	Largest Number	18.3%	Medium
 220	Contains Duplicate III	18.2%	Medium
