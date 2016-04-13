@@ -1,59 +1,107 @@
 private enum State {UNVISITED, VISITING, VISITED}
-    public int[] findOrder(int numCourses, int[][] prerequisites) {
-        Stack<Integer> toplogicalOrder = new Stack<Integer>();
-        HashMap<Integer, ArrayList<Integer>> adjacent = new HashMap<Integer, ArrayList<Integer>>();
-        State[] state = new State[numCourses];
-        //initialize the state table
-        for (int i =0;i < numCourses; i++) {
+    public int[] findOrder(int n, int[][] edges) {
+
+        if (n <= 0 || edges == null) {
+            return new int[0];
+        }
+        int[] inDegree = new int[n];
+        
+        HashMap<Integer, ArrayList<Integer>> adjacents = new HashMap<Integer, ArrayList<Integer>>();
+        for (int i = 0; i < edges.length; i++) {
+            int[] edge = edges[i];
+            if (!adjacents.containsKey(edge[1])) {
+                adjacents.put(edge[1], new ArrayList<Integer>());
+            }
+            inDegree[edge[0]]++;
+            adjacents.get(edge[1]).add(edge[0]);
+        }
+        ArrayList<Integer> result = new ArrayList<Integer>();
+        if (!bfs(adjacents, inDegree, result)) {
+            return new int[0];
+        } else {
+            int[] order = new int[n];
+            for (int i =0;i < n; i++) {
+                order[i] = result.get(i);
+            }
+            return order;
+            
+        }
+    }
+    public int[] findOrder_dfs(int n, int[][] edges) {
+
+        if (n <= 0 || edges == null) {
+            return new int[0];
+        }
+
+        State[] state = new State[n];
+        for (int i = 0; i < n; i++) {
             state[i] = State.UNVISITED;
         }
-        //create the adjacent table
-        //[a, b]
-        //means take a , you mush take b first
-        for (int i = 0;i < prerequisites.length; i++) {
-            int[] edge = prerequisites[i];
-            if (adjacent.containsKey(edge[1])) {
-                adjacent.get(edge[1]).add(edge[0]);
-            } else {
-                ArrayList<Integer> list = new ArrayList<Integer>();
-                list.add(edge[0]);
-                adjacent.put(edge[1], list);
+
+        HashMap<Integer, ArrayList<Integer>> adjacents = new HashMap<Integer, ArrayList<Integer>>();
+        for (int i = 0; i < edges.length; i++) {
+            int[] edge = edges[i];
+            if (!adjacents.containsKey(edge[1])) {
+                adjacents.put(edge[1], new ArrayList<Integer>());
             }
+            adjacents.get(edge[1]).add(edge[0]);
         }
-        for (int i =0; i < numCourses; i++) {
+        ArrayList<Integer> result = new ArrayList<Integer>();
+        for (int i = 0; i < n; i++) {
             if (state[i] == State.UNVISITED) {
-                if (!findOrder(adjacent, i, state, toplogicalOrder)) {
+                if (!dfs(i, adjacents, state, result)) {
                     return new int[0];
                 }
             }
         }
-        //print out the order
-        int[] result = new int[numCourses];
-        int j = 0;
-        while (!toplogicalOrder.isEmpty()) {
-            result[j++] = toplogicalOrder.pop();
+        int[] order = new int[n];
+        for (int i =0;i < n; i++) {
+            order[i] = result.get(i);
         }
-        return result;
+        return order;
     }
-    //true mean , there exist one toplogical sorting order
-    private boolean findOrder(HashMap<Integer,ArrayList<Integer>> adjacent, int vertex, State[] visit, Stack<Integer> stack) {
-        visit[vertex] = State.VISITING;
 
-        if (adjacent.containsKey(vertex)) {
-
-            Iterator<Integer> iterator = adjacent.get(vertex).iterator();
-            while (iterator.hasNext()) {
-
-                int u = iterator.next();
-                if (visit[u] == State.VISITING) {
-                    //find one cycle
+    public boolean dfs(int vertex, HashMap<Integer, ArrayList<Integer>> adjacents, State[] state, ArrayList<Integer> result) {
+        state[vertex] = State.VISITING;
+        if (adjacents.containsKey(vertex)) {
+            ArrayList<Integer> neighbors = adjacents.get(vertex);
+            for (int i = 0; i < neighbors.size(); i++) {
+                int v = neighbors.get(i);
+                if (state[v] == State.VISITING) {
                     return false;
-                } else if (visit[u] == State.UNVISITED && !findOrder(adjacent, u, visit, stack)) {
-                    return false;
+                } else if (state[v] == State.UNVISITED) {
+                    if (!dfs(v, adjacents, state, result)) {
+                        return false;
+                    }
                 }
             }
         }
-        stack.push(vertex);
-        visit[vertex] = State.VISITED;
+        state[vertex] = State.VISITED;
+        result.add(0, vertex);
         return true;
+    }
+    
+    public boolean bfs(HashMap<Integer, ArrayList<Integer>> adjacents, int[] inDegree, ArrayList<Integer> result) {
+        
+        Deque<Integer> queue = new ArrayDeque<Integer>();
+        for (int i =0;i< inDegree.length; i++) {
+            if (inDegree[i] == 0) {
+                queue.addLast(i);
+            }
+        }
+        
+        while(!queue.isEmpty()) {
+            int u = queue.pollFirst();
+            result.add(u);
+            if (adjacents.containsKey(u)) {
+                ArrayList<Integer> neighbors = adjacents.get(u);
+                for (int i = 0; i < neighbors.size(); i++) {
+                    int v = neighbors.get(i);
+                    if (--inDegree[v] == 0) {
+                        queue.addLast(v);
+                    }
+                }
+            }
+        }
+        return result.size() == inDegree.length;
     }
