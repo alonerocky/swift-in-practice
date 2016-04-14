@@ -1,4 +1,4 @@
-30/58
+38/58
 23	Merge k Sorted Lists	23.2%	Hard
 265	Paint House II 	35.6%	Hard
 75	Sort Colors	34.6%	Medium
@@ -29,10 +29,19 @@
 80	Remove Duplicates from Sorted Array II	32.6%	Medium
 125	Valid Palindrome	23.7%	Easy
 200	Number of Islands	27.5%	Medium
-
-
+67	Add Binary	27.2%	Easy
+33	Search in Rotated Sorted Array	30.2%	Hard
+161	One Edit Distance 	28.3%	Medium
+49	Group Anagrams	27.3%	Medium
 261	Graph Valid Tree 	32.6%	Medium
+236	Lowest Common Ancestor of a Binary Tree	28.7%	Medium
+15	3Sum	18.7%	Medium
+17	Letter Combinations of a Phone Number	28.5%	Medium
 
+
+
+78	Subsets	31.2%	Medium
+235	Lowest Common Ancestor of a Binary Search Tree	37.8%	Easy
 
 
 25	Reverse Nodes in k-Group	27.4%	Hard
@@ -52,21 +61,13 @@
 301	Remove Invalid Parentheses	31.7%	Hard
  
  
-33	Search in Rotated Sorted Array	30.2%	Hard
+
 117	Populating Next Right Pointers in Each Node II	32.8%	Hard
 238	Product of Array Except Self	42.4%	Medium
-78	Subsets	31.2%	Medium
-161	One Edit Distance 	28.3%	Medium
 43	Multiply Strings	23.3%	Medium
-49	Group Anagrams	27.3%	Medium
 69	Sqrt(x)	25.2%	Medium
-236	Lowest Common Ancestor of a Binary Tree	28.7%	Medium
 91	Decode Ways	17.4%	Medium
-17	Letter Combinations of a Phone Number	28.5%	Medium
-15	3Sum	18.7%	Medium
-235	Lowest Common Ancestor of a Binary Search Tree	37.8%	Easy
 38	Count and Say	28.7%	Easy
 283	Move Zeroes	43.9%	Easy
 1	Two Sum	22.7%	Easy
-67	Add Binary	27.2%	Easy
 257	Binary Tree Paths	28.2%	Easy

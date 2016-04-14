@@ -30,7 +30,7 @@ day 1 (10)
 145	Binary Tree Postorder Traversal			4   findNextLeaf(TreeNode, Stack)
 155	Min Stacks 								2 	pop up one min from minStack
 206	Reverse Linked Lists 					3 	link to head , not tail
-242	Valid Anagrams 							
+242	Valid Anagrams 							2
 
 day 2  (7)
 35	Search Insert Position								while i <= j
@@ -143,7 +143,7 @@ day 13  (6)
 189	Rotate Array	20.6%	Easy
 160	Intersection of Two Linked Lists	30.1%	Easy	cycle issue
 95	Unique Binary Search Trees II	28.8%	Medium
-49	Group Anagrams	26.7%	Medium
+49	Group Anagrams	26.7%	Medium 						2
 234	Palindrome Linked List	27.1%	Easy				fast & slow pointer
 143	Reorder List	22.4%	Medium						fast & slow pointer
 
@@ -174,7 +174,7 @@ day 17 (16)
 9	Palindrome Number	30.9%	Easy
 19	Remove Nth Node From End of List	28.8%	Easy
 293	Flip Game 	49.0%	Easy
-252	Meeting Rooms 	41.2%	Easy						2
+252	Meeting Rooms 	41.2%	Easy						3
 219	Contains Duplicate II	29.3%	Easy
 168	Excel Sheet Column Title	21.0%	Easy
 171	Excel Sheet Column Number	40.5%	Easy
@@ -184,7 +184,7 @@ day 17 (16)
 263	Ugly Number	35.9%	Easy
 202	Happy Number	35.8%	Easy
 325	Maximum Size Subarray Sum Equals k 	39.2%	Easy
-157	Read N Characters Given Read4 	29.4%	Easy								3
+157	Read N Characters Given Read4 	29.4%	Easy								4
 158	Read N Characters Given Read4 II - Call multiple times 	23.1%	Hard		2 (i += len, lastLen -= len, lastIndex += len)
 303	Range Sum Query - Immutable	24.5%	Easy
 
@@ -204,7 +204,7 @@ day 18  (8)
 day 19 (8)
 285	Inorder Successor in BST 	35.1%	Medium						2
 5	Longest Palindromic Substring	22.6%	Medium
-253	Meeting Rooms II 	34.0%	Medium								2
+253	Meeting Rooms II 	34.0%	Medium								3
 236	Lowest Common Ancestor of a Binary Tree	28.6%	Medium			2
 62	Unique Paths	35.6%	Medium
 133	Clone Graph	24.7%	Medium										2
@@ -278,7 +278,7 @@ day 30 (2)
 
 
 day 31 (4)
-207	Course Schedule	26.1%	Medium
+207	Course Schedule	26.1%	Medium 					2
 210	Course Schedule II	20.8%	Medium
 198	House Robber	33.4%	Easy
 256	Paint House 	41.8%	Medium 					2
@@ -350,6 +350,10 @@ day 40 (6)
 280	Wiggle Sort 	49.5%	Medium
 
 
+day 41
+
+day 42 (04/12)
+
 In progress
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium
@@ -366,7 +370,8 @@ In progress
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
-
+135	Candy	22.0%	Hard
+322	Coin Change	24.5%	Medium
 
 
 
@@ -405,7 +410,6 @@ In progress
 68	Text Justification	15.8%	Hard
 65	Valid Number	11.9%	Hard
 97	Interleaving String	22.1%	Hard
-135	Candy	22.0%	Hard
 
 
 
@@ -424,7 +428,6 @@ Open	(323 / 335)
 264	Ugly Number II	26.7%	Medium
 310	Minimum Height Trees	26.3%	Medium
 306	Additive Number	25.0%	Medium
-322	Coin Change	24.5%	Medium
 222	Count Complete Tree Nodes	24.3%	Medium
 227	Basic Calculator II	24.0%	Medium
 224	Basic Calculator	21.2%	Medium

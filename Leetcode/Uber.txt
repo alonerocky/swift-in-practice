@@ -1,4 +1,4 @@
-7/25
+11/25
 102	Binary Tree Level Order Traversal	32.5%	Easy
 125	Valid Palindrome	23.7%	Easy
 23	Merge k Sorted Lists	23.3%	Hard
@@ -6,12 +6,13 @@
 206	Reverse Linked List	39.2%	Easy
 171	Excel Sheet Column Number	41.3%	Easy
 104	Maximum Depth of Binary Tree	47.7%	Easy
-
-
-49	Group Anagrams	27.3%	Medium
-17	Letter Combinations of a Phone Number	28.5%	Medium
 33	Search in Rotated Sorted Array	30.2%	Hard
 161	One Edit Distance 	28.3%	Medium
+49	Group Anagrams	27.3%	Medium
+17	Letter Combinations of a Phone Number	28.5%	Medium
+
+ 
+
 208	Implement Trie (Prefix Tree)	25.4%	Medium
 
 
