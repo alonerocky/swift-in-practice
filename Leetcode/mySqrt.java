@@ -1,18 +1,19 @@
-public int mySqrtI(int x) {
-        if (x == 0 || x == 1) {
-            return x;
+ public int sqrt(int x) {
+        // write your code here
+        if (x == 0) {
+            return 0;
         }
-        //x >= 4
-        //x / 4 >= 1
-        //sqrt(x) >= 2
-        int i = 1;
-        int j = x;
-        while(i <= j) {
-            int middle = i + (j - i)/2;
-            int m = middle * middle;
-            if (m == x) {
+        if (x <= 3) {
+            return 1;
+        }
+        int i = 2;
+        int j = x/2 + 1;
+        while (i <= j) {
+            int middle = i + (j-i)/2;
+            int other = x / middle;
+            if (middle == other) {
                 return middle;
-            } else if (m < x) {
+            } else if (middle < other) {
                 i = middle + 1;
             } else {
                 j = middle - 1;
