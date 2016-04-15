@@ -25,3 +25,25 @@ public List<String> binaryTreePaths(TreeNode root) {
         }
         return result;
     }
+
+
+public List<String> binaryTreePaths(TreeNode root) {
+        // Write your code here
+        ArrayList<String> result = new ArrayList<String>();
+        if (root == null) {
+            return result;
+        } else if (root.left == null && root.right == null) {
+            result.add(""+root.val);
+            return result;
+        } else {
+            ArrayList<String> left = (ArrayList<String>)binaryTreePaths(root.left);
+            ArrayList<String> right = (ArrayList<String>)binaryTreePaths(root.right);
+            for (int i = 0; i < left.size(); i++) {
+                result.add(root.val + "->"+ left.get(i));
+            }
+            for (int i = 0; i < right.size(); i++) {
+                result.add(root.val + "->" + right.get(i));
+            }
+            return result;
+        }
+    }
