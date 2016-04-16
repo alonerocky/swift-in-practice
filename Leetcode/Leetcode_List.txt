@@ -1,7 +1,7 @@
 Done	241/ 324
 1	Two Sum 								2
-12	Integer to Roman
-13	Roman to Integer
+12	Integer to Roman 						2
+13	Roman to Integer 						2
 20	Valid Parentheses
 21	Merge Two Sorted Lists
 36	Valid Sudoku 							2
@@ -149,7 +149,7 @@ day 13  (6)
 
 day 14 (8)
 129	Sum Root to Leaf Numbers	32.1%	Medium
-257	Binary Tree Paths	27.3%	Easy
+257	Binary Tree Paths	27.3%	Easy 					2
 112	Path Sum	30.9%	Easy
 124	Binary Tree Maximum Path Sum	22.9%	Hard		2
 61	Rotate List	22.6%	Medium
@@ -353,6 +353,13 @@ day 40 (6)
 day 41
 
 day 42 (04/12)
+day 43 (04/13)
+day 44 (04/14)
+
+above -- 241
+
+day 45 (04/15)
+day 46 
 
 In progress
 233	Number of Digit One	23.9%	Medium
@@ -396,7 +403,7 @@ In progress
 294	Flip Game II 	40.6%	Medium
 
 241	Different Ways to Add Parentheses	33.2%	Medium
-
+30	Substring with Concatenation of All Words	20.5%	Hard
 
 
 4	Median of Two Sorted Arrays	18.2%	Hard
@@ -459,7 +466,6 @@ Open	(323 / 335)
 282	Expression Add Operators	23.7%	Hard
 132	Palindrome Partitioning II	21.3%	Hard
 218	The Skyline Problem	21.2%	Hard
-30	Substring with Concatenation of All Words	20.5%	Hard
 174	Dungeon Game	20.4%	Hard
 321	Create Maximum Number	19.7%	Hard
 214	Shortest Palindrome	19.0%	Hard
