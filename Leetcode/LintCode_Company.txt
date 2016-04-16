@@ -1,4 +1,4 @@
-27/35
+Facebook 35/35
 516. Paint House II  	Hard
 436. Maximal Square 	Medium
 148. Sort Colors 	Medium
@@ -26,18 +26,36 @@
 88. Lowest Common Ancestor Medium
 57. 3Sum Medium
 425. Letter Combinations of a Phone Number Medium
-
-
-123. Word Search Medium
-480. Binary Tree Paths Easy
-450. Reverse Nodes in k-Group Hard
- 
-
 420. Count and Say Easy
-141. Sqrt(x) Easy
-56. Two Sum Medium
-17. Subsets Medium
-
-
-
+480. Binary Tree Paths Easy
+123. Word Search Medium ===
 442. Implement Trie Medium
+141. Sqrt(x) Easy
+17. Subsets Medium
+450. Reverse Nodes in k-Group Hard 
+56. Two Sum Medium
+
+--------------------------------------------------------
+Uber  (17/18)
+425. Letter Combinations of a Phone Number Medium
+442. Implement Trie Medium
+415. Valid Palindrome Easy
+171. Anagrams Medium
+149. Best Time to Buy and Sell Stock Medium
+69. Binary Tree Level Order Traversal Medium
+35. Reverse Linked List Easy
+17. Subsets Medium
+62. Search in Rotated Sorted Array Medium
+104. Merge k Sorted Lists Medium
+97. Maximum Depth of Binary Tree Easy
+419. Roman to Integer Medium
+54. String to Integer II Hard
+12. Min Stack
+389. Valid Sudoku Easy
+134. LRU Cache Hard
+105. Copy List with Random Pointer Medium
+ 
+ 
+65. Median of two Sorted Arrays Hard
+
+--------------------------------------------------------
