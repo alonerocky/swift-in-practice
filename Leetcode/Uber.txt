@@ -1,0 +1,48 @@
+Leetcode (0/25)
+146	LRU Cache	15.8%	Hard	
+13	Roman to Integer	39.1%	Easy	
+36	Valid Sudoku	30.5%	Easy	
+49	Group Anagrams	27.4%	Medium	
+17	Letter Combinations of a Phone Number	28.6%	Medium	
+208	Implement Trie (Prefix Tree)	25.3%	Medium	
+202	Happy Number	36.4%	Easy	
+138	Copy List with Random Pointer	26.1%	Hard	
+206	Reverse Linked List	39.3%	Easy	
+23	Merge k Sorted Lists	23.3%	Hard	
+249	Group Shifted Strings 	31.3%	Easy	
+125	Valid Palindrome	23.7%	Easy	
+104	Maximum Depth of Binary Tree	47.7%	Easy	
+161	One Edit Distance 	28.3%	Medium	
+140	Word Break II	19.7%	Hard	
+102	Binary Tree Level Order Traversal	32.6%	Easy	
+78	Subsets	31.3%	Medium	
+337	House Robber III	37.1%	Medium	
+155	Min Stack	22.0%	Easy	
+33	Search in Rotated Sorted Array	30.2%	Hard	
+266	Palindrome Permutation 	50.4%	Easy	
+121	Best Time to Buy and Sell Stock	36.0%	Easy	
+171	Excel Sheet Column Number	41.4%	Easy	
+8	String to Integer (atoi)	13.5%	Easy	
+4	Median of Two Sorted Arrays	18.5%	Hard
+
+----------------------------------------------------
+
+Lintcode (0/18)
+425. Letter Combinations of a Phone Number Medium
+442. Implement Trie Medium
+415. Valid Palindrome Easy
+171. Anagrams Medium
+149. Best Time to Buy and Sell Stock Medium
+69. Binary Tree Level Order Traversal Medium
+35. Reverse Linked List Easy
+17. Subsets Medium
+62. Search in Rotated Sorted Array Medium
+104. Merge k Sorted Lists Medium
+97. Maximum Depth of Binary Tree Easy
+419. Roman to Integer Medium
+54. String to Integer II Hard
+12. Min Stack
+389. Valid Sudoku Easy
+134. LRU Cache Hard
+105. Copy List with Random Pointer Medium
+65. Median of two Sorted Arrays Hard
