@@ -1,4 +1,4 @@
-Facebook 50/58
+Facebook 56/58
 23	Merge k Sorted Lists	23.2%	Hard =========
 265	Paint House II 	35.6%	Hard ============
 75	Sort Colors	34.6%	Medium ========
@@ -49,28 +49,24 @@ Facebook 50/58
 238	Product of Array Except Self	42.4%	Medium
 283	Move Zeroes	43.9%	Easy
 43	Multiply Strings	23.3%	Medium
-
-
-
-
 235	Lowest Common Ancestor of a Binary Search Tree	37.8%	Easy
 297	Serialize and Deserialize Binary Tree	27.6%	Hard  ========
-
-
-215	Kth Largest Element in an Array	32.9%	Medium
+215	Kth Largest Element in an Array	32.9%	Medium =======
 334	Increasing Triplet Subsequence	33.1%	Medium
+91	Decode Ways	17.4%	Medium
+301	Remove Invalid Parentheses	31.7%	Hard =======
+
+
+
 211	Add and Search Word - Data structure design	20.3%	Medium
- 
 
 
 286	Walls and Gates 	37.0%	Medium
-301	Remove Invalid Parentheses	31.7%	Hard
- 
 
-91	Decode Ways	17.4%	Medium
+
 
 -----------------------------------------
-Uber 19/25
+Uber 24/25
 102	Binary Tree Level Order Traversal	32.5%	Easy
 125	Valid Palindrome	23.7%	Easy
 23	Merge k Sorted Lists	23.3%	Hard
@@ -90,16 +86,11 @@ Uber 19/25
 36	Valid Sudoku	30.4%	Easy
 146	LRU Cache	15.8%	Hard
 138	Copy List with Random Pointer	26.0%	Hard
-
-
-
-
-
+202	Happy Number	36.3%	Easy ======
+249	Group Shifted Strings 	31.4%	Easy ====
+4	Median of Two Sorted Arrays	18.5%	Hard
+337	House Robber III	36.9%	Medium ====
 266	Palindrome Permutation 	50.4%	Easy
-249	Group Shifted Strings 	31.4%	Easy
-202	Happy Number	36.3%	Easy
 
 
 140	Word Break II	19.7%	Hard
-4	Median of Two Sorted Arrays	18.5%	Hard
-337	House Robber III	36.9%	Medium

@@ -1,4 +1,4 @@
-Done	241/ 324
+Done	244/ 324
 1	Two Sum 								2
 12	Integer to Roman 						2
 13	Roman to Integer 						2
@@ -280,7 +280,7 @@ day 30 (2)
 day 31 (4)
 207	Course Schedule	26.1%	Medium 					2
 210	Course Schedule II	20.8%	Medium
-198	House Robber	33.4%	Easy
+198	House Robber	33.4%	Easy 					2
 256	Paint House 	41.8%	Medium 					2
 
 day 32 (2)
@@ -328,7 +328,7 @@ day 37 (0)
 day 38 (6)
 318	Maximum Product of Word Lengths	38.9%	Medium
 163	Missing Ranges 	28.5%	Medium
-91	Decode Ways	17.2%	Medium
+91	Decode Ways	17.2%	Medium 								2  dp[0] = 1
 265	Paint House II 	35.1%	Hard 							2
 286	Walls and Gates 	36.2%	Medium
 301	Remove Invalid Parentheses	31.0%	Hard
@@ -359,7 +359,14 @@ day 44 (04/14)
 above -- 241
 
 day 45 (04/15)
-day 46 
+
+day 46  (3)
+4	Median of Two Sorted Arrays	18.2%	Hard
+337	House Robber III	36.5%	Medium
+30	Substring with Concatenation of All Words	20.5%	Hard
+
+
+day 47 (04/17)
 
 In progress
 233	Number of Digit One	23.9%	Medium
@@ -403,10 +410,10 @@ In progress
 294	Flip Game II 	40.6%	Medium
 
 241	Different Ways to Add Parentheses	33.2%	Medium
-30	Substring with Concatenation of All Words	20.5%	Hard
 
 
-4	Median of Two Sorted Arrays	18.2%	Hard
+
+
 260	Single Number III	42.7%	Medium
 329	Longest Increasing Path in a Matrix	29.8%	Medium
 152	Maximum Product Subarray	21.7%	Medium
@@ -424,7 +431,6 @@ In progress
 
 Open	(323 / 335)
 213	House Robber II	29.8%	Medium
-337	House Robber III	36.5%	Medium
 319	Bulb Switcher	39.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
