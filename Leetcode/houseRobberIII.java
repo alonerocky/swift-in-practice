@@ -32,3 +32,24 @@ public int rob(TreeNode root) {
             this.maxInclude = maxInclude;
         }
     }
+
+
+public int rob(TreeNode root) {
+        int[] result = rob_helper(root);
+        return Math.max(result[0], result[1]);
+    }
+    //int[0] is the max value exclude root
+    //int[0] is the max value include root
+    public int[] rob_helper(TreeNode root) {
+        if (root == null) {
+            return new int[]{0,0};
+        } else if (root.left == null && root.right == null) {
+            return new int[] {0, root.val};
+        } else {
+            int[] left = rob_helper(root.left);
+            int[] right = rob_helper(root.right);
+            int exclude = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+            int include = left[0] + right[0] + root.val;
+            return new int[] {exclude, include};
+        }
+    }
