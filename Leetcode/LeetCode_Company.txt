@@ -57,13 +57,10 @@ Facebook 56/58
 301	Remove Invalid Parentheses	31.7%	Hard =======
 
 
-
 211	Add and Search Word - Data structure design	20.3%	Medium
 
 
 286	Walls and Gates 	37.0%	Medium
-
-
 
 -----------------------------------------
 Uber 24/25

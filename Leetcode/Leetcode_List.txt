@@ -331,7 +331,7 @@ day 38 (6)
 91	Decode Ways	17.2%	Medium 								2  dp[0] = 1
 265	Paint House II 	35.1%	Hard 							2
 286	Walls and Gates 	36.2%	Medium
-301	Remove Invalid Parentheses	31.0%	Hard
+301	Remove Invalid Parentheses	31.0%	Hard 				2 bfs
 
 
 day 39 (4)
@@ -368,7 +368,15 @@ day 46  (3)
 
 day 47 (04/17)
 
+day 48
+
 In progress
+213	House Robber II	29.8%	Medium
+139	Word Break	24.7%	Medium
+140	Word Break II	19.3%	Hard
+341	Flatten Nested List Iterator 	15.6%	Medium
+
+
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium
 332	Reconstruct Itinerary	23.0%	Medium
@@ -382,8 +390,6 @@ In progress
 320	Generalized Abbreviation 	39.7%	Medium
 81	Search in Rotated Sorted Array II	31.7%	Medium
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
-139	Word Break	24.7%	Medium
-140	Word Break II	19.3%	Hard
 135	Candy	22.0%	Hard
 322	Coin Change	24.5%	Medium
 
@@ -430,7 +436,6 @@ In progress
 
 
 Open	(323 / 335)
-213	House Robber II	29.8%	Medium
 319	Bulb Switcher	39.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
@@ -477,3 +482,4 @@ Open	(323 / 335)
 214	Shortest Palindrome	19.0%	Hard
 212	Word Search II	18.5%	Hard
 126	Word Ladder II	13.5%	Hard
+340	Longest Substring with At Most K Distinct Characters 	23.3%	Hard
