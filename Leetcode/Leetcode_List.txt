@@ -1,4 +1,4 @@
-Done	244/ 324
+Done	245/ 326
 1	Two Sum 								2
 12	Integer to Roman 						2
 13	Roman to Integer 						2
@@ -368,13 +368,17 @@ day 46  (3)
 
 day 47 (04/17)
 
-day 48
+day 48 (1)
+341	Flatten Nested List Iterator 	15.6%	Medium
+
+day 49
+
 
 In progress
 213	House Robber II	29.8%	Medium
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
-341	Flatten Nested List Iterator 	15.6%	Medium
+
 
 
 233	Number of Digit One	23.9%	Medium
@@ -436,6 +440,7 @@ In progress
 
 
 Open	(323 / 335)
+342	Power of Four
 319	Bulb Switcher	39.6%	Medium
 250	Count Univalue Subtrees 	35.6%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
@@ -453,6 +458,7 @@ Open	(323 / 335)
 220	Contains Duplicate III	18.2%	Medium
 335	Self Crossing	17.4%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
+343	Integer Break
  
 
 
