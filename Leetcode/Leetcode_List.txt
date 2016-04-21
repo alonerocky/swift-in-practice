@@ -390,6 +390,7 @@ In progress
 201	Bitwise AND of Numbers Range	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
 127	Word Ladder	19.6%	Medium
+126	Word Ladder II	13.5%	Hard
 324	Wiggle Sort II	21.4%	Medium
 
 
@@ -489,5 +490,4 @@ Open	(323 / 335)
 321	Create Maximum Number	19.7%	Hard
 214	Shortest Palindrome	19.0%	Hard
 212	Word Search II	18.5%	Hard
-126	Word Ladder II	13.5%	Hard
 340	Longest Substring with At Most K Distinct Characters 	23.3%	Hard
