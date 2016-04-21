@@ -86,6 +86,44 @@ dfs(str.substring(1), subRes, countLeft, maxLeft);
         }
         return result;
     }
+
+
+public List<String> removeInvalidParenthesesII(String s) {
+         List<String> result = new ArrayList<String>();
+         if (s == null ) {
+             return result;
+         }
+         Deque<String> queue = new ArrayDeque<String>();
+         queue.addLast(s);
+         int max = 0;
+         HashSet<String> set = new HashSet<String>();
+        set.add(s);
+         while(!queue.isEmpty()) {
+             String str = queue.pollFirst();
+             if (str.length() < max) {
+                break;
+            }
+             if (isValid(str)) {
+                 max = str.length();
+                 result.add(str);
+             } else{
+                 //try to delete some character
+                 for (int i = 0; i < str.length(); i++) {
+                     char c = str.charAt(i);
+                     if (c != '(' && c != ')' ) {
+                         continue;
+                     }
+                     //delete ith character
+                     String one = str.substring(0,i) + str.substring(i+1);
+                    if (set.add(one)) {
+                        queue.addLast(one);
+                    }
+                 }
+             }
+         }
+         return result;
+    }
+
     private boolean isValid(String s) {
         int count = 0;
         for (int i =0; i < s.length(); i++) {
