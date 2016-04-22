@@ -376,15 +376,16 @@ day 49
 day 50
 
 day 51
-day 52
+day 52 (2)
+127	Word Ladder	19.6%	Medium
+126	Word Ladder II	13.5%	Hard
 
 
 In progress
 213	House Robber II	29.8%	Medium
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
-127	Word Ladder	19.6%	Medium
-126	Word Ladder II	13.5%	Hard
+ 
 
 
 233	Number of Digit One	23.9%	Medium

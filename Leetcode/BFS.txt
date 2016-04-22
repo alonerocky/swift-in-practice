@@ -23,12 +23,12 @@ Leetcode (6/19)
 323	Number of Connected Components in an Undirected Graph 	42.7%	Medium
 
 
-Lintcode (3/11)
+Lintcode (4/11)
 71. Binary Tree Zigzag Level Order Traversal Medium
 70. Binary Tree Level Order Traversal II Medium
 69. Binary Tree Level Order Traversal
-
-
+120. Word Ladder Medium
+121. Word Ladder II Hard
 
 178. Graph Valid Tree Medium
 137. Clone Graph Medium
@@ -39,5 +39,4 @@ Lintcode (3/11)
 477. Surrounded Regions Medium
 176. Route Between Two Nodes in Graph Medium
 
-121. Word Ladder II Hard
-120. Word Ladder Medium
+ 
