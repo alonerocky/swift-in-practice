@@ -1,4 +1,4 @@
-Facebook 57/58
+Facebook 58/58
 23	Merge k Sorted Lists	23.2%	Hard =========
 265	Paint House II 	35.6%	Hard ============
 75	Sort Colors	34.6%	Medium ========
@@ -56,9 +56,7 @@ Facebook 57/58
 91	Decode Ways	17.4%	Medium
 301	Remove Invalid Parentheses	31.7%	Hard =======
 211	Add and Search Word - Data structure design	20.3%	Medium
-
-
-286	Walls and Gates 	37.0%	Medium
+286	Walls and Gates 	37.0%	Medium  ====
 
 -----------------------------------------
 Uber 24/25

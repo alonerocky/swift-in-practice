@@ -1,4 +1,4 @@
-DFS (28/31)
+DFS (29/31)
 112	Path Sum	31.3%	Easy
 124	Binary Tree Maximum Path Sum	23.3%	Hard  =====
 104	Maximum Depth of Binary Tree	47.7%	Easy	
@@ -27,12 +27,11 @@ DFS (28/31)
 261	Graph Valid Tree 	32.6%	Medium
 207	Course Schedule	26.8%	Medium
 210	Course Schedule II	21.0%	Medium
+99	Recover Binary Search Tree	26.4%	Hard
 
 
-
-99	Recover Binary Search Tree	26.4%	Hard				
+ 				
  	
-
 
 332	Reconstruct Itinerary	23.6%	Medium	
 329	Longest Increasing Path in a Matrix	31.1%	Hard		
@@ -41,20 +40,26 @@ DFS (28/31)
 
 
 
-Lintcode (3/12)
+Lintcode (5/12)
 453. Flatten Binary Tree to Linked List Easy
 155. Minimum Depth of Binary Tree Easy
 127. Topological Sorting Medium
 178. Graph Valid Tree Medium
+176. Route Between Two Nodes in Graph Medium
 
+
+
+164. Unique Binary Search Trees II Medium
+153. Combination Sum II Medium
+33. N-Queens Medium
+16. Permutations II
  
 136. Palindrome Partitioning Medium
 
-176. Route Between Two Nodes in Graph Medium
-164. Unique Binary Search Trees II Medium
  
-153. Combination Sum II Medium
+
+
+ 
 121. Word Ladder II Hard
 90. k Sum II Medium
-33. N-Queens Medium
-16. Permutations II
+ 

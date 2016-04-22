@@ -375,12 +375,16 @@ day 49
 
 day 50
 
+day 51
+day 52
+
 
 In progress
 213	House Robber II	29.8%	Medium
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
-
+127	Word Ladder	19.6%	Medium
+126	Word Ladder II	13.5%	Hard
 
 
 233	Number of Digit One	23.9%	Medium
@@ -389,8 +393,7 @@ In progress
 313	Super Ugly Number	32.3%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
-127	Word Ladder	19.6%	Medium
-126	Word Ladder II	13.5%	Hard
+
 324	Wiggle Sort II	21.4%	Medium
 
 

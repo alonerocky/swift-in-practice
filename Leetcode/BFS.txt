@@ -1,18 +1,19 @@
-Leetcode (2/19)
+Leetcode (6/19)
 103	Binary Tree Zigzag Level Order Traversal	28.6%	Medium
 102	Binary Tree Level Order Traversal	32.6%	Easy
 301	Remove Invalid Parentheses	31.8%	Hard
+107	Binary Tree Level Order Traversal II	33.8%	Easy	
+199	Binary Tree Right Side View	34.2%	Medium
+111	Minimum Depth of Binary Tree	30.6%	Easy
+101	Symmetric Tree	33.8%	Easy
 
 
-200	Number of Islands	27.6%	Medium	
-101	Symmetric Tree	33.8%	Easy		
+
+200	Number of Islands	27.6%	Medium			
 133	Clone Graph	24.9%	Medium	
-111	Minimum Depth of Binary Tree	30.6%	Easy	
 126	Word Ladder II	13.6%	Hard	
 130	Surrounded Regions	16.1%	Medium	
-279	Perfect Squares	32.4%	Medium	
-107	Binary Tree Level Order Traversal II	33.8%	Easy	
-199	Binary Tree Right Side View	34.2%	Medium	
+279	Perfect Squares	32.4%	Medium		
 207	Course Schedule	26.8%	Medium		
 210	Course Schedule II	21.0%	Medium		
 286	Walls and Gates 	37.1%	Medium	
