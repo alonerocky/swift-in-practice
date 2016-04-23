@@ -1,4 +1,4 @@
-Done	245/ 326
+Done	250/ 326
 1	Two Sum 								2
 12	Integer to Roman 						2
 13	Roman to Integer 						2
@@ -376,25 +376,28 @@ day 49
 day 50
 
 day 51
-day 52 (2)
+day 52 (5)
 127	Word Ladder	19.6%	Medium
 126	Word Ladder II	13.5%	Hard
+332	Reconstruct Itinerary	23.0%	Medium
+329	Longest Increasing Path in a Matrix	29.8%	Medium
+310	Minimum Height Trees	26.3%	Medium
 
+day 53 (1)
+222	Count Complete Tree Nodes	24.3%	Medium
 
 In progress
 213	House Robber II	29.8%	Medium
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
- 
+131	Palindrome Partitioning	27.5%	Medium
 
 
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium
-332	Reconstruct Itinerary	23.0%	Medium
 313	Super Ugly Number	32.3%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
 186	Reverse Words in a String II 	29.4%	Medium
-
 324	Wiggle Sort II	21.4%	Medium
 
 
@@ -432,7 +435,6 @@ In progress
 
 
 260	Single Number III	42.7%	Medium
-329	Longest Increasing Path in a Matrix	29.8%	Medium
 152	Maximum Product Subarray	21.7%	Medium
 
 
@@ -454,11 +456,8 @@ Open	(323 / 335)
 289	Game of Life	33.6%	Medium
 247	Strobogrammatic Number II 	33.4%	Medium
 330	Patching Array	28.2%	Medium
-131	Palindrome Partitioning	27.5%	Medium
 264	Ugly Number II	26.7%	Medium
-310	Minimum Height Trees	26.3%	Medium
 306	Additive Number	25.0%	Medium
-222	Count Complete Tree Nodes	24.3%	Medium
 227	Basic Calculator II	24.0%	Medium
 224	Basic Calculator	21.2%	Medium
 179	Largest Number	18.3%	Medium

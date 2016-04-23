@@ -1,4 +1,4 @@
-DFS (29/31)
+DFS (31/31)
 112	Path Sum	31.3%	Easy
 124	Binary Tree Maximum Path Sum	23.3%	Hard  =====
 104	Maximum Depth of Binary Tree	47.7%	Easy	
@@ -28,16 +28,9 @@ DFS (29/31)
 207	Course Schedule	26.8%	Medium
 210	Course Schedule II	21.0%	Medium
 99	Recover Binary Search Tree	26.4%	Hard
-
-
- 				
- 	
-
-332	Reconstruct Itinerary	23.6%	Medium	
+332	Reconstruct Itinerary	23.6%	Medium
 329	Longest Increasing Path in a Matrix	31.1%	Hard		
  
-
-
 
 
 Lintcode (5/12)
@@ -56,10 +49,6 @@ Lintcode (5/12)
  
 136. Palindrome Partitioning Medium
 
- 
-
-
- 
  
 90. k Sum II Medium
  
