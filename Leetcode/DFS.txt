@@ -27,9 +27,9 @@ DFS (31/31)
 261	Graph Valid Tree 	32.6%	Medium
 207	Course Schedule	26.8%	Medium
 210	Course Schedule II	21.0%	Medium
-99	Recover Binary Search Tree	26.4%	Hard
-332	Reconstruct Itinerary	23.6%	Medium
-329	Longest Increasing Path in a Matrix	31.1%	Hard		
+99	Recover Binary Search Tree	26.4%	Hard ===
+332	Reconstruct Itinerary	23.6%	Medium =====
+329	Longest Increasing Path in a Matrix	31.1%	Hard ======		
  
 
 

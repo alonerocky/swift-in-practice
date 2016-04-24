@@ -1,8 +1,8 @@
-Done	250/ 326
+Done	250/ 328
 1	Two Sum 								2
-12	Integer to Roman 						2
+12	Integer to Roman 						3    sb.append(ROMAN[i])
 13	Roman to Integer 						2
-20	Valid Parentheses
+20	Valid Parentheses 						2
 21	Merge Two Sorted Lists
 36	Valid Sudoku 							2
 38	Count and Say 							2
@@ -383,15 +383,22 @@ day 52 (5)
 329	Longest Increasing Path in a Matrix	29.8%	Medium
 310	Minimum Height Trees	26.3%	Medium
 
-day 53 (1)
+day 53 (6)
 222	Count Complete Tree Nodes	24.3%	Medium
+344	Reverse String	59.9%		Easy
+345	Reverse Vowels of a String	36.7%		Easy
+317	Shortest Distance from All Buildings 	30.2%	Hard
+296	Best Meeting Point 	45.6%	Hard
+130	Surrounded Regions	15.8%	Medium
+
+
 
 In progress
 213	House Robber II	29.8%	Medium
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
-131	Palindrome Partitioning	27.5%	Medium
-
+131	Palindrome Partitioning	27.5%	Medium	
+282	Expression Add Operators	23.7%	Hard
 
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium
@@ -438,7 +445,7 @@ In progress
 152	Maximum Product Subarray	21.7%	Medium
 
 
-130	Surrounded Regions	15.8%	Medium
+ 
 
 68	Text Justification	15.8%	Hard
 65	Valid Number	11.9%	Hard
@@ -465,13 +472,12 @@ Open	(323 / 335)
 335	Self Crossing	17.4%	Medium
 166	Fraction to Recurring Decimal	14.7%	Medium
 343	Integer Break
- 
+  
 
 
 
 
 336	Palindrome Pairs	17.7%	Hard
-296	Best Meeting Point 	45.6%	Hard
 302	Smallest Rectangle Enclosing Black Pixels 	38.2%	Hard
 287	Find the Duplicate Number	37.9%	Hard
 312	Burst Balloons	34.5%	Hard
@@ -479,14 +485,12 @@ Open	(323 / 335)
 291	Word Pattern II 	33.7%	Hard
 272	Closest Binary Search Tree Value II 	32.0%	Hard
 128	Longest Consecutive Sequence	31.5%	Hard
-317	Shortest Distance from All Buildings 	30.2%	Hard
 315	Count of Smaller Numbers After Self	28.9%	Hard
 115	Distinct Subsequences	28.3%	Hard
 164	Maximum Gap	26.2%	Hard
 87	Scramble String	26.1%	Hard
 248	Strobogrammatic Number III 	25.5%	Hard
 327	Count of Range Sum	24.3%	Hard
-282	Expression Add Operators	23.7%	Hard
 132	Palindrome Partitioning II	21.3%	Hard
 218	The Skyline Problem	21.2%	Hard
 174	Dungeon Game	20.4%	Hard

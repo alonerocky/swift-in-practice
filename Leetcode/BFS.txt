@@ -1,4 +1,4 @@
-Leetcode (6/19)
+Leetcode (8/19)
 103	Binary Tree Zigzag Level Order Traversal	28.6%	Medium
 102	Binary Tree Level Order Traversal	32.6%	Easy
 301	Remove Invalid Parentheses	31.8%	Hard
@@ -6,25 +6,24 @@ Leetcode (6/19)
 199	Binary Tree Right Side View	34.2%	Medium
 111	Minimum Depth of Binary Tree	30.6%	Easy
 101	Symmetric Tree	33.8%	Easy
-
+133	Clone Graph	24.9%	Medium
 
 
 200	Number of Islands	27.6%	Medium			
-133	Clone Graph	24.9%	Medium	
+ 	
 126	Word Ladder II	13.6%	Hard		
 207	Course Schedule	26.8%	Medium		
 210	Course Schedule II	21.0%	Medium		
 286	Walls and Gates 	37.1%	Medium	
 261	Graph Valid Tree 	32.6%	Medium
 323	Number of Connected Components in an Undirected Graph 	42.7%	Medium
-310	Minimum Height Trees	26.6%	Medium
-
+310	Minimum Height Trees	26.6%	Medium ===
+317	Shortest Distance from All Buildings 	31.1%	Hard ===
+130	Surrounded Regions	16.1%	Medium =====
  		
-130	Surrounded Regions	16.1%	Medium	
+ 	
 279	Perfect Squares	32.4%	Medium	
-317	Shortest Distance from All Buildings 	31.1%	Hard	
- 
-
+ 	
 
 Lintcode (5/11)
 71. Binary Tree Zigzag Level Order Traversal Medium
@@ -38,8 +37,7 @@ Lintcode (5/11)
 137. Clone Graph Medium
 127. Topological Sorting Medium
 176. Route Between Two Nodes in Graph Medium
-
+477. Surrounded Regions Medium
 
 
 513. Perfect Squares Medium
-477. Surrounded Regions Medium
