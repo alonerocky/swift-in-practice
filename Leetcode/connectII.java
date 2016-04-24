@@ -35,3 +35,39 @@ public void connect(TreeLinkNode root) {
 
         }
     }
+
+
+
+public void connect(TreeLinkNode root) {
+          if (root == null) {
+              return;
+          }
+          Deque<TreeLinkNode> queue = new ArrayDeque<TreeLinkNode>();
+          queue.addLast(root);
+          while(!queue.isEmpty()) {
+              //handle current level
+              int size = queue.size();
+              TreeLinkNode tail = null;
+              for (int i = 0; i < size; i++) {
+                  TreeLinkNode front = queue.pollFirst();
+                  if (front.left != null) {
+                      if (tail == null) {
+                          tail = front.left;
+                      } else {
+                          tail.next = front.left;
+                          tail = tail.next;
+                      }
+                      queue.addLast(front.left);
+                  }
+                  if (front.right != null) {
+                      if (tail == null) {
+                          tail = front.right;
+                      } else {
+                          tail.next = front.right;
+                          tail = tail.next;
+                      }
+                      queue.addLast(front.right);
+                  }
+              }
+          }
+    }
