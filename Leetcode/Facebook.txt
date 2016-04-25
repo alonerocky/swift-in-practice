@@ -1,4 +1,4 @@
-Leetcode (28/79)
+Leetcode (30/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
 75	Sort Colors	34.7%	Medium ==
@@ -27,6 +27,9 @@ Leetcode (28/79)
 117	Populating Next Right Pointers in Each Node II	32.8%	Hard
 71	Simplify Path	21.9%	Medium 
 173	Binary Search Tree Iterator	34.5%	Medium
+161	One Edit Distance 	28.4%	Medium
+285	Inorder Successor in BST 	35.6%	Medium
+
 
  	 
 57	Insert Interval	23.8%	Hard	
@@ -36,7 +39,13 @@ Leetcode (28/79)
 38	Count and Say	28.9%	Easy
  
 
-252	Meeting Rooms 	41.6%	Easy						
+ 	
+69	Sqrt(x)	25.2%	Medium	
+98	Validate Binary Search Tree	20.9%	Medium	
+314	Binary Tree Vertical Order Traversal 	30.3%	Medium
+
+252	Meeting Rooms 	41.6%	Easy	
+253	Meeting Rooms II 	34.6%	Medium					
 325	Maximum Size Subarray Sum Equals k 	39.9%	Easy		
 297	Serialize and Deserialize Binary Tree	27.8%	Hard	
  	
@@ -59,7 +68,7 @@ Leetcode (28/79)
  	
  	
 275	H-Index II	32.5%	Medium	
-161	One Edit Distance 	28.4%	Medium	
+ 	
 274	H-Index	29.3%	Medium	
 49	Group Anagrams	27.4%	Medium	
 50	Pow(x, n)	27.9%	Medium	
@@ -67,19 +76,15 @@ Leetcode (28/79)
 
 
 
-314	Binary Tree Vertical Order Traversal 	30.3%	Medium	
+	
 127	Word Ladder	19.6%	Medium	
 286	Walls and Gates 	37.2%	Medium	
-285	Inorder Successor in BST 	35.6%	Medium	
-69	Sqrt(x)	25.2%	Medium	
-98	Validate Binary Search Tree	20.9%	Medium	
 91	Decode Ways	17.5%	Medium	
 90	Subsets II	30.5%	Medium	
 17	Letter Combinations of a Phone Number	28.6%	Medium	
 80	Remove Duplicates from Sorted Array II	32.7%	Medium	
 79	Word Search	22.9%	Medium	
-78	Subsets	31.3%	Medium	
-253	Meeting Rooms II 	34.6%	Medium		
+78	Subsets	31.3%	Medium			
 311	Sparse Matrix Multiplication 	47.1%	Medium	
 
 
