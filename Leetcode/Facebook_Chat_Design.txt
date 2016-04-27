@@ -38,3 +38,19 @@ Ramping up:
 The secret for going from zero to seventy million users overnight is to avoid doing it all in one fell swoop. We chose to simulate the impact of many real users hitting many machines by means of a "dark launch" period in which Facebook pages would make connections to the chat servers, query for presence information and simulate message sends without a single UI element drawn on the page. With the "dark launch" bugs fixed, we hope that you enjoy Facebook Chat now that the UI lights have been turned on.
 
 Eugene is a Facebook Engineer
+
+
+-------------------------
+https://www.quora.com/Why-didnt-Facebook-Chat-Message-use-XMPP-Jabber-like-other-IMs
+XMPP is an awful and heavyweight protocol (streaming XML?;). It's spec is so big that there is no complete implementation of it. The most complete and most scalable implementation is ejabberd. But because XMPP was designed in dotcom era, it's not a good fit for modern Web-scale Internet and mobile companies. Even that ejabberd is de-facto open-source XMPP server, you can't take stock ejabberd and use it for Web-scale application.
+
+90% of messaging companies either use heavily customized version of ejabberd (WhatsApp, APNs - Apple Push Notification servers) or developed custom Erlang servers for more scalability and mobile friendly protocols, either proprietary or standard such as MQTT.
+
+
+Facebook Chat was initially written in Erlang/OTP using custom long-polling protocols and later re-written in C++ for political/HR reasons. It also used ejabberd as a gateway to outside XMPP networks.
+
+Facebook Messenger (ex Beluga group chat app) uses MQTT - which is mobile and battery-friendly lightweight pubsub protocol. MQTT is being standardized by OASIS as a communication protocol for Internet of Things and Machine-to-Macine (M2M) applications.
+
+
+-----------------------------
+https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920

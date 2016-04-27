@@ -1,10 +1,9 @@
-LeetCode (2/9)
+LeetCode (3/9)
 133	Clone Graph	24.9%	Medium	
 200	Number of Islands	27.6%	Medium 
+261	Graph Valid Tree 	32.5%	Medium
 
-
-310	Minimum Height Trees	26.5%	Medium	
-261	Graph Valid Tree 	32.5%	Medium	
+310	Minimum Height Trees	26.5%	Medium		
 323	Number of Connected Components in an Undirected Graph 	42.8%	Medium
 
 
@@ -18,7 +17,9 @@ LeetCode (2/9)
 
 
 LintCode
-176. Route Between Two Nodes in Graph Medium
 137. Clone Graph Medium
-127. Topological Sorting
 178. Graph Valid Tree
+
+
+176. Route Between Two Nodes in Graph Medium
+127. Topological Sorting

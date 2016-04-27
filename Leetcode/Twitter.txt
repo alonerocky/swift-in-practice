@@ -23,3 +23,56 @@ Twitter (9/21)
 42	Trapping Rain Water	32.2%	Hard	
 149	Max Points on a Line	14.2%	Hard			
 218	The Skyline Problem	22.0%	Hard
+
+
+
+// Problem
+// "I want you to write a function that takes an unsorted array of longs which has the following properties: 
+// the array is always of odd length and all the values in the array appear an even number of times except one value.  
+// The function should return the value that appears the odd number of times." 
+
+// Example Arrays: 
+//   [1, 3, 3, 3, 3, 1, 9, 9, 100, 12, 100] (12 appears once)
+//   [1] (1 appears once)
+//   [2, 2, 2] (2 appears 3 times)
+//   [1, 1, 1, 1, 3, 3, 3] (3 appears 3 times)
+
+//a xor a == 0
+
+public long findOddNum(long[] nums) {
+    
+    long result = 0;
+    for (int i = 0; i < nums.length; i++) {
+        
+        long num = nums[i];
+        result = result ^ num;
+        
+    }
+    return result;
+    
+}
+
+public long findOddNumII(long[] nums) {
+    long result = 0;
+    HashMap<Long, Integer> map = new HashMap<Long, Integer>();
+    for (int i = 0; i < nums.length; i++) {
+        long num = nums[i];
+        if (!map.containsKey(num)) {
+            map.put(num, 1);
+        } else {
+            map.put(num, map.get(num) + 1);
+        }
+        
+    }
+    Iterator<Long> iterator = map.keySet().iterator();
+    while (iterator.hasNext()) {
+        long key = iterator.next();
+        int times = map.get(key);
+        if (times % 2 == 1) {
+            return key;
+        }
+        
+    }
+    return -1;
+    
+}

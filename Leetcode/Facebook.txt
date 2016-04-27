@@ -1,9 +1,13 @@
-Leetcode (37/79)
+Leetcode (47/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
+211	Add and Search Word - Data structure design	20.2%	Medium ===
 75	Sort Colors	34.7%	Medium ==
 168	Excel Sheet Column Title	21.6%	Easy  ==== char ch = (char)('A' + c)
+50	Pow(x, n)	27.9%	Medium  =====   result *= x, m >>= 1
 238	Product of Array Except Self	42.6%	Medium ==== O(1) space
+275	H-Index II	32.5%	Medium	===
+274	H-Index	29.3%	Medium	======
 278	First Bad Version	22.4%	Easy
 20	Valid Parentheses	29.3%	Easy
 125	Valid Palindrome	23.8%	Easy
@@ -36,25 +40,26 @@ Leetcode (37/79)
 80	Remove Duplicates from Sorted Array II	32.7%	Medium
 208	Implement Trie (Prefix Tree)	25.3%	Medium
 261	Graph Valid Tree 	32.5%	Medium
- 
- 	
+49	Group Anagrams	27.4%	Medium
+252	Meeting Rooms 	41.6%	Easy
+277	Find the Celebrity 	35.0%	Medium
+98	Validate Binary Search Tree	20.9%	Medium
+253	Meeting Rooms II 	34.6%	Medium
+38	Count and Say	28.9%	Easy 
 
-257	Binary Tree Paths	28.4%	Easy			
-38	Count and Say	28.9%	Easy
-209	Minimum Size Subarray Sum	26.8%	Medium		
-211	Add and Search Word - Data structure design	20.2%	Medium
-43	Multiply Strings	23.4%	Medium	
-275	H-Index II	32.5%	Medium	
-274	H-Index	29.3%	Medium	
-49	Group Anagrams	27.4%	Medium	
-50	Pow(x, n)	27.9%	Medium 	 
+
+
+17	Letter Combinations of a Phone Number	28.6%	Medium
+257	Binary Tree Paths	28.4%	Easy					
+43	Multiply Strings	23.4%	Medium		 	 
 69	Sqrt(x)	25.2%	Medium	
-98	Validate Binary Search Tree	20.9%	Medium	
+265	Paint House II 	35.6%	Hard	
+273	Integer to English Words	18.7%	Hard 	
  
 
-252	Meeting Rooms 	41.6%	Easy	
-253	Meeting Rooms II 	34.6%	Medium					
-325	Maximum Size Subarray Sum Equals k 	39.9%	Easy		
+
+ 					
+		
 297	Serialize and Deserialize Binary Tree	27.8%	Hard	===
  	
  
@@ -62,24 +67,15 @@ Leetcode (37/79)
 269	Alien Dictionary 	22.9%	Hard			
 210	Course Schedule II	21.0%	Medium	
 334	Increasing Triplet Subsequence	33.2%	Medium	
-221	Maximal Square	23.5%	Medium	
-277	Find the Celebrity 	35.0%	Medium	
+221	Maximal Square	23.5%	Medium		
 215	Kth Largest Element in an Array	33.1%	Medium	
- 	
- 
-
  	
 	
 139	Word Break	25.2%	Medium	
-
-
-
-	
 127	Word Ladder	19.6%	Medium	
 286	Walls and Gates 	37.2%	Medium	
 91	Decode Ways	17.5%	Medium	
-90	Subsets II	30.5%	Medium	
-17	Letter Combinations of a Phone Number	28.6%	Medium	
+90	Subsets II	30.5%	Medium		
 79	Word Search	22.9%	Medium	
 78	Subsets	31.3%	Medium			
 311	Sparse Matrix Multiplication 	47.1%	Medium	
@@ -89,20 +85,21 @@ Leetcode (37/79)
 146	LRU Cache	15.8%	Hard	
 85	Maximal Rectangle	23.4%	Hard	
 
+
 128	Longest Consecutive Sequence	32.1%	Hard		
-44	Wildcard Matching	17.4%	Hard		
+44	Wildcard Matching	17.4%	Hard	
+209	Minimum Size Subarray Sum	26.8%	Medium	
 76	Minimum Window Substring	21.2%	Hard	
 25	Reverse Nodes in k-Group	27.5%	Hard		
-265	Paint House II 	35.6%	Hard	
-273	Integer to English Words	18.7%	Hard		
+		
  	
  
-
+325	Maximum Size Subarray Sum Equals k 	39.9%	Easy
 218	The Skyline Problem	22.0%	Hard
 282	Expression Add Operators	24.8%	Hard
 
 ----------------------------------------------
-Lintcode 16/35
+Lintcode 24/35
 148. Sort Colors 	Medium
 104. Merge k Sorted Lists 	Medium
 154. Regular Expression Matching Hard
@@ -119,24 +116,24 @@ Lintcode 16/35
 56. Two Sum Medium
 88. Lowest Common Ancestor Medium
 86. Binary Search Tree Iterator 	Hard
+100. Remove Duplicates from Sorted Array Easy
+101. Remove Duplicates from Sorted Array II Easy
+442. Implement Trie Medium
+69. Binary Tree Level Order Traversal 	Medium
+57. 3Sum Medium
+428. Pow(x, n) Medium
+178. Graph Valid Tree Medium
+171. Anagrams Medium
 
 
 516. Paint House II  	Hard
 436. Maximal Square 	Medium
-69. Binary Tree Level Order Traversal 	Medium
 406. Minimum Size Subarray Sum 		Medium
 32. Minimum Window Substring 	Medium
-428. Pow(x, n) Medium
-100. Remove Duplicates from Sorted Array Easy
-101. Remove Duplicates from Sorted Array II Easy
-171. Anagrams Medium
-178. Graph Valid Tree Medium
-57. 3Sum Medium
 425. Letter Combinations of a Phone Number Medium
 420. Count and Say Easy
 480. Binary Tree Paths Easy
 123. Word Search Medium ===
-442. Implement Trie Medium
 141. Sqrt(x) Easy
 17. Subsets Medium
 450. Reverse Nodes in k-Group Hard 
