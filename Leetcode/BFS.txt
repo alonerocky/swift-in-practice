@@ -9,14 +9,15 @@ Leetcode (9/19)
 133	Clone Graph	24.9%	Medium
 200	Number of Islands	27.6%	Medium
 
+
+261	Graph Valid Tree 	32.6%	Medium
+323	Number of Connected Components in an Undirected Graph 	42.7%	Medium
 			
  	
 126	Word Ladder II	13.6%	Hard		
 207	Course Schedule	26.8%	Medium		
 210	Course Schedule II	21.0%	Medium		
 286	Walls and Gates 	37.1%	Medium	
-261	Graph Valid Tree 	32.6%	Medium
-323	Number of Connected Components in an Undirected Graph 	42.7%	Medium
 310	Minimum Height Trees	26.6%	Medium ===
 317	Shortest Distance from All Buildings 	31.1%	Hard ===
 130	Surrounded Regions	16.1%	Medium =====
