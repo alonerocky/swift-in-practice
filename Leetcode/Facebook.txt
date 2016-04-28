@@ -1,4 +1,4 @@
-Leetcode (51/79)
+Leetcode (52/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
@@ -50,19 +50,17 @@ Leetcode (51/79)
 79	Word Search	22.9%	Medium
 76	Minimum Window Substring	21.2%	Hard
 17	Letter Combinations of a Phone Number	28.6%	Medium
-
+69	Sqrt(x)	25.2%	Medium
 
  
 257	Binary Tree Paths	28.4%	Easy					
-43	Multiply Strings	23.4%	Medium		 	 
-69	Sqrt(x)	25.2%	Medium	
+43	Multiply Strings	23.4%	Medium		 	 	
 265	Paint House II 	35.6%	Hard	
 273	Integer to English Words	18.7%	Hard 	
  
 
 
- 					
-		
+ 						
 297	Serialize and Deserialize Binary Tree	27.8%	Hard	===
  	
  

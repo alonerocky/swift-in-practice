@@ -1,4 +1,4 @@
-Done	256/ 328
+Done	257/ 328
 1	Two Sum 								2
 12	Integer to Roman 						3    sb.append(ROMAN[i])
 13	Roman to Integer 						2
@@ -400,6 +400,8 @@ day 56
 
 day 57 (1)
 128	Longest Consecutive Sequence	31.5%	Hard
+
+--------- 257
 
 In progress
 213	House Robber II	29.8%	Medium
