@@ -1,4 +1,4 @@
-Leetcode (47/79)
+Leetcode (51/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
@@ -8,6 +8,8 @@ Leetcode (47/79)
 238	Product of Array Except Self	42.6%	Medium ==== O(1) space
 275	H-Index II	32.5%	Medium	===
 274	H-Index	29.3%	Medium	======
+253	Meeting Rooms II 	34.6%	Medium
+210	Course Schedule II	21.0%	Medium
 278	First Bad Version	22.4%	Easy
 20	Valid Parentheses	29.3%	Easy
 125	Valid Palindrome	23.8%	Easy
@@ -44,12 +46,13 @@ Leetcode (47/79)
 252	Meeting Rooms 	41.6%	Easy
 277	Find the Celebrity 	35.0%	Medium
 98	Validate Binary Search Tree	20.9%	Medium
-253	Meeting Rooms II 	34.6%	Medium
 38	Count and Say	28.9%	Easy 
-
-
-
+79	Word Search	22.9%	Medium
+76	Minimum Window Substring	21.2%	Hard
 17	Letter Combinations of a Phone Number	28.6%	Medium
+
+
+ 
 257	Binary Tree Paths	28.4%	Easy					
 43	Multiply Strings	23.4%	Medium		 	 
 69	Sqrt(x)	25.2%	Medium	
@@ -64,8 +67,7 @@ Leetcode (47/79)
  	
  
  
-269	Alien Dictionary 	22.9%	Hard			
-210	Course Schedule II	21.0%	Medium	
+269	Alien Dictionary 	22.9%	Hard				
 334	Increasing Triplet Subsequence	33.2%	Medium	
 221	Maximal Square	23.5%	Medium		
 215	Kth Largest Element in an Array	33.1%	Medium	
@@ -75,8 +77,7 @@ Leetcode (47/79)
 127	Word Ladder	19.6%	Medium	
 286	Walls and Gates 	37.2%	Medium	
 91	Decode Ways	17.5%	Medium	
-90	Subsets II	30.5%	Medium		
-79	Word Search	22.9%	Medium	
+90	Subsets II	30.5%	Medium			
 78	Subsets	31.3%	Medium			
 311	Sparse Matrix Multiplication 	47.1%	Medium	
 
@@ -86,14 +87,13 @@ Leetcode (47/79)
 85	Maximal Rectangle	23.4%	Hard	
 
 
-128	Longest Consecutive Sequence	32.1%	Hard		
+128	Longest Consecutive Sequence	32.1%	Hard	======	
 44	Wildcard Matching	17.4%	Hard	
-209	Minimum Size Subarray Sum	26.8%	Medium	
-76	Minimum Window Substring	21.2%	Hard	
+209	Minimum Size Subarray Sum	26.8%	Medium		
 25	Reverse Nodes in k-Group	27.5%	Hard		
 		
  	
- 
+239	Sliding Window Maximum 	27.4%		Hard
 325	Maximum Size Subarray Sum Equals k 	39.9%	Easy
 218	The Skyline Problem	22.0%	Hard
 282	Expression Add Operators	24.8%	Hard

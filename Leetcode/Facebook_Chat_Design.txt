@@ -54,3 +54,13 @@ Facebook Messenger (ex Beluga group chat app) uses MQTT - which is mobile and ba
 
 -----------------------------
 https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920
+
+
+
+------------------------news feed
+http://buttercola.blogspot.com/2014/11/facebook-design-fb-newsfeed.html
+
+
+====================Facebook messenger
+Facebook Messaging Architecture - A Lecture By Joydeep Sen Sarma On The Facebook Messaging Structure
+https://code.facebook.com/posts/820258981365363/building-mobile-first-infrastructure-for-messenger/
