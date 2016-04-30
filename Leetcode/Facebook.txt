@@ -1,4 +1,4 @@
-Leetcode (52/79)
+Leetcode (56/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
@@ -8,6 +8,7 @@ Leetcode (52/79)
 238	Product of Array Except Self	42.6%	Medium ==== O(1) space
 275	H-Index II	32.5%	Medium	===
 274	H-Index	29.3%	Medium	======
+128	Longest Consecutive Sequence	32.1%	Hard	======
 253	Meeting Rooms II 	34.6%	Medium
 210	Course Schedule II	21.0%	Medium
 278	First Bad Version	22.4%	Easy
@@ -51,32 +52,31 @@ Leetcode (52/79)
 76	Minimum Window Substring	21.2%	Hard
 17	Letter Combinations of a Phone Number	28.6%	Medium
 69	Sqrt(x)	25.2%	Medium
+257	Binary Tree Paths	28.4%	Easy
+78	Subsets	31.3%	Medium 
+90	Subsets II	30.5%	Medium
 
- 
-257	Binary Tree Paths	28.4%	Easy					
+
+
 43	Multiply Strings	23.4%	Medium		 	 	
 265	Paint House II 	35.6%	Hard	
 273	Integer to English Words	18.7%	Hard 	
- 
-
-
+			
+  
  						
 297	Serialize and Deserialize Binary Tree	27.8%	Hard	===
- 	
+269	Alien Dictionary 	22.9%	Hard 	
+127	Word Ladder	19.6%	Medium	
+286	Walls and Gates 	37.2%	Medium 
  
- 
-269	Alien Dictionary 	22.9%	Hard				
+				
 334	Increasing Triplet Subsequence	33.2%	Medium	
 221	Maximal Square	23.5%	Medium		
 215	Kth Largest Element in an Array	33.1%	Medium	
  	
 	
-139	Word Break	25.2%	Medium	
-127	Word Ladder	19.6%	Medium	
-286	Walls and Gates 	37.2%	Medium	
-91	Decode Ways	17.5%	Medium	
-90	Subsets II	30.5%	Medium			
-78	Subsets	31.3%	Medium			
+139	Word Break	25.2%	Medium		
+91	Decode Ways	17.5%	Medium				
 311	Sparse Matrix Multiplication 	47.1%	Medium	
 
 
@@ -85,7 +85,7 @@ Leetcode (52/79)
 85	Maximal Rectangle	23.4%	Hard	
 
 
-128	Longest Consecutive Sequence	32.1%	Hard	======	
+	
 44	Wildcard Matching	17.4%	Hard	
 209	Minimum Size Subarray Sum	26.8%	Medium		
 25	Reverse Nodes in k-Group	27.5%	Hard		
@@ -97,7 +97,7 @@ Leetcode (52/79)
 282	Expression Add Operators	24.8%	Hard
 
 ----------------------------------------------
-Lintcode 24/35
+Lintcode 31/35
 148. Sort Colors 	Medium
 104. Merge k Sorted Lists 	Medium
 154. Regular Expression Matching Hard
@@ -122,11 +122,6 @@ Lintcode 24/35
 428. Pow(x, n) Medium
 178. Graph Valid Tree Medium
 171. Anagrams Medium
-
-
-516. Paint House II  	Hard
-436. Maximal Square 	Medium
-406. Minimum Size Subarray Sum 		Medium
 32. Minimum Window Substring 	Medium
 425. Letter Combinations of a Phone Number Medium
 420. Count and Say Easy
@@ -134,4 +129,10 @@ Lintcode 24/35
 123. Word Search Medium ===
 141. Sqrt(x) Easy
 17. Subsets Medium
+
+
+
+516. Paint House II  	Hard
+436. Maximal Square 	Medium
+406. Minimum Size Subarray Sum 		Medium
 450. Reverse Nodes in k-Group Hard 

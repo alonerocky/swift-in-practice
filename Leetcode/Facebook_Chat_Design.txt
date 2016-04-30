@@ -59,6 +59,7 @@ https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/
 
 ------------------------news feed
 http://buttercola.blogspot.com/2014/11/facebook-design-fb-newsfeed.html
+https://medium.com/@bansal_ankur/design-a-news-feed-system-6bf42e9f03fb#.jb9niyfs5
 
 
 ====================Facebook messenger
