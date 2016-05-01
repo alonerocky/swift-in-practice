@@ -402,14 +402,11 @@ day 57 (1)
 128	Longest Consecutive Sequence	31.5%	Hard
 
 
-
-
 day 58
 
 day 59 (1)
 333	Largest BST Subtree 	26.1%	Medium
 
---------- 258 
 
 
 day 60 (2)
@@ -417,11 +414,17 @@ day 60 (2)
 272. Closest Binary Search Tree Value II
 
 
+-----------260
+
 In progress
+
+131	Palindrome Partitioning	27.5%	Medium	
+132	Palindrome Partitioning II	21.3%	Hard
+
+
 213	House Robber II	29.8%	Medium
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
-131	Palindrome Partitioning	27.5%	Medium	
 282	Expression Add Operators	23.7%	Hard
 218	The Skyline Problem	21.2%	Hard 
 
@@ -507,7 +510,6 @@ Open	(323 / 335)
 87	Scramble String	26.1%	Hard
 248	Strobogrammatic Number III 	25.5%	Hard
 327	Count of Range Sum	24.3%	Hard
-132	Palindrome Partitioning II	21.3%	Hard
 174	Dungeon Game	20.4%	Hard
 321	Create Maximum Number	19.7%	Hard
 214	Shortest Palindrome	19.0%	Hard
