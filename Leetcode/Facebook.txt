@@ -1,4 +1,4 @@
-Leetcode (59/79)
+Leetcode (62/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
@@ -10,8 +10,13 @@ Leetcode (59/79)
 274	H-Index	29.3%	Medium	======
 128	Longest Consecutive Sequence	32.1%	Hard	======
 209	Minimum Size Subarray Sum	26.8%	Medium  ====
-253	Meeting Rooms II 	34.6%	Medium
-210	Course Schedule II	21.0%	Medium
+301	Remove Invalid Parentheses	31.9%	Hard  ==== if (set.add(next)) {queue.addLast(next)}
+215	Kth Largest Element in an Array	33.1%	Medium ====
+269	Alien Dictionary 	22.9%	Hard  ====
+334	Increasing Triplet Subsequence	33.2%	Medium ====
+286	Walls and Gates 	37.2%	Medium  ====
+253	Meeting Rooms II 	34.6%	Medium ====
+210	Course Schedule II	21.0%	Medium ====
 278	First Bad Version	22.4%	Easy
 20	Valid Parentheses	29.3%	Easy
 125	Valid Palindrome	23.8%	Easy
@@ -56,25 +61,25 @@ Leetcode (59/79)
 257	Binary Tree Paths	28.4%	Easy
 78	Subsets	31.3%	Medium 
 90	Subsets II	30.5%	Medium
-215	Kth Largest Element in an Array	33.1%	Medium
-269	Alien Dictionary 	22.9%	Hard 
-
 
 
 
 127	Word Ladder	19.6%	Medium
 
 
+
+239	Sliding Window Maximum 	27.4%		Hard
 43	Multiply Strings	23.4%	Medium		 	 	
 265	Paint House II 	35.6%	Hard	
 273	Integer to English Words	18.7%	Hard 	
 25	Reverse Nodes in k-Group	27.5%	Hard			
 91	Decode Ways	17.5%	Medium  
 297	Serialize and Deserialize Binary Tree	27.8%	Hard	===		
-286	Walls and Gates 	37.2%	Medium 
  
+
+
 				
-334	Increasing Triplet Subsequence	33.2%	Medium	
+	
 221	Maximal Square	23.5%	Medium		
 	
  	
@@ -83,13 +88,13 @@ Leetcode (59/79)
 311	Sparse Matrix Multiplication 	47.1%	Medium	
 
 
-301	Remove Invalid Parentheses	31.9%	Hard	
+ 	
 146	LRU Cache	15.8%	Hard	
 85	Maximal Rectangle	23.4%	Hard	
 44	Wildcard Matching	17.4%	Hard	
 		
  	
-239	Sliding Window Maximum 	27.4%		Hard
+ 
 325	Maximum Size Subarray Sum Equals k 	39.9%	Easy
 218	The Skyline Problem	22.0%	Hard
 282	Expression Add Operators	24.8%	Hard

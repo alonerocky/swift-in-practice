@@ -1,17 +1,16 @@
-LeetCode (3/9)
+LeetCode (6/9)
 133	Clone Graph	24.9%	Medium	
 200	Number of Islands	27.6%	Medium 
 261	Graph Valid Tree 	32.5%	Medium
+207	Course Schedule	26.9%	Medium	
+210	Course Schedule II	21.0%	Medium	
+269	Alien Dictionary 	23.0%	Hard
 
 310	Minimum Height Trees	26.5%	Medium		
 323	Number of Connected Components in an Undirected Graph 	42.8%	Medium
 
 
-207	Course Schedule	26.9%	Medium	
-210	Course Schedule II	21.0%	Medium	
-
-
-269	Alien Dictionary 	23.0%	Hard	
+	
 332	Reconstruct Itinerary	23.8%	Medium	
 
 

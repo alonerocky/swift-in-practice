@@ -48,3 +48,22 @@ public int countComponents(int n, int[][] edges) {
             }
         }
     }
+
+public void bfs(int u, HashMap<Integer, ArrayList<Integer>> adjacents, boolean[] visited) {
+        Deque<Integer> queue = new ArrayDeque<Integer>();
+        queue.addLast(u);
+        visited[u] = true;
+        while(!queue.isEmpty()) {
+            int front = queue.pollFirst();
+            if(adjacents.containsKey(front)) {
+                ArrayList<Integer> neighbors =  adjacents.get(front);
+                for (int i = 0; i < neighbors.size(); i++) {
+                    int v = neighbors.get(i);
+                    if (!visited[v]) {
+                        visited[v] = true;
+                        queue.addLast(v);
+                    }
+                }
+            }
+        }
+    }

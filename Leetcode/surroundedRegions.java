@@ -57,3 +57,22 @@ public void solve(char[][] board) {
             }
         }
     }
+
+public void dfs(char[][] board, int row, int column) {
+        if (board[row][column] != 'O') {
+            return;
+        }
+        board[row][column] = '#';
+        int[][] dirs = {{-1,0},{1,0},{0,-1},{0,1}};
+        for (int i = 0; i < dirs.length; i++) {
+            int r = row + dirs[i][0];
+            int c = column + dirs[i][1];
+            if (r >= 0 
+               && r < board.length
+               && c >= 0
+               && c < board[0].length
+               && board[r][c] == 'O') {
+                   dfs(board, r, c);
+               }
+        }
+    }
