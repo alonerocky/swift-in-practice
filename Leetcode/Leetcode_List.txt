@@ -1,4 +1,4 @@
-Done	258/ 328
+Done	260/ 328
 1	Two Sum 								2
 12	Integer to Roman 						3    sb.append(ROMAN[i])
 13	Roman to Integer 						2
@@ -416,21 +416,27 @@ day 60 (2)
 
 -----------260
 
+day 61 (2)
+289	Game of Life	33.6%	Medium
+342	Power of Four
+
 In progress
 
 131	Palindrome Partitioning	27.5%	Medium	
 132	Palindrome Partitioning II	21.3%	Hard
+139	Word Break	24.7%	Medium
+140	Word Break II	19.3%	Hard
+
 
 
 213	House Robber II	29.8%	Medium
-139	Word Break	24.7%	Medium
-140	Word Break II	19.3%	Hard
 282	Expression Add Operators	23.7%	Hard
 218	The Skyline Problem	21.2%	Hard 
 
 
 
 233	Number of Digit One	23.9%	Medium
+166	Fraction to Recurring Decimal	14.7%	Medium
 338	Counting Bits	55.6%	Medium
 313	Super Ugly Number	32.3%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
@@ -443,7 +449,6 @@ In progress
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 135	Candy	22.0%	Hard
 322	Coin Change	24.5%	Medium
-
 
 
 
@@ -475,11 +480,11 @@ In progress
 
 
 Open	(323 / 335)
-342	Power of Four
+ 
 319	Bulb Switcher	39.6%	Medium
 300	Longest Increasing Subsequence	33.7%	Medium
 
-289	Game of Life	33.6%	Medium
+
 247	Strobogrammatic Number II 	33.4%	Medium
 330	Patching Array	28.2%	Medium
 264	Ugly Number II	26.7%	Medium
@@ -489,7 +494,6 @@ Open	(323 / 335)
 179	Largest Number	18.3%	Medium
 220	Contains Duplicate III	18.2%	Medium
 335	Self Crossing	17.4%	Medium
-166	Fraction to Recurring Decimal	14.7%	Medium
 343	Integer Break
   
 
