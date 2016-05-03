@@ -1,4 +1,4 @@
-Done	260/ 328
+Done	262/ 328
 1	Two Sum 								2
 12	Integer to Roman 						3    sb.append(ROMAN[i])
 13	Roman to Integer 						2
@@ -420,10 +420,15 @@ day 61 (2)
 289	Game of Life	33.6%	Medium
 342	Power of Four
 
-In progress
 
+day 62 (2)
 131	Palindrome Partitioning	27.5%	Medium	
 132	Palindrome Partitioning II	21.3%	Hard
+
+
+In progress
+
+ 
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
 
