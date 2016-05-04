@@ -65,3 +65,238 @@ https://medium.com/@bansal_ankur/design-a-news-feed-system-6bf42e9f03fb#.jb9niyf
 ====================Facebook messenger
 Facebook Messaging Architecture - A Lecture By Joydeep Sen Sarma On The Facebook Messaging Structure
 https://code.facebook.com/posts/820258981365363/building-mobile-first-infrastructure-for-messenger/
+
+
+
+
+
+
+
+
+
+
+http://buttercola.blogspot.com/2014/11/facebook-design-high-frequency.html
+
+Buttercola
+
+Monday, November 10, 2014
+Facebook: Design High-Frequency
+关于面试流程
+社招的话
+电面1-2轮，一般就是coding
+onsite一般是4轮，2轮coding，1轮design，1轮behavior+coding
+校招的话，那轮design也变成coding了
+
+
+
+关于准备
+1) algo/coding
+建议大家刷一下leetcode，基本上cover到了大多数常见面试题，而且有可能碰到原题
+。需要注意的是，仅仅解出来可能是不够的。代码的质量和速度也非常重要。网上有一
+些别人给出的答案可以参考，尽量做到代码简洁清晰。速度上leetcode上所有题都做到
+10分钟以内写完。
+
+
+2) design
+解这种题是个*交流*的过程，或者说是给出方案然后获取反馈的不断循环的过程。一般
+的流程：首先你要问清楚requirement；然后可以讲一下high level architecture，就
+是分成哪几个component，互相之间如果interact，在白板上画一画；之后面试官可能
+会让你深入某个component detail讨论；也有可能变换requirement让你重新设计
+另外，f家还喜欢让你估算机器之类的，做一些back-of-envelopme calculation。所以
+最好对一些计算机相关的基本常数，fb的用户量等等有个大概的了解。
+
+准备的时候建议看看fb的design高频题。一方面有可能面试的时候刚好碰到这几个
+topic，另一方面其实很多design都是相通的。
+之前有个帖子讲这个，原帖已经被删了，这儿有个备份http://blog.csdn.net/sigh1988/article/details/9790337
+另外补充一点我收集的材料
+
+a) 首先你可以从整体上了解一下facebook的architecture
+http://www.quora.com/Facebook-Engineering/What-is-Facebooks-arc
+
+b) news feed
+这里有个talk
+http://www.infoq.com/presentations/Facebook-News-Feed
+http://www.infoq.com/presentations/Scale-at-Facebook
+对应的slides
+http://readme.skplanet.com/wp-content/uploads/2012/11/0-3_Faceb
+还有一些quora上的讨论
+http://www.quora.com/Activity-Streams/What-are-the-scaling-issu
+http://www.quora.com/What-are-best-practices-for-building-somet
+http://www.quora.com/What-is-the-best-storage-solution-for-buil
+
+
+http://www.infoq.com/presentations/Facebook-Software-Stack
+一般的followup question是估算需要多少server
+另外这个帖子有讨论
+http://www.mitbbs.ca/article_t/JobHunting/32463885.html
+这篇文章稍微提到要怎么approach这种题，可以稍微看看
+http://book.douban.com/reading/23757677/
+
+
+c) facebook chat
+这里有两个notes，其中第二个里面还有相应的tech talk links
+https://www.facebook.com/notes/facebook-engineering/facebook-chat/14218138919
+https://www.facebook.com/notes/facebook-engineering/chat-stability-and-scalability/51412338919
+
+2. facebook chat,这个也算是挺常问的
+http://www.erlang-factory.com/upload/presentations/31/EugeneLet
+https://www.facebook.com/note.php?note_id=14218138919
+http://www.cnblogs.com/piaoger/archive/2012/08/19/2646530.html
+http://essay.utwente.nl/59204/1/scriptie_J_Schipers.pdf
+
+d) typeahead search & graph search
+关于typeahead search的tech talk和notes
+https://www.facebook.com/video/video.php?v=432864835468
+https://www.facebook.com/note.php?note_id=365915113919
+https://www.facebook.com/note.php?note_id=389105248919
+
+问题在这个帖子里被讨论到，基本上每个问题，在视频里都有回答
+http://www.mitbbs.com/article_t/JobHunting/32438927.html
+
+关于graph search的paper, tech talk, notes。其中paper很值得一看。
+http://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-cur
+https://newsroom.fb.com/Photos-and-B-Roll/4362/Graph-Search-Whiteboard
+https://www.facebook.com/note.php?note_id=10151240856103920
+https://www.facebook.com/note.php?note_id=10151347573598920
+https://www.facebook.com/note.php?note_id=10151361720763920
+https://www.facebook.com/note.php?note_id=10151432733048920
+https://www.facebook.com/note.php?note_id=10151755593228920
+
+e) facebook messages
+两个tech talks
+http://www.youtube.com/watch?v=XAuwAHWpzPc
+http://www.infoq.com/presentations/HBase-at-Facebook
+以及eng notes
+https://www.facebook.com/note.php?note_id=10150148835363920
+https://www.facebook.com/note.php?note_id=10150162742108920
+
+f) photo storage
+相关的papers和notes
+https://www.usenix.org/conference/osdi10/finding-needle-haystack-facebooks-
+photo-storage
+https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Beaver.pdf
+https://www.usenix.org/legacy/events/osdi10/tech/slides/beaver.pdf
+https://www.facebook.com/note.php?note_id=76191543919
+
+g) tiny URL
+这里有一些讨论
+http://n00tc0d3r.blogspot.com/2013/09/big-data-tinyurl.html
+http://stackoverflow.com/questions/742013/how-to-code-a-url-sho
+http://stackoverflow.com/questions/3376163/what-are-the-things-
+
+h) POI
+参考这里
+http://www.slideshare.net/mmalone/scaling-gis-data-in-nonrelati
+http://www.mitbbs.ca/article_t/JobHunting/32476139.html
+
+
+3) behavior，建议大家了解一下fb的culture，准备一下常见的behavior questions，
+面试之前rehearsal一下。
+
+最后面试临近的时候，可以再刷刷面经，找找感觉。像glassdoor, mitbbs/jobhunting
+, careercup，这些上面就有很多。
+Posted by Butter is looking for a job at 1:36 PM 
+Email This
+BlogThis!
+Share to Twitter
+Share to Facebook
+Share to Pinterest
+
+Labels: Facebook, Interview
+No comments:
+Post a Comment
+ 
+
+ 
+Newer Post Older Post Home
+Subscribe to: Post Comments (Atom)
+Search This Blog
+
+Search
+Labels
+Big Data (4)
+Data structure and algorithm (20)
+Giraph (3)
+Interview (4)
+Java (2)
+Knowledge (2)
+Leetcode (304)
+LintCode (11)
+Nine Chapter (6)
+System Design (9)
+Blog Archive
+►  2016 (31)
+►  2015 (225)
+▼  2014 (219)
+►  December (14)
+▼  November (49)
+Lintcode: Minimum adjustment cost
+Lintcode: K sum
+Lintcode: Longest Common Substring (LCS)
+Lintcode: Longest Common Subsequence (LCS)
+Lintcode: Longest increasing subsequence (LIS)
+Knowledge: Object Oriented (OO)
+Knowledge: Parallelism
+
+Facebook: Implement a iterator of a BST
+Facebook: One edit distance
+Facebook: LCA without parent pointer
+Facebook: Binary tree serialization and deserializ...
+Facebook: Two elements sum up to a third
+Facebook: Merge k sorted arrays
+Facebook: Integer to Roman
+Facebook: Roman to Integer
+Facebook: Multiply Strings
+Facebook: Best time to buy and sell stock
+Facebook: Print a tree in level order
+Facebook: Write a Palindrome checking function
+Facebook: Climb a flight
+Facebook: Add up two big integers represented in a...
+Facebook: Expression Evaluation
+Facebook: Find all 3 items that sum to 0 in an arr...
+Facebook: Implement a LRU Cache
+Facebook: Combinations (n, k)
+Facebook: Find all the anagrams in an array of str...
+Facebook: Calculate the square root of a double
+Facebook: Write all solutions for a^3 + b^3 = c^3 ...
+
+Facebook: Print the nodes of a linked list in reve...
+Facebook: Print n-th node in a binary tree
+Facebook: Check if two binary trees are Isomorphic...
+Facebook: Interweave a linked list
+Facebook: Printing a binary tree L-R
+Facebook: Find the longest palindrome in a given s...
+
+
+
+Facebook: Determine the 10 most frequent words giv...
+Facebook: Password combination
+ 
+Facebook: Mutate input array
+Facebook: Simple Polygon
+Facebook: Finding maximum subsequence sum
+Facebook: Print the sum of all the numbers at ever...
+Facebook: Print all the paths from root to every l...
+Facebook: Maximum number of overlapping intervals
+
+
+Facebook: Design High-Frequency
+Facebook: Design a chat
+
+ 
+ 
+
+ 
+
+
+System Design: Design a Tiny URL
+Facebook: High-Frequency II
+System Design: System Design Resource
+System Design: Introduction to System Design
+Facebook: High-Frequency I
+►  October (9)
+►  September (75)
+►  August (63)
+►  July (9)
+Awesome Inc. template. Powered by Blogger.
+

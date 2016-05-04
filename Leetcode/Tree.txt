@@ -1,27 +1,33 @@
-Trees (0/42)
+Trees (8/42)
 297	Serialize and Deserialize Binary Tree	27.9%	Hard ==
-
-
-270	Closest Binary Search Tree Value 	34.4%	Easy
 272	Closest Binary Search Tree Value II  	33.3%	Hard
-333	Largest BST Subtree 	26.6%	Medium
-222	Count Complete Tree Nodes 	25.1%	Medium
-116	Populating Next Right Pointers in Each Node 	36.5%	Medium
+270	Closest Binary Search Tree Value 	34.4%	Easy
 117	Populating Next Right Pointers in Each Node II	32.8%	Hard
-124	Binary Tree Maximum Path Sum 	23.3%	Hard			
-112	Path Sum	31.3%	Easy	
-113	Path Sum II 	28.3%	Medium
-337	House Robber III 	37.1%	Medium	
-156	Binary Tree Upside Down 	38.3%	Medium	
-285	Inorder Successor in BST 	35.6%	Medium	
-298	Binary Tree Longest Consecutive Sequence  	37.0%	Medium	
-250	Count Univalue Subtrees 	36.4%	Medium	
-255	Verify Preorder Sequence in Binary Search Tree 	37.1%	Medium	
-96	Unique Binary Search Trees	37.5%	Medium	
+285	Inorder Successor in BST 	35.6%	Medium
+337	House Robber III 	37.1%	Medium  =====
+96	Unique Binary Search Trees	37.5%	Medium
 95	Unique Binary Search Trees II	29.0%	Medium
+298	Binary Tree Longest Consecutive Sequence  	37.0%	Medium
+
+
+333	Largest BST Subtree 	26.6%	Medium
+222	Count Complete Tree Nodes 	25.1%	Medium	
+124	Binary Tree Maximum Path Sum 	23.3%	Hard	
+250	Count Univalue Subtrees 	36.4%	Medium	
+
+
+
+
+
+116	Populating Next Right Pointers in Each Node 	36.5%	Medium			
+112	Path Sum	31.3%	Easy	
+113	Path Sum II 	28.3%	Medium	
+156	Binary Tree Upside Down 	38.3%	Medium		
+255	Verify Preorder Sequence in Binary Search Tree 	37.1%	Medium	
 199	Binary Tree Right Side View	34.5%	Medium	
 230	Kth Smallest Element in a BST	37.7%	Medium
 129	Sum Root to Leaf Numbers 	32.7%	Medium
+
 
 226	Invert Binary Tree	45.4%	Easy	
 257	Binary Tree Paths	28.5%	Easy	

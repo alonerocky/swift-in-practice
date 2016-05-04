@@ -63,3 +63,60 @@ public int longestConsecutive(TreeNode root) {
             this.max = max;
         }
     } 
+
+
+
+-----------------
+public int longestConsecutive(TreeNode root) {
+         if (root == null) {
+             return 0;
+         }
+         Result r = longestConsecutive_helper(root);
+         return r.maxLen;
+    }
+    
+    public Result longestConsecutive_helper(TreeNode root) {
+         if (root.left == null && root.right == null) {
+             return new Result(root.val, 1, 1);
+         } else if (root.left == null) {
+             Result right = longestConsecutive_helper(root.right);
+             int len = 1;
+             if (root.val == right.val - 1) {
+                 len += right.len;
+             }
+             int maxLen = Math.max(right.maxLen, len);
+             return new Result(root.val, len, maxLen);
+         } else if (root.right == null) {
+             Result left = longestConsecutive_helper(root.left);
+             int len = 1;
+             if (root.val == left.val - 1) {
+                 len += left.len;
+             }
+             int maxLen = Math.max(left.maxLen, len);
+             return new Result(root.val, len, maxLen);
+         } else {
+             Result left = longestConsecutive_helper(root.left);
+             Result right = longestConsecutive_helper(root.right);
+             int len = 1;
+             if (root.val == left.val - 1 && root.val == right.val - 1) {
+                 len += Math.max(left.len, right.len);
+             } else if (root.val == right.val - 1) {
+                 len += right.len;
+             } else if (root.val == left.val - 1) {
+                 len += left.len;
+             }
+             int maxLen = Math.max(len, Math.max(left.maxLen, right.maxLen));
+             return new Result(root.val, len, maxLen);
+         }
+    }
+    
+    class Result {
+        int val;
+        int maxLen;
+        int len;
+        public Result(int val, int len, int maxLen) {
+            this.val = val;
+            this.len = len;
+            this.maxLen = maxLen;
+        }
+    }
