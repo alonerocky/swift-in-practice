@@ -500,7 +500,10 @@ Open	(323 / 335)
 220	Contains Duplicate III	18.2%	Medium
 335	Self Crossing	17.4%	Medium
 343	Integer Break
-  
+346	Moving Average from Data Stream 	66.6%		Easy	
+347	Top K Frequent Elements	44.0%		Medium	
+348	Design Tic-Tac-Toe
+
 
 
 

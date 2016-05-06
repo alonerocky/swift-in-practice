@@ -224,12 +224,7 @@ Leetcode (304)
 LintCode (11)
 Nine Chapter (6)
 System Design (9)
-Blog Archive
-►  2016 (31)
-►  2015 (225)
-▼  2014 (219)
-►  December (14)
-▼  November (49)
+
 Lintcode: Minimum adjustment cost
 Lintcode: K sum
 Lintcode: Longest Common Substring (LCS)
@@ -294,9 +289,892 @@ Facebook: High-Frequency II
 System Design: System Design Resource
 System Design: Introduction to System Design
 Facebook: High-Frequency I
-►  October (9)
-►  September (75)
-►  August (63)
-►  July (9)
-Awesome Inc. template. Powered by Blogger.
+
+
+
+
+Careercup
+-----------
+(1) design a URL shortener service
+(2) On a given array with N numbers, find subset of size M (exactly M elements) that equal to SUM.
+
+(3) Design a data structure that supports kind of full text search but in numbers. 
+
+We are given file with lot of 10-digits numbers, for example: 
+
+1234 567 890 
+4124 123 123 
+3123 123 322 
+
+On a given number X we should return all numbers that contain X. 
+
+For example, if the number 123 was given, we should return all numbers (from the list above) because 123 is in all of them. 
+
+If the number 41 was given we should return only the middle number - because the number 41 is only in it.
+
+(4) facebook-interview-questions0
+of 0 votes
+17 
+Answers
+Given an array of contacts with phone numbers/emails you should detect and union identical contacts. 
+
+For example, given the following contacts array: 
+
+[ [ "John", "john@gmail.com", "john@fb.com"], 
+[ "Dan", "dan@gmail.com", "+1234567"], 
+[ "john123", "+5412312", "john123@skype.com"], 
+[ "john1985", "+5412312", "john@fb.com"] ] 
+
+We can see that john1985, John and john123 are the same person by their contact information. 
+
+We should output 
+
+[[ 0, 2, 3], [1]] (0,2,3 are the same person and 1 is another one)
+
+(5) Given a singly linked list, swap the list items in pairs (reconnect the pointers, not simply swap the values). For example: 
+
+Before: A->B->C->D 
+After: B->A->D->C
+
+(6) Given an m x n matrix where each row element is sorted, but the columns do not appear in sorted order, write a function to print each matrix element in sorted order. 
+
+Example matrix: 
+matrix = [ 
+[20, 40, 80], 
+[5, 60, 90], 
+[45, 50, 55] 
+] 
+
+Your function should print 5, 20, 40, 45, 50, 55, 60, 80, 90. 
+
+Add on: Assume that we are space-constrained such that we can only hold one row in memory at a time. Optimize your function to work under such constraints as efficiently as possible.
+
+(7) Inplace reverse a sentence 
+
+You given a sentence of english words and spaces between them. 
+Nothing crazy: 
+1) no double spaces 
+2) no empty words 
+3) no spaces at the ends of a sentence
+
+
+void inplace_reverse(char* arr, int length) {
+    // your solution
+}
+Example: 
+input "I wish you a merry Christmas" 
+output "Christmas merry a you wish I" 
+
+Constrains: O(1) additional memory
+
+(8)Given a 4 X 4 game slot that has random alphabets in all the slots 
+Write a function that takes the keyboard and the word as input and returns true if the word can be formed 
+False otherwise. 
+
+A word can be formed on the board by connecting alphabets adjacent to each other (horizontal, vertical and diagonally) 
+Same alphabet should not be reused.
+
+
+(9)You have a list of words with ranking. 
+Now you need to create a function that will take this list as input and provide a way so that a T9 keyboard can provide three top results of probable words based on rankings for the numbers punched in.
+
+
+
+(10)roll two dice, what is the probability of rolling no sixes?
+
+(11)Find the maximum number of non-intersecting events in a calendar.
+
+
+
+(12)Given an array of ages (integers) sorted lowest to highest, output the number of occurrences for each age. 
+For instance: 
+[8,8,8,9,9,11,15,16,16,16] 
+should output something like: 
+8: 3 
+9: 2 
+11: 1 
+15: 1 
+16: 3 
+
+This should be done in less than O(n).
+
+(13) An efficient way to sort patient files in an array of just 3 types 'High-importance', 'Mid-importance', 'Low-importance' which are in an arbitrary order (unsorted). 
+
+The output preference should start with the highest. 
+
+1. High-importance 
+
+2. Mid-importance 
+
+3. Low-importance 
+
+
+
+[high,low,low,med,high,low] 
+
+ps I was told to take advantage of the fact that they are just only 3 types.
+
+(14)There is a list of rectangles and a list of points in a 2d space. Note that the edge of each rectangle are aligned to XY axis. question is how to find rectangles with point or points inside
+
+(15)You are given an array of non-negative integers (0, 1, 2 etc). The value in each element represents the number of hops you may take to the next destination. Write a function that determines when you start from the first element whether you will be able to reach the last element of the array. 
+
+if a value is 3, you can take either 0, 1, 2 or 3 hops. 
+
+For eg: for the array with elements 1, 2, 0, 1, 0, 1, any route you take from the first element, you will not be able to reach the last element.
+
+(16)Let's say there is a double square number X, which can be expressed as the sum of two perfect squares, for example, 10 is double square because 10 = 3^2 + 1^2 
+
+Determine the number of ways which it can be written as the sum of two squares
+
+(17)Suppose we have array of N numbers. We will define N functions on this array. Each function will return the sum of all numbers in the array from Li to Ri ( Li is left index, Ri is right index). Now we have 2 types of queries: 
+
+Type1: 1 x y Change the xth element of the array to y 
+Type2: 2 l r Return the sum of all functions from m to n. 
+
+Input type: 
+First Line is the size of the array i.e. N 
+
+Next Line contains N space separated numbers Ai denoting the array 
+
+Next N line follows denoting Li and Ri for each functions. 
+
+Next Line contains an integer Q , number of queries to follow. 
+
+Next Q line follows , each line containing a query of Type 1 or Type 2 
+
+Here is an example: 
+Input: 
+5 
+1 2 3 4 5 
+1 2 
+3 4 
+1 4 
+1 5 
+3 5 
+5 
+1 1 5 
+2 2 4 
+2 1 3 
+1 4 5 
+2 1 5 
+
+Output: 
+40 
+28 
+63 
+
+Explanation: 
+Function 1 is sum of values from index 1 to index 2 = 1+2=3 
+So , F1=3 
+Similarly, F2=3+4=7 
+F3=1+2+3+4=10 
+F4=15 
+F5=12 
+
+Now when I query 1 1 5 
+means it is type 1 query, so we replace value at index 1 by 5. 
+So our new array is, 
+5 2 3 4 5 
+and 
+F1=7 
+F2=7(unchanged) 
+F3=14 
+F4=19 
+F5=12(unchanged) 
+
+Then next query is 2 2 4 
+means give sum of all functions from index 2 to 4. 
+So, ans= 7+14+19 =40 (output 1) 
+
+Similarly are other 2 outputs. 
+Index are 1 based in example. 
+Comment me if you are not clear with question. 
+
+Edit: I know one can do it with naive approach or using segment tree. But they wanted more faster way to do it.
+
+(18)Suppose we are given a set L of n line segments in the plane, where the endpoints of each 
+segment lie on the unit circle x^2 + y^2 = 1, and all 2n endpoints are distinct. Describe 
+and analyze an algorithm to compute the largest subset of L in which no pair of segments 
+intersects.
+
+(19)You're given an array of integers(eg [3,4,7,1,2,9,8]) Find the index of values that satisfy A+B = C + D, where A,B,C & D are integers values in the array. 
+
+Eg: Given [3,4,7,1,2,9,8] array 
+The following 
+3+7 = 1+ 9 satisfies A+B=C+D 
+so print (0,2,3,5)
+
+
+
+(20)Given an array of positive integers that represents possible points a team could score in an individual play. Now there are two teams play against each other. Their final scores are S and S'. How would you compute the maximum number of times the team that leads could have changed? 
+For example, if S=10 and S'=6. The lead could have changed 4 times: 
+Team 1 scores 2, then Team 2 scores 3 (lead change); 
+Team 1 scores 2 (lead change), Team 2 score 0 (no lead change); 
+Team 1 scores 0, Team 2 scores 3 (lead change); 
+Team 1 scores 3, Team 2 scores 0 (lead change); 
+Team 1 scores 3, Team 2 scores 0 (no lead change).
+
+(21)Given an array of integers. We have to find the max element of the array, which is at multiple places in the array and return any one of the indices randomly.
+
+(22)Given a function 
+
+getRandomTripplet() 
+
+which returns a random triplet of letters from a string. You don't know the string using calls to this function you have to correctly guess the string. the length of the string is also given. 
+
+Lets say the string is helloworld the function getRandomTriplet will return things like 
+
+hlo 
+hew 
+wld 
+owo 
+
+the function maintains the relative order of the letters. so it will never return
+
+ohl since h is before o in the string. 
+owe since w is after e 
+
+The string is not known you are only given length of the string.
+
+(23)Let's say you have 10,000 servers, each with a billion integers. How do you find the median?
+
+(24)Implement a method called printNonComments() which prints out a extract of text with comments removed. 
+
+For example, the input: 
+
+hello /* this is a 
+multi line comment */ all 
+
+Should produce: 
+
+hello 
+all 
+
+You have access to a method called getNextLine() which returns the next line in the input string.
+
+(25)Code a function that receives a string composed by words separated by spaces and returns a string where words appear in the same order but than the original string, but every word is inverted. 
+Example, for this input string
+
+
+@"the boy ran"
+the output would be
+
+
+@"eht yob nar"
+Tell the complexity of the solution.
+
+(26)Design an HTTP downloader that caches results and doesn't block execution (i.e., enables simultaneous downloads).
+
+(27)Code a function that receives an array with duplicates and returns a new array keeping the original order of the elements but with the duplicates removed. 
+
+For example, if the input were
+
+
+@[ @"dog", @"cat", @"dog", @"fish" ]
+the output would be
+
+
+@[ @"dog", @"cat", @"fish" ]
+Tell the complexity of the solution.
+
+(27)You want to create a staff to use in your martial arts training, and it has to meet some specific requirements. 
+
+1. You want it to be composed of two smaller staves of equal length so that you can either use it as a single staff or as two smaller ones. 
+
+2. You want the full sized staff's center of gravity to be exactly in the middle of the staff. 
+
+You have a very, very long branch from which you can cut the pieces for your staff. The mass of the branch varies significantly throughout it, so you use just any two pieces of the same length. Given a description of the mass throughout the branch, determine the longest staff you can make, then return three integers on a single line, the first two indicating the first index of each half-staff, and the third indicating the length of each half-staff. 
+
+The input will be given on a single line as a string of digits [1-9], each digit representing the mass of a section of the branch. All sections are the same size and the maximum length of the string is 500. Here is an example: 
+
+41111921111119 
+11119 11119 
+
+If the indicated sections are cut from the branch they will satisfy your requirements. They are both the same length, and they can be put together as either 9111111119 or 1111991111, both of which have a center of gravity exactly in the center of the staff. 
+
+
+Center of gravity can be determined by taking a weighted average of the mass of each section of the staff. Given the following distances and masses: 
+Distance: 12345678 
+Mass: 22241211 
+
+Sum of the mass of each section: 2 + 2 + 2 + 4 + 1 + 2 + 1 + 1 = 15 
+Weighted sum of the masses: 
+2*1 + 2*2 + 2*3 + 4*4 + 1*5 + 2*6 + 1*7 + 1*8 = 60 
+Weighted sum / regular sum = 60 / 15 = 4 
+
+This means that the center of mass is in section 4 of the staff. If we wanted to use this staff the center of gravity would need to be (8+1)/2 = 4.5. 
+
+Here is an example problem: 
+
+131251141231 
+---- ---- 
+
+If we take the sections indicated we get 1312 and 1231. By reversing the first one and putting them together we get 21311231 
+
+Sum of the mass of each section: 2 + 1 + 3 + 1 + 1 + 2 + 3 + 1 = 14 
+Weight sum of the masses: 
+2*1 + 1*2 + 3*3 + 1*4 + 1*5 + 2*6 + 3*7 + 1*8 = 63 
+Weighted sum / regular sum = 63 / 14 = 4.5 
+
+This puts the center of mass exactly in the center of the staff, for a perfectly balanced staff. There isn't a longer staff that can be made from this, so the answer to this problem is 
+
+0 8 4 
+
+Because the half-staves begin at indices 0 and 8 (in that order) and each is of length 4.
+
+
+
+(28)WAP to modify the array such that arr[I] = arr[arr[I]]. 
+Do this in place i.e. with out using additional memory. 
+
+example : if a = {2,3,1,0} 
+o/p = a = {1,0,3,2} 
+
+Note : The array contains 0 to n-1 integers.
+
+(29)Given a matrix consisting of 0's and 1's, find the largest connected component consisting of 1's.
+
+(30)Given two arrays of sorted integers, merge them keeping in mind that there might be common elements in the arrays and that common elements must only appear once in the merged array.
+
+
+(31)
+// cat, actor -> T
+// car, actor -> F
+
+bool anaStrStr (string needle, string haystack) 
+{
+}
+Write a function that takes 2 strings , search returns true if any anagram of string1(needle) is present in string2(haystack)
+
+(32)I/P: N, k 
+
+O/P: all subset of N with exactly K elements. 
+
+eg: I/p: N = 5, K =3 
+O/p: 
+
+1 2 3 
+1 2 4 
+1 2 5 
+1 3 4 
+1 3 5 
+2 3 4 
+2 3 5 
+3 4 5
+
+(33)Given the following 3 by 3 grid where the (first row, first column) is represented by (0,0): 
+
+0,1 1,2 3,3 
+1,1 3,3 3,2 
+3,0 1,3 null 
+
+we need to find if we can get to each cell in the table by following the cell locations at the current cell we are at. We can only start at cell (0,0) and follow the cell locations from that cell, to the cell it indicates and keep on doing the same for every cell.
+
+(34)Sink Zero in Binary Tree. Swap zero value of a node with non-zero value of one of its descendants 
+so that no node with value zero could be parent of node with non-zero.
+
+
+
+(35)Mapping 
+'1' = 'A','B','C' 
+'2' = 'D','E','F' 
+... 
+'9' = 
+
+input: 112 
+output :ouput = [AAD, BBD, CCD, AAE, AAF, BBE, BBF, CCE, CCF]
+
+(36)Given a number N, write a program that returns all possible combinations of numbers that add up to N, as lists. (Exclude the N+0=N) 
+
+For example, if N=4 return {{1,1,1,1},{1,1,2},{2,2},{1,3}}
+
+(37)Write a function for retrieving the total number of substring palindromes. 
+For example the input is 'abba' then the possible palindromes= a, b, b, a, bb, abba 
+So the result is 6. 
+
+Updated at 11/11/2013: 
+After the interview I got know that the O(n^3) solution is not enough to go to the next round. It would have been better to know before starting implementing the solution unnecessarily ...
+
+(38)Given a set of n points (coordinate in 2d plane) within a rectangular space, find out a line (ax+by=c), from which the sum of the perpendicular distances of all the points will be minimum. This can has a general usecase like, in a village there are few house, you have to lay a road, such that sum of all the approach roads from each house will be minimum.
+
+(39)Initially there is a number n written on board. Two players start playing a game turn by turn. Each player has to replace the number n written on the board by n-2^k (for some k >= 0 such that 2^k < n)? 
+
+Also the number n-2^k has to be as beautiful as n (The beauty of a number depends on the number of one's in its binary representation). The player loses the game when he can't select any such k. 
+Given the initial number n, determine which player will win the game if both players play optimally. n > 0 and n <= 10^9.
+
+(40)A string is called sstring if it consists of lowercase english letters and no two of its consecutive characters are the same. 
+
+You are given string s of length n. Calculate the number of sstrings of length that are not lexicographically greater than s. 
+Input format 
+The only line of input contains the string s. It's length is not greater than 100. 
+All characters of input are lowercase english letters. 
+
+Output format: 
+Print the answer of test modulo 1009 to the only line of output. 
+
+Sample input: 
+bcd 
+
+Sample output: 
+653
+
+
+
+(41)Given a sequence of numbers A(1) ..A(n), find the continuous subsequenceA(i)..A(j) for which the sum of elements is maximum. 
+
+condition: we should not select two contiguous numbers
+
+(42)Given a number x, less than 100. How will you generate true with probability x/100. So if x = 65, how will you generate true with probability 65/100. You can represent true by 1 and false by 0.
+
+
+(43)Given an array, find all unique three-member subsets, with unique being that [0,2,3] and [3,2,0] are the same set. Should run in faster than 2^n time
+
+(44)Write a function that accepts two or more strings and returns the longest common substring in all of them.
+
+(45)Design a realtime service that tells users which of their friends are currently online. 
+
+Your service must implement two functions:
+
+
+// Return a list of friends of `user_id` that are online
+	List<user_id> getOnlineFriends(user_id)
+
+	// Tell the service that `user_id` is online
+	setOnline(user_id)
+You may assume that you have access to the function `getFriendIds(user_id)` which returns you a list of all friend ids for a given user id
+
+(46)Given a hashmap M which is a mapping of characters to arrays of substitute characters, and an input string S, return an array of all possible mutations of S (where any character in S can be substituted with one of its substitutes in M, if it exists). 
+
+What is the time complexity? What is the space complexity? Can you optimize either?
+
+
+Example input:
+	M = { f: [F, 4], b: [B, 8] }
+	S = fab
+
+Expected output:
+	[fab, Fab, 4ab, faB, FaB, 4aB, fa8, Fa8, 4a8]
+
+
+(47)Print all the permutaion of a given string. 
+
+1) explain time\space complexity? 
+
+2) how can you improve time\space complexity?
+
+(48)Given an integer, return all sequences of numbers that sum to it. (Example: 3 -> (1, 2), (2, 1), (1, 1, 1)). Interview was for a php position.
+
+(49)Got FB interview questions is not difficult, basically, he is asking to count number of identical chars in a given string with with some special case handling, and return the number with highest count, question is pretty long leaving you to dig an algorithm. 
+
+Etc, given string "coffee tuffee", should return 4. 
+
+I was having my usual interview brain freeze, and start doing initializing with int, how silly 
+
+well after interview when I cool down, it doesn't take long to figure out as code below, little over weighted algorithm but the most concise I can wrote, someone please give more efficient code.
+
+(50)Design a system for showing quotes on the web. 
+For example, when the user is looking at page A, part of which is reproduced in page B, the system could highlight part of page A present the user with a link to page B. 
+This is an open-ended system design question. 
+
+What constitutes a quote? 
+How do you find quotes? 
+How do you make it scale to the web? 
+How do you handle updates? 
+How would you arrange the servers? 
+What data structures would you use? 
+How much storage would you need? 
+How would the user agent present information about quotes?
+
+(51)Implement second/minute/hour/day counters Feb. 4, 2011 8:59pm 
+Implement the API that counts the number of events in the last sec/min/hr/day: 
+SMHDCounter { 
+void Increment(); 
+int LastSecCount(); // also functions for minute, hour 
+int LastDayCount(); 
+} 
+Additional requirements 
+- you require that the data be quite fresh 
+- how much storage will they take up 
+- make sure this works for an active counter, getting 100s of events a second. 
+- keep the implementation fast. E.g. under 10 mS. Or even better motivate by saying we might have 50 of these SMHD counters on a single status page, and ask the candidate how fast their solution should be.
+
+(52)consider a B2C website like Amazon, which will receive thousands requests from buyer per minutes. How will you design the "shop cart " component for it? where should the customs' shop cart data stored?
+
+(53)generic HashMap implementation
+
+(54)Design a scalable server for the hangman game
+
+(55)How do you search thrgough huge flat file?
+
+(56)Determining trending topics 
+
+
+How do you think Twitter determines trending topics? 
+
+If needed, explain that trending topics are N most common occurring substrings across all tweets in a given time window, which is constantly moving. Later you can expand the question by putting the scale constraint considering the rate at which tweets come in, etc.
+
+(57)Estimate the # of unique strings with limited memory 
+Given a large array of strings S = [s1, s2, ... sN], determine Uniq(S) = how many unique strings there are in S. 
+(b) How large can N be to solve on one machine using only memory? 
+(c*) What if N is too large to fully fit in memory?
+
+(58)Mastermind is a game of two players. In the beginning, first player decides a secret key, which is a sequence (s1,s2,...sk) where 0 < si <= n, Then second player makes guesses in rounds, where each guess is of form (g1,g2, ...gk), and after each guess first player calculates the score for the guess. Score for a guess is equal to number of i's for which we have gi = si. 
+
+For example if the secret key is (4,2,5,3,1) and the guess is (1,2,3,7,1),then the score is 2, because 
+g2 = s2 and g5 = s5. 
+
+Given a sequence of guesses, and scores for each guess, your program must decide if there exists at least one secret key that generates those exact scores. 
+
+Input 
+
+First line of input contains a single integer C (1 <=C <= 100). C test-cases follow. First line of each test-case contains three integers n,k and q. (1 <=n,k <=11, 1<=q<=8). Next q lines contain the guesses. 
+
+Each guess consists of k integers gi,1, gi,2,....gi,k separated by a single space, followed by the score for the guess bi (1 <= gi,j<=n for all 1 <=i <=q, 1 <=j <=k; and 0 <= bi <=k ) 
+
+Output 
+
+For each test-case, output "Yes" (without quotes), if there exists at least a secret key which generates those exact scores, otherwise output "No". 
+
+Sample Input 
+2 
+
+4 4 2 
+2 1 2 2 0 
+2 2 1 1 1 
+4 4 2 
+1 2 3 4 4 
+4 3 2 1 1 
+
+Sample Output 
+
+Yes 
+No
+
+(59)You are given an array of N elements.arrange array in such a way that sum of any cunsucative k numbers are divisible 
+by NUM.if not possible print -1.(it may possible that there are many solution possible then return any one) 
+
+For example: 
+N=6 
+k=3 
+NUM=63 
+array={80,17,90,82,27,19} 
+
+Answer:{19,17,27,82,80,90} 
+any 3 cunsucative no. like (27+82+80)%63=0 
+another solution={27,19,17,90,82,80} 
+
+may be a hint :try to group all no.'s in mod NUM map and use vector and map.
+
+(60)You are given an array of integers. Find all the combinations of the numbers of the array, that sum to another number(might be different for different combination) from the array. 
+One property of the array: The maximum number of the array will not be much greater than the others.
+
+(61)Given an array and a key, sum min subarray whose sum is no less than key. O(n) Time needed
+
+(62)Implement atof function. eg., +3.5e-2, .03e1, 1e1, 0.0
+
+(63)giving lots of intervals [ai, bi], find a point intersect with the most number of intervals
+
+(64)FInd the maximum sum of a sub-sequence from an positive integer array where any two numbers of sub-sequence are not adjacent to each other in the original sequence. E.g 1 2 3 4 5 6 --> 2 4 6
+https://careercup.com/question?id=14847690
+
+
+(65)You are given intervals of contiguous integers, like [1, 10), [15, 25), [40, 50), which are non-overlapping and of a fixed size. 
+Design a data structure to store these intervals and have the operations of insert, delete, and find functions
+
+(66)You are going to take some numbers as an input from a file. You need to witer a program to find longest increasing sequence. You should process it as soon as you are taking an input. After finishing the last input immediately you should be able to tell the sequence. Input: 1 5 3 4 6 4 Output: 3 4 6
+
+(67)Design the Facebook Credit system which is a application where users can buy/trade virtual currency and can use the virtual currency to purchase Facebook services, like paid apps.
+
+(68)Design and implement an algorithm that would correct typos: for example, if an extra letter is added, what would you do? 
+design and implement algorithms that correct typos, offering guidance, encouragement, and confirmation along the way
+
+(69)Generate a random 4 letter word from /usr/share/dict/words
+
+(70)A file contains a billion integers, try to find any one integer that is not in the file.
+
+(71)•	Design the recommendation system for search keywords
+
+(72) Given a set {1,2,3,4,5...n} of n elements, write code that outputs all subsets of length k. For example, if n = 4 and k = 2, the output would be {1, 2}, {1, 3}, {1, 4}, {2, 3}, {2, 4}, {3, 4}
+
+(73)range sum query，array，given i,j. 
+get sum array[i,j]: 
+
+requirement: n^1/2 space/time complexity
+
+
+
+(74)Determine the 10 most frequent words given a terabyte of strings.
+
+
+
+(75)How will you implement your own rand() such that it returns an integer from 0 to n-1 with equal probability?
+
+(76)
+You have a stream of bytes from which you can read one byte at a time. You only have enough space to store one byte. After processing those bytes, you have to return a random byte. Note: The probability of picking any one of those bytes should be equal.
+
+
+(77)Input: 
+3 
+3 1 2 
+nny 
+nnn 
+ynn 
+output: 
+2 1 3 
+n size of permutation P.First line of input is n.Second line is the permutation P.A Permutation X is said to be lexicographically smaller than Y if for all digits till i X[i]=Y[i] and for i+1 X[i]<=Y[i]so you can exchange the integers in the given permutation P if character j of line i+2 is 'y' then i th and j th integer in P can be exchanged . 
+Output:Lexicographically smallest premutation of the given P using rule
+
+
+(78)
+Find the number of substrings of a string that are palindromes.
+
+(79)Given a character array. Find if there exists a path from O to X. Here is an example 
+. . . . . . . 
+. . . . . . . 
+w . . . . . . 
+w .w.w.. 
+. . . . O . . 
+. . w. . . . 
+. . . X . . . 
+
+You have to just keep in mind that you cannot go through 'W'.
+
+(80)An expression consisting of operands and binary operators can be written in Reverse Polish Notation (RPN) by writing both the operands followed by the operator. For example, 3 + (4 * 5) can be written as "3 4 5 * +". 
+
+You are given a string consisting of x's and *'s. x represents an operand and * represents a binary operator. It is easy to see that not all such strings represent valid RPN expressions. For example, the "x*x" is not a valid RPN expression, while "xx*" and "xxx**" are valid expressions. What is the minimum number of insert, delete and replace operations needed to convert the given string into a valid RPN expression? 
+
+Input: The first line contains the number of test cases T. T test cases follow. Each case contains a string consisting only of characters x and *. 
+
+Output: Output T lines, one for each test case containing the least number of operations needed. 
+
+Constraints: 1 <= T <= 100 The length of the input string will be at most 100. 
+
+Sample Input: 
+
+5 
+x 
+xx* 
+xxx** 
+*xx 
+xx*xx** 
+Sample Output: 
+
+0 
+0 
+0 
+2 
+0 
+Explanation: 
+
+For the first three cases, the input expression is already a valid RPN, so the answer is 0. For the fourth case, we can perform one delete, and one insert operation: xx -> xx -> xx
+
+- dprediction April 02, 2012 in United States | Report Duplicate | Flag 
+Facebook Software Engineer / Developer C#
+facebook-interview-questions-2
+of 2 votes
+1 
+Answer
+An expression consisting of operands and binary operators can be written in Reverse Polish Notation (RPN) by writing both the operands followed by the operator. For example, 3 + (4 * 5) can be written as "3 4 5 * +". 
+
+You are given a string consisting of x's and *'s. x represents an operand and * represents a binary operator. It is easy to see that not all such strings represent valid RPN expressions. For example, the "x*x" is not a valid RPN expression, while "xx*" and "xxx**" are valid expressions. What is the minimum number of insert, delete and replace operations needed to convert the given string into a valid RPN expression? 
+
+Input: The first line contains the number of test cases T. T test cases follow. Each case contains a string consisting only of characters x and *. 
+
+Output: Output T lines, one for each test case containing the least number of operations needed. 
+
+Constraints: 1 <= T <= 100 The length of the input string will be at most 100. 
+
+Sample Input: 
+
+5 
+x 
+xx* 
+xxx** 
+*xx 
+xx*xx** 
+Sample Output: 
+
+0 
+0 
+0 
+2 
+0 
+Explanation: 
+
+For the first three cases, the input expression is already a valid RPN, so the answer is 0. For the fourth case, we can perform one delete, and one insert operation: xx -> xx -> xx
+
+
+
+(81)Write a function f(n) which computes the number of scoring sequences that add up to score n.
+
+(82)String Reduction 
+
+Given a string consisting of a,b and c's, we can perform the following operation: Take any two adjacent distinct characters and replace it with the third character. For example, if 'a' and 'c' are adjacent, they can replaced with 'b'. What is the smallest string which can result by applying this operation repeatedly? 
+
+Input: 
+The first line contains the number of test cases T. T test cases follow. Each case contains the string you start with. 
+
+Output: 
+Output T lines, one for each test case containing the smallest length of the resultant string after applying the operations optimally. 
+
+Constraints: 
+1 <= T <= 100 
+The string will have at most 100 characters. 
+
+Sample Input: 
+3 
+cab 
+bcab 
+ccccc 
+
+Sample Output: 
+2 
+1 
+5 
+
+Explanation: 
+For the first case, you can either get cab -> cc or cab -> bb, resulting in a string of length 2. 
+For the second case, one optimal solution is: bcab -> aab -> ac -> b. No more operations can be applied and the resultant string has length 1. 
+For the third case, no operations can be performed and so the answer is 5.
+
+- sf engineer February 20, 2012 in United States | Report Duplicate | Flag 
+
+(83)Given a set of points (x,y) in a 2-d plane, which are guesses of a particular unknown point (x',y'), how do find the best estimate of (x',y') using the set of points given.
+
+(84)Given a list of words, L, that are all the same length, and a string, S, find the starting position of the substring of S that is a concatenation of each word in L exactly once and without any intervening characters. This substring will occur exactly once in S.. 
+
+. 
+
+Example:. 
+
+L: "fooo", "barr", "wing", "ding", "wing". 
+
+S: "lingmindraboofooowingdingbarrwingmonkeypoundcake". 
+
+fooowingdingbarrwing.
+
+(85)three points are randomly chosen on a circle.what the probability that 
+1.triangle formed is right angled triangle. 
+2.triangle formed is acute angled triangle. 
+3.triangle formed is obtuse angled triangle.
+
+(86)Given an array of size n, find all the possible sub set of the array of size k(all the subsets must be of size k).
+
+
+
+(87)there is a pyramid with 1 cup at level , 2 at level 2 , 3 at level 3 and so on.. 
+It looks something like this 
+1 
+2 3 
+4 5 6 
+every cup has capacity C. you pour L liters of water from top . when cup 1 gets filled , it overflows to cup 2,3 equally, and when they get filled , Cup 4 and 6 get water only from 2 and 3 resp but 5 gets water from both the cups and so on. 
+Now given C and M .Find the amount of water in ith cup.
+
+
+
+(88)A tree is serialized in such a way that all the leaves are market with L and all the other nodes with N. The tree is serialized keeping the order derived by a pre-order traversal. Write an algorithm for reconstructing the tree. Also, suggest a methodology for improving the serialization.
+
+
+
+(89)Find top log(n) or top sqt(n) values in an array of integers in less than linear time.
+
+
+
+(90)Given an array A of positive integers. Convert it to a sorted array with minimum cost. The only valid operation are: 
+1) Decrement with cost = 1 
+2) Delete an element completely from the array with cost = value of element
+
+
+(91)Given a list of n objects, write a function that outputs the minimum set of numbers that sum to at least K. (better than NLOGN)
+
+
+
+(92)Efficient way to count number of 1s in the binary representation of a number. How can you do it in O(1) if you have enough memory to play with.
+
+(93)Count words in a sentence. Words can be separated by more than one space. 
+
+(94)Write a c++ program to find the LCM of all the elements of an array.
+
+(95)You are given N ranges of date offsets when N employees are present in an organization. Something like 
+
+1-4 (i.e. employee will come on 1st, 2nd, 3rd and 4th day ) 
+2-6 
+8-9 
+.. 
+
+
+1-14 
+
+You have to organize an event on minimum number of days such that each employee can attend the event at least twice. Write an algorithm (there is apparently an O(n) algorithm for this).
+
+(96)
+given a set of distinct integers {a1, a2, a3, a4, a5, ...} 
+and a set of exclusion rules: R = {{a1, a3}, {a2, a4, a10}, ...} 
+can you print out all the valid subsets? 
+Example: 
+what is a valid subset? {a1, a4} 
+what is an invalid subset? {a1, a2, a4}
+
+(97)Given a unordered array of numbers, remove the fewest number of numbers to produce the longest ordered sequence. Print count of fewest numbers to be removed, and the remaining sequence. 
+For example, if input is 1 2 3 4 5 6 7 8 9 10, no (zero) numbers are removed, and input is the longest sequence. 
+If input is, 1 2 3 8 10 5 6 7 12 9 4 0, then fewest number of elements to be removed is 5 is the fewest number to be removed, and the longest sequence is 1 2 3 5 6 7 12.
+
+(98)Find and delete nodes from a linked list with value=k. What's the complexity? Does it handle boundary cases? 
+
+Hint: Make sure to free the memory when deleting a node using delete() or free()
+
+(99)Input: 
+Either an object array having integer, string and boolean, like 
+{"abc", "ab,c", 10, true, false} 
+Or a hash table like 
+{"a1":"abc","t":true,"e":123} 
+
+Output: 
+If object array, output 
+"abc" 
+10 
+true 
+
+If hash, output 
+"a1":"abc" 
+"t" : true 
+"e" : 123
+
+(100)
+Implement copy-on-write string class.
+
+
+
+(101)Write code for finding length of largest monotonically increasing sequence in an array of integers. 
+Optimize it (not the usual O(n) in worst case, but a better approach in average case).
+
+(102)shuffle an array of size n such that each element has 1/n probability to remain in its original spot. The best solution has O(n) complexity.
+
+(103)
+Write a function to identify if an integer has the same value when reversed (i.e flipped over. 6 when reversed will be 9). 
+
+For ex : the method should return true for the following integers 
+818 
+1691 
+88 
+
+but should return false for 
+8018 
+212
+
+(104)Write a progam to rotate a matrix by 90 degrees.
+
+(105)Divide a list of numbers into group of consecutive numbers but their original order should be preserved? 
+e.g. 
+8,2,4,7,1,0,3,6 
+
+2,4,1,0,3 and 8,7,6 
+
+obviously in shortest time and space.
+
+(105) Code a function 'dedupe' that removes duplicate characters from a string.
+ 
+
+
+
 

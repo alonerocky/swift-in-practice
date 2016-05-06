@@ -1,4 +1,4 @@
-Leetcode (65/79)
+Leetcode (69/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
@@ -17,6 +17,8 @@ Leetcode (65/79)
 286	Walls and Gates 	37.2%	Medium  ====
 253	Meeting Rooms II 	34.6%	Medium ====
 210	Course Schedule II	21.0%	Medium ====
+221	Maximal Square	23.5%	Medium ====
+239	Sliding Window Maximum 	27.4%		Hard ====
 278	First Bad Version	22.4%	Easy
 20	Valid Parentheses	29.3%	Easy
 125	Valid Palindrome	23.8%	Easy
@@ -64,20 +66,14 @@ Leetcode (65/79)
 273	Integer to English Words	18.7%	Hard
 297	Serialize and Deserialize Binary Tree	27.8%	Hard	===	
 91	Decode Ways	17.5%	Medium
+25	Reverse Nodes in k-Group	27.5%	Hard
+265	Paint House II 	35.6%	Hard 
 
 
 127	Word Ladder	19.6%	Medium
-
-
-
-239	Sliding Window Maximum 	27.4%		Hard
 43	Multiply Strings	23.4%	Medium		 	 	
-265	Paint House II 	35.6%	Hard	 	
-25	Reverse Nodes in k-Group	27.5%	Hard			
-221	Maximal Square	23.5%	Medium		
-	
- 	
-	
+ 	 				
+		
 139	Word Break	25.2%	Medium						
 311	Sparse Matrix Multiplication 	47.1%	Medium	
 
@@ -94,7 +90,7 @@ Leetcode (65/79)
 282	Expression Add Operators	24.8%	Hard
 
 ----------------------------------------------
-Lintcode 32/35
+Lintcode 35/35
 148. Sort Colors 	Medium
 104. Merge k Sorted Lists 	Medium
 154. Regular Expression Matching Hard
@@ -127,9 +123,6 @@ Lintcode 32/35
 141. Sqrt(x) Easy
 17. Subsets Medium
 406. Minimum Size Subarray Sum 		Medium
-
-
-516. Paint House II  	Hard
 450. Reverse Nodes in k-Group Hard 
-
 436. Maximal Square 	Medium
+516. Paint House II  	Hard

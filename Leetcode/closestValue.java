@@ -1,23 +1,20 @@
-private double min = Double.MAX_VALUE;
-    private int node;
+int closest = 0;
     public int closestValue(TreeNode root, double target) throws IllegalArgumentException {
-        if (root == null) {
-            throw new IllegalArgumentException();
-        }
-        node = 0;
-        min = Double.MAX_VALUE;
-        closestValue_helper(root, target);
-        return node;
-        
+          if (root == null) {
+              throw new IllegalArgumentException();
+          }
+          closest = root.val;
+          closestValue_helper(root, target);
+          return closest;
     }
+    
     public void closestValue_helper(TreeNode root, double target) {
-        if (Math.abs(target - root.val) < min) {
-            min = Math.abs(target - root.val);
-            node = root.val;
+        if (root == null) {
+            return;
         }
-        if (root.left != null && target < root.val) {
-            closestValue_helper(root.left, target);
-        } else if (root.right != null && target > root.val) {
-            closestValue_helper(root.right, target);
+        if (Math.abs(root.val - target) < Math.abs(closest - target)) {
+            closest = root.val;
         }
+        closestValue_helper(root.left, target);
+        closestValue_helper(root.right, target);
     }
