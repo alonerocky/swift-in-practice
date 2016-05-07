@@ -1,4 +1,4 @@
-Leetcode (69/79)
+Leetcode (72/79)
 102	Binary Tree Level Order Traversal	32.7%	Easy ===
 28	Implement strStr()	24.8%	Easy 	 ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
@@ -68,19 +68,20 @@ Leetcode (69/79)
 91	Decode Ways	17.5%	Medium
 25	Reverse Nodes in k-Group	27.5%	Hard
 265	Paint House II 	35.6%	Hard 
+85	Maximal Rectangle	23.4%	Hard
+43	Multiply Strings	23.4%	Medium
+139	Word Break	25.2%	Medium
 
 
 127	Word Ladder	19.6%	Medium
-43	Multiply Strings	23.4%	Medium		 	 	
+		 	 	
  	 				
 		
-139	Word Break	25.2%	Medium						
+ 						
 311	Sparse Matrix Multiplication 	47.1%	Medium	
 
-
- 	
-146	LRU Cache	15.8%	Hard	
-85	Maximal Rectangle	23.4%	Hard	
+	
+146	LRU Cache	15.8%	Hard		
 44	Wildcard Matching	17.4%	Hard	
 		
  	
