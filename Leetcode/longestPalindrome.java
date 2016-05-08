@@ -30,3 +30,71 @@ public String longestPalindrome(String s) {
         //len = j-1-i
         return new int[] {i+1, j-1};
     }
+
+
+
+ public String longestPalindrome(String s) {
+        if (s == null ) {
+            return null;
+        } else if (s.length() == 0) {
+            return "";
+        }
+        
+         int len = s.length();
+         
+        boolean[][] dp = new boolean[len][len];
+        for (int i = 0; i < len; i++) {
+            dp[i][i] = true;
+        }
+        int max = 1;
+        int maxStart = 0;
+        int maxEnd = 0;
+        for (int i = 0; i < len -1; i++) {
+            dp[i][i+1] = s.charAt(i) == s.charAt(i+1);
+            if (dp[i][i+1]) {
+                max = 2;
+                maxStart = i;
+                maxEnd = i+1;
+            }
+        }
+         
+        //dp[i][j] = dp[i+1][j-1] && s.charAt(i) == s.charAt(j)
+        for (int i = len -3; i>=0; i--) {
+            
+            for (int j = i + 2; j < len; j++) {
+                
+                if ( dp[i+1][j-1] && s.charAt(i) == s.charAt(j)) {
+                    dp[i][j] = true;
+                    if (j - i + 1 > max) {
+                        maxStart = i;
+                        maxEnd = j;
+                        max = j - i + 1;
+                    }
+                }
+            }
+        }
+        return s.substring(maxStart, maxEnd + 1);
+    }
+    
+    public boolean[][] getIsPalindrome(String s) {
+        int len = s.length();
+        boolean[][] dp = new boolean[len][len];
+        for (int i = 0; i < len; i++) {
+            dp[i][i] = true;
+        }
+        for (int i = 0; i < len -1; i++) {
+            dp[i][i+1] = s.charAt(i) == s.charAt(i+1);
+        }
+        
+        //dp[i][j] = dp[i+1][j-1] && s.charAt(i) == s.charAt(j)
+        for (int i = len -3; i>=0; i--) {
+            
+            for (int j = i + 2; j < len; j++) {
+                
+                if ( dp[i+1][j-1] && s.charAt(i) == s.charAt(j)) {
+                    dp[i][j] = true;
+                }
+            }
+        }
+        return dp;
+    }

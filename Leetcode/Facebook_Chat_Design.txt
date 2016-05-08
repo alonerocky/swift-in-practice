@@ -255,14 +255,14 @@ Facebook: Find all the anagrams in an array of str...
 Facebook: Calculate the square root of a double
 Facebook: Write all solutions for a^3 + b^3 = c^3 ...
 Facebook: Mutate input array
-
-Facebook: Print the nodes of a linked list in reve...
-Facebook: Print n-th node in a binary tree
-Facebook: Check if two binary trees are Isomorphic...
-Facebook: Interweave a linked list
+Facebook: Find the longest palindrome in a given string
+Facebook: Check if two binary trees are Isomorphic
 Facebook: Printing a binary tree L-R
-Facebook: Find the longest palindrome in a given s...
+Facebook: Print the nodes of a linked list in reverse order
+Facebook: Print n-th node in a binary tree
 
+
+Facebook: Interweave a linked list
 
 
 Facebook: Determine the 10 most frequent words giv...
@@ -280,10 +280,6 @@ Facebook: Design High-Frequency
 Facebook: Design a chat
 
  
- 
-
- 
-
 
 System Design: Design a Tiny URL
 Facebook: High-Frequency II

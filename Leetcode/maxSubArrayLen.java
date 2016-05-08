@@ -14,3 +14,29 @@ public int maxSubArrayLen(int[] nums, int k) {
         }
         return max;
     }
+
+
+//O(n)
+ public int maxSubArrayLen(int[] nums, int k) 
+    {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int max = 0;
+        int len = nums.length;
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        //map.put(0, 0);
+        int sum = 0;
+        for (int i = 0; i < len; i++) {
+            
+            if(!map.containsKey(sum)) {
+                map.put(sum, i);
+            }
+            sum += nums[i];
+            //[map.get(sum-k), i]
+            if (map.containsKey(sum - k)) {
+                max = Math.max(max, i - map.get(sum-k) + 1);
+            }
+        }
+        return max;
+    }

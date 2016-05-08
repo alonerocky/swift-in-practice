@@ -1,4 +1,4 @@
-Done	264/ 331
+Done	266/ 331
 1	Two Sum 								2
 12	Integer to Roman 						3    sb.append(ROMAN[i])
 13	Roman to Integer 						2
@@ -431,18 +431,25 @@ day 63
 day 64
 day 65
 day 66
+
 day 67 (2)
 139	Word Break	24.7%	Medium
 140	Word Break II	19.3%	Hard
 
+---------------266
+
+day 68 (1) 
+347	Top K Frequent Elements	44.0%		Medium
+
 In progress
-
-
-
+259	3Sum Smaller 	37.9%	Medium
+218	The Skyline Problem	21.2%	Hard 
+87	Scramble String	26.1%	Hard
+267	Palindrome Permutation II 	27.0%	Medium
 
 213	House Robber II	29.8%	Medium
 282	Expression Add Operators	23.7%	Hard
-218	The Skyline Problem	21.2%	Hard 
+ 
 
 
 
@@ -465,7 +472,6 @@ In progress
 
 149	Max Points on a Line	14.0%	Hard
 216	Combination Sum III	34.5%	Medium
-259	3Sum Smaller 	37.9%	Medium
 305	Number of Islands II 	33.2%	Hard
 
 
@@ -474,7 +480,6 @@ In progress
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
 188	Best Time to Buy and Sell Stock IV	21.6%	Hard
 309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
-267	Palindrome Permutation II 	27.0%	Medium
 307	Range Sum Query - Mutable	16.9%	Medium
 308	Range Sum Query 2D - Mutable 	21.3%	Hard
 294	Flip Game II 	40.6%	Medium
@@ -506,8 +511,7 @@ Open	(323 / 335)
 220	Contains Duplicate III	18.2%	Medium
 335	Self Crossing	17.4%	Medium
 343	Integer Break
-346	Moving Average from Data Stream 	66.6%		Easy	
-347	Top K Frequent Elements	44.0%		Medium	
+346	Moving Average from Data Stream 	66.6%		Easy		
 348	Design Tic-Tac-Toe
 
 
@@ -525,7 +529,6 @@ Open	(323 / 335)
 315	Count of Smaller Numbers After Self	28.9%	Hard
 115	Distinct Subsequences	28.3%	Hard
 164	Maximum Gap	26.2%	Hard
-87	Scramble String	26.1%	Hard
 248	Strobogrammatic Number III 	25.5%	Hard
 327	Count of Range Sum	24.3%	Hard
 174	Dungeon Game	20.4%	Hard
