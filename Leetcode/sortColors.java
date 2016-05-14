@@ -24,3 +24,24 @@ public void sortColors(int[] nums) {
             nums[j] = temp;
         }
     }
+
+
+public void sortColors(int[] nums) {
+           if (nums == null || nums.length == 0) {
+               return;
+           }
+           int[] counts = new int[3]; //0, 1, 2
+           for (int i = 0; i < nums.length; i++) {
+               counts[nums[i]]++;
+           }
+           if (counts[0] > 0) {
+               Arrays.fill(nums, 0, counts[0], 0);
+           }
+           if (counts[1] > 0) {
+               Arrays.fill(nums, counts[0], counts[0]+counts[1], 1);
+           }
+           if (counts[2] > 0) {
+               Arrays.fill(nums, counts[0]+counts[1], counts[0]+counts[1]+counts[2], 2);
+           }
+          
+    }

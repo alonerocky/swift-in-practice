@@ -17,7 +17,7 @@ Leetcode (18/25)
 36	Valid Sudoku	30.5%	Easy	
 49	Group Anagrams	27.4%	Medium	
 17	Letter Combinations of a Phone Number	28.6%	Medium
-
+289. Game of Life  
 
 146	LRU Cache	15.8%	Hard				
 138	Copy List with Random Pointer	26.1%	Hard	

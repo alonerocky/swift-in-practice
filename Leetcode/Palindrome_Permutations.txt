@@ -1,10 +1,16 @@
-266	Palindrome Permutation
-267	Palindrome Permutation II  	27.7%		Medium
-9	Palindrome Number
+125	Valid Palindrome
 234	Palindrome Linked List
-125	Valid Palindrome	
+9	Palindrome Number
+266	Palindrome Permutation
+
+
+267	Palindrome Permutation II  	27.7%		Medium
+ 
+ 
+ 	
 131	Palindrome Partitioning 
 132	Palindrome Partitioning II 
+
 214	Shortest Palindrome	19.8%		Hard	
 336	Palindrome Pairs
 
