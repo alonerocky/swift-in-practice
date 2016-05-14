@@ -1,4 +1,4 @@
-Leetcode (16/19)
+Leetcode (17/19)
 103	Binary Tree Zigzag Level Order Traversal	28.6%	Medium
 102	Binary Tree Level Order Traversal	32.6%	Easy
 301	Remove Invalid Parentheses	31.8%	Hard
@@ -15,18 +15,15 @@ Leetcode (16/19)
 261	Graph Valid Tree 	32.6%	Medium
 323	Number of Connected Components in an Undirected Graph 	42.7%	Medium
 310	Minimum Height Trees	26.6%	Medium === 
-
+279	Perfect Squares	32.4%	Medium
 
  	
 126	Word Ladder II	13.6%	Hard					
 317	Shortest Distance from All Buildings 	31.1%	Hard ===
 
  		
- 	
-279	Perfect Squares	32.4%	Medium	
- 	
 
-Lintcode (10/11)
+Lintcode (11/11)
 71. Binary Tree Zigzag Level Order Traversal Medium
 70. Binary Tree Level Order Traversal II Medium
 69. Binary Tree Level Order Traversal
@@ -37,7 +34,4 @@ Lintcode (10/11)
 178. Graph Valid Tree Medium
 127. Topological Sorting Medium
 176. Route Between Two Nodes in Graph Medium
- 
-
-
 513. Perfect Squares Medium

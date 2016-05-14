@@ -291,6 +291,8 @@ Facebook: High-Frequency I
 
 
 Careercup
+
+
 -----------
 (1) design a URL shortener service
 (2) On a given array with N numbers, find subset of size M (exactly M elements) that equal to SUM.
@@ -309,24 +311,7 @@ For example, if the number 123 was given, we should return all numbers (from the
 
 If the number 41 was given we should return only the middle number - because the number 41 is only in it.
 
-(4) facebook-interview-questions0
-of 0 votes
-17 
-Answers
-Given an array of contacts with phone numbers/emails you should detect and union identical contacts. 
-
-For example, given the following contacts array: 
-
-[ [ "John", "john@gmail.com", "john@fb.com"], 
-[ "Dan", "dan@gmail.com", "+1234567"], 
-[ "john123", "+5412312", "john123@skype.com"], 
-[ "john1985", "+5412312", "john@fb.com"] ] 
-
-We can see that john1985, John and john123 are the same person by their contact information. 
-
-We should output 
-
-[[ 0, 2, 3], [1]] (0,2,3 are the same person and 1 is another one)
+ 
 
 (5) Given a singly linked list, swap the list items in pairs (reconnect the pointers, not simply swap the values). For example: 
 
@@ -346,23 +331,7 @@ Your function should print 5, 20, 40, 45, 50, 55, 60, 80, 90.
 
 Add on: Assume that we are space-constrained such that we can only hold one row in memory at a time. Optimize your function to work under such constraints as efficiently as possible.
 
-(7) Inplace reverse a sentence 
 
-You given a sentence of english words and spaces between them. 
-Nothing crazy: 
-1) no double spaces 
-2) no empty words 
-3) no spaces at the ends of a sentence
-
-
-void inplace_reverse(char* arr, int length) {
-    // your solution
-}
-Example: 
-input "I wish you a merry Christmas" 
-output "Christmas merry a you wish I" 
-
-Constrains: O(1) additional memory
 
 (8)Given a 4 X 4 game slot that has random alphabets in all the slots 
 Write a function that takes the keyboard and the word as input and returns true if the word can be formed 
@@ -383,33 +352,7 @@ Now you need to create a function that will take this list as input and provide 
 
 
 
-(12)Given an array of ages (integers) sorted lowest to highest, output the number of occurrences for each age. 
-For instance: 
-[8,8,8,9,9,11,15,16,16,16] 
-should output something like: 
-8: 3 
-9: 2 
-11: 1 
-15: 1 
-16: 3 
 
-This should be done in less than O(n).
-
-(13) An efficient way to sort patient files in an array of just 3 types 'High-importance', 'Mid-importance', 'Low-importance' which are in an arbitrary order (unsorted). 
-
-The output preference should start with the highest. 
-
-1. High-importance 
-
-2. Mid-importance 
-
-3. Low-importance 
-
-
-
-[high,low,low,med,high,low] 
-
-ps I was told to take advantage of the fact that they are just only 3 types.
 
 (14)There is a list of rectangles and a list of points in a 2d space. Note that the edge of each rectangle are aligned to XY axis. question is how to find rectangles with point or points inside
 
@@ -549,30 +492,11 @@ all
 
 You have access to a method called getNextLine() which returns the next line in the input string.
 
-(25)Code a function that receives a string composed by words separated by spaces and returns a string where words appear in the same order but than the original string, but every word is inverted. 
-Example, for this input string
-
-
-@"the boy ran"
-the output would be
-
-
-@"eht yob nar"
-Tell the complexity of the solution.
+ 
 
 (26)Design an HTTP downloader that caches results and doesn't block execution (i.e., enables simultaneous downloads).
 
-(27)Code a function that receives an array with duplicates and returns a new array keeping the original order of the elements but with the duplicates removed. 
 
-For example, if the input were
-
-
-@[ @"dog", @"cat", @"dog", @"fish" ]
-the output would be
-
-
-@[ @"dog", @"cat", @"fish" ]
-Tell the complexity of the solution.
 
 (27)You want to create a staff to use in your martial arts training, and it has to meet some specific requirements. 
 
@@ -1038,17 +962,7 @@ For the third case, no operations can be performed and so the answer is 5.
 
 (83)Given a set of points (x,y) in a 2-d plane, which are guesses of a particular unknown point (x',y'), how do find the best estimate of (x',y') using the set of points given.
 
-(84)Given a list of words, L, that are all the same length, and a string, S, find the starting position of the substring of S that is a concatenation of each word in L exactly once and without any intervening characters. This substring will occur exactly once in S.. 
-
-. 
-
-Example:. 
-
-L: "fooo", "barr", "wing", "ding", "wing". 
-
-S: "lingmindraboofooowingdingbarrwingmonkeypoundcake". 
-
-fooowingdingbarrwing.
+ 
 
 (85)three points are randomly chosen on a circle.what the probability that 
 1.triangle formed is right angled triangle. 
@@ -1082,7 +996,7 @@ Now given C and M .Find the amount of water in ith cup.
 2) Delete an element completely from the array with cost = value of element
 
 
-(91)Given a list of n objects, write a function that outputs the minimum set of numbers that sum to at least K. (better than NLOGN)
+ 
 
 
 
@@ -1169,9 +1083,114 @@ e.g.
 
 obviously in shortest time and space.
 
-(105) Code a function 'dedupe' that removes duplicate characters from a string.
+ 
  
 
+-----------------------------------------------done
+(91)Given a list of n objects, write a function that outputs the minimum set of numbers that sum to at least K. (better than NLOGN)
+
+(105) Code a function 'dedupe' that removes duplicate characters from a string.
+
+(4) facebook-interview-questions0
+of 0 votes
+17 
+Answers
+Given an array of contacts with phone numbers/emails you should detect and union identical contacts. 
+
+For example, given the following contacts array: 
+
+[ [ "John", "john@gmail.com", "john@fb.com"], 
+[ "Dan", "dan@gmail.com", "+1234567"], 
+[ "john123", "+5412312", "john123@skype.com"], 
+[ "john1985", "+5412312", "john@fb.com"] ] 
+
+We can see that john1985, John and john123 are the same person by their contact information. 
+
+We should output 
+
+[[ 0, 2, 3], [1]] (0,2,3 are the same person and 1 is another one)
+
+(7) Inplace reverse a sentence 
+
+You given a sentence of english words and spaces between them. 
+Nothing crazy: 
+1) no double spaces 
+2) no empty words 
+3) no spaces at the ends of a sentence
 
 
+void inplace_reverse(char* arr, int length) {
+    // your solution
+}
+Example: 
+input "I wish you a merry Christmas" 
+output "Christmas merry a you wish I" 
+
+Constrains: O(1) additional memory
+
+
+(12)Given an array of ages (integers) sorted lowest to highest, output the number of occurrences for each age. 
+For instance: 
+[8,8,8,9,9,11,15,16,16,16] 
+should output something like: 
+8: 3 
+9: 2 
+11: 1 
+15: 1 
+16: 3 
+
+This should be done in less than O(n).
+
+(13) An efficient way to sort patient files in an array of just 3 types 'High-importance', 'Mid-importance', 'Low-importance' which are in an arbitrary order (unsorted). 
+
+The output preference should start with the highest. 
+
+1. High-importance 
+
+2. Mid-importance 
+
+3. Low-importance 
+
+
+
+[high,low,low,med,high,low] 
+
+ps I was told to take advantage of the fact that they are just only 3 types.
+
+(25)Code a function that receives a string composed by words separated by spaces and returns a string where words appear in the same order but than the original string, but every word is inverted. 
+Example, for this input string
+
+
+@"the boy ran"
+the output would be
+
+
+@"eht yob nar"
+Tell the complexity of the solution.
+
+
+(84)Given a list of words, L, that are all the same length, and a string, S, find the starting position of the substring of S that is a concatenation of each word in L exactly once and without any intervening characters. This substring will occur exactly once in S.. 
+
+. 
+
+Example:. 
+
+L: "fooo", "barr", "wing", "ding", "wing". 
+
+S: "lingmindraboofooowingdingbarrwingmonkeypoundcake". 
+
+fooowingdingbarrwing.
+
+
+(27)Code a function that receives an array with duplicates and returns a new array keeping the original order of the elements but with the duplicates removed. 
+
+For example, if the input were
+
+
+@[ @"dog", @"cat", @"dog", @"fish" ]
+the output would be
+
+
+@[ @"dog", @"cat", @"fish" ]
+Tell the complexity of the solution.
 

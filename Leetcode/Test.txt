@@ -1,0 +1,46 @@
+Flickre
+OkHttp
+Gson
+Retrofit == 
+RxJava
+
+
+Glide
+Picasso
+------------------
+
+Algorithm
+Huffman encode  1 hour
+
+Sports record  Time traveling hashmap
+TreeMap, floorEntry()
+
+Game of life
+
+
+Tree width
+
+Database 
+
+friend suggest
+
+dictionaly
+
+sqrt
+
+weighted balance chooser
+-------------
+Degsign
+blackjake game
+pocker game
+battelship
+public transiction application
+
+MVC, MVP, MVVP 
+
+Hiremanager
+1, Android View, RecyclerView
+2, fragment
+3, library  
+4, platform
+5, experience , project
