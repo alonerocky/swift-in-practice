@@ -453,17 +453,25 @@ day 70 (1)
 day 71
 day 72
 day 73
-day 74 (1)
+day 74 (4)
 259	3Sum Smaller 	37.9%	Medium
-
-In progress
 227	Basic Calculator II	24.0%	Medium
 224	Basic Calculator	21.2%	Medium
+241	Different Ways to Add Parentheses	33.2%	Medium
+
+-----------------------274
+day 75
+
+In progress
 218	The Skyline Problem	21.2%	Hard 
+282	Expression Add Operators	23.7%	Hard
+
+
+
 87	Scramble String	26.1%	Hard
 267	Palindrome Permutation II 	27.0%	Medium
 213	House Robber II	29.8%	Medium
-282	Expression Add Operators	23.7%	Hard
+ 
  
 
 
@@ -497,9 +505,6 @@ In progress
 307	Range Sum Query - Mutable	16.9%	Medium
 308	Range Sum Query 2D - Mutable 	21.3%	Hard
 294	Flip Game II 	40.6%	Medium
-
-241	Different Ways to Add Parentheses	33.2%	Medium
-
 
 
 
