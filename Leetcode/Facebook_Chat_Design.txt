@@ -288,12 +288,30 @@ System Design: Introduction to System Design
 Facebook: High-Frequency I
 
 
+Facebook questions
+https://shawnlincoding.wordpress.com/2015/04/12/facebook-meetqun/
+https://coralgao.gitbooks.io/internpractice/content/task_schedule_with_cool_time.html
+
+Glassdoor
+Task scheduler
+http://www.mitbbs.com/article_t/JobHunting/32941549.html
+http://www.mitbbs.com/article_t/JobHunting/32876295.html
+http://coderchen.blogspot.com/2015/10/task-schedule.html
+Task schedule: given a sequence of task like A B C(means 3 different tasks), and a coldtime, which means you need to wait for that much time to start next [same] task. Now---- 
+
+Input: string, n 
+Output: the best task-finishing sequence. 
+
+eg. input: AAABBB, 2 
+Output: AB_AB_AB 
+( "_" represents do nothing and wait)
 
 
 Careercup
 
 
 -----------
+
 (1) design a URL shortener service
 (2) On a given array with N numbers, find subset of size M (exactly M elements) that equal to SUM.
 

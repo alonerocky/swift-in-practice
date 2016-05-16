@@ -1,0 +1,35 @@
+glassdoor
+# Q: Given a list of Dominos, find if there exists a pair such that the sum of the left and sum of the right numbers add up to 6
+Example: [2, 5], [3, 4], [4, 1] => yes ;
+
+
+(1) Given an n*n matrix filled randomly with different colors (no limit on what the colors are), add up the total number of groups of each color - a group is adjacent cells of the same color touching each other.
+
+Clarifying question: are diagonals adjacent (A: no)  
+
+
+(2) Remove duplicates from array  
+
+
+Interview Questions
+Given a binary tree, write a function that prints all of the paths from the root node to the leaf nodes. What is the functions run time and space requirement.  
+2 Answers
+Given a linked list, where each node's value can itself be a linked list (a recursive linked list), write a function that flattens it.  
+
+FullStack - full cycle of a http request/response.  
+Answer Question
+Sentence is palindrome or not. Must be case insensitive, and ignore special characters.  
+Answer Question
+Minimum size subarray sum  
+Answer Question
+3sum 
+
+
+implement a function to find if a given string is a palindrome.
+Implement a function to find all palindrome substring in a give string(optimal)  
+Answer Question
+To optimal the second function  
+Answer Question
+
+Merge 2 trees and find shortest path 
+
