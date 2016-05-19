@@ -1,7 +1,4 @@
 Trees (19/42)
-297	Serialize and Deserialize Binary Tree	27.9%	Hard ==
-222	Count Complete Tree Nodes 	25.1%	Medium	====
-255	Verify Preorder Sequence in Binary Search Tree 	37.1%	Medium ===
 272	Closest Binary Search Tree Value II  	33.3%	Hard
 270	Closest Binary Search Tree Value 	34.4%	Easy
 117	Populating Next Right Pointers in Each Node II	32.8%	Hard
@@ -22,7 +19,9 @@ Trees (19/42)
 
 
 116	Populating Next Right Pointers in Each Node 	36.5%	Medium							
-		
+297	Serialize and Deserialize Binary Tree	27.9%	Hard ==
+222	Count Complete Tree Nodes 	25.1%	Medium	====
+255	Verify Preorder Sequence in Binary Search Tree 	37.1%	Medium ===		
 
  
 
