@@ -1,6 +1,4 @@
 https://coralgao.gitbooks.io/internpractice/content/a_+_b_=_c_+_d_from_array.html
-
-
 1.1. Add a number to an array
 1.2. Add operators + or - to get the target from nums
 1.3. find closest leave, can go through any nodes.(reversed through root)
@@ -8,32 +6,35 @@ https://coralgao.gitbooks.io/internpractice/content/a_+_b_=_c_+_d_from_array.htm
 1.5. Print matrix diagonally
 1.6. Find all palindrome pair
 1.7. System is big or little median
-1.8. Regular expression
-1.9. K nearest point to [0, 0]
 1.10. Maximum difference in tree
 1.11. Maximum profit (unlimited times)
-1.12. Merge intervals
-1.13. Moving zeros
 1.14. Nth Fibonacci mould 10
-1.15. Plus one
 1.16. Print boundary of tree
-1.17. BFS and DFS to print leaves in tree
 1.18. Restore pairwise Sum
-1.19. Reverse linked list in k group
-1.20. Reverse print linked list
 1.21. Submatrix sum equal to target???
 1.22. Subset sum to target??
 1.23. Task schedule with cool time
 1.24. Tree to Double linked list
-1.25. Vitically print tree
-1.26. Word Search use Trie
 1.27. Concatenate string from dictionary to target???
 1.28. A + B = C + D from arry
 1.29. Median from AVL(self-balanced tree)
+1.34. Find longest common substring with >= k
+1.35. Print the pretty json strings
+
+
+
+1.8. Regular expression
+1.9. K nearest point to [0, 0]
+1.12. Merge intervals
+1.13. Moving zeros
+1.15. Plus one
+1.17. BFS and DFS to print leaves in tree
+1.19. Reverse linked list in k group
+1.20. Reverse print linked list
+1.25. Vitically print tree
+1.26. Word Search use Trie
 1.30. K select method to k largest problem
 1.31. Flatten a linked list
 1.32. Print all paths from root to leaves in tree
 1.33. Remove element from list, keep original
-1.34. Find longest common substring with >= k
-1.35. Print the pretty json strings
 1.36. Find all decode ways (return a

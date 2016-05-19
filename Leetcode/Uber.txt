@@ -1,4 +1,4 @@
-Leetcode (18/25)
+Leetcode (20/25)
 202	Happy Number	36.4%	Easy
 208	Implement Trie (Prefix Tree)	25.3%	Medium
 249	Group Shifted Strings 	31.3%	Easy
@@ -18,9 +18,9 @@ Leetcode (18/25)
 49	Group Anagrams	27.4%	Medium	
 17	Letter Combinations of a Phone Number	28.6%	Medium
 289. Game of Life  
-
-146	LRU Cache	15.8%	Hard				
-138	Copy List with Random Pointer	26.1%	Hard	
+138	Copy List with Random Pointer	26.1%	Hard
+146	LRU Cache	15.8%	Hard
+ 					
 140	Word Break II	19.7%	Hard		
 78	Subsets	31.3%	Medium		
 155	Min Stack	22.0%	Easy			
@@ -29,7 +29,7 @@ Leetcode (18/25)
 
 ----------------------------------------------------
 
-Lintcode (0/18)
+Lintcode (16/18)
 65. Median of two Sorted Arrays Hard
 415. Valid Palindrome Easy
 171. Anagrams Medium
@@ -43,11 +43,10 @@ Lintcode (0/18)
 425. Letter Combinations of a Phone Number Medium
 12. Min Stack
 389. Valid Sudoku Easy
-
-
-442. Implement Trie Medium
-17. Subsets Medium
-
-54. String to Integer II Hard
-134. LRU Cache Hard
 105. Copy List with Random Pointer Medium
+442. Implement Trie Medium
+134. LRU Cache Hard
+ 
+17. Subsets Medium
+54. String to Integer II Hard
+ 

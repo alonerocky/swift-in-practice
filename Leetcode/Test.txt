@@ -7,6 +7,8 @@ RxJava
 
 Glide
 Picasso
+
+https://api.flickr.com/services/rest?method=flickr.photos.getRecent&per_page=30&format=json&api_key=f0e6fbb5fdf1f3842294a1d21f84e8a6
 ------------------
 
 Algorithm
@@ -14,21 +16,22 @@ Huffman encode  1 hour
 
 Sports record  Time traveling hashmap
 TreeMap, floorEntry()
+https://www.careercup.com/question?id=5689672300756992
 
 Game of life
 
 
-Tree width
+Tree width ********
 
 Database 
 
-friend suggest
+friend suggest  ********
 
-dictionaly
+dictionaly ********
 
 sqrt
 
-weighted balance chooser
+weighted balance chooser **********
 -------------
 Degsign
 blackjake game

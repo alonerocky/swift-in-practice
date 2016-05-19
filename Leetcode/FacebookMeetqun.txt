@@ -1,0 +1,553 @@
+Facebook meetqun
+
+
+2,
+http://www.geeksforgeeks.org/print-binary-tree-vertical-order/
+问题来了，follow up要one pass (不能找最左有多远，最右有多远)， 不要hashmap
+
+5,
+http://www.meetqun.com/thread-596-1-4.html计算几何
+
+6，
+奉上上周fb面经3道。
+1. draw a circle with radius R. Try to optimize the solution as much as possible. You can assume the center is the original point.
+3. implement a function to write to a socket from a file: void write2socket(socket sk, String file_name), given the API 【i】int socket.write(input_buffer, int offset, int size) . offset is begining pos in buff and the return value is the number of bytes actually written into the socket. socket.write() can write arbitrary bytes(smaller than size-offset) each time.
+
+7,
+1. 从one billion的数组中取出最大的100个数。不过之后问了我一个follow up，说是如果我只取最大的一个呢？我说就是都扫一遍，O(n)复杂度。不过他说能不能提高一点，hint是for loop。我当时想了半天没想出来，不知道怎么做。。。所以从这开始就有点慌了
+2. prefix notation
+prefix notation如果从右扫到左就不用考虑特殊情况了，直接输出stack里最后剩的唯一一个数
+
+10,
+search in rotated array
+1, 记得两种情况，可能往左可能往右2
+2，duplicate 最坏O(N)
+
+find min in rotated array
+记住array可能没被rotated，就是正常的
+
+find peak
+数组为空，size 1, 2的Corner cases
+
+题目是给一组数，假设边界无穷小，求peak (比相邻都大）
+我一想是原题，binary search，时间lgn。就装模作样思考一会儿，然后写代
+写完被提示，数组可能有重复怎么办？ 代码work吗？有没有更快解法?
+答案是不work，比如元素都相同，没法binary search啊。
+那怎么办？那好，我就想把mid，挪一挪，试试mid+1，+2…直到最后。
+被告知，不够好，再想想
+最后在提示下，告诉我从头开始扫，如果发现后一个比前一个大就找到了，否则继续。这样程序很简单，就一个for loop.
+高潮来了。问我时间复杂度。 o(n）啊，一个for loop么，这么简单都考我？
+他提示：平均时间多少？ 假设数字随机
+最后明白，这只能列式计算 1/2+2*1/4+3*1/8+4*1/16+5*1/32
+那结果是多少呢？ 傻了，不会算。
+然后时间就到了，肯定没戏了。。。
+后来明白应该这样算，假设 x=1/2+2*1/4+3*1/8+4*1/16+5*1/32
+那么 x/2=1*1/4+2*1/8+3*1/16+4*1/32.。。。。
+两式一减 x/2=1/2+1/4+1/8+…=1
+所以x=2
+所以第二个算法的时间其实是o(1)比binary search o(lgn）还好！
+真是没想到，思维完全被刷题的答案固化了
+
+
+12,
+
+求binary tree所有root到left的路径。
+A
+B C 的话，要返回BA和CA
+(to do iterative)
+
+14,
+第一轮电面，是个印度小哥，上来介绍了一下他自己，然后开始问问题。2D空间给一堆点，求一个点（不需要是所给的点中的一个），到所有点的曼哈顿距离最小。
+distance = |x – x1| + |y – y1|。我说分别求所有点的横坐标和纵坐标的medium，组成的那个点就是需要求的那个点。然后他让我证明。证明说了好久，讲完已经过了三十几分钟了。他又问，如果那个点必须是所给的一堆点中的一个。我想了一下，跟他说我想不到什么好的解决办法，问他有没有hint，他说暴力解然后他说，你写吧，后一个的。写完他说没问题，让我问了几个问题就结束了
+
+17,
+[1, 2, 5, 7, 1]
+[1, 3, 8, 15, 16]
+prefix[j] – prefix[i] == target
+i + 1 ~ j
+1. 给一个非负的整数 array 跟一个非负的target， 如果存在continuous subsequence (就是sub array) 使得和等于target， 返回true，否则返回false.
+比如A=[1,2,5,7,1], target=12, 返回true因为 5 + 7 = 12；如果target = 4，返回false.
+我首先提出有O（N^2)的brute force方法，就是用个presum array计算 前 i个元素的和presum【i】 for each i. 然后用两层 for 查找 计算presum[j]-presum[i],看是否等于target. 然后说还有O(N)的算法。他就让我不用写O(N^2)的code，直接写 O（N），一开始写完被他发现有个bug 后来fix了。问为什么是O(N),如果有负数，那算法还可行不？答曰不行，让找test case的反例，很快就找到了一个。
+
+sparse vector
+2. 有两个 长度相同但很长（million或者更长）的向量 （跟他double check说是fix in memory），每个向量绝大多数的components都是0，然设计数据结构求dot product（内积，就是对应元素相乘，然后再相加）。一开始说用 两个hashtable,分别代表两个向量，key是非零component的index, value是对应index的值。遍历其中一个map，看index在不在另外一个map中，如果在就相乘两个对应的value，加到product中（product初始为0），返回prodcut.不过似乎不是他要的答案，说 hashtable 有overhead. 后来我还提过用set存两个向量非零component的的共同index，还是不是他想要的。 再后来，想到可以用linklist来表示一个向量，一个node里面存有非零component的 index跟value，index是从小到大排列的。对两个 linklist从头到尾扫描，如果对应index相等，对的value相乘，再加到product里，如果index不等，存有较小index的那个节点move到下一个节点，直到遍历完其中一个linklist， 返回product。但是时间来不及写完code，他说不是很大关系，他只是想知道想法，问是不是他所期待的答案，答曰不能告诉我，但是on the right track.
+
+18,
+http://www.meetqun.com/thread-5245-1-15.html
+print path
+follow up : DAG
+
+19,
+http://www.meetqun.com/thread-4776-1-16.html
+Weight Random Selection
+
+22,
+第一轮
+(to do)
+1: why you choose facebook?
+2: given an set of string with no duplicates elements, return its powerset
+3: use sqrt to implents log2
+
+第二轮
+上来就做题了
+1: level traverse of tree
+2: 有N个区间，求一个点，这个点与最多的区间相交，并返回相交的数目，也是老题目，在被提示后作出来
+
+23,
+同学刚面回来，45min只问了这一道题。大概是给你一个dictionary，里面有很多str，找出其中最长的str,这个str的特点是有其他str组成。例如，dic里面有face, book, facebook,那么facebook被返回，如果找不到则返回-1
+
+26,
+A maximum sized Subsequence, sum is a given number
+http://www.meetqun.com/thread-7496-1-20.html
+
+27,
+1.fibonacci数列求第n个数0
+2.Letter Combinations of a Phone Number
+
+28,
+http://www.meetqun.com/thread-7370-1-25.html
+//remove comment
+
+33
+sink 0
+http://www.meetqun.com/thread-4890-1-40.html
+
+38,
+假设你有个密码 是“password”，但是里面的每个字母都能有多种表达方式，比如a可以是（A，a，@）。但是这些都存在一个dictionary里。create a function that find all possible combination of the password.第一次发题版规还不了解见谅。
+
+39,
+onsite
+http://www.meetqun.com/thread-5589-1-43.html
+同学的面经，说其它几道都是LC原题，下面这题他也不知道正确答案。求大神相助！
+Given a string that which is in JSON format, print it in a human readable way. For example” {‘a’:’1′, ‘b’:[‘c’:’2′,’d’:’3′]}” should output:
+
+
+43,
+第一题，给你一个array，返回array里面最大数字的index，但是必须是最大数字里面随机的一个index。比如 [2,1,2,1,5,4,5,5]必须返回4，6，7中的随机的一个数字。我用了个arraylist存所有最大数的位置。然后随机取。follow我卡了会儿，就是必须O(1)的空间复杂度。想了一会儿，他提醒了我下我才做出来。然后是run test case和corner case。做到这一题结束是3点20几分了。
+
+50,
+3. implement ／ using ＋
+
+53,
+Given an array of integers, find any local maximum in the array.
+find peak
+
+
+56,
+(to do)
+先扯了15分钟然后问了一个经典走迷宫问题，给一个二维数组存有0和1，0表示可以走，1表示不能通过，给一个起点一个终点，求一个从起点到终点的路径。用BFS和DFS都可以
+写完问复杂度是多少
+
+57,
+(to do)
+1. climbing stairs，要求返回所有解，并且写出单元测试，分析时间空间复杂度
+2. climbing stairs，要求只打印所有解，分析现在的空间复杂度
+3. climbing stairs，要求只返回解的个数，要求O(N)+O(1)
+3. climbing stairs，还是只返回解的个数，但是时间要求O(logN)。这个是optional的，答不出来没关系。
+
+
+59，
+1. stock price max profit
+2. 两个字符串，计算长度至少为k的公共子字符串个数??
+
+//NOT finished
+
+-------------------------------------------
+
+April 12, 2015 shawnlin91 面经facebook
+1,
+1.add binary
+2.decode ways
+
+ 
+
+3,
+1. divide(int, int)
+2. fibonacci recursive
+3. BST to doubly LinkedList
+
+4,
+coding question 1： find first bad version，貌似CC150+Leetcode有
+coding question 2: decode ways，lc原题
+
+ 
+
+6，
+奉上上周fb面经3道。
+2. search a value in a rotated sorted array.
+ 
+
+ 
+
+8,
+1. 给定matrix，只有0和1，求1的连通size，连通只算上下左右，不算对角线。比如：
+0 1 0 0 1
+1 1 1 0 0
+1 0 0 0 1
+0 0 0 0 1
+
+2. 简单题，翻转linklist。
+
+9,
+1 Reverse List 不让用额外空间
+2 Validate Binary Search Tree
+
+
+
+11,
+1）pre-fix String search
+2) String evaluation: eg. Given 3 +2x +5y -(3 +5x) = 8 -7y +2x and X value，return Y value
+http://www.fgdsb.com/2015/01/08/parse-formula/
+ 
+
+13,
+
+1. inorder tree iterator
+2. binary search的变种
+3. 给一个数组代表股价，求股票交易的最大profit，只需要买进一次卖出一次
+4. 逆波兰表达式求值
+
+ 
+
+15,
+题目是这样的，输入是a list of tasks，还有dependency list，相互之间有约束，必须要在dependent tasks结束之后才能做某一个。
+比如1，2，3，4， 1优先于2，4优先于3。那么可以这么安排，1 -> 4 -> 2 -> 3，只要给出可行的order就好
+
+16,
+两个大数相乘（leetcode上的multiply strings吧），本来窃喜了一下，结果
+我问什么类型的input，他说，你觉得呢。。我说string，他说，除了string呢。（我给自己挖了个坑）答long，然后意识到不行，他问为什么不行，我说如果很大的数还是hold不了，会overflow，他问long多少会overflow，我说2^64，他问2^64是多少。。。。我不知道了，也没有计算器速度算，扯了个one trillion，他记下了然后他问，那用什么input，我说可以用array，他说，恩，好，你写吧。我问，用string还是array，他说either。我选了string。然后他问算法复杂度，我一开始说了个O((m+n)^2)的，他说虽然不是他想要的，不过还是写吧。我写了两行，觉得他既然不想要这个，继续写也不好，想想之前做过一个O(m*n)的，就跟他说，有个这个复杂度的，不过要牺牲点空间，他说，好。然后我速度写完了。他说how to make your algorithm ten times faster，我想了想，貌似不能降低算法复杂度了，他说不是降低算法复杂度，是让它算得快一点。好吧，我是EE的，也没怎么研究过这个（虽然都是借口）我记得bit manipulation会比较快，就说了，他问怎么实现，我也讲了，然后他说，是会快一点，但是不会ten times faster，怎么实现ten times faster。。。我不知道，问他怎么解，他说，首先，如果是他做，他会选array作为input，然后，巴拉巴拉
+
+
+
+ 
+
+20,
+1. implement queue using two stacks
+2. word break( leetcode 原题）
+大家多多刷题~
+
+21,
+intern第一轮面试。小哥应该不是三哥
+给一个0 1 矩阵，连在一起的1算做岛。求问岛的个数
+11001,
+10011
+
+这就是2个岛
+
+22,
+第一轮
+(to do)
+1: why you choose facebook?
+2: given an set of string with no duplicates elements, return its powerset
+3: use sqrt to implents log2
+
+第二轮
+上来就做题了
+1: level traverse of tree
+2: 有N个区间，求一个点，这个点与最多的区间相交，并返回相交的数目，也是老题目，在被提示后作出来
+
+23,
+同学刚面回来，45min只问了这一道题。大概是给你一个dictionary，里面有很多str，找出其中最长的str,这个str的特点是有其他str组成。例如，dic里面有face, book, facebook,那么facebook被返回，如果找不到则返回-1
+
+24,
+Regular Expression Matching
+
+25,
+LC的minimum window substring，唯一一点不同的是说我们要找的substring是无重复的。
+写的函数应该是这样：
+public String minWindow(String S, String sub)
+sub字符串中无重复字符
+
+前两天才写过这题，当时哗啦啦5分钟，然后当时电面脑抽，又紧张，估计也写了十几二十分钟，写完了后来被小哥说：你的更新长度的条件检查有问题。
+然后我又跑回去改，弱智错误。。。
+后来又问这个方法的O是多少，我说，是O(n)，把为什么是O(n)跟他说了
+
+26,
+A maximum sized Subsequence, sum is a given number
+http://www.meetqun.com/thread-7496-1-20.html
+
+27,
+1.fibonacci数列求第n个数0
+2.Letter Combinations of a Phone Number
+
+28,
+http://www.meetqun.com/thread-7370-1-25.html
+//remove comment
+
+29,
+1. jump game
+2. shift all zeros to right of array
+做完两题就30分钟了，之后就问了些问题
+update：面完当天晚上收到邮件，鬼鬼祟祟的只说找个时间打个简短的电话。第二天忐忑不安的接了电话结果说还要再来一轮电面。。。
+电面二：
+1. binary string sum, (“10”, “11010”) “11100”
+2. binary tree print all paths from root to leaf
+
+30,
+第一题是给一个字符判断是否是palindrome, 这个模拟就可以了，注意处理特殊情况和分奇偶讨论。
+第二题是 给一个set, set 里面有若干字母，再给一个字符串。要求一个包含字典里所有字符的最短字串。
+
+31,
+同学一月份面了facebook, 据说题目都是leetcode上的，有N皇后问题，Best Time to Buy and Sell Stock系列问题
+
+32
+(to do)
+1. find the closest common parent node。 node有Parent pointer， 要求space O(1), time O(logN);
+2. reverse string “happy new year” to “year new happy”
+http://www.meetqun.com/thread-6701-1-39.html
+
+33
+sink 0
+http://www.meetqun.com/thread-4890-1-40.html
+
+34
+1. Reverse print a link list, do not use extra memory
+2. Using Stack to implement a Queue
+3. Given a dictionary, use it to split a string
+Example:) x)
+dict = [this, th, is, a good day]!
+st = “thisisagoodday”
+Return
+th is is a good day
+this is a good day
+
+35,
+一个伊朗人面的，题目是task scheduler，举例如下
+Tasks: AABABCD
+Cooldown Time: 2
+A__AB_ABCD
+Output: 10
+就是说同样类型的task之间至少要等2，每个task的执行时间是1
+followup: 如果cooldown是个参数，也就是说有可能会很长时间，怎么修改之前的程序
+
+36,
+http://www.meetqun.com/thread-6490-1-42.html
+两题，第一题 set matrix zeroes, 第二题 flatten binary tree to linked list(to do iterative inplace)
+
+37,
+http://www.meetqun.com/thread-5779-1-1.html
+1. Task schedule: 给一个task list 比如： ABCDAABA， colddown time 是2， 问需要多长时间能完成这些任务。 每个task花费的时间是1， colddown time是指相同的任务必须等待冷却时间才能再一次执行， 要不然就得 空闲来等待。拿例子来说， 要完成这个任务需要的时间是11， ABCDA__AB_A，下划线是等待时
+2. 在一的基础上， colddown time变成输入。
+
+题目很简单， 我觉得关键是写的完美程度， 第一题我写的是俩变量cold_1和cold_2记录前两个的字符， 第二题是用一个简单的hashtable
+
+ 
+
+ 
+
+40,
+第一题：imitate cd. 给一个初始path+一个cd的参数，求目标path
+第二题：给定一个数字对应一系列字幕的dict，例如1=>[A,B,C], 2=>[D,E,F]，给出一段数字，求所有可能的字母组成集合
+
+41,
+http://www.meetqun.com/thread-5087-1-43.html
+2. onsite面试
+亚裔，人依旧超级nice，吃货，一直跟我推荐fb的食堂。
+第一题：first bad version(在一串ggg…bbbbb中找出第一个b)。经典题。
+第二题：给定两个array，一个是actual numbers, 另一个是position array, 按照position array将actual number array排序。
+例子：
+actual number array : [4 2 1 5 3].
+position array : [3 1 0 4 2];
+actual array => [1, 2, 3, 4, 5]
+inplace
+
+42,
+电话过来直接做题，3道题中两道时leetcode原题：
+1. 2sum;
+2. 3sum;
+3. n个数中找最大的k个数，类似Find the nearest K point given a set of N point
+Using heap as implementation of priority queue to store the fist k points. So the complexity is O(n log k) with O(k) memory
+
+43,
+第一题，给你一个array，返回array里面最大数字的index，但是必须是最大数字里面随机的一个index。比如 [2,1,2,1,5,4,5,5]必须返回4，6，7中的随机的一个数字。我用了个arraylist存所有最大数的位置。然后随机取。follow我卡了会儿，就是必须O(1)的空间复杂度。想了一会儿，他提醒了我下我才做出来。然后是run test case和corner case。做到这一题结束是3点20几分了。
+第二题，leetcode原题，Word Break I 然后是run test case和corner case
+第三题，leetcode原题，2 sum
+
+44,
+read4
+
+45,
+http://www.meetqun.com/thread-6359-1-46.html
+1. BST level order traversal
+2. 3 sum, but different from Leetcode, need to return the index of the 3 elements which sum up to 0.
+Note: “Sort” method is not good, “hashtable” method will be better, nowadays the interviewees all want “hashtable” method
+
+46,
+给一个matrix，每一个row都是从小到大，给一个数，判断是否在其中。似乎有O(logn)的做法。
+2. 给list of string. 把anagram的string放在一起.
+3. 给a list of segment，求出与其他segment相交最多的segment
+http://www.meetqun.com/thread-6059-1-41.html
+http://www.meetqun.com/thread-2628-1-48.html
+
+47,
+binary tree level order traverse
+sqrt
+
+49,
+就只有一类题，从2-sum开始，followup是3-sum，然后再做k-sum。每一步都是讲思路，code加复杂度分析。做3-sum的时候让我讲test case，我感觉自己把所有能想到的testcase都说了，结果他提醒我忘了overflow的情况
+
+50,
+1. sort colors
+2. reverse linked list
+3. implement ／ using ＋
+
+51,
+很简单的题目，判断字符串是不是回文，要跳过空格，逗号等非字母
+很快写了一个，while里面套while，他说work，建议里面的while可以去掉，就是只有一个while，一次判断一个字符
+然后是扩展，扩展到UTF8格式，稍微讲了讲UFT-8的格式，基本意思就是char array变长，第一个char能看出是几个char表示一个字符。一开始想从两边走，未得，后来想到先看左边的，知道有多长，再看右边的就行了。那些要跳过的字符都assume是一个char的，小于ASCII 256。这样就好写了。写完被发现一个offby 1的bug，迅速修改
+http://www.meetqun.com/thread-5053-1-63.html
+
+52
+http://www.meetqun.com/thread-606-1-63.html
+第一题是print binary tree, 很简单, 我用recursive的方法写的. solution被她剪切走了, 这边就不贴了.
+第二题她是问我在1的基础上 把bianry tree改成directed graph node, 要注意visited问题, 贴上我的solution. 最遗憾的是我写完的时候时间到了, 之前浪费了不少的原因, 不过facebook卡45分钟时间卡的真紧啊…. 所以后来就没继续问我这个solution, 不过她说会把这个record下来
+
+53,
+Given an array of integers, find any local maximum in the array.
+find peak
+
+54,
+binary tree print by level order
+莫名其妙的一个问题，让我用inorder，preorder或者postorder的方法把题目1再实现一边。不知道为啥这么问，就额外用了个hashmap记录了下level。那个面试官说对的，你这个是iteration 我再给你写个recursion的吧。。。说完他给我写了个。。。莫名其妙啊
+http://www.meetqun.com/thread-531-3-1.html
+
+55,
+k sum
+find all solution DFS
+find number of solution DP
+第一面，问的是two sum 的问题， 用的是hashtable,但因为我是用c++， 就直接用了一个set去做，面试官好像不满意，改成unordere_set。扩展的话是m sum的问题，就是说数列里面找m个数，加起来等于某个target。对了，数列都是正数， no duplicate. 解法是用dp吧，一开始写的时候就是不断传一个新的vector进去递归，但他说能改进吗，后来改成了传引用，加end pointer来控制传进去的数列~
+
+56,
+(to do)
+先扯了15分钟然后问了一个经典走迷宫问题，给一个二维数组存有0和1，0表示可以走，1表示不能通过，给一个起点一个终点，求一个从起点到终点的路径。用BFS和DFS都可以
+写完问复杂度是多少
+
+57,
+(to do)
+1. climbing stairs，要求返回所有解，并且写出单元测试，分析时间空间复杂度
+2. climbing stairs，要求只打印所有解，分析现在的空间复杂度
+3. climbing stairs，要求只返回解的个数，要求O(N)+O(1)
+3. climbing stairs，还是只返回解的个数，但是时间要求O(logN)。这个是optional的，答不出来没关系。
+
+58，
+(TO DO)
+给一个词典[Foo, Fo, Bar]
+给一个word，要求实现一个方法来表示这个词在词典中存在
+这个word是可以有wildcard的例如
+“F*o” ; true
+“**r” ; true
+不准要指数级复杂度
+
+59，
+1. stock price max profit
+2. 两个字符串，计算长度至少为k的公共子字符串个数??
+
+60，
+http://www.meetqun.com/thread-4156-1-76.html
+1. Sort List
+排序链表。比较简单，用mergesort思想，需要实现的比较快并且没有错误。
+链表的题目很容易写完后bug太多，勤用DummyHead可以避免很多无谓代码且保证正确性。
+但是这次面试官比较苛刻，还额外规定不新生成DummyHead，即给出的ListNode类是没有public构造方法的。我觉得在没有DummyHead的情况下写链表相关问题实在太容易出bug，不清楚他的用意是什么。后来想其实可以使用原链表中的头节点暂时当做DummyHead，排序其他节点后再走一遍把头节点插到正确位置
+bottom-up merge-sort
+
+2. Merge two sorted array and N sorted array
+第一问简单，很快写出，然后拓展成N个数组的情况，并且给了一个IntegerOutputStream.put(int)函数，要求不断的输出已经排序好的数字。
+注意到这个问题是需要不断输出已排序数字，所以用mergesort的思想逐渐merge各个数组的方法不能满足要求。
+可以用一个堆，Java中是优先级队列来把这些数组包装成对象放进去，包装的类有一个index成员用来表明index之前的元素都已经排序过了，然后不断取出堆中“最小”数组，输出该数组当前index的数字，然后index++再塞回堆中。代码如下：
+
+61，
+第一题是BST，给一个节点，返回该节点的下一个节点，写完被说有bug，估计要挂，惭愧。
+http://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+with parent pointer cc150
+without see geeks4geeks
+第二题 leetcode原题 a + b + c = 0。
+http://www.meetqun.com/thread-3130-1-77.html
+
+62，
+1，判断二叉树是否为合法的二叉排序树
+2，输入一个数组，其中有n个非负整数
+求将它们重新排列顺序之后，连在一起所能组成的最大数字
+
+63，
+1. Regular expression, 带+号的(TO DO!!!!)
+先问了一下不带＋的，就和leetcode一样，很快就写出来了，然后面试官让稍微调整了一下结构，其实很没调没什么区别。。。然后加了一问，让带＋，这题算基本通过
+2，
+9,8,3,8,8,5,2,9
+找出这串数字中长度为‘k’的subsequence（不是subarray, 我专门问了，就是subsequence，不一定挨着的元素序列），使得这串subsequence的和最大
+brute-force sort nlogn
+heap nlogk
+counting sort n
+
+64，
+http://www.meetqun.com/thread-2782-1-83.html
+http://www.geeksforgeeks.org/level-order-tree-traversal/
+https://gist.github.com/daifu/5458228 pretty print(to do)
+
+65，
+http://www.meetqun.com/thread-3142-1-86.html
+1. reverse一个链表，链表中是一个数组
+2. 给一个整数，求二进制1的个数
+
+66,
+我分析了一下直接答 dynamic programming. 然后就让我写，写完后问能不能做到更好： 可以：要么2个string完全一样，要么就是只能有一个字符的差别，也就是说顺序扫描2个string的时候，如果遇到了不同的，那么只剩3种情况：
+1.REST OF STRING1 == REST OF STRING24
+2 REST OF STRING1 == REST OF STRING2 除去第一个字符
+3 REST OF STRING1 除去第一个字符 == REST OF STRING 2
+4 差别不小于2
+http://www.meetqun.com/forum.php?mod=viewthread&tid=1468
+
+67,
+题目是leetcode Minimum Window Substring 原题的简化版
+input： String s= “aaccbc”, dict = “abc”， 输出: “accb”
+//
+aaccbc
+| |
+这里的dict, 里面不含重复字母，然后我好像记得面试官说，输入string里面只含有字典里的元素，不含非字典元素
+
+68,
+第二题是做一个nEditDistance.
+-最后一题是给一个set of string，然后把两个距离是1的string连起来，做个graph（基本就是用nEditDistance做就可以）
+不好意思啊。这是一题leetcode上面的题。
+Given two words word1 and word2, find the minimum number of steps required to convert word1 to word2. (each operation is counted as 1 step.)
+You have the following 3 operations permitted on a word:
+
+a) Insert a character
+b) Delete a character
+c) Replace a character
+然后一开始他是要写一个程序返回一个boolean, 大致的function signature:　boolean XXX(String a, String b)。如果a够通过一次转换就能够得到b就返回true,不然返回false
+后来他有改了一下要求:function signature:　boolean XXX(String a, String b, int n)
+就是说a如果通过n 次转换得到b就返回true。
+
+69,
+1. 一个组数，里面的数都是0~9，求第K小的数。 想到的是用quick sort的方法，提示有没有linear time的，想到统计0~9的frequency，再计算
+
+2. follow-up，数组中的数可以是任意值，求第K小的数。 quick sort方法，写完代码，分析复杂度，跑了几个test case，发现partition function没考虑duplicate value的情况，立马改正
+
+70,
+Sort Color (LeetCode原题)
+2） 写个函数，找输入给定string里面出现频率最高的word。 比如 This is island. 输出： is
+第二题，刚开始理解错了，以为是独立的single word，直接split后用hashmap统计词频。后来发现其实是找重复出现次数最多的substring。大家讨论一下吧
+
+71,
+1. longest common substring，用了类似longest common subsequence 的算法，还能
+优化，不过没想出来
+
+2. 一个OO design，把一个iterator的iterator 转换成 iterator
+http://www.meetqun.com/thread-469-1-101.html
+
+72,
+第一题：
+给你一个double func(double x)，你能调用这个函数然后它会返回一个值，要求实现一个double invert(double y, double start, double end)。保证func在区间（start， end）上是单调增的，要求返回一个x使得func(x) = y。
+
+73,
+第一题是Leetcode上Merge two sorted array, 唯一的不同点是两个array的有效长度都为n。
+第二题是leetcode上strstr那道的衍生题, 要求implement function strstrp(String a, String b) returns index where any permutation of b is a substring of a.
+e.g.
+strstrp(“hello”, ”ell”) returns 1
+strstrp(“hello”, “lle”) returns 1
+strstrp(“hello”, “wor”) returns -1
+
+74,
+考题是：find k closest points to a given point in 2D plane，特别强调了k << n(size of array)；一看名字是华人女面试官，心里心想这下是不是又可以被放水了，事实证明我错了。。
+没错，是老题，写起来也没什么困难，只是这位女华人考官不熟悉JAVA啊有木有，给我的interface用了Array我说JAVA里好像木有Array data structure呀，请考官别生气啊。。
+我一开始看道题就知道这是一道大题，所以我先解释了有3种做法的各种的优缺点，然后分析了既然k<<n，maxheap cost也不大，就挑了第二种用maxheap开始实现，实现的时候面试官追问了好多细节，让我困惑的是我写了一个maxheap comparator她一开始说不知道为什么要用到maxheap comparator, 然后又说我写的是minheap，我冤枉的说，姐姐唉compareTo()前面有一个 negative sign!!! 我擦，到这里我不得不吐槽一下，您这是真的看不懂JAVA代码还是故意把我引导到错的方向啊 由于这些小插曲浪费了宝贵的时间，不过最后还是写完了！完成了这题后，时间就到了。。关闭窗口前数了一下写的所有代码有40行。。
