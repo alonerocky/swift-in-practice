@@ -462,23 +462,32 @@ day 74 (4)
 -----------------------274
 day 75
 
+day 76
+day 77
+
+day 78 (1)
+282	Expression Add Operators	23.7%	Hard
+-----------------------275
+
+
 In progress
 218	The Skyline Problem	21.2%	Hard 
-282	Expression Add Operators	23.7%	Hard
+ 
 
 
 
 87	Scramble String	26.1%	Hard
 267	Palindrome Permutation II 	27.0%	Medium
 213	House Robber II	29.8%	Medium
- 
- 
-
-
-
 233	Number of Digit One	23.9%	Medium
-166	Fraction to Recurring Decimal	14.7%	Medium
+216	Combination Sum III	34.5%	Medium
 338	Counting Bits	55.6%	Medium
+ 
+
+
+
+
+166	Fraction to Recurring Decimal	14.7%	Medium
 313	Super Ugly Number	32.3%	Medium
 201	Bitwise AND of Numbers Range	29.5%	Medium
 324	Wiggle Sort II	21.4%	Medium
@@ -493,7 +502,6 @@ In progress
 
 
 149	Max Points on a Line	14.0%	Hard
-216	Combination Sum III	34.5%	Medium
 305	Number of Islands II 	33.2%	Hard
 
 
