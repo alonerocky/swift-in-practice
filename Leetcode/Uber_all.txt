@@ -1,26 +1,26 @@
 Uber (7/41)
 202	Happy Number	36.8%	Easy ====
 291	Word Pattern II 	35.1%	Hard ====
+337	House Robber III 	37.2%	Medium ===
 186	Reverse Words in a String II 	29.0%	Medium
 155	Min Stack	22.0%	Easy			
 8	String to Integer (atoi)	13.5%	Easy
 78	Subsets	31.3%	Medium
 290	Word Pattern 	29.4%	Easy
 
-
- 		
-	
-337	House Robber III 	37.2%	Medium	
-230	Kth Smallest Element in a BST	38.0%	Medium
+ 	
 4	Median of Two Sorted Arrays	18.5%	Hard
 
 
-254	Factor Combinations 	35.0%	Medium	
-139	Word Break	25.5%	Medium	
-39	Combination Sum	31.1%	Medium			
-140	Word Break II	19.7%	Hard					
 
+254	Factor Combinations 	35.0%	Medium		
+140	Word Break II	19.7%	Hard
+			
+					
 
+39	Combination Sum	31.1%	Medium
+139	Word Break	25.5%	Medium
+230	Kth Smallest Element in a BST	38.0%	Medium
 91	Decode Ways	17.6%	Medium
 249	Group Shifted Strings 	31.6%	Easy
 266	Palindrome Permutation 	50.6%	Easy
@@ -51,35 +51,8 @@ Uber (7/41)
 76	Minimum Window Substring	21.4%	Hard
 
 
-
-
-
 -------------CareerCup
-
-(6)
-LRU Cache
-
-(13)
-Serialize & Deserialize a binary tree
-
--------------------
 (1) Design a hashMap in Java. Implement put, get, remove, resize methods.
-
-(2)
-1) Narrate an instance you optimized or improved a software design. 
-2) Given a chance how would you re-think some of the design aspects?
- 
-
-
-(3)
-Design a Twitter feeds API. How would you actually connect it from a mobile? What happens behind the Twitter network? how do the Trends get published? From where does Twitter get the information for a particular trend(Eg: #Obama, #nfl) and publish it out? What protocol does it use? How do you connect to Twitter API? How does Twitter handle multiple connections?
- 
-
-(4)
-1) Describe your most proudest project, least proudest project 
-2) Most inpiring teammate, what did he do? 
-3) Most awesome manager? Why was he so good?
- 
 
 (5)
 Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words. 
@@ -89,8 +62,28 @@ s = "leetcode",
 dict = ["leet", "code"]. 
 
 Return true because "leetcode" can be segmented as "leet code".
- 
- 
+
+(8)
+For a given string and dictionary, how many sentences can you make from the string, such that all the words are contained in the dictionary. 
+
+// eg: for given string -> "appletablet" 
+// "apple", "tablet" 
+// "applet", "able", "t" 
+// "apple", "table", "t" 
+// "app", "let", "able", "t" 
+
+// "applet", {app, let, apple, t, applet} => 3 
+// "thing", {"thing"} -> 1
+
+(6)
+LRU Cache
+
+(13)
+Serialize & Deserialize a binary tree
+
+--------------------------------------
+
+
  
 
 (7)
@@ -105,20 +98,6 @@ target = 7
 
 Result: 
 [[1, 2, 4], [1, 3, 3], [1, 3, 3], [1, 3, 3], [1, 3, 3], [1, 4, 2], [2, 2, 3], [2, 2, 3], [2, 3, 2], [2, 3, 2], [3, 2, 2], [3, 2, 2]]
-
-
-
-(8)
-For a given string and dictionary, how many sentences can you make from the string, such that all the words are contained in the dictionary. 
-
-// eg: for given string -> "appletablet" 
-// "apple", "tablet" 
-// "applet", "able", "t" 
-// "apple", "table", "t" 
-// "app", "let", "able", "t" 
-
-// "applet", {app, let, apple, t, applet} => 3 
-// "thing", {"thing"} -> 1
 
 
 
@@ -149,12 +128,22 @@ Given a character limit and a message, split the message up into annotated chunk
 (14)
 Add a third dimension of time to a hashmap , so ur hashmap will look something like this - HashMap<K, t, V> where t is a float value. Implement the get and put methods to this map. The get method should be something like - map.get(K,t) which should give us the value. If t does not exists then map should return the closest t' such that t' is smaller than t. For example, if map contains (K,1,V1) and (K,2,V2) and the user does a get(k,1.5) then the output should be v1 as 1 is the next smallest number to 1.5
 
-- randomCoder1988 May 02, 2015 in United States for Mobile | Report Duplicate | Flag 
-Uber Software Engineer
-uber-interview-questions0
-of 0 votes
-1 
-Answer
+
+
+(2)
+1) Narrate an instance you optimized or improved a software design. 
+2) Given a chance how would you re-think some of the design aspects?
+ 
+
+
+(3)
+Design a Twitter feeds API. How would you actually connect it from a mobile? What happens behind the Twitter network? how do the Trends get published? From where does Twitter get the information for a particular trend(Eg: #Obama, #nfl) and publish it out? What protocol does it use? How do you connect to Twitter API? How does Twitter handle multiple connections?
+ 
+
+(4)
+1) Describe your most proudest project, least proudest project 
+2) Most inpiring teammate, what did he do? 
+3) Most awesome manager? Why was he so good?
 
 (15)
 Design a ride sharing application
@@ -162,3 +151,161 @@ Design a ride sharing application
 
 
 -------------------------------Glassdoor
+(1) Interview Questions
+how to implement Uber pool. given two trips find and algorithm to see if they should be pooled  
+
+(2) 1. Binary tree serialization/deserialization
+2. Uber Pool System design (walk from signup process to how to get the nearest drivers)
+3. Find overlapping meeting times
+4. Implement autocomplete system  
+
+(3)Interview Questions
+Write an algorithm to determine how similar/different two strings are. I was able to interpret this question any way I wanted. (percentage difference, character difference)  
+Answer Question
+Working together to design an elevator with the interviewer.  
+Answer Question
+Write an algorithm to determine if all of the delimiters in an expression are matched and closed.{(abc)22}[14(xyz)2] should pass
+[ { ] } should fail
+{ (x) } [ should fail  
+
+(4) Given a message "one two three four five six seven eight nine", chop it in chunks(no exceed the give buffer size) and print out to the screen. Need to maintain the word and do not chop it off.
+I.E.: buffer size is 15
+one two three (1/4)
+four five six (2/4)
+seven eight (3/4)
+nine (4/4)  
+
+(5) Distance between siblings in trees, basic SQL queries.  
+
+(6) Design a streaming service 
+
+(7)string manipulation 
+
+(8)System architecture, two data structure + algorithms, and one culture fit w/ an engineering manager. 
+
+(9) Data structure question of getting a random entry from a collection in constant time 
+
+(10) please construct a hash map  
+
+(11) Computer a^b 
+
+(12)
+Why Uber. Design the backend architecture to show nearby drivers. 
+
+(13)
+Write a code to construct a tree. It should get a string and generate related tree. 
+
+(14) Given a set of sudoku boards, determine whether a board is valid or not.  
+
+(15) The one about API rate throttler, mentioned in one of the glassdoor posts.  
+
+(16) A file contains strings like abcd 3.0 xyx 4.0 foobar 5.0 return random string but probability should be based on weighted average 
+
+(17) Implement a timer using queue. 
+
+(18) find the kth smallest element of a BST. What are the purposes of a heap.  
+
+(19) /*
+Some examples:
+isMatch(“aa”,”a”) ? false
+isMatch(“aa”,”aa”) ? true
+isMatch(“aaa”,”aa”) ? false
+isMatch(“aa”, “a*”) ? true
+isMatch(“aa”, “.*”) ? true
+isMatch(“ab”, “.*”) ? true
+isMatch(“aab”, “c*a*b”) ? true
+
+Write isMatch()
+
+*/  
+
+(20) Find the maximum number in an array
+
+(21) Given a text message and max number of characters, implement how the phone company can represent a given message.  
+
+(22) Code secret santa 
+
+(23) Implementing the substring method 
+
+(24) https://www.glassdoor.com/Interview/Uber-Software-Engineer-Interview-Questions-EI_IE575263.0,4_KO5,22_IP5.htm
+
+(Easier) You have a sorted array of integers. Find the element where the array index is equal to the value of the corresponding element. Or return that no such element exists.  
+1 Answer
+(Harder) You have a dictionary of words. Create a matrix of letters such that each row of the matrix is a word and each column of the matrix is a word. Kind of like a very dense crossword puzzle.  
+1 Answer
+
+
+(25) Reverse words in string.
+
+(26) Search a target number in a Rotated Sorted Array.  
+
+(27) Finding kth smallest element in a BST  
+
+(28) What's the difference between BST and heap, what's big endian, little endian, how do you know which process takes up the most resources in Linux, etc.  
+
+(30) 1. Say there are a bunch of records (either photos/news feed/videos) to be displayed as feed on a mobile app, how would you improve the performance of such an interface
+2. Implement bus event design pattern  
+
+(31) Implement a map data structure using a binary search tree. It should have the functions Get, Set, and Size.  
+(32) Search and delete nodes in BST. Delete operation is pretty tricky and you should review that. 
+
+(33) Reverse a string.
+
+(34) Lowest common ancestor in BST  
+
+(35) Given a restaurant menu and a budget, output all the possible ways to use up the budget. 
+
+(36) Pig Latin encoding..maybe he intended to ask decoding as well but I never got there 
+
+(37) Code an algorithm that tests spaces on a chessboard.  
+
+(38) print out a multiplication table ie. 1 x1 to 12 x12  
+Answer Question
+Using OOP design a elevator.  
+
+(39) How would you design a spreadsheet application?  
+
+(40) write code to print the matrix from outside to inside.  
+
+(41) Create a Json like object to representation and implement a flatten method to return string-&gt; string mapping. (implement from scratch / test / compiling + working code)
+
+{x:1, y:1, z:{a:1,b:2}} flattens to {x:1, y:1, z.a:1, z.b: 2}  
+Answer Question
+Q2. Implement a rate limiter attribute/decoration/annotation on top of an API endpoint. caps to N requests per minute with a rolling window (implement from scratch / test / compiling + working code)  
+
+
+(42) Given a list of words, find whether a new word is anagram of word in list.  
+
+(43) Input a string and output the number of words (need to run on coderpad)  
+
+(44) Implement an LRU cache.
+
+(45) Using Object Oriented Design principles, design a method to check if a Sudoku board is valid (skeleton code was provided which was initially passed in through a 2-d array).  
+
+(46) Reversing a linked list, Implementing a rate limiter for a web service.  
+
+(47) A classic permutation questions. Followed by the question if duplicates exist.  
+
+(48) Write a spreadsheet engine in the language of my choice.  
+
+(49) Implement boggle  
+http://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
+http://stackoverflow.com/questions/746082/how-to-find-list-of-possible-words-from-a-letter-matrix-boggle-solver
+
+(50) Design a price surge system, both at a high level and the architecture 
+
+(51) Implement LRU cache with get and set operations in constant time O(1).  
+1 Answer
+Given a regular expression pattern and a string, check to see if pattern matches the string.  
+2 Answers
+
+(52) Design a distributed system for sorting of large files.  
+
+(53) 1. Segment Tree;
+2. How to diagnose latency in data center;  
+
+(54) Print all permutations of 3 pair of parens. ()()(), (()()), (())(),,,. etc  
+Answer Question
+Live-coding on a page that searches for images on flickr/google API via ajax and populates it using js.  
+
+(55)

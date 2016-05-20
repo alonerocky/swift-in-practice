@@ -8,14 +8,14 @@ Leetcode (77/79)
 211	Add and Search Word - Data structure design	20.2%	Medium ===
 168	Excel Sheet Column Title	21.6%	Easy  ==== char ch = (char)('A' + c)
 311	Sparse Matrix Multiplication 	47.1%	Medium	 ===
-
+282	Expression Add Operators	24.8%	Hard ===
+301	Remove Invalid Parentheses	31.9%	Hard  ==== if (set.add(next)) {queue.addLast(next)}
 
 
 28	Implement strStr()	24.8%	Easy 	 ====
 44	Wildcard Matching	17.4%	Hard ========
-301	Remove Invalid Parentheses	31.9%	Hard  ==== if (set.add(next)) {queue.addLast(next)}
 334	Increasing Triplet Subsequence	33.2%	Medium ====
-282	Expression Add Operators	24.8%	Hard ===
+
 
 
 146	LRU Cache	15.8%	Hard

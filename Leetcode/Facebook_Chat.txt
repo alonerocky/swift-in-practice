@@ -27,3 +27,13 @@ In addition to all this: MQTT is a publish subscribe protocol, XMPP is an instan
 We are finding MQTT to be the quiet achiever. Your milage might be different.
 
 (4) http://highscalability.com/blog/2010/11/16/facebooks-new-real-time-messaging-system-hbase-to-store-135.html
+
+
+Facebook search
+(1) https://www.facebook.com/note.php?note_id=389105248919
+(2) https://www.facebook.com/note.php?note_id=365915113919
+
+Facebook Graph search
+
+Facebook trending topic
+https://newsroom.fb.com/news/2016/05/information-about-trending-topics/
