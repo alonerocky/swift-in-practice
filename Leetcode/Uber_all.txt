@@ -1,0 +1,164 @@
+Uber (7/41)
+202	Happy Number	36.8%	Easy ====
+291	Word Pattern II 	35.1%	Hard ====
+186	Reverse Words in a String II 	29.0%	Medium
+155	Min Stack	22.0%	Easy			
+8	String to Integer (atoi)	13.5%	Easy
+78	Subsets	31.3%	Medium
+290	Word Pattern 	29.4%	Easy
+
+
+ 		
+	
+337	House Robber III 	37.2%	Medium	
+230	Kth Smallest Element in a BST	38.0%	Medium
+4	Median of Two Sorted Arrays	18.5%	Hard
+
+
+254	Factor Combinations 	35.0%	Medium	
+139	Word Break	25.5%	Medium	
+39	Combination Sum	31.1%	Medium			
+140	Word Break II	19.7%	Hard					
+
+
+91	Decode Ways	17.6%	Medium
+249	Group Shifted Strings 	31.6%	Easy
+266	Palindrome Permutation 	50.6%	Easy
+242	Valid Anagram	42.1%	Easy	
+13	Roman to Integer	39.7%	Easy		
+171	Excel Sheet Column Number	42.0%	Easy	
+121	Best Time to Buy and Sell Stock	36.2%	Easy	
+104	Maximum Depth of Binary Tree	48.0%	Easy	
+36	Valid Sudoku	30.8%	Easy		
+125	Valid Palindrome	23.9%	Easy
+206	Reverse Linked List	39.8%	Easy	
+24	Swap Nodes in Pairs	35.4%	Easy	
+1	Two Sum	23.5%	Easy	
+22	Generate Parentheses	37.3%	Medium		
+208	Implement Trie (Prefix Tree) 	25.3%	Medium	
+49	Group Anagrams	27.7%	Medium	
+54	Spiral Matrix	22.7%	Medium		
+133	Clone Graph	24.9%	Medium	
+161	One Edit Distance 	28.5%	Medium	
+17	Letter Combinations of a Phone Number	28.9%	Medium	
+138	Copy List with Random Pointer	26.1%	Hard	
+146	LRU Cache	15.8%	Hard	
+37	Sudoku Solver	25.1%	Hard	
+23	Merge k Sorted Lists	23.6%	Hard		
+297	Serialize and Deserialize Binary Tree 	28.0%	Hard	
+33	Search in Rotated Sorted Array	30.4%	Hard	
+10	Regular Expression Matching	22.1%	Hard
+76	Minimum Window Substring	21.4%	Hard
+
+
+
+
+
+-------------CareerCup
+
+(6)
+LRU Cache
+
+(13)
+Serialize & Deserialize a binary tree
+
+-------------------
+(1) Design a hashMap in Java. Implement put, get, remove, resize methods.
+
+(2)
+1) Narrate an instance you optimized or improved a software design. 
+2) Given a chance how would you re-think some of the design aspects?
+ 
+
+
+(3)
+Design a Twitter feeds API. How would you actually connect it from a mobile? What happens behind the Twitter network? how do the Trends get published? From where does Twitter get the information for a particular trend(Eg: #Obama, #nfl) and publish it out? What protocol does it use? How do you connect to Twitter API? How does Twitter handle multiple connections?
+ 
+
+(4)
+1) Describe your most proudest project, least proudest project 
+2) Most inpiring teammate, what did he do? 
+3) Most awesome manager? Why was he so good?
+ 
+
+(5)
+Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words. 
+
+For example, given 
+s = "leetcode", 
+dict = ["leet", "code"]. 
+
+Return true because "leetcode" can be segmented as "leet code".
+ 
+ 
+ 
+
+(7)
+WAP to take one element from each of the array add it to the target sum. Print all those three-element combinations. 
+
+/* 
+A = [1, 2, 3, 3] 
+B = [2, 3, 3, 4] 
+C = [1, 2, 2, 2] 
+target = 7 
+*/ 
+
+Result: 
+[[1, 2, 4], [1, 3, 3], [1, 3, 3], [1, 3, 3], [1, 3, 3], [1, 4, 2], [2, 2, 3], [2, 2, 3], [2, 3, 2], [2, 3, 2], [3, 2, 2], [3, 2, 2]]
+
+
+
+(8)
+For a given string and dictionary, how many sentences can you make from the string, such that all the words are contained in the dictionary. 
+
+// eg: for given string -> "appletablet" 
+// "apple", "tablet" 
+// "applet", "able", "t" 
+// "apple", "table", "t" 
+// "app", "let", "able", "t" 
+
+// "applet", {app, let, apple, t, applet} => 3 
+// "thing", {"thing"} -> 1
+
+
+
+(9)
+Given string a and b, with b containing all distinct characters, find the longest common subsequence's 
+
+length. Expected complexity O(nlogn).
+
+
+
+(10)
+Given a 4*n block, find number of different ways of filling it with 1*2 smaller blocks. Rotation of smaller blocks is allowed.
+
+
+
+(11)
+Given an array of numbers, for every index i, find nearest index j such that a[j] > a[i].If such an index doesn’t exist for i, ­1 should be printed.
+
+
+
+(12)
+Given a character limit and a message, split the message up into annotated chunks without cutting words as, for example when sending the SMS "Hi Sivasrinivas, your Uber is arriving now!" with char limit 25, you should get 
+["Hi Sivasrinivas,(1/3)", "your Uber is arriving(2/3)", "now!(3/3)"]
+
+
+
+
+(14)
+Add a third dimension of time to a hashmap , so ur hashmap will look something like this - HashMap<K, t, V> where t is a float value. Implement the get and put methods to this map. The get method should be something like - map.get(K,t) which should give us the value. If t does not exists then map should return the closest t' such that t' is smaller than t. For example, if map contains (K,1,V1) and (K,2,V2) and the user does a get(k,1.5) then the output should be v1 as 1 is the next smallest number to 1.5
+
+- randomCoder1988 May 02, 2015 in United States for Mobile | Report Duplicate | Flag 
+Uber Software Engineer
+uber-interview-questions0
+of 0 votes
+1 
+Answer
+
+(15)
+Design a ride sharing application
+
+
+
+-------------------------------Glassdoor

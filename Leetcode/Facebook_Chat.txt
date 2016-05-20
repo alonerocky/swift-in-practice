@@ -6,3 +6,24 @@ Real-time presence notification is the most resource-intensive operation perform
 (2)https://www.facebook.com/note.php?note_id=14218138919
 (3)https://www.facebook.com/notes/facebook-engineering/chat-stability-and-scalability/51412338919
 (4)http://www.cnblogs.com/piaoger/archive/2012/08/19/2646530.html
+
+
+Facebook Messenger
+(1) https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920/
+building a new mechanism that maintains a persistent connection to our servers. To do this without killing battery life, we used a protocol called MQTT that we had experimented with in Beluga. MQTT is specifically designed for applications like sending telemetry data to and from space probes, so it is designed to use bandwidth and batteries sparingly. By maintaining an MQTT connection and routing messages through our chat pipeline, we were able to often achieve phone-to-phone delivery in the hundreds of milliseconds, rather than multiple seconds.
+
+(2)
+http://electronicdesign.com/iot/understanding-protocols-behind-internet-things
+
+(3) http://stackoverflow.com/questions/7129821/mqtt-vs-xmpp-which-should-i-choose
+MQTT has very low keep-alive traffic. XMPP is a an IM protocol, and has a much, much higher overhead in handling presence messages between all the clients.
+
+If you have a small memory footprint constraint, then having to handle the XML parser may make the use of XMPP impossible.
+
+Keep in mind that MQTT stands for Message Queue Telemetry Transport, i.e., it is a transport protocol and does not define the message format at all - you will have to supply this; XMPP is an Instant Messaging protocol which carefully defines all the message formats and requires that all messages be in XML.
+
+In addition to all this: MQTT is a publish subscribe protocol, XMPP is an instant messaging protocol that can be extended (using XEP-0060) to support publish subscribe. You need to consider this when you architect your system.
+
+We are finding MQTT to be the quiet achiever. Your milage might be different.
+
+(4) http://highscalability.com/blog/2010/11/16/facebooks-new-real-time-messaging-system-hbase-to-store-135.html
