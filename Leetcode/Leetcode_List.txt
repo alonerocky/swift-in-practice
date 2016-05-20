@@ -475,6 +475,10 @@ day 79 (2)
 291	Word Pattern II 	33.7%	Hard
 -----------------------277
 
+day 80 (2)
+159	Longest Substring with At Most Two Distinct Characters 	33.8%	Hard
+340	Longest Substring with At Most K Distinct Characters 	23.3%	Hard
+
 In progress
 218	The Skyline Problem	21.2%	Hard 
  
@@ -501,8 +505,7 @@ In progress
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 135	Candy	22.0%	Hard
 322	Coin Change	24.5%	Medium
-159	Longest Substring with At Most Two Distinct Characters 	33.8%	Hard
-340	Longest Substring with At Most K Distinct Characters 	23.3%	Hard
+
 
 149	Max Points on a Line	14.0%	Hard
 305	Number of Islands II 	33.2%	Hard
