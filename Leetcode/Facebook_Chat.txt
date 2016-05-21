@@ -37,3 +37,13 @@ Facebook Graph search
 
 Facebook trending topic
 https://newsroom.fb.com/news/2016/05/information-about-trending-topics/
+
+
+Facebook Live video
+http://highscalability.com/blog/2016/1/13/live-video-streaming-at-facebook-scale.html
+https://code.facebook.com/posts/1653074404941839/under-the-hood-broadcasting-live-video-to-millions/
+
+streaming protocol (to be based on RTMP instead of HLS) 
+to enable an even better latency, to reduce the lag between broadcaster and viewer by 5x
+
+HTTP Live Streaming (HLS) and H.264.

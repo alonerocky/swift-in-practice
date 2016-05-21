@@ -481,7 +481,11 @@ day 80 (2)
 
 
 -----------------------279
-day 81
+day 81 (3)
+322	Coin Change	24.5%	Medium
+213	House Robber II	29.8%	Medium
+216	Combination Sum III	34.5%	Medium
+
 
 In progress
 218	The Skyline Problem	21.2%	Hard 
@@ -491,9 +495,7 @@ In progress
 
 87	Scramble String	26.1%	Hard
 267	Palindrome Permutation II 	27.0%	Medium
-213	House Robber II	29.8%	Medium
 233	Number of Digit One	23.9%	Medium
-216	Combination Sum III	34.5%	Medium
 338	Counting Bits	55.6%	Medium
  
 
@@ -508,7 +510,7 @@ In progress
 81	Search in Rotated Sorted Array II	31.7%	Medium
 154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 135	Candy	22.0%	Hard
-322	Coin Change	24.5%	Medium
+
 
 
 149	Max Points on a Line	14.0%	Hard
