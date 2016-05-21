@@ -1,6 +1,5 @@
 https://coralgao.gitbooks.io/internpractice/content/a_+_b_=_c_+_d_from_array.html
 1.1. Add a number to an array
-1.2. Add operators + or - to get the target from nums
 1.3. find closest leave, can go through any nodes.(reversed through root)
 1.4. Construct a Binary Search Tree from given postorder
 1.5. Print matrix diagonally
@@ -13,7 +12,6 @@ https://coralgao.gitbooks.io/internpractice/content/a_+_b_=_c_+_d_from_array.htm
 1.18. Restore pairwise Sum
 1.21. Submatrix sum equal to target???
 1.22. Subset sum to target??
-1.23. Task schedule with cool time
 1.24. Tree to Double linked list
 1.27. Concatenate string from dictionary to target???
 1.28. A + B = C + D from arry
@@ -23,6 +21,8 @@ https://coralgao.gitbooks.io/internpractice/content/a_+_b_=_c_+_d_from_array.htm
 
 
 
+1.23. Task schedule with cool time
+1.2. Add operators + or - to get the target from nums
 1.8. Regular expression
 1.9. K nearest point to [0, 0]
 1.12. Merge intervals

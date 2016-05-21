@@ -10,10 +10,7 @@ Uber (7/41)
 
  	
 4	Median of Two Sorted Arrays	18.5%	Hard
-
-
-
-254	Factor Combinations 	35.0%	Medium		
+254	Factor Combinations 	35.0%	Medium	======	
 140	Word Break II	19.7%	Hard
 			
 					
@@ -308,4 +305,17 @@ Given a regular expression pattern and a string, check to see if pattern matches
 Answer Question
 Live-coding on a page that searches for images on flickr/google API via ajax and populates it using js.  
 
-(55)
+(55) Build a simplified YELP-like service.  
+
+(56) My coding challenge had to calculate the nearest transit stop given your current location. They asked for an efficient way to do this. The answer ended up being something I was not familiar with, Mongo DB and such database geo location built in functions.  
+
+(57) Find the longest word in a grid of random letter, each consecutive letters has to be next to the previous one.  
+
+(58) There is a notepad which accepts only four operations:
+1. Character X
+2. select all
+3. copy
+4. paste
+Given n number of operations, provide the sequence of choices that gives maximum characters in the notepad. 
+
+(59)

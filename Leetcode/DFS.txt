@@ -33,7 +33,8 @@ DFS (31/31)
  
 
 
-Lintcode (9/12)
+Lintcode (13/13)
+535. House Robber III
 453. Flatten Binary Tree to Linked List Easy
 155. Minimum Depth of Binary Tree Easy
 127. Topological Sorting Medium
@@ -43,11 +44,7 @@ Lintcode (9/12)
 164. Unique Binary Search Trees II Medium
 136. Palindrome Partitioning Medium
 153. Combination Sum II Medium
-
-
- 
-33. N-Queens Medium
 16. Permutations II
- 
+33. N-Queens Medium
 90. k Sum II Medium
  
