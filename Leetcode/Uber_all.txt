@@ -1,20 +1,20 @@
 Uber (8/41)
-202	Happy Number	36.8%	Easy ====
 291	Word Pattern II 	35.1%	Hard ====
-337	House Robber III 	37.2%	Medium ===
-186	Reverse Words in a String II 	29.0%	Medium
-155	Min Stack	22.0%	Easy			
-8	String to Integer (atoi)	13.5%	Easy
-78	Subsets	31.3%	Medium
-290	Word Pattern 	29.4%	Easy
+4	Median of Two Sorted Arrays	18.5%	Hard ====			
+
 
  	
-4	Median of Two Sorted Arrays	18.5%	Hard
-254	Factor Combinations 	35.0%	Medium	======	
 140	Word Break II	19.7%	Hard
 			
-					
 
+78	Subsets	31.3%	Medium
+254	Factor Combinations 	35.0%	Medium
+202	Happy Number	36.8%	Easy 
+186	Reverse Words in a String II 	29.0%	Medium
+290	Word Pattern 	29.4%	Easy
+8	String to Integer (atoi)	13.5%	Easy	
+337	House Robber III 	37.2%	Medium				
+155	Min Stack	22.0%	Easy
 39	Combination Sum	31.1%	Medium
 139	Word Break	25.5%	Medium
 230	Kth Smallest Element in a BST	38.0%	Medium
@@ -75,6 +75,10 @@ For a given string and dictionary, how many sentences can you make from the stri
 (6)
 LRU Cache
 
+(12)
+Given a character limit and a message, split the message up into annotated chunks without cutting words as, for example when sending the SMS "Hi Sivasrinivas, your Uber is arriving now!" with char limit 25, you should get 
+["Hi Sivasrinivas,(1/3)", "your Uber is arriving(2/3)", "now!(3/3)"]
+
 (13)
 Serialize & Deserialize a binary tree
 
@@ -115,11 +119,6 @@ Given an array of numbers, for every index i, find nearest index j such that a[j
 
 
 
-(12)
-Given a character limit and a message, split the message up into annotated chunks without cutting words as, for example when sending the SMS "Hi Sivasrinivas, your Uber is arriving now!" with char limit 25, you should get 
-["Hi Sivasrinivas,(1/3)", "your Uber is arriving(2/3)", "now!(3/3)"]
-
-
 
 
 (14)
@@ -148,19 +147,11 @@ Design a ride sharing application
 
 
 -------------------------------Glassdoor
-(1) Interview Questions
-how to implement Uber pool. given two trips find and algorithm to see if they should be pooled  
+Done------------------------
+1. Binary tree serialization/deserialization
 
-(2) 1. Binary tree serialization/deserialization
-2. Uber Pool System design (walk from signup process to how to get the nearest drivers)
-3. Find overlapping meeting times
-4. Implement autocomplete system  
+(44) Implement an LRU cache.
 
-(3)Interview Questions
-Write an algorithm to determine how similar/different two strings are. I was able to interpret this question any way I wanted. (percentage difference, character difference)  
-Answer Question
-Working together to design an elevator with the interviewer.  
-Answer Question
 Write an algorithm to determine if all of the delimiters in an expression are matched and closed.{(abc)22}[14(xyz)2] should pass
 [ { ] } should fail
 { (x) } [ should fail  
@@ -172,6 +163,48 @@ four five six (2/4)
 seven eight (3/4)
 nine (4/4)  
 
+
+(10) please construct a hash map  
+
+(11) Computer a^b 
+
+(19) /*
+Some examples:
+isMatch(“aa”,”a”) ? false
+isMatch(“aa”,”aa”) ? true
+isMatch(“aaa”,”aa”) ? false
+isMatch(“aa”, “a*”) ? true
+isMatch(“aa”, “.*”) ? true
+isMatch(“ab”, “.*”) ? true
+isMatch(“aab”, “c*a*b”) ? true
+
+Write isMatch()
+
+*/  
+
+(25) Reverse words in string.
+
+(26) Search a target number in a Rotated Sorted Array.  
+
+(27) Finding kth smallest element in a BST  
+---------------------------
+(1) Interview Questions
+how to implement Uber pool. given two trips find and algorithm to see if they should be pooled  
+
+(2)  
+2. Uber Pool System design (walk from signup process to how to get the nearest drivers)
+3. Find overlapping meeting times
+4. Implement autocomplete system  
+
+(3)Interview Questions
+Write an algorithm to determine how similar/different two strings are. I was able to interpret this question any way I wanted. (percentage difference, character difference)  
+Answer Question
+
+Working together to design an elevator with the interviewer.  
+Answer Question
+
+ 
+
 (5) Distance between siblings in trees, basic SQL queries.  
 
 (6) Design a streaming service 
@@ -182,9 +215,7 @@ nine (4/4)
 
 (9) Data structure question of getting a random entry from a collection in constant time 
 
-(10) please construct a hash map  
-
-(11) Computer a^b 
+ 
 
 (12)
 Why Uber. Design the backend architecture to show nearby drivers. 
@@ -202,19 +233,7 @@ Write a code to construct a tree. It should get a string and generate related tr
 
 (18) find the kth smallest element of a BST. What are the purposes of a heap.  
 
-(19) /*
-Some examples:
-isMatch(“aa”,”a”) ? false
-isMatch(“aa”,”aa”) ? true
-isMatch(“aaa”,”aa”) ? false
-isMatch(“aa”, “a*”) ? true
-isMatch(“aa”, “.*”) ? true
-isMatch(“ab”, “.*”) ? true
-isMatch(“aab”, “c*a*b”) ? true
-
-Write isMatch()
-
-*/  
+ 
 
 (20) Find the maximum number in an array
 
@@ -232,11 +251,7 @@ Write isMatch()
 1 Answer
 
 
-(25) Reverse words in string.
-
-(26) Search a target number in a Rotated Sorted Array.  
-
-(27) Finding kth smallest element in a BST  
+ 
 
 (28) What's the difference between BST and heap, what's big endian, little endian, how do you know which process takes up the most resources in Linux, etc.  
 
@@ -275,7 +290,7 @@ Q2. Implement a rate limiter attribute/decoration/annotation on top of an API en
 
 (43) Input a string and output the number of words (need to run on coderpad)  
 
-(44) Implement an LRU cache.
+ 
 
 (45) Using Object Oriented Design principles, design a method to check if a Sudoku board is valid (skeleton code was provided which was initially passed in through a 2-d array).  
 

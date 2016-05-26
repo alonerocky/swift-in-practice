@@ -2,7 +2,7 @@
 234	Palindrome Linked List
 9	Palindrome Number
 266	Palindrome Permutation
-
+214	Shortest Palindrome	19.8%		Hard
 
 267	Palindrome Permutation II  	27.7%		Medium
  
@@ -11,9 +11,10 @@
 131	Palindrome Partitioning 
 132	Palindrome Partitioning II 
 
-214	Shortest Palindrome	19.8%		Hard	
-336	Palindrome Pairs
 
+ 	
+336	Palindrome Pairs
+5  Longest Palindromic Substring
 
 46	Permutations
 47	Permutations II
