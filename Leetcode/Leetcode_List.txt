@@ -393,11 +393,8 @@ day 53 (6)
 
 
 day 54
-
 day 55
-
 day 56
-
 day 57 (1)
 128	Longest Consecutive Sequence	31.5%	Hard
 
@@ -441,7 +438,7 @@ day 67 (2)
 day 68 (3) 
 347	Top K Frequent Elements	44.0%		Medium
 346	Moving Average from Data Stream 	66.6%		Easy
-214	Shortest Palindrome	19.0%	Hard
+214	Shortest Palindrome	19.0%	Hard ====
 
 
 day 69
@@ -454,10 +451,10 @@ day 71
 day 72
 day 73
 day 74 (4)
-259	3Sum Smaller 	37.9%	Medium
-227	Basic Calculator II	24.0%	Medium
-224	Basic Calculator	21.2%	Medium
-241	Different Ways to Add Parentheses	33.2%	Medium
+259	3Sum Smaller 	37.9%	Medium ====
+227	Basic Calculator II	24.0%	Medium 
+224	Basic Calculator	21.2%	Medium 
+241	Different Ways to Add Parentheses	33.2%	Medium ====
 
 -----------------------274
 day 75
@@ -476,22 +473,30 @@ day 79 (2)
 
 
 day 80 (2)
-159	Longest Substring with At Most Two Distinct Characters 	33.8%	Hard
-340	Longest Substring with At Most K Distinct Characters 	23.3%	Hard
+159	Longest Substring with At Most Two Distinct Characters 	33.8%	Hard ====
+340	Longest Substring with At Most K Distinct Characters 	23.3%	Hard ====
 
 
  
 day 81 (3)
-322	Coin Change	24.5%	Medium
-213	House Robber II	29.8%	Medium
-216	Combination Sum III	34.5%	Medium
+322	Coin Change	24.5%	Medium ====
+213	House Robber II	29.8%	Medium ====
+216	Combination Sum III	34.5%	Medium ====
 
------------------------282
+
 
 day 82
 day 83
 day 84
 day 85
+day 86
+
+day 87 (1)
+97	Interleaving String	22.1%	Hard
+
+-----------------------283
+
+day 88
 
 In progress
 218	The Skyline Problem	21.2%	Hard 
@@ -560,7 +565,6 @@ In progress
 
 68	Text Justification	15.8%	Hard
 65	Valid Number	11.9%	Hard
-97	Interleaving String	22.1%	Hard
 336	Palindrome Pairs	17.7%	Hard
 302	Smallest Rectangle Enclosing Black Pixels 	38.2%	Hard
 287	Find the Duplicate Number	37.9%	Hard

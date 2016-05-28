@@ -1,5 +1,86 @@
-Facebook meetqun
+https://jiangchengl.wordpress.com/page/2/
+http://coderchen.blogspot.com/2015/10/log.html
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=191077&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26sortid%3D311
 
+http://tuomasidelitecoude.blogspot.com/2016/05/some-questions-from-fb-onsite.html
+some questions from FB onsite
+设计一个网络爬虫
+how to index (and rank)?
+
+Pirate 1: tinyurl
+Pirate 2: rank newsfeeds
+
+why facebook, what project would like to work on, see yourself in five years
+
+设计一个系统，对于一个facebook上的照片，增加一个点赞和评论功能，并且要求对于所有正在看这个照片的其它用户，实时推送点赞人数（名单）以及所有评论。过程中讨论了很多push vs. pull，内部系统如何处理scaling等的问题。个人觉得聊的还不错，但还是挂了。后来面试完后，FB的recuiter仔细问了这道题，貌似比较意外的样子。他比较在意讨论过程中我是不是在lead discussion，看来这一点是他们比较在意的地方。我和面试官基本是一半一半的情况吧，在介绍完框架后，很多时候是他提问题我回答。
+
+linkedlist int palindrome（iterate & recursion）
+这个题的解法：取链表重点，reverse后半个列表，然后对比两个列表是否相同？
+
+design facebook messenger
+
+Design Wikipedia crawler.
+                  followup 1: No global status.
+                  followup 2: deal with machine failure
+                  followup 3: make the wiki site unaware of this crawler.
+
+privacy design
+第二轮：对每一个post，那些人能看，哪些人不能看，比如，有的是public，所有人都能看，有的是friends only，有的是family only等等
+
+“43868643” 中间放+， - 计算能不能达到一个target, 复杂度多少？如何优化？
+
+Round 4: Design facebook event notification system (push on mobile app, and pull on web), discuss storage/api, how to generate events, prefer to use periodical job to scan incoming events and generate messages accordingly
+
+skyline
+
+ Int to String, strStr
+
+ Status update and search system design:
+Status example: I eat a pie, I bouth a car
+Search eat and pie  return I eat a pie
+Search a or bought return  only search in  last N day
+Start with the architecture, based on the given number of users, number of status each day
+Estimate QPS, the storage, DB schema
+  -google 1point3acres
+Invert Index data structure for search How to implement invert index, data structure
+Index update function how to update retire the expired data
+Data is too large to fit into memory, how to handle,. 1point3acres.com/bbs
+DHT, How to hash the data( hash the words or id) , pro, con
+
+
+Log<fun_name,timestap,isStart>   给一串fun_name调用的log,返回一个Map,key是fun_name, value是fun实际调用时间。
+   如: f1, t1, true;  f2, t2, true; f2, t3, false; f1, t4, false;    返回 f2, t3-t2;  f1, t4-t1-(t3-t2)
+  
+  
+   Design scheduler. given string “AABC” representing different task, and int k is the minimum interval for the same task, calculate the minimum steps to execute the sequence.
+[size=14.6667px]AABC 2 should take A[][]ABC total of 6 steps; ABAB 2 should take AB[]AB total of 5 steps, AAAA should take 10 steps.
+[size=14.6667px]很简单，不过当时已晕，被很nice的小白指出错误无数。
+
+
+System desgin: point of interests - given a point, find interseting points within 5 miles
+
+
+Facebook meetqun
+上周五FB Seattle onsite 1, 国人，在微软呆了三年，在FB seattle呆了三年; 聊天，各种聊。 写了个简单的code, 把阿拉泊数字转换成英文数字; 如16,123 -> Sixteen thousand, one hundry and twenty three 2, 一个在微软呆了八年的东欧人, 在FB seattle 呆了两年; Log 给一串fun_name调用的log,返回一个Map,key是fun_name, value是fun实际调用时间。 如: f1, t1, true; f2, t2, true; f2, t3, false; f1, t4, false; 返回 f2, t3-t2; f1, t4-t1-(t3-t2) 3, 一个在Amazon呆了1年多的美国小哥, 在FB seattle 呆了一年; Decode ways; 返回Valid parentheses;
+
+链接: https://instant.1point3acres.com/thread/134480
+来源: 一亩三分地
+
+因为工作不到一年，所以仍然参加University Day的面试，一共四轮：1，原题，一维vector相乘，然后扩展到sparse vector，每个vector就是一个list而已，或者想象成array； 2，leetcode原题，move zeroes，一维数组，非0移到右边，0移到左边，相对位置不变；还有一题有点忘了，onsite了太多家混乱了，貌似是binary tree，找最大path sum之类的，backtracking的方法； 3，leetcode原题：Populating Next Right Pointers in Each Node II， LZ忘了标准方法了，想了半天最后用level order traversal的方法来做的，估计面试官自己也没想过这种方法，之后仍然要求用别的方法...
+
+链接: https://instant.1point3acres.com/thread/filter/interview
+来源: 一亩三分地
+
+Jedi: go through背景 light coding: clone a graph Ninjia: 　给一个task序列ABBABBC, 和相同task的最小interval. 例如interval=3, 则BB运行 时间为5. 写一个函数输入task序列和interval, 输出运行时间。 　followup: 写一个调度函数，输入task序列和interval，输出task最优执行序列 Pirate: 设计一个大型在线多人视频系统，支持FB的scale NinJia: Best Time to Buy and Sell Stock followup: 返回买入和卖出时间的Index Search in Rotated Sorted Array Pirate: 设计一个系统。输入为FB用户的status流, 每个status的组成为多个tags, 用户可通 过　tag1 and tag2 or tag3之类的查询语句, 查出满足这些条件的status list. Pirate: 设计一个google maps Ninjia: leetcode Move Zeros变种 leetcode Subsets变种 Pirate: 设计shortURL 系统
+
+链接: https://instant.1point3acres.com/thread/178585
+来源: 一亩三分地
+
+
+算上recruiter闲聊一共7轮。 1）早上recruiter从大堂带去面试的会议室，一开始还以为是第一轮的面试官。15分钟介绍一下流程，1轮聊天+2轮coding+1轮设计+1轮不计入分的coding+吃饭。 2）聊天没什么可说的，注意culture fit 3.1）longest palindrome，dp解的 3.2）两个词的最短距离变体，follow up词很多怎么省空间。 4）吃饭 5）Web crawler 6.1） 忘了 6.2）LC原题股票I 7）这轮不计入分，就是一个考官考察另一个新手考官的面试能力，我被当成小白鼠用。 7.1）一个矩阵斜着走的list例子如下： 123 456 789 输出：{1}{42}{753}{86}{9} 7.2）max sum subarray，我用了sum = nums[i] + (sum > 0 ? sum : 0)，考官好像不知道这个做法，让我解释了半天，还给了两个明显他觉得是corner case的test才放过。 这些小白都不刷题吗？ 8）严重吐嘈FB的recuiter，过了一周半我发邮件问了才告诉我挂了，追问feedback过了一周多才回复一个法律原因不能说。 
+
+链接: https://instant.1point3acres.com/thread/177719
+来源: 一亩三分地
 
 2,
 http://www.geeksforgeeks.org/print-binary-tree-vertical-order/

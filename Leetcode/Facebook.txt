@@ -1,16 +1,17 @@
 Leetcode (77/79)
-282	Expression Add Operators	24.8%	Hard ===
 301	Remove Invalid Parentheses	31.9%	Hard  ==== if (set.add(next)) {queue.addLast(next)}
+
 
 286	Walls and Gates 	37.2%	Medium  ====
 238	Product of Array Except Self	42.6%	Medium ==== O(1) space
 269	Alien Dictionary 	22.9%	Hard  ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
 311	Sparse Matrix Multiplication 	47.1%	Medium	 ===
-44	Wildcard Matching	17.4%	Hard ========
 209	Minimum Size Subarray Sum	26.8%	Medium  ====
 
 
+282	Expression Add Operators	24.8%	Hard 
+44	Wildcard Matching	17.4%	Hard
 168	Excel Sheet Column Title	21.6%	Easy  
 128	Longest Consecutive Sequence	32.1%	Hard
 28	Implement strStr()	24.8%	Easy 
