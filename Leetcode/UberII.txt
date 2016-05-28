@@ -21,6 +21,9 @@ dictionaly ********
 sqrt
 
 weighted balance chooser **********
+Weight Random Character，输入e.g. data = [{label: 'A', weight: 2}, {label: 'B', weight: 3}, {label: 'C', weight: 5}]，实现randLabel(data)，按权重随机输出label（'A'，'B'或'C'，'A'的可能性为20%，'B'为30%，'C'为50%） 
+
+
 
 
 242	Valid Anagram	42.1%	Easy	

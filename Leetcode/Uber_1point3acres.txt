@@ -12,43 +12,46 @@ Why Uber
 # Algorithm
 #
 #############################
-
-Coding: 给一颗二叉树，每一个节点有一个value，找出一堆不相邻的节点，使得他们value的和最大。节点之间有link就算相邻，比如parent和children
-Coding: Rate limiter (http://blog.gssxgss.me/not-a-simple-problem-rate-limiting/) token bucket, leaky buckt   
-Coding: LRU Cache， follow-up 为什么用double linked list, Complexity, 修改为thread-safe的code                   
-Coding: Sudoku validate + solver                                                                              
-Coding: 找出string里所有是palindrome的subsequence                                                                
-Coding: Number of Islands I/II                                                                                
-Coding: Sorting algorithms
-Coding: Course schedule II                                                                                    
-Coding: Nested Iterator
-Coding: Recover Binary Search Tree                                                                            
-Coding: House Robber                                                                                          
-Coding: merge two sorted linked list，lc原题。只是又问了两个follow up，一个是去除重复元素merge怎么做，另一个是merge的时候不算重复的数字怎么做
-Coding: BST怎么找到kth smallest element
-Coding: reverse words of string                                                                   
 Coding: Implement TimeTravelingHashTable的get和insert方法.                                          
 * TimeTravelingHashTable
 * insert(key, value, timestamp)
 * get(key, timestamp)
 * get(key) // returns value associated with key at latest time
-Coding: LeetCode304, LeetCode308 (know quad tree solution)                                                                              
+                                                                              
 Coding:  http://www.fgdsb.com/2015/01/25/group-contacts/ (union find)
-Coding: LeetCode Word Search II                                                                         
+Coding: Weighted Random Gen  ===========
+Coding: Rate limiter (http://blog.gssxgss.me/not-a-simple-problem-rate-limiting/) token bucket, leaky buckt   
+Coding: 找出string里所有是palindrome的subsequence   
+Coding: Range Sum Query 2D - Mutable (know quad tree solution)
+Coding: LeetCode Word Search II                                                                           
+Coding: CSV parser  
+Coding: TreeMap/RedBlack Tree  
+Coding: Number of Islands I/II    
+Coding: Range Sum Query 2D - Immutable
+Coding: Serialize/Deserialize N-ary Tree   
+Coding: Word Ladder
+
+
+Coding: Recover Binary Search Tree  
+Coding: 给一颗二叉树，每一个节点有一个value，找出一堆不相邻的节点，使得他们value的和最大。节点之间有link就算相邻，比如parent和children
+Coding: LRU Cache， follow-up 为什么用double linked list, Complexity, 修改为thread-safe的code                   
+Coding: merge two sorted linked list，lc原题。只是又问了两个follow up，一个是去除重复元素merge怎么做，另一个是merge的时候不算重复的数字怎么做
+Coding: BST怎么找到kth smallest element
+Coding: reverse words of string    
+Coding: Sudoku validate + solver                                                                            
+Coding: Sorting algorithms
+Coding: Course scheduleII                                                                                                 Coding: House Robber                                                                                          
+Coding: Nested Iterator                                                                       
 Coding: 3Sum/4Sum                                                                                 
-Coding: Weighted Random Gen
 Coding: word pattern I 和word pattern II                                                          
 Coding: LCA                                                                                       
 Coding: Reverse nodes in pairs                                                                    
-Coding: Clone Graph                                                                                 
-Coding: CSV parser                                                                                
+Coding: Clone Graph                                                                                     
 Coding: find element in rotated array                                                             
-Coding: Word Ladder
-Coding: TreeMap/RedBlack Tree
 Coding: Spiral Matrix                                                                             
 Coding: Happy Number                                                                              
 Coding: Count and Say                                                                             
-Coding: Serialize/Deserialize N-ary Tree                                                          
+
 
 ##############################
 #

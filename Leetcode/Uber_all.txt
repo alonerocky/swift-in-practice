@@ -334,3 +334,84 @@ Live-coding on a page that searches for images on flickr/google API via ajax and
 Given n number of operations, provide the sequence of choices that gives maximum characters in the notepad. 
 
 (59)
+
+
+--------------1point3acres
+(1) validate sudoku
+API limiter  (Tokenbucket) 
+leetcode 120 triangle
+tree width
+design uber
+
+(2)
+Weight Random Character，输入e.g. data = [{label: 'A', weight: 2}, {label: 'B', weight: 3}, {label: 'C', weight: 5}]，实现randLabel(data)，按权重随机输出label（'A'，'B'或'C'，'A'的可能性为20%，'B'为30%，'C'为50%） Follow up：如何优化？
+
+(3)
+LC 原题Combination Sum 基本一样，小区别是 输入不是单纯数字 是 Burger:$3 , Shake:$2, Fries: $2 这样的 输入 价格加起来等于target 的所有 String Combination 比如target=10这个就有 [, ,……] 新建个class包含price 和name 就好 基本一样，所以还好不算很难··· 但是我不想一步到位就答案还存在duplicate， 我想再改小哥就说不改了··· 问问题吧···· 哭····· 虽然感觉自己给我onsite也是最后渺茫，但还是求个Onsite！！
+
+(4) tree traversal
+我们做第二题，输入是一串硬币价值和一个金额，问有多少种取法可以达到这个金额
+设计deck这个类，要求4种花色的牌各13张，第一个任务要求print，第二个任务是shuffle。我说了一下想法，大概10多分钟做完了
+
+设计一个facebook messenger
+
+一道rotated sorted array，找最小值。我说用binary search，然后没考虑mid是最小值的情况，加上后很快做完了。然后大哥说你设计个data structure，要求满足get(key),put(key,value),getlatest()都是O（1）
+
+(5)
+设计一个数据结构，要求能够实现key，timestamp，val的配对，用一个map，加一个bst就可以，java有现成的treemap，写了之后测试了几个case就结束了
+
+(6)
+给一个 words = , 一个 weights = 然后写一个function按照对应的weight来生成 word 比如如果生成600次，a 大致出现100次，b 大致200次， c大致300次 做完之后他再让你生成n次再统计输出一下结果
+
+(7)
+第一轮是大概是这样的，计算calculator，比如说计算：　１＋２*３/4, follow-up (1+2)*3 - 4*(5-8)这样的。需要写完，并且加些test　cases 第二轮是string　isomophic；follow　up是把能够是isomophic　strings　group到一起（类似与leetcode　的　group　shifted　string） 第三轮是hiring manager, lots of behavior questions, and one algo, sudoku solver 第四轮是hiring　manager（之前安排好的interviewer临时有事情）, lots of behavior questions, plus one algo question. assuming a list of words appear with a given probability: example (hello, 0.2), (world, 0.3), (ok, 0.5). now generate a word according to thir probability(use binary search) 第五轮是设计问题。
+
+(8)
+一个sentence，一个book， 返回是否所有的sentence里的char都在book出现过。 首先装笨暴力解了，然后要求优化，把book做成了hashmap。 然后又问如果所有character都在第二页，没必要建map，怎么优化。这里有点卡，我直接说的把sentence做成multiset, 然后遍历book, sentence空了就直接返回true. 感觉不是他要的，但是已经超时了，楼主就问了这个解法你满意吗，答曰这个问题有很多种解法就挂了。
+
+(9)
+第一题是mirror BST 第二题是 The matching should cover the entire input string (not partial). The function prototype should be: bool isMatch(String str, String patter) Some examples: isMatch("aa","a") → false isMatch("aa","aa") → true isMatch("aaa","aa") → false isMatch("aa","a{1,3}") → true isMatch("aaa","a{1,3}") → false isMatch("ab","a{1,3}b{1,3}") → true isMatch("abc","a{1,3}b{1,3}c") → true isMatch("abbc","a{1,3}b{1,2}c") → false isMatch("acbac","a{1,3}b{1,3}c") → false isMatch("abcc","a{1,3}b{1,3}cc{1,3}") → true 
+
+(10)
+anagram
+RateLimiter
+
+(11)
+next permutation
+
+(12)
+Rotated array find minimum
+
+merge linkedlist in-place + remove duplicate
+
+design uber
+
+(13)
+OO Design. 设计Excel
+
+System Design. 设计Instagram
+给一个linked list, 返回一个reversed copy
+
+(14) 
+第一道是给一个32位的int数，你判断它的2进制表示是否是palindrome,我自己是高位和地位两边一起移动看收尾字符是否是相同的，后来网上有大牛说可以做查询表或者把低16位翻转，左移16位，然后和高16位比较是否一样。 2。给你k个sorted的数组，每个有n个元素，这个n可以非常大，请问怎么把他们放到一个数组并从大到小排序排好。
+
+
+
+(15)
+Given a balanced binary tree, counter clock-wise plot the tree node on the boundary. For example 5 4 8 1 3 2 6 3 1 9 2 7 5, 4, 1, 3, 1, 9, 2, 7, 6, 8 
+
+(16)
+Round4：国人大哥，obj1 = {a: 1, b: 2, c: {d: 3}}，obj2 = {b: ‘a’, c: {d: 4}}，写一个递归函数merge(obj1, obj2)，合并后的结果为{a: 1, b: , c: {d: }} Round5: 三哥director，behavior，有n个cityLog，里面的包含各个城市各个时间点的车辆的数量，比如cityLog1 = ，cityLog2 = ，写function输出各个时间点车辆数量总和, total = ，没想出什么太优化的方案，三层for循环brute force
+
+(17)
+电面：在线code，一个小时。一个2d grid，由0和1组成。从某一个1开始，计算由相邻的1构成的区域的面积。 比如： 00100 01101 00100 11110 从第2行第3列的那个1开始计算，最后结果应该是8。也就是左边那些互相连接起来的1构成的面积。 我用BFS算的。似乎也可以用UF。 Follow up：接上题，将每一个grid看成边长为1的正方形，计算上述区域的周长。 其实在上一题的BFS算法基础上略作修改即可。 
+
+On site：4轮，每轮45分钟或一个小时。第2、3轮之间有15分钟break。需自备电脑。最好能连接大屏幕。我的电脑接不上大屏幕，于是有两轮是白板，有两轮是面试官站在身后看着我写。 每一轮面试官会自我介绍，然后你自我介绍（同样的话说四遍……）。其中几位面试官会问一点“为什么想来Uber”之类behavior questions。每轮结束前会有给你的提问时间。 （其中一位面试官说Uber修改了new grad的面试流程，不问system design了，改问一种叫problem solving的问题，即第四轮。不过我觉得第二轮问的问题还是略偏系统设计类一点。） 第一轮，算法。Leetcode第23题。Merge k个 sorted lists。要说出时间复杂度。要给出最佳算法，即O(N · logK)的算法，N是总整数数量，K是list数量。 第二轮，hiring manager，也是日后入职后的manager。问题是：用户打开Uber后，在“点击用车”旁边显示的“x分钟”（即附近的车最快前来接人的时间）应该如何实现。实质就是如何估算两个地点之间的行驶时间，以及如何优化。可以获取的data是“每一段街道当下的交通状况”。回答过程中被问到的一些关键性问题包括：如何定义“地点”、“路程”等；如何处理“地理距离近但实际用时长”的问题；如何利用缓存；缓存的大小估算；考虑上下班时段等模式问题；考虑车祸等突发情况。需要不断和面试官沟通来推进你的回答。 第三轮，实际coding。Leetcode第10题。正则表达式匹配检验。Pattern中可能包含“*”（任意数量的前一位字符）和“.”（任意一个字符）。自己写测试用例运行。会问复杂度。 第四轮，problem solving，题目不详细描述了。其实和前面一样，写出代码来解决一个问题。侧重点是思路、正确性证明、复杂度，不太侧重优化。最后自己写测试用例运行。 
+
+(18)
+第一轮，国人大哥，问了一些经验以后开始上题，找到一个rider附近最近的几个driver。个人感觉就是相当于找一个平面上离原点最近的k个点。写了一个quick select。 第二轮，两个国人大哥，问了leetcode原题Minimum Size Subarray Sum，回来看了一下貌似连例子都和leetcode上面一样…. 第三轮，一个三姐，问了一些项目的细节，然后就是给一个boolean矩阵matrix，如果matrix为false说明这个点不能走，否则就可以走。给一个起始点和结束点，输出他们之间的最短路径。感觉也没什么难的。 第四轮，和manager聊天，问了很多behavior question。没有把他哄开心，聊完让我随便设计了一下excel就走了。 第五轮，system design，让设计一个service可以检测一个data center里host的状态。提出了各种场景，还是很考验基本功的。
+
+
+
+
+

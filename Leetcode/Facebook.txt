@@ -1,7 +1,4 @@
 Leetcode (77/79)
-301	Remove Invalid Parentheses	31.9%	Hard  ==== if (set.add(next)) {queue.addLast(next)}
-
-
 286	Walls and Gates 	37.2%	Medium  ====
 238	Product of Array Except Self	42.6%	Medium ==== O(1) space
 269	Alien Dictionary 	22.9%	Hard  ====
@@ -10,6 +7,7 @@ Leetcode (77/79)
 209	Minimum Size Subarray Sum	26.8%	Medium  ====
 
 
+301	Remove Invalid Parentheses	31.9%	Hard
 282	Expression Add Operators	24.8%	Hard 
 44	Wildcard Matching	17.4%	Hard
 168	Excel Sheet Column Title	21.6%	Easy  

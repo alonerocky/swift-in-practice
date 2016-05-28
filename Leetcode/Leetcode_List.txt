@@ -1,4 +1,4 @@
-Done	282/ 334
+Done	283/ 334
 1	Two Sum 								2
 12	Integer to Roman 						3    sb.append(ROMAN[i])
 13	Roman to Integer 						2
@@ -496,18 +496,23 @@ day 87 (1)
 
 -----------------------283
 
-day 88
+day 88 (1)
+87	Scramble String	26.1%	Hard
+
+
 
 In progress
 218	The Skyline Problem	21.2%	Hard 
- 
-
-
-
-87	Scramble String	26.1%	Hard
 267	Palindrome Permutation II 	27.0%	Medium
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium
+300	Longest Increasing Subsequence	33.7%	Medium 
+123	Best Time to Buy and Sell Stock III	25.8%	Hard
+188	Best Time to Buy and Sell Stock IV	21.6%	Hard
+309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
+
+
+
  
 
 
@@ -530,9 +535,6 @@ In progress
 
 
 45	Jump Game II	25.0%	Hard
-123	Best Time to Buy and Sell Stock III	25.8%	Hard
-188	Best Time to Buy and Sell Stock IV	21.6%	Hard
-309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
 307	Range Sum Query - Mutable	16.9%	Medium
 308	Range Sum Query 2D - Mutable 	21.3%	Hard
 294	Flip Game II 	40.6%	Medium
@@ -541,15 +543,7 @@ In progress
 
 260	Single Number III	42.7%	Medium
 152	Maximum Product Subarray	21.7%	Medium
-
-
-
-
-
 319	Bulb Switcher	39.6%	Medium
-300	Longest Increasing Subsequence	33.7%	Medium
-
-
 247	Strobogrammatic Number II 	33.4%	Medium
 330	Patching Array	28.2%	Medium
 264	Ugly Number II	26.7%	Medium
