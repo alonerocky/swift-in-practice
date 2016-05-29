@@ -76,3 +76,87 @@ public void dfs(char[][] board, int row, int column) {
                }
         }
     }
+
+
+//union find
+class UnionFind {
+        private HashMap<Integer, Integer> parent;
+        private HashMap<Integer, Integer> rank;
+        private int count;
+        public UnionFind(int n) {
+            parent = new HashMap<Integer, Integer>();
+            rank = new HashMap<Integer, Integer>();
+            for (int i = 0 ; i < n; i++) {
+                parent.put(i, i);
+                rank.put(i, 1);
+            }
+        }
+        public boolean connected(int a, int b) {
+            a = find(a);
+            b = find(b);
+            return a == b;
+        }
+        public int find(int v) {
+            if (parent.get(v) == v) {
+                return v;
+            }
+            return find(parent.get(v));
+        }
+        
+        public void union(int a, int b) {
+            a = find(a);
+            b = find(b);
+            if (a == b) { //already in the same set
+                return;
+            }
+            int ranka = rank.get(a);
+            int rankb = rank.get(b);
+            if (ranka < rankb) {
+                parent.put(a, b);
+            } else {
+                parent.put(b, a);
+                if (ranka == rankb) {
+                    rank.put(a, ranka + 1);
+                }
+            }
+            count--;
+        }
+        
+        
+    }
+    public void solve(char[][] board) {
+        if (board == null || board.length == 0 || board[0].length == 0) {
+            return;
+        }
+        int m = board.length;
+        int n = board[0].length;
+        
+        UnionFind uf = new UnionFind(m*n + 1);
+        
+        
+        int[][] dirs = {{-1,0},{1,0}, {0,-1},{0,1}};
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if ((i == 0 || i == m- 1 || j == 0 || j == n -1) && board[i][j] == 'O') {
+                    uf.union(m*n , i*n+j);
+                } else if (board[i][j] == 'O') {
+                    
+                    for (int k = 0; k < dirs.length; k++) {
+                        int nextX = i + dirs[k][0];
+                        int nextY = j + dirs[k][1];
+                        int index = nextX * n + nextY;
+                        if (board[nextX][nextY] == 'O') {
+                            uf.union(index, i*n+j);
+                        }
+                    }
+                }
+            }
+        }
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == 'O' && !uf.connected(m*n, i*n+j)) {
+                    board[i][j] = 'X';
+                }
+            }
+        }
+    }
