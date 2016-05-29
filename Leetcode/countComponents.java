@@ -67,3 +67,78 @@ public void bfs(int u, HashMap<Integer, ArrayList<Integer>> adjacents, boolean[]
             }
         }
     }
+
+
+class UnionFind {
+        private HashMap<Integer, Integer> parent;
+        private HashMap<Integer, Integer> rank;
+        private int count;
+        public UnionFind() {
+            parent = new HashMap<Integer, Integer>();
+            rank = new HashMap<Integer, Integer>();
+            count = 0;
+        }
+        public int getCount() {
+            return count;
+        }
+        public boolean contains(int v) {
+            return parent.containsKey(v);
+        }
+        public void add(int v) {
+            if (contains(v)) {
+                return;
+            }
+            parent.put(v, v);
+            rank.put(v,1);
+            count++;
+        }
+        public void addEdge(int a, int b) {
+            add(a);
+            add(b);
+            union(a,b);
+        }
+        public void addEdge(int[] edge) {
+            addEdge(edge[0], edge[1]);
+        }
+        public int find(int v) {
+            if (parent.get(v) == v) {
+                return v;
+            }
+            return find(parent.get(v));
+        }
+        public void union(int a, int b) {
+            a = find(a);
+            b = find(b);
+            if (a == b) {
+                return;
+            }
+            int ranka = rank.get(a);
+            int rankb = rank.get(b);
+            if (ranka < rankb) {
+                parent.put(a, b);
+                
+            } else {
+                parent.put(b, a);
+                if (ranka == rankb) {
+                    rank.put(a, ranka + 1);
+                }
+            }
+            count--;
+        }
+    }
+    public int countComponents(int n, int[][] edges) {
+         if (n <= 0) {
+             return 0;
+         }
+         UnionFind uf = new UnionFind();
+         for (int i = 0; i < n; i++) {
+             uf.add(i);
+         }
+         for (int i = 0; i < edges.length; i++) {
+             int[] edge = edges[i];
+             uf.addEdge(edge);
+         }
+         return uf.getCount();
+         
+         
+    }

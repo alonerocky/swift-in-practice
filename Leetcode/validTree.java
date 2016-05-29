@@ -76,3 +76,65 @@ public boolean validTree(int n, int[][] edges) {
             }
         }
     }
+
+
+class UnionFind {
+        private HashMap<Integer, Integer> parent;
+        private HashMap<Integer, Integer> rank;
+        private int count;
+        public UnionFind(int n) {
+            parent = new HashMap<Integer, Integer>();
+            rank = new HashMap<Integer, Integer>();
+            for (int i = 0; i < n; i++) {
+                parent.put(i, i);
+                rank.put(i, 1);
+            }
+            count = n;
+        }
+        public int getCount() {
+            return count;
+        }
+        private boolean contains(int v) {
+            return parent.containsKey(v);
+        }
+        public int find(int v) {
+            if (parent.get(v) == v) {
+                return v;
+            }
+            return find(parent.get(v));
+        }
+        
+        public void union(int a, int b) {
+            a = find(a);
+            b = find(b);
+            if (a == b) {
+                return;
+            }
+            int ranka = rank.get(a);
+            int rankb = rank.get(b);
+            if (ranka < rankb) {
+                parent.put(a, b);
+            } else {
+                parent.put(b, a);
+                if (ranka == rankb) {
+                    rank.put(a, ranka + 1);
+                }
+            }
+            count--;
+        }
+    }
+    public boolean validTree(int n, int[][] edges) {
+          if (n <= 0) {
+              return false;
+          }
+          if (edges.length != n-1) {
+              return false;
+          }
+          UnionFind uf = new UnionFind(n);
+          for (int i = 0; i < edges.length;i++) {
+              int[] edge = edges[i];
+              uf.union(edge[0], edge[1]);
+          }
+          return uf.getCount() == 1;
+          
+    }
