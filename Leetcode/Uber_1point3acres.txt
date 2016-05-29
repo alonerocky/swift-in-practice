@@ -27,11 +27,11 @@ Coding: LeetCode Word Search II
 Coding: CSV parser  
 Coding: TreeMap/RedBlack Tree  
 Coding: Number of Islands I/II    
-Coding: Range Sum Query 2D - Immutable
-Coding: Serialize/Deserialize N-ary Tree   
+Coding: Range Sum Query 2D - Immutable   
 Coding: Word Ladder
 
 
+Coding: Serialize/Deserialize N-ary Tree
 Coding: Recover Binary Search Tree  
 Coding: 给一颗二叉树，每一个节点有一个value，找出一堆不相邻的节点，使得他们value的和最大。节点之间有link就算相邻，比如parent和children
 Coding: LRU Cache， follow-up 为什么用double linked list, Complexity, 修改为thread-safe的code                   

@@ -483,8 +483,6 @@ day 81 (3)
 213	House Robber II	29.8%	Medium ====
 216	Combination Sum III	34.5%	Medium ====
 
-
-
 day 82
 day 83
 day 84
@@ -494,14 +492,17 @@ day 86
 day 87 (1)
 97	Interleaving String	22.1%	Hard
 
------------------------283
+ 
 
 day 88 (1)
 87	Scramble String	26.1%	Hard
+-----------------------283
 
-
+day 89 (1) 
+305	Number of Islands II 	33.2%	Hard
 
 In progress
+212	Word Search II	18.5%	Hard
 218	The Skyline Problem	21.2%	Hard 
 267	Palindrome Permutation II 	27.0%	Medium
 233	Number of Digit One	23.9%	Medium
@@ -530,7 +531,7 @@ In progress
 
 
 149	Max Points on a Line	14.0%	Hard
-305	Number of Islands II 	33.2%	Hard
+
 
 
 
@@ -570,5 +571,4 @@ In progress
 327	Count of Range Sum	24.3%	Hard
 174	Dungeon Game	20.4%	Hard
 321	Create Maximum Number	19.7%	Hard
-212	Word Search II	18.5%	Hard
 349
