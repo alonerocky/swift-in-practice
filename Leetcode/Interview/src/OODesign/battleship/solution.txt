@@ -1,0 +1,9 @@
+http://arnosoftwaredev.blogspot.com/2008/07/battleship-game-algorithm-explained.html
+
+http://adam-dziedzic.blogspot.com/2014/01/how-did-you-implement-shooting.html
+https://github.com/adam-dziedzic/battleShips
+
+https://github.com/johnsdea/JavaBoardGames/blob/master/src/BoardGames/Battleship/BattleshipBoard.java
+
+
+http://stackoverflow.com/questions/1631414/what-is-the-best-battleship-ai

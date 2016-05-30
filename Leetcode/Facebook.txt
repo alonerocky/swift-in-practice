@@ -83,8 +83,12 @@ Leetcode (77/79)
 127	Word Ladder	19.6%	Medium	
 218	The Skyline Problem	22.0%	Hard
  
+longest increasing subsequence
+
 
 longest common substring problem
+longest common subsequence problem
+Distinct Subsequences
 
 ----------------------------------------------
 Lintcode 35/35

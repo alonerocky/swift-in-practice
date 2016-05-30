@@ -496,18 +496,26 @@ day 87 (1)
 
 day 88 (1)
 87	Scramble String	26.1%	Hard
------------------------283
 
-day 89 (1) 
+
+day 89 (2) 
 305	Number of Islands II 	33.2%	Hard
+300	Longest Increasing Subsequence	33.7%	Medium
+
+-----------------------285
+
+day 90 (2)
+350	Intersection of Two Arrays II	41.3%		Easy
+115. Distinct Subsequences
+
 
 In progress
 212	Word Search II	18.5%	Hard
 218	The Skyline Problem	21.2%	Hard 
 267	Palindrome Permutation II 	27.0%	Medium
+336	Palindrome Pairs	17.7%	Hard
 233	Number of Digit One	23.9%	Medium
-338	Counting Bits	55.6%	Medium
-300	Longest Increasing Subsequence	33.7%	Medium 
+338	Counting Bits	55.6%	Medium 
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
 188	Best Time to Buy and Sell Stock IV	21.6%	Hard
 309	Best Time to Buy and Sell Stock with Cooldown	35.9%	Medium
@@ -560,15 +568,14 @@ In progress
 
 68	Text Justification	15.8%	Hard
 65	Valid Number	11.9%	Hard
-336	Palindrome Pairs	17.7%	Hard
 302	Smallest Rectangle Enclosing Black Pixels 	38.2%	Hard
 287	Find the Duplicate Number	37.9%	Hard
 312	Burst Balloons	34.5%	Hard
 315	Count of Smaller Numbers After Self	28.9%	Hard
-115	Distinct Subsequences	28.3%	Hard
 164	Maximum Gap	26.2%	Hard
 248	Strobogrammatic Number III 	25.5%	Hard
 327	Count of Range Sum	24.3%	Hard
 174	Dungeon Game	20.4%	Hard
-321	Create Maximum Number	19.7%	Hard
-349
+321	Create Maximum Number	19.7%	Hard	
+351	Android Unlock Patterns  	29.9%		Medium
+352

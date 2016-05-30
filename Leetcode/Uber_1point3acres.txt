@@ -12,24 +12,27 @@ Why Uber
 # Algorithm
 #
 #############################
+ 
+ 
+Coding: Weighted Random Gen  ===========
+Coding: Rate limiter (http://blog.gssxgss.me/not-a-simple-problem-rate-limiting/) token bucket, leaky buckt   
+Coding: 找出string里所有是palindrome的subsequence                                                                           
+Coding: CSV parser  
+Coding: TreeMap/RedBlack Tree    
+
+
+Coding: Range Sum Query 2D - Immutable   
+Coding: Word Ladder
+Coding: Range Sum Query 2D - Mutable (know quad tree solution)
+Coding: LeetCode Word Search II 
+
+
+Coding:  http://www.fgdsb.com/2015/01/25/group-contacts/ (union find)
 Coding: Implement TimeTravelingHashTable的get和insert方法.                                          
 * TimeTravelingHashTable
 * insert(key, value, timestamp)
 * get(key, timestamp)
 * get(key) // returns value associated with key at latest time
-                                                                              
-Coding:  http://www.fgdsb.com/2015/01/25/group-contacts/ (union find)
-Coding: Weighted Random Gen  ===========
-Coding: Rate limiter (http://blog.gssxgss.me/not-a-simple-problem-rate-limiting/) token bucket, leaky buckt   
-Coding: 找出string里所有是palindrome的subsequence   
-Coding: Range Sum Query 2D - Mutable (know quad tree solution)
-Coding: LeetCode Word Search II                                                                           
-Coding: CSV parser  
-Coding: TreeMap/RedBlack Tree      
-Coding: Range Sum Query 2D - Immutable   
-Coding: Word Ladder
-
-
 Coding: Number of Islands I/II
 Coding: Serialize/Deserialize N-ary Tree
 Coding: Recover Binary Search Tree  

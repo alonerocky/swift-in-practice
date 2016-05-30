@@ -1,0 +1,10 @@
+https://wiki.engr.illinois.edu/display/cs528su12/Othello
+
+http://www.math.grin.edu/~rebelsky/Courses/152/98S/Assignments/design.04.html
+http://www.daniweb.com/software-development/cpp/threads/312170/design-question-othello-game
+
+// while the game isn't over (that is, there are still legal moves
+  // and neither play has quite)
+    // determine the current player
+    // give the current player a chance to move
+    // update as appropriate

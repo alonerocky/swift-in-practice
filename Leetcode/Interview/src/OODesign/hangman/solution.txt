@@ -1,0 +1,30 @@
+http://www.glassdoor.com/Interview/Design-a-scalable-server-for-the-hangman-game-QTN_208360.htm
+need to clarify one question first: what does the distributed hangman game mean or which part should be distributed?
+
+there are 2 types: stateless || stateful server
+stateless server might be the best way to solve the problem, since the game is very simple, nothing about security, 
+and with a good encoding, client side can do all the caching of the game process with very cheap network 
+communication. This makes the server very scalable.(in another sense, the server is just a skeleton to implement
+ the logic. the game is just like running on users' machine and doing the calculation on server)
+
+stateful: this one is a little bit tricky. The server side may need to record users session obtained by users' 
+cookie or the user ID.
+Considering millions of users playing at the same time, we can store the user session in a distributed database 
+or file system like Chord File system or Google file system. using SHA-1 hash to distribute the user session, and
+ do the calculation on that machine. To do the load balancing, we can use open source software like Haproxy as 
+ master node to dispatch the calculation.
+
+To implement some features like leader border: we might need to use a master node to implement a B+ tree or other 
+better data structure (fix sized priority queue, if only first K records are needed)
+
+http://inventwithpython.com/chapter8.html
+http://inventwithpython.com/chapter9.html
+
+
+http://www.cs.duke.edu/csed/tapestry/slides/chap7-4up.pdf
+http://www.glassdoor.com/Interview/Design-a-hangman-game-QTN_178702.htm
+http://www.adobe.com/devnet/html5/articles/hangman-part-1.html
+http://www.adobe.com/devnet/html5/articles/hangman-part-2.html
+
+https://github.com/alonerocky/Leetcode-Python.git
+
