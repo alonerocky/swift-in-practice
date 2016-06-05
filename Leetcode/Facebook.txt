@@ -1,12 +1,12 @@
 Leetcode (77/79)
 286	Walls and Gates 	37.2%	Medium  ====
 238	Product of Array Except Self	42.6%	Medium ==== O(1) space
-269	Alien Dictionary 	22.9%	Hard  ====
 211	Add and Search Word - Data structure design	20.2%	Medium ===
-311	Sparse Matrix Multiplication 	47.1%	Medium	 ===
-209	Minimum Size Subarray Sum	26.8%	Medium  ====
 
 
+269	Alien Dictionary 	22.9%	Hard 
+311	Sparse Matrix Multiplication 	47.1%	Medium
+209	Minimum Size Subarray Sum	26.8%	Medium
 301	Remove Invalid Parentheses	31.9%	Hard
 282	Expression Add Operators	24.8%	Hard 
 44	Wildcard Matching	17.4%	Hard

@@ -27,3 +27,24 @@ public boolean wordBreak(String s, Set<String> dict) {
         }
         return dp[s.length()];
     }
+
+
+public boolean wordBreak(String s, Set<String> dict) {
+         if (s == null || s.length() == 0 || dict == null || dict.size() == 0) {
+             return false;
+         }
+         int len = s.length();
+         boolean[] dp = new boolean[len+1];
+         dp[0] = true;
+         for(int i = 1; i <= len; i++) {
+             
+             for (int j = 0; j < i; j++) {
+                 String str = s.substring(j, i);
+                 if (dict.contains(str) && dp[j]) {
+                     dp[i] = true;
+                     break;
+                 }
+             }
+         }
+         return dp[len];
+    }

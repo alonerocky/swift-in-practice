@@ -91,6 +91,56 @@ public void bfs(char[][] grid, int row, int column, boolean[][] visited) {
         }
     }
 
+//beter dfs & dfs
+public void dfs(int r, int c, char[][] grid, boolean[][] visited) {
+        
+        int m = grid.length;
+        int n = grid[0].length;
+        visited[r][c] = true;
+        int[][] dirs = {{-1,0},{1,0},{0,-1},{0,1}};
+        for(int i = 0; i < dirs.length; i++) {
+            int nextR = r + dirs[i][0];
+            int nextC = c + dirs[i][1];
+            if (nextR >= 0 && 
+            nextR < m && 
+            nextC >= 0 && 
+            nextC < n && 
+            grid[nextR][nextC] == '1' &&
+            !visited[nextR][nextC]) {
+                dfs(nextR, nextC, grid, visited);
+            }
+        }
+    }
+    
+    public void bfs(int r, int c, char[][] grid, boolean[][] visited) {
+        visited[r][c] = true;
+        int m = grid.length;
+        int n = grid[0].length;
+        Deque<Integer> queue = new ArrayDeque<Integer>();
+        queue.addLast(r * n + c);
+        int[][] dirs = {{-1,0},{1,0},{0,-1},{0,1}};
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                int front = queue.pollFirst();
+                int row = front / n;
+                int col = front % n;
+                for (int j = 0 ; j < dirs.length; j++) {
+                    int nextR = row + dirs[j][0];
+                    int nextC = col + dirs[j][1];
+                    if (nextR >= 0 && 
+                    nextR < m && 
+                    nextC >= 0 && 
+                    nextC < n && 
+                    grid[nextR][nextC] == '1' && 
+                    !visited[nextR][nextC]) {
+                        visited[nextR][nextC] = true;
+                        queue.addLast(nextR * n + nextC);
+                    }
+                }
+            }
+        }
+    }
 
 //union find
 class UnionFind {

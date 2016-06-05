@@ -20,19 +20,45 @@ https://www.careercup.com/question?id=5689672300756992
 
 Game of life
 
-friend suggest  ********
+friend suggest  mutual friend
 https://www.careercup.com/question?id=5181387768332288
 
 
-Tree width ********
+Tree width   // maximu width
 
 Database 
 
-dictionaly ********
+dictionaly  word break ====
 
 sqrt
 
 weighted balance chooser **********
+
+
+/*
+total_sum += choice[i]
+pivot = random.randint(total_sum)
+
+for choice in choices
+   running_sum += choice[1]
+   if (pivot < running_sum ) {
+   		return choice[0];
+   }
+
+
+chosen = choices[0][0]
+n = chosen[0][1]
+for choice in choices[1:n] {
+	
+	weight = choice[1]
+	r = random.random
+	n += weight;
+	if (r < weight/n) {
+		chose = choice[0]
+	}
+}
+
+
 -------------
 Degsign
 blackjake game

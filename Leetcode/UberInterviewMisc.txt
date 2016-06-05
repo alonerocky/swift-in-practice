@@ -20,8 +20,7 @@ http://www.1point3acres.com/bbs/thread-160093-1-1.html
 实现一个message broker就是pub/sub model
 思路是按照这个链接的思路答的，拓扑也差不多http://www.rabbitmq.com/tutorials/tutorial-three-python.html，主要功能都是在exchange做的。
 
-实现LRU的拓展LFreqU，优化. 
-LFU Cache Java Implementation
+
 
 http://www.1point3acres.com/bbs/thread-156097-1-1.html
 接着是很多C++的基础概念题，比如什么是pointer，reference，还问了用什么工具debug，在下没有用过，汗。C++好久没用了，所以已经被问虚了。后面又问了些数据结构和算法题，例如BST怎么找到kth smallest element，heap的用途。
@@ -36,14 +35,14 @@ manager面, 实现post expression tree: stack. regular expression 来断string.
 100G的文件如何做string排序: 外排, 分析tradeoff.
 讲讲最过瘾的project经历. 如何root cause, 解决问题.第四轮,设计Netflix/youtube. 2种sql的区别, 如何优化streaming.
 http://www.1point3acres.com/bbs/thread-155941-1-1.html
-第一轮：上来先介绍自己在uberpool team，说了老半天，我以为他会让我设计uberpool，还仔细问问清楚，结果讲完了之后就开始coding了，题目是设计一个数据结构，要求能够实现key，timestamp，val的配对，用一个map，加一个bst就可以，java有现成的treemap，写了之后测试了几个case就结束了。
+
 第二轮：设计一个instagram，lz是面之前花了一阵看systemdesign的，所以还是可以看出来水平不咋地的，挺多细节要注意，比如我说图片用string存储，那在cache里面，还是这样存储就会比较费空间，于是可以存成url，我也不大懂这块，然后还有一个面试官指出来的可以用cdn我也没提到。
 第三轮：一个中国manager，先聊为啥想进uber，注意这是每轮都问的，然后说了半天，问了一个browser里面输入一个url之后发生了什么，我大概说了dns寻址到通常的webservice里面发生的事情，然后他让我结合我的project，有个webservice的project讲一下整个路径，然后就结束了。
 
 http://www.1point3acres.com/bbs/thread-160890-1-1.html
 1. blocking queue, 然后讨论了一下多线程, 锁. why uber
 2. N-ary tree serialize and deserialize.
-3. LRU cache
+
 4. 在一个binary search tree里面有两个node互相swap过, 找出来这个两个node并且改成swap之前的tree. why uber
 就是要表现你对UBER产品的狂热以及对UBER的热爱.
 UBER上班很辛苦的 没有情怀支撑不下去的

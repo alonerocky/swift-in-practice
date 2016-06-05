@@ -14,11 +14,11 @@ Why Uber
 #############################
  
  
-Coding: Weighted Random Gen  ===========
-Coding: Rate limiter (http://blog.gssxgss.me/not-a-simple-problem-rate-limiting/) token bucket, leaky buckt   
-Coding: 找出string里所有是palindrome的subsequence                                                                           
+ 
+Coding:找出string里所有是palindrome的subsequence                                                                           
 Coding: CSV parser  
 Coding: TreeMap/RedBlack Tree    
+
 
 
 Coding: Range Sum Query 2D - Immutable   
@@ -27,6 +27,8 @@ Coding: Range Sum Query 2D - Mutable (know quad tree solution)
 Coding: LeetCode Word Search II 
 
 
+Coding: Weighted Random Gen 
+Coding: Rate limiter (http://blog.gssxgss.me/not-a-simple-problem-rate-limiting/) token bucket, leaky buckt
 Coding:  http://www.fgdsb.com/2015/01/25/group-contacts/ (union find)
 Coding: Implement TimeTravelingHashTable的get和insert方法.                                          
 * TimeTravelingHashTable
@@ -43,7 +45,8 @@ Coding: BST怎么找到kth smallest element
 Coding: reverse words of string    
 Coding: Sudoku validate + solver                                                                            
 Coding: Sorting algorithms
-Coding: Course scheduleII                                                                                                 Coding: House Robber                                                                                          
+Coding: Course scheduleII 
+Coding: House Robber                                                                                          
 Coding: Nested Iterator                                                                       
 Coding: 3Sum/4Sum                                                                                 
 Coding: word pattern I 和word pattern II                                                          

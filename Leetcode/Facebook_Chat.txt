@@ -1,3 +1,6 @@
+http://stackoverflow.com/questions/3533948/facebook-architecture
+
+
 Facebook chat
 (1)http://usefulstuff.io/2013/03/how-it-works-facebook-part-2/
 Chat is based on an Epoll server developed in Erlang and accessed using Thrift and there is also a subsystem for logging chat messages (in C++). Both subsystems are clustered and partitioned for reliability and efficient failover.
