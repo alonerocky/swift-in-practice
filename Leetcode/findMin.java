@@ -1,17 +1,23 @@
 public int findMin(int[] nums) {
-        int min = nums[0];
-        int i =0;
-        int j = nums.length - 1;
-        while (i <= j) {
-            int middle = (i + j) /2;
-            int median = nums[middle];
-            if (median < nums[j]) { //right side is sorted
-                min = Math.min(min, median);
-                j = middle - 1;
-            } else { //nums[i] <= median
-                min = Math.min(min, nums[i]);
-                i = middle + 1;
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int len = nums.length;
+        if (nums[0] < nums[len-1]) {
+            return nums[0];
+        }
+        int i = 0;
+        int j = len-1;
+        while(i +1 < j) {
+            if (nums[i] < nums[j]) {
+                return nums[i];
+            }
+            int middle = (i+j)/2;
+            if (nums[middle] > nums[j]) {
+                i = middle;
+            } else {
+                j = middle;
             }
         }
-        return min;
+        return Math.min(nums[i], nums[j]);
     }
