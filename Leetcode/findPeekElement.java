@@ -14,3 +14,22 @@ public int findPeakElement(int[] nums) {
         }
         return -1;
     }
+
+
+public int findPeakElement(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        return findPeakElement(nums, 0, nums.length-1,nums.length);
+    }
+    public int findPeakElement(int[] nums, int low, int high, int n) {
+        
+           int middle = (low+high)/2;
+            if( (middle == 0 || nums[middle-1] < nums[middle]) && (middle == n-1 || nums[middle] > nums[middle+1])) {
+                return middle;
+            } else if (middle > 0 && nums[middle-1] > nums[middle]) {
+                return findPeakElement(nums, low, middle-1,n);
+            }  else {
+                return findPeakElement(nums, middle+1, high, n);
+            }
+    }

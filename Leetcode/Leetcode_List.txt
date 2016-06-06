@@ -1,4 +1,4 @@
-Done	287/ 334
+Done	291/ 336
 1	Two Sum 								2
 12	Integer to Roman 						3    sb.append(ROMAN[i])
 13	Roman to Integer 						2
@@ -508,13 +508,20 @@ day 90 (2)
 350	Intersection of Two Arrays II	41.3%		Easy
 115. Distinct Subsequences
 
------------------------287
+ 
+
+day 95 (4)
+154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
+81	Search in Rotated Sorted Array II	31.7%	Medium
+218	The Skyline Problem 	22.8%	Hard
+336	Palindrome Pairs	17.7%	Hard
+
+-----------------------291
 
 In progress
 212	Word Search II	18.5%	Hard
 218	The Skyline Problem	21.2%	Hard 
 267	Palindrome Permutation II 	27.0%	Medium
-336	Palindrome Pairs	17.7%	Hard
 233	Number of Digit One	23.9%	Medium
 338	Counting Bits	55.6%	Medium 
 123	Best Time to Buy and Sell Stock III	25.8%	Hard
@@ -533,8 +540,6 @@ In progress
 
 
 320	Generalized Abbreviation 	39.7%	Medium
-81	Search in Rotated Sorted Array II	31.7%	Medium
-154	Find Minimum in Rotated Sorted Array II	33.9%	Hard
 135	Candy	22.0%	Hard
 
 

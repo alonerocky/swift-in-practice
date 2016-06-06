@@ -1,20 +1,30 @@
 https://coralgao.gitbooks.io/internpractice/content/a_+_b_=_c_+_d_from_array.html
+
+https://shawnlincoding.wordpress.com/2015/04/12/facebook-meetqun/
+
 1.3. find closest leave, can go through any nodes.(reversed through root)
-1.5. Print matrix diagonally
-1.6. Find all palindrome pair
-1.10. Maximum difference in tree
 1.14. Nth Fibonacci mould 10
-1.16. Print boundary of tree
+1.6. Find all palindrome pair
+ 
+ 
+ 
 1.18. Restore pairwise Sum
-1.21. Submatrix sum equal to target???
-1.22. Subset sum to target??
-1.24. Tree to Double linked list
+ 
+ 
+
+
+1.5. Print matrix diagonally
 1.27. Concatenate string from dictionary to target???
 1.29. Median from AVL(self-balanced tree)
-1.34. Find longest common substring with >= k
+1.22. Subset sum to target
+
+
+1.16. Print boundary of tree
+1.10. Maximum difference in tree
+1.24. Tree to Double linked list 
 1.35. Print the pretty json strings
-
-
+1.34. Find longest common substring with >= k
+1.21. Submatrix sum equal to target
 1.28. A + B = C + D from arry
 1.11. Maximum profit (unlimited times)
 1.1. Add a number to an array
