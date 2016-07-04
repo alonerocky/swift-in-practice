@@ -7,7 +7,9 @@ public int nthUglyNumber(int n) {
         long result = 1l;
         for(int i = 0; i < n;i++) {
             result = minHeap.poll();
-            
+ 	    if (i == n-1) {
+                break;
+            }	           
             //by 2
             long m = result * 2;
             if (set.add(m)) {
