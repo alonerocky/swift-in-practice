@@ -1,0 +1,129 @@
+2, Bomb enemy
+5, plus one
+
+1, Abbreviations  i18n  *****
+3, Android lock patten  *****
+4, Toeplitz matrix
+6, longest M-distinct-character substring
+7, Number of islands
+8, Generate a longest palindrome by shuffling/removing characters from a giving string
+9, Distributed sum
+10, tiltmaze
+11, Jotto letter-matcing game  vs master mine
+12, Connected Components in a Linked List
+13 , Find inserted char in two otherwise identical strings
+14, Implements Timer
+15, Design a distributed unique ID service
+16, Implement HashSet
+17, Length of the Longest Path of Consecutive Integers in a Tree
+18, Design and implement a rate limiter or throttler
+19, flatten an iterator of iterators
+20, Design the game Pinball
+21, Word Squares
+BALL
+AREA
+LEAD
+LADY
+
+22, Compression and decompression
+3[abc]4[ab]c
+
+2[3[a]b]
+
+23, Word Guesser
+24, Binary Tree Similarity
+25, Design a web system to sell concert tickets
+26, Write a program to create a maze
+27, Design a regression/load test frameword for a web server (System)
+28, Among 10^6 elements, count all triples with sum <= X
+29, Implement a TCP-like stream over unordered data packets
+void getPacket(int offset, byte[] data)
+int read(byte[] dest)
+
+30, Erase Tree
+32, Minimum time min
+33, Can string be an English word with single typo
+34, Design a more realistic link traversal model
+35, 3000 A.D. Census (distributed graph traversal)
+36, Encode a string using the given run-length encoding scheme, Then do it distributed
+37, Bob perimeter 
+38, Comparing content of two html DOM trees under a tight memory constraint
+39, subrectangle sum   *****
+
+40, Place free weights in the exercise room
+41, Stock price feed with corrections
+42, String distance by character replacing
+43, Fair Log Truncation 
+
+44, Quotes on the web
+45, Binary Watch with Three Lights On
+46, File copy -> distributed filesystem design
+47, Chrome findbar
+48, Design A Browser-based eReader
+49, Camel Case Search
+50, Split a string as spaces, except when quoted. Then do it at Google scale
+51, Find identical subtrees
+52, Reverse the vowels in a string
+
+53, determine if two people in a family tree are related
+
+54, Iterative approximation of the median of a data stream
+
+55, Find the kth element in 2 sorted arrays
+56, Count reciprocal edges in a directed graph
+
+57, Equivalent expression trees
+
+58, Finding a path through a flooding terrain
+
+59, How can you speed up web browsing
+
+60, Print all rotationally symmetric numbers less than N digits
+
+61, serialize/deserialize a list of strings
+
+62, RangeSet
+
+63, Read4
+
+64, Rate limiter
+
+65, sell stock with cool down
+
+66, Chunked palindromes
+
+67, Find all the numbers that can be generated from an array of number (+-*/())
+
+68, Convert (soted) list words to prefix tree
+
+69, longest phrase prefix
+
+70, Majority element
+
+71, convert profiler log output to an outline ********
+
+72, Generate all full binary trees given a # of leaves
+
+73, Stream deduplication ***
+
+74, Blocking Queue
+
+75, count unique pages in a website
+
+76, Counting the rate of events
+
+77, Prefix-syntax expression evaluator
+
+expr :: = int | '(' op expr+ ')' 
+op :: = '+' | '*'
+
+78, Build a tree from pairwise relationships
+
+79, 
+
+Design
+Google Suggest
+Google Instant
+Text-parsing web application
+Gmail
+ID accessing building system
