@@ -19,18 +19,17 @@ public int numberOfPatterns(int m, int n) {
         if (index >= m) {
             count++;
         }
-        index++;
-        if (index > n) {
-            return count;
-        } else {
+        
+        if (index < n) {
             visited[num] = true;
             for(int i = 1; i <= 9; i++) {
                 int jump = jumps[num][i];
                 if (!visited[i] && (jump == 0 || visited[jump])) {
-                    count += dfs(i, index, m, n, visited, jumps);
+                    count += dfs(i, index + 1, m, n, visited, jumps);
                 }
             }
             visited[num] = false;
-            return count;
+           
         }
+	return count;
     }

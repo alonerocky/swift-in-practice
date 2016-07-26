@@ -19,11 +19,12 @@ Task schedule (topological sort)
 trie
 regexp matxh
 merge k sorted list
+Shortest Distance from All Buildings
 
 
 Android unblock pattern
-combination sum 
 Shortest Distance from All Buildings 
+combination sum 
 rate limit
 sum of nested list 
 valid palindrome (insert/delete/edit  DP)
@@ -57,7 +58,7 @@ big float
 reverse linkedList,
 print tree level by level
 LC reverse words in a string 
-Shortest Distance from All Buildings
+ 
 
 
 8*8 Matrix K steps from a to b
@@ -67,6 +68,13 @@ input一个text file，last name, first name, mm/dd/yy, manager's full name pars
 Design a web crawler 
 merge log file (minHeap)
 thread pool
+
+添加括号使得表达式值最大，表达式只有+ - * 
+
+一堆数，中间插入*，+或者括号，求最大值，dp就可以， 但是如果数字全部是正整数的话，只用通过判断1的个数是奇数还是偶数来求最大值，0(n)就可以了
+一堆数里加`（）+ *`， 求最大值，followup back trace求最大值的string表达式 
+http://www.lostscroll.com/max-value-using-and/
+http://www.lostscroll.com/category/%E7%AE%97%E6%B3%95algorithm/
 
 2, BigInt  subtract
 3, Calculator
@@ -82,7 +90,7 @@ lastTimestamp:  hanabeast SnapChat onsite + phone
 
 20, 2自我介绍 why snapchat 问项目如何scale 如果有latency怎么办 copy to near data center 然后是备份在本地。 那如果是第一次访问怎么办？ memcache 然后是如何决定什么数据放在memcache 最近访问数据LRU 3 项目问题 最挑战的部分 如何实现databasr indexing b+ tree 如何实现load testing 那些scaling vertical horizental  4 项目聊一聊 题目是三门问题 写算法模拟这个三门问题的概率 
 
-21, 设计一个支持range query的数据结构，存的是类似`2016-3-15-09：30-service1`这样的结构，就是date加上用了哪个service的记录，然后给个时间区间求某个service用了多少次，没写代码，就说想法 2. 棒子小哥， single thread log 以及followup, 面经高频 3. 国人小哥，  1, 2 * 3d grid，每个点有高度， 给起点和终点，求一个直升机起点到终点高度和最小的路径，注意一点是直升机只能上升不能下降 4. 国人大神，一堆数里加`（）+ *`， 求最大值，followup 求back trace求最大值的string表达式 
+21, 设计一个支持range query的数据结构，存的是类似`2016-3-15-09：30-service1`这样的结构，就是date加上用了哪个service的记录，然后给个时间区间求某个service用了多少次，没写代码，就说想法 2. 棒子小哥， single thread log 以及followup, 面经高频 3. 国人小哥，  1, 2 * 3d grid，每个点有高度， 给起点和终点，求一个直升机起点到终点高度和最小的路径，注意一点是直升机只能上升不能下降 
 
 23, 面试官：亚裔妹子，人很nice很可爱，好像是broadcast组的，就是题一出我就有点懵了。 题目： ternary expression paser （三目运算符）， input是一个string，其中 ‘T’ 表示true， ‘F’ 表示false， 要求返回最后运算的结果。 乍一看题目很直接， bool expression ? first result : second result ，但实际上我们通常都用的都是非常简单的形式，但每一部分都可以无限嵌套。例如： T ? T : F ? T : 1 : 2 : F ? 3 : 4; 原本妹子没让我考虑bool expression部分也嵌套的情况，结果我本着把问题分析清楚的原则，成功把问题弄的复杂了，她后来觉得这可以作为follow up。。。 说了两三个简单的solution，然后举例发现有问题。在妹子的提示下，写出了 “不考虑 bool expression”的情况，但是因为已经说出口了，妹子指出我还需要继续考虑。最终时间不够，没有运行代码。 过后发现，确实应该多在纸上找一下规律，理清逻辑在写解法。string的变式题对我来说比较tricky，完全在脑子里思考容易变成一团浆糊。。。。妹子对我我说，没事她比较看重逻辑。我心里只能说谢谢你的安慰。。之后小哥详细问了怎样test保证能在product work，扯了下unit test + modular test + system test, 然后具体说了unit test的五六种case，然后test发现有个小bug，改之。再问如找不到valid sequence咋办，以及写exception。小哥不太熟unordered_map，问我有个地方是否会出现out of bound问题，我说map会直接新建一个value不会有问题，他表示惊奇并且说还是要注意下。 第三轮： 面试官：白人manager，手下两个team，team主要做internal tool， UX之类。10+年工作经验，很nice很耐心。问了会project之后开始做题。 题目： construct string from web page + XML paser，再次感谢面筋，不过有一点不同是需要设计data structure保存paser后的结果。 每个token有如下结构，然后给了个API getNextToken()获取下一个token, 我表示应该还有个hasNextToken()。 token { string name; // e.g. story, id, snaps string tag_type; // {open, close, test} 三种type }; 第一题没让写代码，就讨论，用hash map。 第二题说了用stack 保存状态来解析，但是在设计结构的时候纠结了一会。最近缺乏运动，因而下午有小睡的习惯，结果在这个问题上卡了一会。说用nested hashmap，他表示make sense，就是想了半天没想到用下面这个结构，他提示我可以用vector>的结构，表示恍然大悟，然后发现应该并不需要vector。写完之后follow up就是如果tag不匹配怎么检测。 Node { string name; string value; unordered_map; }; 第四轮： 面试官：比较腼腆的国人小哥，刚从google跳槽过来，但是中途话比较少不太主动给提示，但你跟他交流他还是很愿意跟你解释。表示我们可以skip introduction和project直接coding，LZ表示当时脑子快累洒比了，欣然同意。 题目： tic tac toe的m*n版本，也就两个人是在一个m*n的board上玩。（LZ最讨厌玩游戏了。。。） 规则如下： （1）获胜方式依然是横竖对角线有三个连在一起的symbol。 （2）每次movement不能任意放置，只能放在 每一列 的 最下方的空白处，也就是说每个玩家每轮最多只有 n （行数）个选择。 要求实现以下API： （1）valid()。检查当前board是否有效，有效board必须满足 (i) 没有人获胜 (ii) 不能违背第二条规则。 （2）nextMove()。返回当前玩家的任意一个movement，要求对手无法获胜，如果找不到报错（我选择了返回-1） 脑子实在累了，讨论了一下给出了bruteforce的方案。 （1）valid主要难点在怎么判断已经有人赢了，LZ用check8个方向一共16个格子的方法，于是O(16*N^2)。跟小哥交涉，表示常数可以减小，不过16也合理可以写。 （2）假设当前为player A， 则枚举A的n个选择，每个选择会对应B的n个选择，复杂度依然是O(16*N^2)。但实际上如果不保存board state，不管是A还是B都得先找到每一列放置的位置，每次都扫描一遍就会多出O(N)的时间，总时间会变成O(N^3)，所以需要保存一下状态。 加上一些细节的调整，最后写完但依然没时间测试debug了，两人一起表示过了一遍应该work。。。。 
 
@@ -104,9 +112,9 @@ lastTimestamp:  hanabeast SnapChat onsite + phone
 
 3.  然后问我有什么问题，我就问了下snapchat 每个snap 信息比较难提取，你是怎么向各个不同用户推荐discovery / stories 里的snap的， 小哥回答了下. 4. 一个不明国籍的中年男, 感觉相当严谨的感觉，面的菊花各种紧, 说是geofilter 主要负责人，我赶紧跪舔说我可喜欢你的geofilter了, 比如什么什么，还能植入广告啥的好牛逼啊： 问了实习时候的简历，每当我抛出一个新概念就各种问，略虚， 题目和regular expression matching 有点像， 除了＊不在表示任意count, 而是1-100 的count， 我说直接暴力枚举各种可能的结果，比如碰到a* 就见一个list 包含所有可能，然后把 s 和 由 p生成的所有可能比较一次， 面试官问有没有更好的方法，细想了下，dp还是能写的，然后就写了下，调了下bug, 测了各种testcase， 过了
 
-33,  1) design news feed 2) Ip address filter 
+33,   2) Ip address filter 
 
-34, 第一轮：白人小哥，上来问工作，聊了半小时。然后小哥感觉给我准备的题目不合适，就把题目换成了用JS实现单词变复数。正则表达式是PHP格式的代码，要把这些PHP代码变成JS的。其中的一个PHP到JS的转换是特殊情况要另外处理，小哥说不用担心，注释掉那个然后运行其他的就好。 第二轮：一个有口音的外国人，也是白人。简单聊聊工作，然后是一道3sum的原题。楼主居然犯了没有移动指针的错误，后来小哥给了提示改过来了。 午餐：跟内推的大神聊聊，给他看看我上班做的东西。 第三轮：白人小哥，聊了半小时的工作。然后给了一个web的题目，找两个DOM中的相同位置元素，就是找相同深度相同次序的HTML标签。楼主说JS不是很熟，小哥就把题目改成了Java版本：一棵树，每个节点有一个父节点，多个子节点；给定一个子节点，找到另一颗树中相同位置的节点。这个题目要自己设计数据结构，楼主开始的时候算法写的不对，只记录了最底层子节点在父节点的孩子序列中的位置，应该要记录所有上一层子节点在其父节点的孩子序列中的位置。楼主意识到不正确以后马上修改，改好小哥看看说可以了，但是没有时间编译运行。 第四轮：shadow，一个跳槽来的高级工程师带一个刚刚加入Snapchat的烙印，面试主要是高级工程师提问，那个烙印偶尔提两个问题。一上来就让我自由问问题，楼主就说了事先准备的问题，然后又聊聊工作。之后给了一道青蛙过河的问题：一条河上面会飘树叶，只有每个点都有树叶后青蛙才能过河。给定的输入是一个数组，数组的index是时间点，每个数组的值代表当前点有树叶落下，问青蛙什么时候才可以过河。楼主说先遍历一遍数组找到最大值，然后构造一个boolean数组，然后用一个counter记录树叶的个数，直到所有的点都有叶子。面试官在写完代码问楼主为什么用boolean的数组，楼主说节省空间，然后面试官说其实可以用HashSet做，但是也没有让楼主再写代码。等楼主回去以后跟同学聊天，发现面试官的意思是用HashSet遍历一次输入数组就可以。 
+34, 第一轮：白人小哥，上来问工作，聊了半小时。然后小哥感觉给我准备的题目不合适，就把题目换成了用JS实现单词变复数。正则表达式是PHP格式的代码，要把这些PHP代码变成JS的。其中的一个PHP到JS的转换是特殊情况要另外处理，小哥说不用担心，注释掉那个然后运行其他的就好。 第二轮：一个有口音的外国人，也是白人。简单聊聊工作，然后是一道3sum的原题。楼主居然犯了没有移动指针的错误，后来小哥给了提示改过来了。 午餐：跟内推的大神聊聊，给他看看我上班做的东西。 第三轮：白人小哥，聊了半小时的工作。然后给了一个web的题目，找两个DOM中的相同位置元素，就是找相同深度相同次序的HTML标签。楼主说JS不是很熟，小哥就把题目改成了Java版本：一棵树，每个节点有一个父节点，多个子节点；给定一个子节点，找到另一颗树中相同位置的节点。这个题目要自己设计数据结构，楼主开始的时候算法写的不对，只记录了最底层子节点在父节点的孩子序列中的位置，应该要记录所有上一层子节点在其父节点的孩子序列中的位置。楼主意识到不正确以后马上修改，改好小哥看看说可以了，但是没有时间编译运行。 第四轮：shadow，给了一道青蛙过河的问题：一条河上面会飘树叶，只有每个点都有树叶后青蛙才能过河。给定的输入是一个数组，数组的index是时间点，每个数组的值代表当前点有树叶落下，问青蛙什么时候才可以过河。楼主说先遍历一遍数组找到最大值，然后构造一个boolean数组，然后用一个counter记录树叶的个数，直到所有的点都有叶子。面试官在写完代码问楼主为什么用boolean的数组，楼主说节省空间，然后面试官说其实可以用HashSet做，但是也没有让楼主再写代码。等楼主回去以后跟同学聊天，发现面试官的意思是用HashSet遍历一次输入数组就可以。 
 
 
 35, 电面：聊简历 find min in a sorted array稍微变了下形 onsite: onsite很大部分时间是聊简历和behavior question 1. 白人， 聊简历和背景 snapchat中的一个应用为背景，扯了很久，最后意思就是一段视频中有一些可以放广告的位置，长度不同，有一堆可以选的广告，长度也不同，问怎么放最多和最长的广告 2. 国人，聊简历和背景 snapchat的一个应用，拍视频时可以对视频进行处理比如变形，加各种表情装饰等，问怎么实现这个系统，这轮不用coding，纯design， 这哥从头到尾一直板着脸都没怎么笑过，答得不如他意的时候就拿着手机让我玩那个app应用感受感受，看着自已头像心中一万头草泥马奔过，我这特么的是来面试的还是来玩应用的啊 3. 白人，聊简历和背景 实现一个buffer管理系统，不断的存入图片，图片大小不同，然后另一边不断的读出图片，类似于实现一个blocking queue, 但是要求底层实现，连list都不能用 4. 不知道哪国人，看起来像亚裔， 继续聊简历和背景 给一个string abbcba 按字符出现的频率编码，b->1, a->01, c->001，输出编码后的串 snapchat discover/moment 的一个应用抽像出来的，怎么判断发monment所属在自己的圈子里，就是相当于给一个多边形，怎么快速找到一个点在不在多边形里 
@@ -128,7 +136,8 @@ lastTimestamp:  hanabeast SnapChat onsite + phone
 
 44, 问在一个很大的social network中，给两个个名字，如何快速的找到名字对应的node然后再去找他们的common friends。楼主提了一下hash，consistent hash然后就没啥了，不熟悉DHT没办法啊。还是自己准备不够充分，好多东西需要了解。  第三面，一个年轻白人。一上来先介绍了一下Snapchat各个team什么的，然后问了问project。然后问说我们有个很huge的social network，你需要design一个system，这个system可以用来evaluate各种我们设计的朋友推荐算法，你要怎么设计。说了一下大概的设计，面试官更看重我如何准备data来做evalution，于是就也说了说这个部分。之后做题，就是根据计算机网络里面那个CIDR然后来做IP address filtering。比如给定一些rule: “7.0.0.0/8”, 那么所有前8位是7的address应该全部被filter掉。楼主用hashset来存rule然后用一些位运算的方法来做filter。写完代码改了一个小bug之后测试通过。 第四面，一个年轻白人。一上来也是问了问project。然后做题，给定一个grid matrix，就是类似围棋盘那种东西。然后某些grid（放棋子的地方）上面有点，给定一个query点的位置，返回k nearest点on this grid matrix。第一开始我assume给了个list，里面是自己设计的一个结构体，记录了坐标和距离query点的距离，然后写了个comparator来sort这个list，然后返回k个node。之后要求优化到O(n)，楼主就写了quick selection。之后要求再优化，然后楼主就**了，尼玛这是要让我写kd-tree的节奏，这东西曾经在普利斯顿的算法公开课写过一次，之后就再也没碰过了，果断回避之。就设计了一种逐渐膨胀的正方形的方法，不过这种方法有bug，返回的不一定是k nearest，我也指出了可能哪些情况不work，但是面试官还是让我写了，我也就写了。全程几乎在梦游，感觉这一轮和第二轮面得一样差，面完当场感觉已经和Snapchat say Goodbye了。
 
-45, (2) IP address filter，给一些ip的规则，然后问那些ip复合这些规则 (3) word pattern (其他面经里有) (4) 2. 添加括号使得表达式值最大，表达式只有+ - * 
+45, (2) IP address filter，给一些ip的规则，然后问那些ip复合这些规则 (3) word pattern (其他面经里有) (4) 
+
 
 46,  onsite:  2. rate limit scheduler 设计一个同时run k个任务 其余任务按照priority 在queue中等待 
 
@@ -136,7 +145,13 @@ lastTimestamp:  hanabeast SnapChat onsite + phone
 
 48, 给一个DAG, 求出进行inorder traversal后的第k个node。此DAG上每个node out degrees最大为2.但是in degree可以大于2。这个题目我当时没做出来。因为一个点可以被visit好多次。面试官提醒说运行时间是exponential，但是我还是不怎么会。不知道大家有没有什么想法。题目如果说的不清楚欢迎提问。 
 
-49, 大整数、从头写二叉搜索树、串化二叉树、会议室二、公司派对、带层权重求和、线程池。 
+49, 大整数、
+从头写二叉搜索树、
+串化二叉树、
+会议室二、
+公司派对、
+带层权重求和、
+线程池。 
 
 50, Round 1Introduce yourselfTalk about 1 or 2 past projects
 Why snapchat?
@@ -165,4 +180,5 @@ Round 4Given some points on a grid and point X, find the closest point to X
 
 64, 给你一个数组，range［1，n］inclusive，然后说如果有个n＋1的数组的话这里面有没 有重复？为什么？ pigeon hole principle 然后followup：怎么找到那个重复的数字？有可能有多个重复 继续followup；如果说不让你交换数字，即不能排序怎么办？可以用空间 继续followup：如果说没有空间怎么办？ 
 
-65, 第一轮， n叉树判断是否有回路，dfs, 但是不希望一直维护一个祖先节点的哈希表，所以可以设计一个类，里面存一个布尔型的变量，访问过的设为true，回溯之后设为false 第二轮， rotate过的数组排序，nlogn找出最小值，o(n)时间构造新的数组 第三轮， 高精度加法，follow up可以是负数，多加一个高精度减法 第四轮， 一堆数，中间插入*，+或者括号，求最大值，dp就可以， 但是如果数字全部是正整数的话，只用通过判断1的个数是奇数还是偶数来求最大值，0(n)就可以了
+65, 第一轮， n叉树判断是否有回路，dfs, 但是不希望一直维护一个祖先节点的哈希表，所以可以设计一个类，里面存一个布尔型的变量，访问过的设为true，回溯之后设为false 第二轮， rotate过的数组排序，nlogn找出最小值，o(n)时间构造新的数组 第三轮， 高精度加法，follow up可以是负数，多加一个高精度减法
+

@@ -5,7 +5,7 @@ Combinations
 Rotate String
 Segment tree & Binary Indexed Tree
 
-49/108
+54/108
 66	Plus One	34.6%	Easy	
 20	Valid Parentheses	30.1%	Easy	
 155	Min Stack	23.3%	Easy	
@@ -55,22 +55,24 @@ Segment tree & Binary Indexed Tree
 249	Group Shifted Strings  	32.9%	Easy
 359	Logger Rate Limiter 	56.0%	Easy
 230	Kth Smallest Element in a BST	39.0%	Medium
+373	Find K Pairs with Smallest Sums 	25.1%	Medium
+282	Expression Add Operators 	25.9%	Hard
+3.  Longest Substring Without Repeating Characters
+159	Longest Substring with At Most Two Distinct Characters  	36.0%	Hard
+340	Longest Substring with At Most K Distinct Characters 	38.6%	Hard
+317	Shortest Distance from All Buildings  	31.7%	Hard
+
 
 --Next--
-317	Shortest Distance from All Buildings  	31.7%	Hard					
-282	Expression Add Operators 	25.9%	Hard	
+ 	
+351	Android Unlock Patterns 	35.4%	Medium	
+
 286	Walls and Gates  	38.4%	Medium
 281	Zigzag Iterator 	44.2%	Medium	
 166	Fraction to Recurring Decimal 	15.6%	Medium
-
-3. Longest Substring Without Repeating Characters
-159	Longest Substring with At Most Two Distinct Characters  	36.0%	Hard
-340	Longest Substring with At Most K Distinct Characters 	38.6%	Hard
-358	Rearrange String k Distance Apart  	27.3%	Hard	
-373	Find K Pairs with Smallest Sums 	25.1%	Medium	
+358	Rearrange String k Distance Apart  	27.3%	Hard		
 4	Median of Two Sorted Arrays 	19.2%	Hard
 297	Serialize and Deserialize Binary Tree 	28.7%	Hard
-
 251	Flatten 2D Vector  	35.1%	Medium		
 284	Peeking Iterator	34.1%	Medium		
 274	H-Index 	30.1%	Medium	
@@ -78,8 +80,6 @@ Segment tree & Binary Indexed Tree
 294	Flip Game II  	42.3%	Medium				
 310	Minimum Height Trees 	27.3%	Medium						
 329	Longest Increasing Path in a Matrix 	32.7%	Hard		
-351	Android Unlock Patterns 	35.4%	Medium
-
 
 
 
@@ -96,6 +96,7 @@ Segment tree & Binary Indexed Tree
 353	Design Snake Game 	22.1%	Medium	
 357	Count Numbers with Unique Digits	42.6%	Medium	
 42	Trapping Rain Water	32.9%	Hard 	
+
 
 
 309	Best Time to Buy and Sell Stock with Cooldown	37.7%	Medium		

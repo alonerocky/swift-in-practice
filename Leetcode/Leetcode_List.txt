@@ -585,4 +585,17 @@ In progress
 321	Create Maximum Number	19.7%	Hard	
 351	Android Unlock Patterns  	29.9%		Medium
 352	Data Stream as Disjoint Intervals
-353
+353	Design Snake Game 	21.6%		Medium	
+354	Russian Doll Envelopes	27.6%		Hard	
+355	Design Twitter	21.9%		Medium	
+356	Line Reflection 	28.7%		Medium	
+357	Count Numbers with Unique Digits	42.2%		Medium	
+358	Rearrange String k Distance Apart 	25.8%		Hard	
+359	Logger Rate Limiter 	57.0%		Easy	
+360	Sort Transformed Array 	40.1%		Medium	
+361	Bomb Enemy 	32.7%		Medium	
+362	Design Hit Counter 	49.7%		Medium	
+363	Max Sum of Rectangle No Larger Than K	24.6%		Hard	
+364	Nested List Weight Sum II 	48.5%		Medium	
+365	Water and Jug Problem	19.8%		Medium	
+366	Find Leaves of Binary Tree 	55.9%		Medium
