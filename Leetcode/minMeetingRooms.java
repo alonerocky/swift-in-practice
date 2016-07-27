@@ -72,3 +72,47 @@ public int minMeetingRooms(Interval[] intervals) {
          }
          return rooms.size();
     }
+
+
+public int minMeetingRooms(Interval[] intervals) {
+        if (intervals == null || intervals.length == 0) {
+            return 0;
+        }
+        int len = intervals.length;
+        Comparator<Interval> comparator = new Comparator<Interval>() {
+          @Override
+          public int compare(Interval i1, Interval i2) {
+              if (i1.start != i2.start) {
+                  return i1.start - i2.start;
+              }
+              return i1.end - i2.end;
+          }
+        };
+        
+        Arrays.sort(intervals, comparator);
+        Comparator<ClassRoom> comparator2 = new Comparator<ClassRoom>(){
+          @Override
+          public int compare(ClassRoom c1, ClassRoom c2) {
+              return c1.lastFinish - c2.lastFinish;
+          }
+        };
+        PriorityQueue<ClassRoom> minHeap = new PriorityQueue<ClassRoom>(len, comparator2);
+        for(int i = 0; i < len; i++) {
+            Interval interval = intervals[i];
+            ClassRoom classRoom;
+            if (minHeap.isEmpty() || minHeap.peek().lastFinish > interval.start) {
+                classRoom = new ClassRoom();
+            } else  {
+                classRoom = minHeap.poll();
+            }
+            classRoom.intervals.add(interval);
+            classRoom.lastFinish = interval.end;
+            minHeap.offer(classRoom);
+        }
+        return minHeap.size();
+    }
+    class ClassRoom {
+        public int lastFinish = -1;
+        public ArrayList<Interval> intervals = new ArrayList<Interval>();
+        
+    }
