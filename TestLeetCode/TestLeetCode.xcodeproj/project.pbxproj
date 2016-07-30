@@ -12,6 +12,8 @@
 		1504FB1D1C8366720034511B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1504FB1B1C8366720034511B /* Main.storyboard */; };
 		1504FB1F1C8366720034511B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1504FB1E1C8366720034511B /* Assets.xcassets */; };
 		1504FB221C8366720034511B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1504FB201C8366720034511B /* LaunchScreen.storyboard */; };
+		1504FB2A1C87DF9F0034511B /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504FB291C87DF9F0034511B /* TreeNode.swift */; };
+		1504FB2C1C8AA0E40034511B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1504FB2B1C8AA0E40034511B /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1504FB1E1C8366720034511B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1504FB211C8366720034511B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1504FB231C8366720034511B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1504FB291C87DF9F0034511B /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		1504FB2B1C8AA0E40034511B /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1504FB1E1C8366720034511B /* Assets.xcassets */,
 				1504FB201C8366720034511B /* LaunchScreen.storyboard */,
 				1504FB231C8366720034511B /* Info.plist */,
+				1504FB291C87DF9F0034511B /* TreeNode.swift */,
+				1504FB2B1C8AA0E40034511B /* ListNode.swift */,
 			);
 			path = TestLeetCode;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				1504FB1A1C8366720034511B /* ViewController.swift in Sources */,
 				1504FB181C8366720034511B /* AppDelegate.swift in Sources */,
+				1504FB2A1C87DF9F0034511B /* TreeNode.swift in Sources */,
+				1504FB2C1C8AA0E40034511B /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				1504FB281C8366720034511B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

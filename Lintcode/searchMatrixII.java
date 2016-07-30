@@ -38,9 +38,9 @@ public int searchMatrix(int[][] matrix, int target) {
             if (matrix[row][middle] == target) {
                 return true;
             } else if (matrix[row][middle] < target) {
-                i++;
+                i=middle+1;
             } else {
-                j--;
+                j=middle-1;
             }
         }
         return false;

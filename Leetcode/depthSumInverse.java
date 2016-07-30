@@ -39,6 +39,19 @@ public int depthSumInverse(List<NestedInteger> nestedList) {
         }
         return max;
     }
+
+public int getHeight(List<NestedInteger> nestedList) {
+        int max = 1 ;
+        for(int i = 0; i < nestedList.size(); i++) {
+            NestedInteger one = nestedList.get(i);
+            if (!one.isInteger()) {
+                max = Math.max(max, 1 + getHeight(one.getList()));
+            }
+            
+        }
+        return max;
+    }
+
     private int getDepth(NestedInteger n , int depth) {
         if (n.isInteger()) {
             return depth;

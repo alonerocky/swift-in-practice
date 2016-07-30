@@ -102,7 +102,10 @@ public String serialize(TreeNode root) {
         if (root == null) {
             sb.append("#,");
             return;
-        } 
+        }
+	sb.append(root.val).append(",");
+        serialize(root.left, sb);
+        serialize(root.right, sb); 
     }
     
     /**

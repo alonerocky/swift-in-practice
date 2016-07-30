@@ -86,3 +86,78 @@ public void wallsAndGates(int[][] rooms) {
             }
         }
     }
+
+
+
+
+public void wallsAndGates(int[][] rooms) {
+        if (rooms == null || rooms.length == 0 || rooms[0].length == 0) {
+            return;
+        }
+        int m = rooms.length;
+        int n = rooms[0].length;
+         
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if (rooms[i][j] == 0) {
+                    boolean[][] visited = new boolean[m][n];
+                    //dfs(rooms, i, j, 0, visited);
+                    bfs(rooms, i, j, visited);
+                }
+            }
+        }
+    }
+    private int[][] neighbors = {{-1,0},{1,0},{0,-1},{0,1}};
+    public void dfs(int[][] rooms, int row, int column, int distance, boolean[][] visited) {
+        visited[row][column] = true;
+        int m = rooms.length;
+        int n = rooms[0].length;
+        for(int i = 0; i < neighbors.length; i++) {
+            int nextR = row + neighbors[i][0];
+            int nextC = column + neighbors[i][1];
+            if (nextR >= 0
+                && nextR < m 
+                && nextC >= 0
+                && nextC < n
+                && rooms[nextR][nextC] >= distance + 1
+                && !visited[nextR][nextC]) {
+                    rooms[nextR][nextC] = distance + 1;
+                    visited[nextR][nextC] = true;
+                    dfs(rooms, nextR, nextC, distance + 1, visited);
+                }
+        }
+        visited[row][column] = false;
+    }
+    
+    public void bfs(int[][] rooms, int row, int column, boolean[][] visited) {
+        visited[row][column] = true;
+        Deque<Integer> deque = new ArrayDeque<Integer>();
+        int m = rooms.length;
+        int n = rooms[0].length;
+        deque.addLast(row * n  + column );
+        int distance = 0;
+        while(!deque.isEmpty()) {
+            int size = deque.size();
+            for(int i = 0; i < size; i++) {
+                int front = deque.pollFirst();
+                int r = front / n; 
+                int c = front % n; 
+                for(int j = 0; j < neighbors.length; j++) {
+                    int nextR = r + neighbors[j][0];
+                    int nextC = c + neighbors[j][1];
+                    if (nextR >= 0 
+                        && nextR < m
+                        && nextC >=0 
+                        && nextC < n
+                        && !visited[nextR][nextC]
+                        && rooms[nextR][nextC] >= distance + 1) {
+                            visited[nextR][nextC] = true;
+                            rooms[nextR][nextC] = distance + 1;
+                            deque.addLast(nextR * n + nextC);
+                        }
+                }
+            }
+            distance++;
+        }
+        visited[row][column] = false;
+    }

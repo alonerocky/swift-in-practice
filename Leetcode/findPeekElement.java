@@ -33,3 +33,21 @@ public int findPeakElement(int[] nums) {
                 return findPeakElement(nums, middle+1, high, n);
             }
     }
+
+
+
+public int findPeakElement(int[] nums) {
+        int low = 0;
+        int high = nums.length - 1;
+        while(low <= high) {
+            int middle = (low + high)/2;
+            if ((middle == 0 || nums[middle-1] < nums[middle]) && (middle == nums.length - 1 || nums[middle] > nums[middle+1])) {
+                return middle;
+            } else if (middle > 0 && nums[middle-1] > nums[middle]) {
+                high = middle - 1;
+            } else {
+                low = middle + 1;
+            }
+        }
+        return -1;
+    }
